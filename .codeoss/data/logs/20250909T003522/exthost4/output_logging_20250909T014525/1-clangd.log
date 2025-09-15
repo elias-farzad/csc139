@@ -1,0 +1,68 @@
+I[01:45:26.973] Ubuntu clangd version 14.0.6
+I[01:45:26.973] Features: linux+grpc
+I[01:45:26.973] PID: 8704
+I[01:45:26.973] Working directory: /home/efarzad22
+I[01:45:26.973] argv[0]: /usr/bin/clangd
+I[01:45:26.974] Starting LSP over stdin/stdout
+I[01:45:27.089] <-- initialize(0)
+I[01:45:27.091] --> reply:initialize(0) 1 ms
+I[01:45:27.241] <-- initialized
+I[01:45:34.994] <-- textDocument/didOpen
+I[01:45:34.997] <-- textDocument/didOpen
+I[01:45:34.998] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[01:45:34.998] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[01:45:34.999] Failed to find compilation database for /home/efarzad22/intro-to-os/mem.c
+I[01:45:34.999] ASTWorker building file /home/efarzad22/intro-to-os/mem.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/mem.c
+I[01:45:35.007] <-- textDocument/documentSymbol(1)
+I[01:45:35.007] <-- textDocument/documentLink(2)
+I[01:45:35.007] <-- clangd/inlayHints(3)
+I[01:45:35.007] --> textDocument/clangd.fileStatus
+I[01:45:35.016] --> textDocument/clangd.fileStatus
+I[01:45:35.123] <-- textDocument/documentSymbol(4)
+I[01:45:35.123] <-- textDocument/semanticTokens/full(5)
+I[01:45:35.254] --> workspace/semanticTokens/refresh(0)
+I[01:45:35.267] <-- reply(0)
+I[01:45:35.288] --> textDocument/publishDiagnostics
+I[01:45:35.288] --> reply:textDocument/documentSymbol(1) 280 ms
+I[01:45:35.288] --> reply:textDocument/documentLink(2) 280 ms
+I[01:45:35.288] --> reply:clangd/inlayHints(3) 280 ms
+I[01:45:35.288] --> reply:textDocument/documentSymbol(4) 165 ms
+I[01:45:35.288] --> reply:textDocument/semanticTokens/full(5) 165 ms
+I[01:45:35.289] --> textDocument/clangd.fileStatus
+I[01:45:35.321] --> textDocument/clangd.fileStatus
+I[01:45:35.321] --> textDocument/clangd.fileStatus
+I[01:45:35.326] --> workspace/semanticTokens/refresh(1)
+I[01:45:35.349] <-- reply(1)
+I[01:45:35.363] --> textDocument/publishDiagnostics
+I[01:45:35.364] --> textDocument/clangd.fileStatus
+I[01:45:36.533] <-- textDocument/documentLink(6)
+I[01:45:36.533] --> reply:textDocument/documentLink(6) 0 ms
+I[01:45:36.533] --> textDocument/clangd.fileStatus
+I[01:45:36.610] <-- textDocument/semanticTokens/full/delta(7)
+I[01:45:36.610] --> reply:textDocument/semanticTokens/full/delta(7) 0 ms
+I[01:45:36.610] --> textDocument/clangd.fileStatus
+I[01:45:47.550] <-- textDocument/documentSymbol(8)
+I[01:45:47.550] --> reply:textDocument/documentSymbol(8) 0 ms
+I[01:45:47.550] --> textDocument/clangd.fileStatus
+I[01:45:48.265] <-- textDocument/documentLink(9)
+I[01:45:48.265] --> reply:textDocument/documentLink(9) 0 ms
+I[01:45:48.265] --> textDocument/clangd.fileStatus
+I[01:45:49.537] <-- textDocument/documentLink(10)
+I[01:45:49.538] --> reply:textDocument/documentLink(10) 1 ms
+I[01:45:49.538] --> textDocument/clangd.fileStatus
+I[01:45:49.815] <-- textDocument/documentSymbol(11)
+I[01:45:49.815] --> reply:textDocument/documentSymbol(11) 0 ms
+I[01:45:49.815] --> textDocument/clangd.fileStatus
+I[01:46:09.428] <-- textDocument/documentLink(12)
+I[01:46:09.428] --> reply:textDocument/documentLink(12) 0 ms
+I[01:46:09.428] --> textDocument/clangd.fileStatus
+I[01:46:09.720] <-- textDocument/documentSymbol(13)
+I[01:46:09.720] --> reply:textDocument/documentSymbol(13) 0 ms
+I[01:46:09.720] --> textDocument/clangd.fileStatus
+I[01:46:25.272] <-- textDocument/documentLink(14)
+I[01:46:25.272] --> reply:textDocument/documentLink(14) 0 ms
+I[01:46:25.272] --> textDocument/clangd.fileStatus

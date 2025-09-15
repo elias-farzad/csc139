@@ -1,0 +1,791 @@
+2025-09-14 23:10:08.233 [info] Extension host with pid 3769 started
+2025-09-14 23:10:08.234 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock': Lock acquired.
+2025-09-14 23:10:11.730 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2025-09-14 23:10:11.731 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-14 23:10:11.732 [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:c'
+2025-09-14 23:10:11.732 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-14 23:10:11.733 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-14 23:10:11.733 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-14 23:10:11.733 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onTerminalProfile:cloudshell.default'
+2025-09-14 23:10:13.546 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-14 23:10:16.212 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-14 23:10:16.213 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-14 23:10:17.042 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4672
+2025-09-14 23:10:17.105 [info] Eager extensions activated
+2025-09-14 23:10:17.105 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-09-14 23:10:17.106 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-09-14 23:10:17.106 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-14 23:10:17.106 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2025-09-14 23:10:17.106 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-14 23:10:20.594 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-09-14 23:10:20.909 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4676
+2025-09-14 23:10:28.699 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4680
+2025-09-14 23:10:32.011 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:10:32.011 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":710}]}}
+2025-09-14 23:10:32.769 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:10:32.769 [error] {"a":true,"b":null}
+2025-09-14 23:10:33.206 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:10:33.211 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:10:33.897 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4681
+2025-09-14 23:10:34.711 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:10:34.711 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":739}]}}
+2025-09-14 23:10:34.952 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:10:34.952 [error] {"a":true,"b":null}
+2025-09-14 23:10:34.953 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:10:34.953 [error] {"a":true,"b":null}
+2025-09-14 23:10:36.354 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:10:36.354 [error] {"a":true,"b":null}
+2025-09-14 23:10:39.055 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4682
+2025-09-14 23:10:57.182 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:10:57.182 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":1060}]}}
+2025-09-14 23:10:57.189 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:10:57.189 [error] {"a":true,"b":null}
+2025-09-14 23:11:21.208 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:11:21.208 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:11:21.209 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:11:21.209 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:11:21.210 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:11:21.210 [error] {"a":true,"b":null}
+2025-09-14 23:11:21.211 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:11:21.211 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":1296}]}}
+2025-09-14 23:11:21.212 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:11:21.212 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:11:21.212 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:11:21.212 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:11:21.213 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:11:21.214 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:11:21.242 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:11:21.242 [error] Error: Request cancelled
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:11:21.243 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:11:21.243 [error] {"a":true,"b":null}
+2025-09-14 23:12:13.594 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4688
+2025-09-14 23:12:18.747 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4688
+2025-09-14 23:12:19.550 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:12:19.550 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:12:19.551 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:12:19.551 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:12:23.656 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:12:23.656 [error] {"a":true,"b":null}
+2025-09-14 23:12:42.022 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4689
+2025-09-14 23:12:43.923 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:12:43.923 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:12:43.924 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:12:43.924 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:12:47.175 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:14:14.272 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:14:19.420 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:14:24.618 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:14:29.768 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:14:34.914 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:14:40.068 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:14:45.211 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:14:50.359 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:14:55.514 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:15:00.660 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:15:05.808 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:15:10.961 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:15:16.115 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:15:21.262 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:15:26.409 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:15:31.552 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:15:36.692 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:15:45.510 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:15:50.657 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:15:55.799 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:16:00.941 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:46:29.230 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:46:34.389 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:46:48.498 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:47:16.551 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:47:45.225 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:47:56.062 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:48:02.688 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:48:07.840 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:48:13.108 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:48:18.269 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4690
+2025-09-14 23:48:36.919 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4691
+2025-09-14 23:48:42.066 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4691
+2025-09-14 23:48:47.232 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4691
+2025-09-14 23:48:48.035 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:48:48.035 [error] Error: Request cancelled
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:48:48.928 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:48:48.928 [error] {"a":true,"b":null}
+2025-09-14 23:48:51.045 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:48:51.045 [error] {"a":true,"b":null}
+2025-09-14 23:48:51.045 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:48:51.045 [error] {"a":true,"b":null}
+2025-09-14 23:48:51.046 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:48:51.046 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:48:51.048 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:48:51.048 [error] {"a":true,"b":null}
+2025-09-14 23:48:51.048 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:48:51.048 [error] {"a":true,"b":null}
+2025-09-14 23:48:51.057 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:48:51.057 [error] Error: Request cancelled
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:48:52.413 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4692
+2025-09-14 23:48:58.601 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4692
+2025-09-14 23:49:47.382 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4692
+2025-09-14 23:50:01.177 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4692
+2025-09-14 23:50:29.504 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4692
+2025-09-14 23:51:15.699 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4692
+2025-09-14 23:51:21.227 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4692
+2025-09-14 23:51:27.697 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4692
+2025-09-14 23:51:32.846 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4692
+2025-09-14 23:51:37.994 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4692
+2025-09-14 23:51:43.147 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4692
+2025-09-14 23:52:06.207 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:52:06.207 [error] {"a":true,"b":null}
+2025-09-14 23:52:44.958 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:52:44.958 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":3050}]}}
+2025-09-14 23:53:12.849 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:53:12.849 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:53:12.851 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:53:12.851 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:53:36.536 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:53:36.536 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:53:36.721 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:53:36.721 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":3756}]}}
+2025-09-14 23:53:46.804 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:53:46.804 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:54:34.056 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:54:34.056 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":4482}]}}
+2025-09-14 23:54:34.700 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:54:34.700 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":4499}]}}
+2025-09-14 23:54:35.501 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:54:35.501 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:54:39.980 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:54:39.981 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:54:39.981 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:54:39.981 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":4650}]}}
+2025-09-14 23:54:39.982 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:54:39.982 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:54:40.299 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:54:40.299 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-14 23:54:40.300 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:54:40.300 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":4659}]}}
+2025-09-14 23:54:44.634 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-14 23:54:44.634 [error] {"a":true,"b":null}
+2025-09-14 23:56:33.704 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-14 23:56:38.850 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-14 23:56:44.025 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-14 23:56:49.173 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-14 23:56:54.324 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-14 23:56:59.478 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-14 23:57:04.627 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-14 23:57:27.513 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-14 23:57:32.654 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-14 23:57:39.498 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:01:02.995 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:01:03.997 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:02:02.981 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:02:03.983 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:03:02.975 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:03:03.976 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:04:02.977 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:04:03.979 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:04:24.360 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:04:29.510 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:04:35.603 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:04:40.768 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:04:46.742 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:04:51.888 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:04:57.151 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:05:02.304 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:05:03.596 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:05:04.598 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:05:07.447 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:05:12.603 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:05:17.753 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:05:22.896 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:05:28.039 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:05:33.199 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:05:38.345 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:05:47.201 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:05:52.347 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:05:57.490 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:06:02.636 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:06:03.901 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:06:04.903 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:06:07.827 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:06:12.980 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:06:18.128 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:06:23.273 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:06:28.436 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:06:33.579 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:06:38.729 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:06:43.928 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:06:49.086 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:06:55.147 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:07:00.295 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:07:03.592 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:07:04.595 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:07:05.449 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:07:10.592 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:07:15.741 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:07:20.887 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:07:26.030 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:07:37.866 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:07:43.012 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:07:48.153 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:07:53.296 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:07:58.446 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:08:03.586 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:08:04.462 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at processTimers (node:internal/timers:520:9)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:08:05.464 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.runAuthorization (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.validCache (node:internal/timers:520:9)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:08:09.068 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:08:14.241 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:08:19.388 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:08:24.535 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:08:29.681 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:08:34.862 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:08:40.013 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:08:45.157 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:08:50.303 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:08:55.455 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:09:00.601 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:09:03.912 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:09:04.914 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:09:05.747 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:09:10.890 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:09:16.032 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:09:24.947 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:09:30.110 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:09:35.255 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:09:40.400 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:09:45.550 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:09:50.696 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:09:55.840 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:10:00.988 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:10:03.778 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:10:04.780 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:10:06.145 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:10:11.293 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:10:16.439 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:10:21.594 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:10:26.740 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:10:31.886 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:10:37.030 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:10:42.175 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:10:47.316 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:10:52.466 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:10:57.610 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:11:01.917 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at c.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:301:11)
+    at context (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:292:117)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/packages/experimentation/gemini_experiment_service.ts:46:35) cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:11:01.918 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at c.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:301:11)
+    at context (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:292:117)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/packages/experimentation/gemini_experiment_service.ts:46:35) cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:11:02.755 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:11:03.525 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at c.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:301:11)
+    at context (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:292:117)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/packages/experimentation/gemini_experiment_service.ts:46:35)
+2025-09-15 00:11:03.525 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:11:07.899 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:11:13.055 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:11:18.200 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:11:23.351 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:11:28.498 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:11:34.936 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:11:40.080 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:11:46.417 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:11:56.982 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:12:03.427 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:12:04.429 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:12:06.608 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:12:11.749 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:12:16.898 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:12:22.794 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:12:27.945 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:12:33.093 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:12:38.239 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:12:43.400 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:12:48.544 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:12:53.686 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:13:01.434 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:13:03.709 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:13:04.712 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:13:06.577 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:13:11.719 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:13:16.869 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:13:22.020 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:13:27.163 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:13:32.330 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:13:37.475 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:13:42.620 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:13:47.770 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:13:52.916 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:13:58.056 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:14:03.202 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:14:04.560 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:14:05.561 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:14:08.343 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:14:13.487 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:14:18.645 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:14:23.800 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:14:28.948 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:14:34.108 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:14:40.728 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:14:48.334 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:14:53.481 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:14:58.630 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:15:03.779 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:15:05.076 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:15:06.077 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:15:08.929 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:15:14.088 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:15:19.242 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:15:24.387 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:15:29.530 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:15:34.677 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:15:39.826 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:15:44.971 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:15:50.117 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:15:55.544 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:16:00.693 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:16:05.012 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:16:05.837 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:16:06.612 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:16:11.184 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:16:18.030 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:16:23.239 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:16:28.386 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:16:33.526 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:16:38.667 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:16:43.833 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:16:48.982 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:16:54.127 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:16:59.283 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:17:04.432 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:17:05.721 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:17:06.723 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:17:09.573 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:17:14.726 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:17:19.870 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:17:25.015 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:17:30.161 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:17:40.550 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:17:46.542 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:17:51.684 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:17:56.837 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:18:01.978 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:18:05.795 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:18:06.797 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:18:07.131 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:18:12.278 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:18:17.424 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:18:27.379 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:18:32.524 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:18:37.665 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:18:42.824 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:18:47.965 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:18:56.848 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:19:03.462 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:19:05.806 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:19:06.807 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:19:08.605 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:19:13.753 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:19:18.909 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:19:24.074 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:19:42.648 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:19:50.922 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:19:56.122 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:20:01.284 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:20:05.605 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:20:06.440 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:20:07.211 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:20:11.590 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:20:16.739 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:20:21.886 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:20:27.033 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:20:32.175 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:20:37.317 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:20:42.466 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:20:52.334 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:20:57.477 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:21:02.624 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:21:05.438 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:21:06.439 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:21:07.786 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:21:12.936 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:21:18.085 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:21:23.234 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:21:28.379 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:21:33.527 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:21:38.672 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:21:43.840 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:21:48.989 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:21:54.141 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:21:59.287 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:22:04.433 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:22:05.703 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:22:06.706 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:22:09.572 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:22:14.715 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:22:19.861 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:22:25.016 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:22:30.165 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:22:35.310 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:22:40.484 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:22:45.631 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:22:50.773 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:23:03.460 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:23:05.824 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:23:06.826 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:23:08.609 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:23:13.651 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:23:13.651 [error] {"a":true,"b":null}
+2025-09-15 00:23:13.652 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:23:13.652 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:23:13.653 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:23:13.653 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":7930}]}}
+2025-09-15 00:23:13.653 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:23:13.653 [error] {"a":true,"b":null}
+2025-09-15 00:23:13.776 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4699
+2025-09-15 00:23:18.924 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4700
+2025-09-15 00:23:24.080 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4700
+2025-09-15 00:23:35.970 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4701
+2025-09-15 00:23:37.423 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:23:37.423 [error] {"a":true,"b":null}
+2025-09-15 00:23:37.424 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:23:37.424 [error] {"a":true,"b":null}
+2025-09-15 00:23:41.123 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4701
+2025-09-15 00:23:43.224 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:23:43.224 [error] {"a":true,"b":null}
+2025-09-15 00:23:43.239 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:23:43.240 [error] TypeError: Cannot read properties of null (reading 'items')
+    at Uo.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:46:10531)
+    at Generator.next (<anonymous>)
+    at s (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:1:1098)
+2025-09-15 00:23:43.240 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:23:43.240 [error] Error: Request cancelled
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:23:46.267 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4701
+2025-09-15 00:24:05.125 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 00:24:06.126 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 00:28:52.268 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-09-15 00:28:52.271 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-09-15 00:28:52.374 [info] Extension host with pid 3769 exiting with code 0

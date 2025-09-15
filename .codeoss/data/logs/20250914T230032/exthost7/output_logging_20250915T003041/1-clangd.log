@@ -1,0 +1,48 @@
+I[00:30:45.929] Ubuntu clangd version 14.0.6
+I[00:30:45.929] Features: linux+grpc
+I[00:30:45.929] PID: 8425
+I[00:30:45.929] Working directory: /home/efarzad22
+I[00:30:45.929] argv[0]: /usr/bin/clangd
+I[00:30:45.930] Starting LSP over stdin/stdout
+I[00:30:45.955] <-- initialize(0)
+I[00:30:45.956] --> reply:initialize(0) 1 ms
+I[00:30:48.720] <-- initialized
+I[00:30:48.740] <-- textDocument/didOpen
+I[00:30:48.742] Failed to find compilation database for /home/efarzad22/programming1/fork-program.c
+I[00:30:48.742] ASTWorker building file /home/efarzad22/programming1/fork-program.c version 1 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/fork-program.c
+I[00:30:48.744] --> textDocument/clangd.fileStatus
+I[00:30:48.814] --> workspace/semanticTokens/refresh(0)
+I[00:30:48.814] --> textDocument/clangd.fileStatus
+I[00:30:48.814] --> textDocument/clangd.fileStatus
+I[00:30:48.823] --> textDocument/publishDiagnostics
+I[00:30:48.823] --> textDocument/clangd.fileStatus
+I[00:30:48.843] <-- reply(0)
+I[00:30:49.023] <-- textDocument/documentSymbol(1)
+I[00:30:49.023] <-- textDocument/documentLink(2)
+I[00:30:49.023] --> reply:textDocument/documentSymbol(1) 0 ms
+I[00:30:49.023] <-- clangd/inlayHints(3)
+I[00:30:49.023] <-- textDocument/codeAction(4)
+I[00:30:49.023] --> reply:textDocument/documentLink(2) 0 ms
+I[00:30:49.023] --> reply:clangd/inlayHints(3) 0 ms
+I[00:30:49.023] --> reply:textDocument/codeAction(4) 0 ms
+I[00:30:49.023] --> textDocument/clangd.fileStatus
+I[00:30:49.042] <-- textDocument/semanticTokens/full(5)
+I[00:30:49.042] --> reply:textDocument/semanticTokens/full(5) 0 ms
+I[00:30:49.042] --> textDocument/clangd.fileStatus
+I[00:30:50.593] <-- textDocument/documentSymbol(6)
+I[00:30:50.593] --> reply:textDocument/documentSymbol(6) 0 ms
+I[00:30:50.593] --> textDocument/clangd.fileStatus
+I[00:30:58.107] <-- clangd/inlayHints(7)
+I[00:30:58.107] --> reply:clangd/inlayHints(7) 0 ms
+I[00:30:58.107] --> textDocument/clangd.fileStatus
+I[00:31:07.465] <-- textDocument/documentLink(8)
+I[00:31:07.466] --> reply:textDocument/documentLink(8) 0 ms
+I[00:31:07.466] --> textDocument/clangd.fileStatus
+I[00:31:07.466] <-- textDocument/codeAction(9)
+I[00:31:07.466] <-- textDocument/codeAction(10)
+I[00:31:07.466] --> reply:textDocument/codeAction(9) 0 ms
+I[00:31:07.466] --> reply:textDocument/codeAction(10) 0 ms
+I[00:31:07.466] --> textDocument/clangd.fileStatus
+I[00:31:07.468] <-- $/cancelRequest

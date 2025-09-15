@@ -1,0 +1,72 @@
+2025-09-09 01:46:42.890 [info] Extension host with pid 10749 started
+2025-09-09 01:46:42.890 [error] Error: EEXIST: file already exists, open '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock'
+2025-09-09 01:46:42.890 [error] SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at a5 (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:219:6160)
+    at async gP (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:219:5796)
+    at async vZ.g (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:219:4657)
+    at async vZ.h (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:119:19484)
+2025-09-09 01:46:42.890 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-09-09 01:46:42.903 [error] SyntaxError: Unexpected end of JSON input
+	at JSON.parse (<anonymous>)
+	at a5 (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:219:6160)
+	at async xZ (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:219:6419)
+	at async vZ.g (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:219:4657)
+	at async vZ.h (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:119:19484)
+2025-09-09 01:46:42.903 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock': Could not read pid of lock holder.
+2025-09-09 01:46:42.903 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock': Deleting a stale lock.
+2025-09-09 01:46:42.942 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock': Lock acquired.
+2025-09-09 01:46:43.565 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-09 01:46:43.573 [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:c'
+2025-09-09 01:46:44.663 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-09 01:46:44.929 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-09 01:46:44.929 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-09 01:46:45.519 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onTerminalProfile:cloudshell.default'
+2025-09-09 01:46:46.069 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-09 01:46:46.070 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-09 01:46:46.073 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-09 01:46:47.717 [info] Eager extensions activated
+2025-09-09 01:46:47.726 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-09-09 01:46:47.740 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2025-09-09 01:46:47.741 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-09 01:46:47.741 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2025-09-09 01:46:47.742 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-09 01:47:03.934 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-09-09 01:47:14.853 [error] Error: ENOENT: no such file or directory, open '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock'
+    at open (node:internal/fs/promises:639:25)
+    at Object.readFile (node:internal/fs/promises:1246:14)
+    at a5 (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:219:6082)
+    at file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:219:5089
+2025-09-09 01:47:14.856 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock': The lock was lost unexpectedly.
+2025-09-09 01:47:15.263 [error] Error: ENOENT: no such file or directory, utime '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock'
+    at Object.utimes (node:internal/fs/promises:1138:10)
+    at file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:219:5207
+2025-09-09 01:47:15.266 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock': Could not update mtime.
+2025-09-09 01:47:15.266 [error] Error: ENOENT: no such file or directory, utime '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock'
+    at Object.utimes (node:internal/fs/promises:1138:10)
+    at file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:219:5207
+2025-09-09 01:47:15.267 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock': Could not update mtime.
+2025-09-09 01:47:23.163 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-09-09 01:51:12.963 [info] Extension host terminating: received terminate message from renderer
+2025-09-09 01:51:12.967 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-09-09 01:51:13.299 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-09 01:51:13.332 [error] Error: Channel has been closed
+    at s (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:2431)
+    at Object.appendLine (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:2570)
+    at oc.error (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:39:683)
+    at oc.handleFailedRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:39:21129)
+    at oc.handleFailedRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:46:9535)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:37:60034
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Xm.provideCodeActions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:145:131459)
+2025-09-09 01:51:13.332 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-09 01:51:13.333 [error] Error: Channel has been closed
+    at s (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:2431)
+    at Object.appendLine (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:2570)
+    at oc.error (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:39:683)
+    at oc.handleFailedRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:39:21129)
+    at oc.handleFailedRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:46:9535)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:37:60034
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Xm.provideCodeActions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:145:131459)
+2025-09-09 01:51:13.517 [info] Extension host with pid 10749 exiting with code 0

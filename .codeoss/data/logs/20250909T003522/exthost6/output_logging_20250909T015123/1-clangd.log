@@ -1,0 +1,620 @@
+I[01:51:27.272] Ubuntu clangd version 14.0.6
+I[01:51:27.272] Features: linux+grpc
+I[01:51:27.272] PID: 16579
+I[01:51:27.272] Working directory: /home/efarzad22
+I[01:51:27.272] argv[0]: /usr/bin/clangd
+I[01:51:27.272] Starting LSP over stdin/stdout
+I[01:51:28.766] <-- initialize(0)
+I[01:51:28.767] --> reply:initialize(0) 1 ms
+I[01:51:42.682] <-- initialized
+I[01:51:43.067] <-- textDocument/didOpen
+I[01:51:43.068] Failed to find compilation database for /home/efarzad22/intro-to-os/mem.c
+I[01:51:43.068] ASTWorker building file /home/efarzad22/intro-to-os/mem.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/mem.c
+I[01:51:43.071] --> textDocument/clangd.fileStatus
+I[01:51:43.277] --> workspace/semanticTokens/refresh(0)
+I[01:51:43.300] --> textDocument/publishDiagnostics
+I[01:51:43.300] --> textDocument/clangd.fileStatus
+I[01:51:58.251] <-- textDocument/documentSymbol(1)
+I[01:51:58.251] <-- textDocument/codeAction(2)
+I[01:51:58.259] --> reply:textDocument/documentSymbol(1) 8 ms
+I[01:51:58.259] --> reply:textDocument/codeAction(2) 8 ms
+I[01:51:58.259] --> textDocument/clangd.fileStatus
+I[01:51:58.584] <-- $/cancelRequest
+I[01:51:58.584] <-- $/cancelRequest
+I[01:51:58.584] <-- textDocument/documentLink(3)
+I[01:51:58.584] <-- clangd/inlayHints(4)
+I[01:51:58.584] <-- textDocument/documentLink(5)
+I[01:51:58.584] <-- textDocument/documentSymbol(6)
+I[01:51:58.584] <-- textDocument/semanticTokens/full(7)
+I[01:51:58.584] <-- textDocument/hover(8)
+I[01:51:58.584] <-- textDocument/didOpen
+I[01:51:58.584] <-- textDocument/documentSymbol(9)
+I[01:51:58.586] --> reply:textDocument/documentLink(3) 2 ms
+I[01:51:58.586] --> reply:clangd/inlayHints(4) 2 ms
+I[01:51:58.586] --> reply:textDocument/documentLink(5) 2 ms
+I[01:51:58.586] --> reply:textDocument/documentSymbol(6) 2 ms
+I[01:51:58.587] --> reply:textDocument/semanticTokens/full(7) 2 ms
+I[01:51:58.587] Failed to find compilation database for /home/efarzad22/intro-to-os/threads.v0.c
+I[01:51:58.587] ASTWorker building file /home/efarzad22/intro-to-os/threads.v0.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/threads.v0.c
+I[01:51:58.587] --> reply:textDocument/hover(8) 3 ms
+I[01:51:58.588] --> textDocument/clangd.fileStatus
+I[01:51:58.589] --> textDocument/clangd.fileStatus
+I[01:51:58.597] <-- textDocument/semanticTokens/full(10)
+I[01:51:58.597] <-- clangd/inlayHints(11)
+I[01:51:58.597] <-- textDocument/documentLink(12)
+I[01:51:58.597] <-- textDocument/documentSymbol(13)
+I[01:51:58.597] <-- textDocument/codeAction(14)
+I[01:51:58.597] <-- reply(0)
+I[01:51:58.973] --> workspace/semanticTokens/refresh(1)
+I[01:51:59.062] --> textDocument/publishDiagnostics
+I[01:51:59.063] --> reply:textDocument/documentSymbol(9) 478 ms
+I[01:51:59.063] --> reply:textDocument/semanticTokens/full(10) 466 ms
+I[01:51:59.064] --> reply:clangd/inlayHints(11) 467 ms
+I[01:51:59.064] --> reply:textDocument/documentLink(12) 467 ms
+I[01:51:59.064] --> reply:textDocument/documentSymbol(13) 467 ms
+I[01:51:59.064] --> reply:textDocument/codeAction(14) 467 ms
+I[01:51:59.064] --> textDocument/clangd.fileStatus
+I[01:51:59.584] <-- $/cancelRequest
+I[01:51:59.584] <-- $/cancelRequest
+I[01:51:59.584] <-- $/cancelRequest
+I[01:51:59.584] <-- $/cancelRequest
+I[01:51:59.584] <-- $/cancelRequest
+I[01:51:59.655] <-- $/cancelRequest
+I[01:51:59.655] <-- clangd/inlayHints(15)
+I[01:51:59.668] --> reply:clangd/inlayHints(15) 13 ms
+I[01:51:59.669] --> textDocument/clangd.fileStatus
+I[01:52:01.392] <-- reply(1)
+I[01:52:01.916] <-- textDocument/documentLink(16)
+I[01:52:01.916] --> reply:textDocument/documentLink(16) 0 ms
+I[01:52:01.916] --> textDocument/clangd.fileStatus
+I[01:52:01.916] <-- textDocument/codeAction(17)
+I[01:52:01.916] --> reply:textDocument/codeAction(17) 0 ms
+I[01:52:01.917] --> textDocument/clangd.fileStatus
+I[01:52:02.266] <-- textDocument/documentSymbol(18)
+I[01:52:02.266] --> reply:textDocument/documentSymbol(18) 0 ms
+I[01:52:02.266] --> textDocument/clangd.fileStatus
+I[01:52:09.339] <-- textDocument/semanticTokens/full/delta(19)
+I[01:52:09.339] --> reply:textDocument/semanticTokens/full/delta(19) 0 ms
+I[01:52:09.339] --> textDocument/clangd.fileStatus
+I[01:52:09.342] <-- clangd/inlayHints(20)
+I[01:52:09.342] <-- textDocument/didClose
+I[01:52:09.342] --> textDocument/publishDiagnostics
+I[01:52:09.342] --> reply:clangd/inlayHints(20) 0 ms
+I[01:52:09.342] <-- textDocument/didOpen
+I[01:52:09.343] <-- textDocument/documentSymbol(21)
+I[01:52:09.343] Failed to find compilation database for /home/efarzad22/intro-to-os/threads.v1.c
+I[01:52:09.343] ASTWorker building file /home/efarzad22/intro-to-os/threads.v1.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/threads.v1.c
+I[01:52:09.345] <-- textDocument/semanticTokens/full(22)
+I[01:52:09.346] <-- clangd/inlayHints(23)
+I[01:52:09.347] <-- textDocument/documentLink(24)
+I[01:52:09.347] <-- textDocument/documentSymbol(25)
+I[01:52:09.347] <-- textDocument/didClose
+I[01:52:09.347] --> textDocument/publishDiagnostics
+I[01:52:09.347] <-- textDocument/didOpen
+I[01:52:09.350] Failed to find compilation database for /home/efarzad22/intro-to-os/threads.v0.c
+I[01:52:09.350] <-- textDocument/documentSymbol(26)
+I[01:52:09.350] ASTWorker building file /home/efarzad22/intro-to-os/threads.v0.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/threads.v0.c
+I[01:52:09.350] <-- textDocument/semanticTokens/full(27)
+I[01:52:09.350] <-- textDocument/documentLink(28)
+I[01:52:09.350] <-- clangd/inlayHints(29)
+I[01:52:09.350] <-- textDocument/documentSymbol(30)
+I[01:52:09.350] <-- textDocument/codeAction(31)
+I[01:52:09.350] --> reply:textDocument/codeAction(31) 0 ms, error: -32602: trying to get AST for non-added document
+I[01:52:09.351] <-- textDocument/codeAction(32)
+I[01:52:09.351] --> textDocument/clangd.fileStatus
+I[01:52:09.537] --> reply:textDocument/documentSymbol(21) 194 ms
+I[01:52:09.537] --> reply:textDocument/semanticTokens/full(22) 192 ms
+I[01:52:09.539] --> reply:clangd/inlayHints(23) 192 ms
+I[01:52:09.542] --> reply:textDocument/documentLink(24) 195 ms
+I[01:52:09.542] --> reply:textDocument/documentSymbol(25) 195 ms
+I[01:52:09.562] --> textDocument/clangd.fileStatus
+I[01:52:09.562] --> textDocument/clangd.fileStatus
+I[01:52:09.564] --> workspace/semanticTokens/refresh(2)
+I[01:52:09.582] --> textDocument/publishDiagnostics
+I[01:52:09.582] --> reply:textDocument/documentSymbol(26) 232 ms
+I[01:52:09.582] --> reply:textDocument/semanticTokens/full(27) 232 ms
+I[01:52:09.582] --> reply:textDocument/documentLink(28) 232 ms
+I[01:52:09.586] --> reply:clangd/inlayHints(29) 235 ms
+I[01:52:09.586] --> reply:textDocument/documentSymbol(30) 236 ms
+I[01:52:09.586] --> reply:textDocument/codeAction(32) 235 ms
+I[01:52:09.586] --> textDocument/clangd.fileStatus
+I[01:52:09.984] <-- $/cancelRequest
+I[01:52:09.984] <-- $/cancelRequest
+I[01:52:09.984] <-- $/cancelRequest
+I[01:52:09.984] <-- $/cancelRequest
+I[01:52:09.984] <-- $/cancelRequest
+I[01:52:09.984] <-- $/cancelRequest
+I[01:52:09.984] <-- $/cancelRequest
+I[01:52:09.984] <-- $/cancelRequest
+[Error - 1:52:10 AM] Request textDocument/codeAction failed.
+[object Object]
+I[01:52:10.911] <-- reply(2)
+I[01:52:13.293] <-- textDocument/hover(33)
+I[01:52:13.293] <-- textDocument/semanticTokens/full/delta(34)
+I[01:52:13.294] --> reply:textDocument/hover(33) 1 ms
+I[01:52:13.295] --> reply:textDocument/semanticTokens/full/delta(34) 1 ms
+I[01:52:13.295] --> textDocument/clangd.fileStatus
+I[01:52:13.316] <-- $/cancelRequest
+I[01:52:13.895] <-- clangd/inlayHints(35)
+I[01:52:13.899] --> reply:clangd/inlayHints(35) 4 ms
+I[01:52:13.899] --> textDocument/clangd.fileStatus
+I[01:52:15.621] <-- clangd/inlayHints(36)
+I[01:52:15.632] --> reply:clangd/inlayHints(36) 11 ms
+I[01:52:15.633] --> textDocument/clangd.fileStatus
+I[01:53:14.243] <-- textDocument/documentLink(37)
+I[01:53:14.243] --> reply:textDocument/documentLink(37) 0 ms
+I[01:53:14.243] --> textDocument/clangd.fileStatus
+I[01:53:14.246] <-- textDocument/documentSymbol(38)
+I[01:53:14.251] --> reply:textDocument/documentSymbol(38) 4 ms
+I[01:53:14.251] --> textDocument/clangd.fileStatus
+I[01:53:33.822] <-- textDocument/documentLink(39)
+I[01:53:33.822] <-- textDocument/codeAction(40)
+I[01:53:33.822] <-- textDocument/codeAction(41)
+I[01:53:33.824] --> reply:textDocument/documentLink(39) 1 ms
+I[01:53:33.824] --> reply:textDocument/codeAction(40) 1 ms
+I[01:53:33.824] --> reply:textDocument/codeAction(41) 1 ms
+I[01:53:33.824] --> textDocument/clangd.fileStatus
+I[01:53:33.827] <-- $/cancelRequest
+I[01:56:35.085] <-- textDocument/didClose
+I[01:56:35.085] --> textDocument/publishDiagnostics
+I[01:56:35.181] <-- textDocument/didOpen
+I[01:56:35.181] <-- textDocument/documentSymbol(42)
+I[01:56:35.182] <-- textDocument/semanticTokens/full(43)
+I[01:56:35.182] <-- textDocument/codeAction(44)
+I[01:56:35.186] Failed to find compilation database for /home/efarzad22/intro-to-os/threads.v1.c
+I[01:56:35.186] ASTWorker building file /home/efarzad22/intro-to-os/threads.v1.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/threads.v1.c
+I[01:56:35.191] --> textDocument/clangd.fileStatus
+I[01:56:35.268] <-- clangd/inlayHints(45)
+I[01:56:35.268] <-- textDocument/documentLink(46)
+I[01:56:35.394] <-- textDocument/documentSymbol(47)
+I[01:56:35.513] --> workspace/semanticTokens/refresh(3)
+I[01:56:35.524] <-- reply(3)
+I[01:56:35.550] --> textDocument/publishDiagnostics
+I[01:56:35.555] --> reply:textDocument/documentSymbol(42) 373 ms
+I[01:56:35.559] --> reply:textDocument/semanticTokens/full(43) 377 ms
+I[01:56:35.559] --> reply:textDocument/codeAction(44) 377 ms
+I[01:56:35.560] --> reply:clangd/inlayHints(45) 291 ms
+I[01:56:35.560] --> reply:textDocument/documentLink(46) 292 ms
+I[01:56:35.560] --> reply:textDocument/documentSymbol(47) 166 ms
+I[01:56:35.560] --> textDocument/clangd.fileStatus
+I[01:56:36.108] <-- textDocument/semanticTokens/full/delta(48)
+I[01:56:36.111] --> reply:textDocument/semanticTokens/full/delta(48) 3 ms
+I[01:56:36.113] --> textDocument/clangd.fileStatus
+I[01:56:37.677] <-- clangd/inlayHints(49)
+I[01:56:37.679] --> reply:clangd/inlayHints(49) 2 ms
+I[01:56:37.680] --> textDocument/clangd.fileStatus
+I[01:56:38.239] <-- clangd/inlayHints(50)
+I[01:56:38.241] --> reply:clangd/inlayHints(50) 2 ms
+I[01:56:38.242] --> textDocument/clangd.fileStatus
+I[01:56:40.078] <-- textDocument/didClose
+I[01:56:40.078] --> textDocument/publishDiagnostics
+I[01:56:40.175] <-- textDocument/didOpen
+I[01:56:40.176] Failed to find compilation database for /home/efarzad22/intro-to-os/threads.v0.c
+I[01:56:40.176] ASTWorker building file /home/efarzad22/intro-to-os/threads.v0.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/threads.v0.c
+I[01:56:40.182] --> textDocument/clangd.fileStatus
+I[01:56:40.187] <-- textDocument/documentSymbol(51)
+I[01:56:40.187] <-- textDocument/semanticTokens/full(52)
+I[01:56:40.187] <-- textDocument/codeAction(53)
+I[01:56:40.234] <-- textDocument/documentLink(54)
+I[01:56:40.425] <-- textDocument/documentSymbol(55)
+I[01:56:40.514] --> workspace/semanticTokens/refresh(4)
+I[01:56:40.515] <-- reply(4)
+I[01:56:40.515] --> textDocument/clangd.fileStatus
+I[01:56:40.515] --> textDocument/clangd.fileStatus
+I[01:56:40.542] --> textDocument/publishDiagnostics
+I[01:56:40.547] --> reply:textDocument/documentSymbol(51) 360 ms
+I[01:56:40.547] --> reply:textDocument/semanticTokens/full(52) 360 ms
+I[01:56:40.547] --> reply:textDocument/codeAction(53) 360 ms
+I[01:56:40.547] --> reply:textDocument/documentLink(54) 313 ms
+I[01:56:40.547] --> reply:textDocument/documentSymbol(55) 122 ms
+I[01:56:40.548] --> textDocument/clangd.fileStatus
+I[01:56:40.750] <-- clangd/inlayHints(56)
+I[01:56:40.754] --> reply:clangd/inlayHints(56) 3 ms
+I[01:56:40.754] --> textDocument/clangd.fileStatus
+I[01:56:41.045] <-- textDocument/semanticTokens/full/delta(57)
+I[01:56:41.048] --> reply:textDocument/semanticTokens/full/delta(57) 3 ms
+I[01:56:41.048] --> textDocument/clangd.fileStatus
+I[01:56:44.712] <-- textDocument/didClose
+I[01:56:44.712] --> textDocument/publishDiagnostics
+I[01:56:44.819] <-- textDocument/didOpen
+I[01:56:44.819] <-- textDocument/documentSymbol(58)
+I[01:56:44.819] <-- textDocument/codeAction(59)
+I[01:56:44.821] Failed to find compilation database for /home/efarzad22/intro-to-os/threads.v1.c
+I[01:56:44.821] ASTWorker building file /home/efarzad22/intro-to-os/threads.v1.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/threads.v1.c
+I[01:56:44.825] --> textDocument/clangd.fileStatus
+I[01:56:44.864] <-- textDocument/semanticTokens/full(60)
+I[01:56:44.864] <-- textDocument/documentLink(61)
+I[01:56:44.864] <-- clangd/inlayHints(62)
+I[01:56:45.058] <-- textDocument/documentSymbol(63)
+I[01:56:45.212] --> workspace/semanticTokens/refresh(5)
+I[01:56:45.215] <-- reply(5)
+I[01:56:45.240] --> textDocument/publishDiagnostics
+I[01:56:45.240] --> reply:textDocument/documentSymbol(58) 421 ms
+I[01:56:45.241] --> reply:textDocument/codeAction(59) 421 ms
+I[01:56:45.241] --> reply:textDocument/semanticTokens/full(60) 376 ms
+I[01:56:45.241] --> reply:textDocument/documentLink(61) 376 ms
+I[01:56:45.241] --> reply:clangd/inlayHints(62) 377 ms
+I[01:56:45.242] --> reply:textDocument/documentSymbol(63) 183 ms
+I[01:56:45.242] --> textDocument/clangd.fileStatus
+I[01:56:45.631] <-- textDocument/hover(64)
+I[01:56:45.638] --> reply:textDocument/hover(64) 7 ms
+I[01:56:45.638] --> textDocument/clangd.fileStatus
+I[01:56:45.804] <-- textDocument/semanticTokens/full/delta(65)
+I[01:56:45.804] --> reply:textDocument/semanticTokens/full/delta(65) 0 ms
+I[01:56:45.804] --> textDocument/clangd.fileStatus
+I[01:56:47.369] <-- clangd/inlayHints(66)
+I[01:56:47.374] --> reply:clangd/inlayHints(66) 4 ms
+I[01:56:47.374] --> textDocument/clangd.fileStatus
+I[01:56:47.940] <-- textDocument/hover(67)
+I[01:56:47.941] --> reply:textDocument/hover(67) 1 ms
+I[01:56:47.941] --> textDocument/clangd.fileStatus
+I[01:56:50.670] <-- textDocument/didClose
+I[01:56:50.670] --> textDocument/publishDiagnostics
+I[01:56:50.764] <-- textDocument/didOpen
+I[01:56:50.765] <-- textDocument/documentSymbol(68)
+I[01:56:50.765] <-- textDocument/semanticTokens/full(69)
+I[01:56:50.765] <-- textDocument/codeAction(70)
+I[01:56:50.771] Failed to find compilation database for /home/efarzad22/intro-to-os/threads.v0.c
+I[01:56:50.771] ASTWorker building file /home/efarzad22/intro-to-os/threads.v0.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/threads.v0.c
+I[01:56:50.775] --> textDocument/clangd.fileStatus
+I[01:56:50.820] <-- textDocument/documentLink(71)
+I[01:56:51.025] <-- textDocument/documentSymbol(72)
+I[01:56:51.133] --> workspace/semanticTokens/refresh(6)
+I[01:56:51.138] <-- reply(6)
+I[01:56:51.185] --> textDocument/publishDiagnostics
+I[01:56:51.186] --> reply:textDocument/documentSymbol(68) 421 ms
+I[01:56:51.186] --> reply:textDocument/semanticTokens/full(69) 421 ms
+I[01:56:51.186] --> reply:textDocument/codeAction(70) 421 ms
+I[01:56:51.186] --> reply:textDocument/documentLink(71) 365 ms
+I[01:56:51.186] --> reply:textDocument/documentSymbol(72) 161 ms
+I[01:56:51.186] --> textDocument/clangd.fileStatus
+I[01:56:51.357] <-- clangd/inlayHints(73)
+I[01:56:51.369] --> reply:clangd/inlayHints(73) 12 ms
+I[01:56:51.370] --> textDocument/clangd.fileStatus
+I[01:56:51.737] <-- textDocument/semanticTokens/full/delta(74)
+I[01:56:51.737] --> reply:textDocument/semanticTokens/full/delta(74) 0 ms
+I[01:56:51.737] --> textDocument/clangd.fileStatus
+I[01:56:52.021] <-- textDocument/didClose
+I[01:56:52.022] --> textDocument/publishDiagnostics
+I[01:56:52.114] <-- textDocument/didOpen
+I[01:56:52.114] <-- textDocument/documentSymbol(75)
+I[01:56:52.114] <-- textDocument/semanticTokens/full(76)
+I[01:56:52.114] <-- textDocument/codeAction(77)
+I[01:56:52.119] Failed to find compilation database for /home/efarzad22/intro-to-os/threads.v1.c
+I[01:56:52.119] ASTWorker building file /home/efarzad22/intro-to-os/threads.v1.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/threads.v1.c
+I[01:56:52.122] --> textDocument/clangd.fileStatus
+I[01:56:52.128] <-- textDocument/documentLink(78)
+I[01:56:52.367] <-- textDocument/documentSymbol(79)
+I[01:56:52.414] --> workspace/semanticTokens/refresh(7)
+I[01:56:52.416] <-- reply(7)
+I[01:56:52.462] --> textDocument/publishDiagnostics
+I[01:56:52.466] --> reply:textDocument/documentSymbol(75) 351 ms
+I[01:56:52.466] --> reply:textDocument/semanticTokens/full(76) 352 ms
+I[01:56:52.466] --> reply:textDocument/codeAction(77) 352 ms
+I[01:56:52.466] --> reply:textDocument/documentLink(78) 338 ms
+I[01:56:52.466] --> reply:textDocument/documentSymbol(79) 99 ms
+I[01:56:52.467] --> textDocument/clangd.fileStatus
+I[01:56:52.688] <-- clangd/inlayHints(80)
+I[01:56:52.690] --> reply:clangd/inlayHints(80) 1 ms
+I[01:56:52.690] --> textDocument/clangd.fileStatus
+I[01:56:52.972] <-- textDocument/semanticTokens/full/delta(81)
+I[01:56:52.979] --> reply:textDocument/semanticTokens/full/delta(81) 7 ms
+I[01:56:52.979] --> textDocument/clangd.fileStatus
+I[01:56:57.449] <-- textDocument/didClose
+I[01:56:57.449] --> textDocument/publishDiagnostics
+I[01:56:57.565] <-- textDocument/didOpen
+I[01:56:57.566] <-- textDocument/documentSymbol(82)
+I[01:56:57.566] <-- textDocument/semanticTokens/full(83)
+I[01:56:57.566] <-- textDocument/codeAction(84)
+I[01:56:57.568] Failed to find compilation database for /home/efarzad22/intro-to-os/threads.v0.c
+I[01:56:57.568] ASTWorker building file /home/efarzad22/intro-to-os/threads.v0.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/threads.v0.c
+I[01:56:57.570] --> textDocument/clangd.fileStatus
+I[01:56:57.620] <-- textDocument/documentLink(85)
+I[01:56:57.797] --> workspace/semanticTokens/refresh(8)
+I[01:56:57.802] <-- reply(8)
+I[01:56:57.802] <-- textDocument/documentSymbol(86)
+I[01:56:57.828] --> textDocument/publishDiagnostics
+I[01:56:57.829] --> reply:textDocument/documentSymbol(82) 263 ms
+I[01:56:57.829] --> reply:textDocument/semanticTokens/full(83) 263 ms
+I[01:56:57.829] --> reply:textDocument/codeAction(84) 263 ms
+I[01:56:57.829] --> reply:textDocument/documentLink(85) 209 ms
+I[01:56:57.829] --> reply:textDocument/documentSymbol(86) 27 ms
+I[01:56:57.829] --> textDocument/clangd.fileStatus
+I[01:56:58.000] <-- textDocument/didClose
+I[01:56:58.000] --> textDocument/publishDiagnostics
+I[01:56:58.084] <-- textDocument/didOpen
+I[01:56:58.084] <-- textDocument/documentSymbol(87)
+I[01:56:58.084] <-- textDocument/semanticTokens/full(88)
+I[01:56:58.084] <-- textDocument/codeAction(89)
+I[01:56:58.086] Failed to find compilation database for /home/efarzad22/intro-to-os/threads.v1.c
+I[01:56:58.086] ASTWorker building file /home/efarzad22/intro-to-os/threads.v1.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/threads.v1.c
+I[01:56:58.093] --> textDocument/clangd.fileStatus
+I[01:56:58.131] <-- textDocument/documentLink(90)
+I[01:56:58.349] <-- textDocument/documentSymbol(91)
+I[01:56:58.399] --> workspace/semanticTokens/refresh(9)
+I[01:56:58.401] <-- reply(9)
+I[01:56:58.457] --> textDocument/publishDiagnostics
+I[01:56:58.458] --> reply:textDocument/documentSymbol(87) 373 ms
+I[01:56:58.458] --> reply:textDocument/semanticTokens/full(88) 373 ms
+I[01:56:58.458] --> reply:textDocument/codeAction(89) 374 ms
+I[01:56:58.458] --> reply:textDocument/documentLink(90) 327 ms
+I[01:56:58.458] --> reply:textDocument/documentSymbol(91) 109 ms
+I[01:56:58.459] --> textDocument/clangd.fileStatus
+I[01:56:58.677] <-- clangd/inlayHints(92)
+I[01:56:58.687] --> reply:clangd/inlayHints(92) 10 ms
+I[01:56:58.688] --> textDocument/clangd.fileStatus
+I[01:56:58.984] <-- textDocument/semanticTokens/full/delta(93)
+I[01:56:58.992] --> reply:textDocument/semanticTokens/full/delta(93) 8 ms
+I[01:56:58.992] --> textDocument/clangd.fileStatus
+I[01:57:29.116] <-- textDocument/hover(94)
+I[01:57:29.117] --> reply:textDocument/hover(94) 1 ms
+I[01:57:29.118] --> textDocument/clangd.fileStatus
+I[01:57:39.457] <-- clangd/inlayHints(95)
+I[01:57:39.460] --> reply:clangd/inlayHints(95) 3 ms
+I[01:57:39.461] --> textDocument/clangd.fileStatus
+I[01:58:17.729] <-- clangd/inlayHints(96)
+I[01:58:17.730] --> reply:clangd/inlayHints(96) 1 ms
+I[01:58:17.731] --> textDocument/clangd.fileStatus
+I[01:58:17.793] <-- clangd/inlayHints(97)
+I[01:58:17.794] --> reply:clangd/inlayHints(97) 1 ms
+I[01:58:17.795] --> textDocument/clangd.fileStatus
+I[01:58:17.880] <-- clangd/inlayHints(98)
+I[01:58:17.880] --> reply:clangd/inlayHints(98) 0 ms
+I[01:58:17.881] --> textDocument/clangd.fileStatus
+I[01:58:18.004] <-- clangd/inlayHints(99)
+I[01:58:18.007] --> reply:clangd/inlayHints(99) 3 ms
+I[01:58:18.008] --> textDocument/clangd.fileStatus
+I[01:58:18.020] <-- clangd/inlayHints(100)
+I[01:58:18.022] --> reply:clangd/inlayHints(100) 1 ms
+I[01:58:18.022] --> textDocument/clangd.fileStatus
+I[01:58:18.086] <-- clangd/inlayHints(101)
+I[01:58:18.090] --> reply:clangd/inlayHints(101) 3 ms
+I[01:58:18.090] --> textDocument/clangd.fileStatus
+I[01:58:18.168] <-- clangd/inlayHints(102)
+I[01:58:18.170] --> reply:clangd/inlayHints(102) 2 ms
+I[01:58:18.171] --> textDocument/clangd.fileStatus
+I[01:58:18.295] <-- clangd/inlayHints(103)
+I[01:58:18.298] --> reply:clangd/inlayHints(103) 3 ms
+I[01:58:18.299] --> textDocument/clangd.fileStatus
+I[01:58:18.418] <-- clangd/inlayHints(104)
+I[01:58:18.419] --> reply:clangd/inlayHints(104) 0 ms
+I[01:58:18.419] --> textDocument/clangd.fileStatus
+I[01:58:18.599] <-- clangd/inlayHints(105)
+I[01:58:18.599] --> reply:clangd/inlayHints(105) 0 ms
+I[01:58:18.599] --> textDocument/clangd.fileStatus
+I[01:58:47.641] <-- textDocument/didClose
+I[01:58:47.641] --> textDocument/publishDiagnostics
+I[01:58:47.724] <-- textDocument/didOpen
+I[01:58:47.725] <-- textDocument/documentSymbol(106)
+I[01:58:47.726] <-- textDocument/semanticTokens/full(107)
+I[01:58:47.726] <-- textDocument/codeAction(108)
+I[01:58:47.729] Failed to find compilation database for /home/efarzad22/intro-to-os/io.c
+I[01:58:47.729] ASTWorker building file /home/efarzad22/intro-to-os/io.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/io.c
+I[01:58:47.737] --> textDocument/clangd.fileStatus
+I[01:58:47.821] <-- clangd/inlayHints(109)
+I[01:58:47.824] <-- textDocument/documentLink(110)
+I[01:58:48.001] <-- textDocument/documentSymbol(111)
+I[01:58:48.055] --> workspace/semanticTokens/refresh(10)
+I[01:58:48.059] <-- reply(10)
+I[01:58:48.091] --> textDocument/publishDiagnostics
+I[01:58:48.093] --> reply:textDocument/documentSymbol(106) 367 ms
+I[01:58:48.095] --> reply:textDocument/semanticTokens/full(107) 369 ms
+I[01:58:48.095] --> reply:textDocument/codeAction(108) 369 ms
+I[01:58:48.095] --> reply:clangd/inlayHints(109) 273 ms
+I[01:58:48.095] --> reply:textDocument/documentLink(110) 271 ms
+I[01:58:48.096] --> reply:textDocument/documentSymbol(111) 94 ms
+I[01:58:48.096] --> textDocument/clangd.fileStatus
+I[01:58:48.258] <-- textDocument/hover(112)
+I[01:58:48.261] --> reply:textDocument/hover(112) 3 ms
+I[01:58:48.261] --> textDocument/clangd.fileStatus
+I[01:58:48.570] <-- textDocument/semanticTokens/full/delta(113)
+I[01:58:48.570] --> reply:textDocument/semanticTokens/full/delta(113) 0 ms
+I[01:58:48.570] --> textDocument/clangd.fileStatus
+I[01:58:52.312] <-- clangd/inlayHints(114)
+I[01:58:52.318] --> reply:clangd/inlayHints(114) 5 ms
+I[01:58:52.318] --> textDocument/clangd.fileStatus
+I[01:58:54.371] <-- clangd/inlayHints(115)
+I[01:58:54.371] --> reply:clangd/inlayHints(115) 0 ms
+I[01:58:54.371] --> textDocument/clangd.fileStatus
+I[01:58:55.456] <-- clangd/inlayHints(116)
+I[01:58:55.456] --> reply:clangd/inlayHints(116) 0 ms
+I[01:58:55.456] --> textDocument/clangd.fileStatus
+I[01:58:56.671] <-- clangd/inlayHints(117)
+I[01:58:56.674] --> reply:clangd/inlayHints(117) 3 ms
+I[01:58:56.674] --> textDocument/clangd.fileStatus
+I[01:58:58.029] <-- textDocument/hover(118)
+I[01:58:58.029] --> reply:textDocument/hover(118) 0 ms
+I[01:58:58.029] --> textDocument/clangd.fileStatus
+I[02:10:09.371] <-- textDocument/hover(119)
+I[02:10:09.373] --> reply:textDocument/hover(119) 1 ms
+I[02:10:09.373] --> textDocument/clangd.fileStatus
+I[02:13:32.841] <-- textDocument/hover(120)
+I[02:13:32.846] --> reply:textDocument/hover(120) 5 ms
+I[02:13:32.846] --> textDocument/clangd.fileStatus
+I[02:13:33.462] <-- textDocument/codeAction(121)
+I[02:13:33.466] --> reply:textDocument/codeAction(121) 4 ms
+I[02:13:33.466] --> textDocument/clangd.fileStatus
+I[02:13:50.099] <-- clangd/inlayHints(122)
+I[02:13:50.100] --> reply:clangd/inlayHints(122) 0 ms
+I[02:13:50.100] --> textDocument/clangd.fileStatus
+I[02:13:51.025] <-- clangd/inlayHints(123)
+I[02:13:51.027] --> reply:clangd/inlayHints(123) 2 ms
+I[02:13:51.027] --> textDocument/clangd.fileStatus
+I[02:13:51.246] <-- clangd/inlayHints(124)
+I[02:13:51.247] --> reply:clangd/inlayHints(124) 0 ms
+I[02:13:51.247] --> textDocument/clangd.fileStatus
+I[02:13:54.598] <-- textDocument/hover(125)
+I[02:13:54.602] --> reply:textDocument/hover(125) 4 ms
+I[02:13:54.603] --> textDocument/clangd.fileStatus
+I[02:14:14.301] <-- textDocument/didClose
+I[02:14:14.301] --> textDocument/publishDiagnostics
+I[02:14:17.580] <-- textDocument/didOpen
+I[02:14:17.581] <-- textDocument/documentSymbol(126)
+I[02:14:17.581] <-- textDocument/semanticTokens/full(127)
+I[02:14:17.581] <-- textDocument/codeAction(128)
+I[02:14:17.582] Failed to find compilation database for /home/efarzad22/intro-to-os/io.c
+I[02:14:17.582] ASTWorker building file /home/efarzad22/intro-to-os/io.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/io.c
+I[02:14:17.587] --> textDocument/clangd.fileStatus
+I[02:14:17.634] <-- textDocument/documentLink(129)
+I[02:14:17.818] <-- $/cancelRequest
+I[02:14:17.818] <-- textDocument/codeAction(130)
+I[02:14:17.841] <-- textDocument/documentSymbol(131)
+I[02:14:17.893] --> workspace/semanticTokens/refresh(11)
+I[02:14:17.897] <-- reply(11)
+I[02:14:17.951] --> textDocument/publishDiagnostics
+I[02:14:17.951] --> reply:textDocument/documentSymbol(126) 370 ms
+I[02:14:17.951] --> reply:textDocument/semanticTokens/full(127) 370 ms
+I[02:14:17.951] --> reply:textDocument/codeAction(128) 370 ms, error: Task was cancelled.
+I[02:14:17.952] --> reply:textDocument/documentLink(129) 317 ms
+I[02:14:17.952] --> reply:textDocument/codeAction(130) 133 ms
+I[02:14:17.952] --> reply:textDocument/documentSymbol(131) 110 ms
+I[02:14:17.952] --> textDocument/clangd.fileStatus
+[Error - 2:14:17 AM] Request textDocument/codeAction failed.
+[object Object]
+I[02:14:18.076] <-- clangd/inlayHints(132)
+I[02:14:18.080] --> reply:clangd/inlayHints(132) 4 ms
+I[02:14:18.081] --> textDocument/clangd.fileStatus
+I[02:14:18.472] <-- textDocument/semanticTokens/full/delta(133)
+I[02:14:18.475] --> reply:textDocument/semanticTokens/full/delta(133) 3 ms
+I[02:14:18.475] --> textDocument/clangd.fileStatus
+I[02:14:18.911] <-- textDocument/didClose
+I[02:14:18.911] --> textDocument/publishDiagnostics
+I[02:14:19.870] <-- textDocument/didOpen
+I[02:14:19.870] <-- textDocument/documentSymbol(134)
+I[02:14:19.870] <-- textDocument/semanticTokens/full(135)
+I[02:14:19.870] <-- textDocument/codeAction(136)
+I[02:14:19.874] Failed to find compilation database for /home/efarzad22/intro-to-os/io.c
+I[02:14:19.874] ASTWorker building file /home/efarzad22/intro-to-os/io.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/io.c
+I[02:14:19.878] --> textDocument/clangd.fileStatus
+I[02:14:19.930] <-- textDocument/documentLink(137)
+I[02:14:20.068] <-- $/cancelRequest
+I[02:14:20.068] <-- textDocument/codeAction(138)
+I[02:14:20.103] <-- textDocument/documentSymbol(139)
+I[02:14:20.286] <-- clangd/inlayHints(140)
+I[02:14:20.288] --> workspace/semanticTokens/refresh(12)
+I[02:14:20.296] <-- reply(12)
+I[02:14:20.333] --> textDocument/publishDiagnostics
+I[02:14:20.333] --> reply:textDocument/documentSymbol(134) 463 ms
+I[02:14:20.333] --> reply:textDocument/semanticTokens/full(135) 463 ms
+I[02:14:20.333] --> reply:textDocument/codeAction(136) 463 ms, error: Task was cancelled.
+I[02:14:20.334] --> reply:textDocument/documentLink(137) 403 ms
+[Error - 2:14:20 AM] Request textDocument/codeAction failed.
+[object Object]
+I[02:14:20.348] --> reply:textDocument/codeAction(138) 279 ms
+I[02:14:20.348] --> reply:textDocument/documentSymbol(139) 244 ms
+I[02:14:20.348] --> reply:clangd/inlayHints(140) 61 ms
+I[02:14:20.348] --> textDocument/clangd.fileStatus
+I[02:14:20.961] <-- textDocument/semanticTokens/full/delta(141)
+I[02:14:20.961] --> reply:textDocument/semanticTokens/full/delta(141) 0 ms
+I[02:14:20.961] --> textDocument/clangd.fileStatus
+I[02:19:54.538] <-- textDocument/hover(142)
+I[02:19:54.541] --> reply:textDocument/hover(142) 3 ms
+I[02:19:54.541] --> textDocument/clangd.fileStatus
+I[02:19:57.269] <-- textDocument/hover(143)
+I[02:19:57.276] --> reply:textDocument/hover(143) 6 ms
+I[02:19:57.276] --> textDocument/clangd.fileStatus
+I[02:19:59.042] <-- textDocument/hover(144)
+I[02:19:59.045] --> reply:textDocument/hover(144) 2 ms
+I[02:19:59.045] --> textDocument/clangd.fileStatus
+I[02:20:19.129] <-- textDocument/didClose
+I[02:20:19.130] --> textDocument/publishDiagnostics
+I[02:20:19.284] <-- textDocument/didOpen
+I[02:20:19.284] <-- textDocument/documentSymbol(145)
+I[02:20:19.284] <-- textDocument/semanticTokens/full(146)
+I[02:20:19.285] <-- textDocument/codeAction(147)
+I[02:20:19.285] Failed to find compilation database for /home/efarzad22/intro-to-os/common_threads.h
+I[02:20:19.285] ASTWorker building file /home/efarzad22/intro-to-os/common_threads.h version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -xobjective-c++-header -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/common_threads.h
+I[02:20:19.288] --> textDocument/clangd.fileStatus
+I[02:20:19.326] <-- clangd/inlayHints(148)
+I[02:20:19.326] <-- textDocument/documentLink(149)
+I[02:20:19.432] --> textDocument/clangd.fileStatus
+I[02:20:19.432] --> textDocument/clangd.fileStatus
+I[02:20:19.433] --> workspace/semanticTokens/refresh(13)
+I[02:20:19.434] <-- reply(13)
+I[02:20:19.460] --> textDocument/publishDiagnostics
+I[02:20:19.463] --> reply:textDocument/documentSymbol(145) 178 ms
+I[02:20:19.464] --> reply:textDocument/semanticTokens/full(146) 179 ms
+I[02:20:19.464] --> reply:textDocument/codeAction(147) 179 ms
+I[02:20:19.464] --> reply:clangd/inlayHints(148) 137 ms
+I[02:20:19.464] --> reply:textDocument/documentLink(149) 137 ms
+I[02:20:19.464] --> textDocument/clangd.fileStatus
+I[02:20:19.486] <-- textDocument/documentSymbol(150)
+I[02:20:19.487] --> reply:textDocument/documentSymbol(150) 0 ms
+I[02:20:19.487] --> textDocument/clangd.fileStatus
+I[02:20:26.650] <-- textDocument/codeAction(151)
+I[02:20:26.650] --> reply:textDocument/codeAction(151) 0 ms
+I[02:20:26.650] --> textDocument/clangd.fileStatus
+I[02:20:26.721] <-- textDocument/documentLink(152)
+I[02:20:26.721] <-- clangd/inlayHints(153)
+I[02:20:26.722] --> reply:textDocument/documentLink(152) 0 ms
+I[02:20:26.722] --> reply:clangd/inlayHints(153) 1 ms
+I[02:20:26.722] --> textDocument/clangd.fileStatus
+I[02:20:26.912] <-- textDocument/semanticTokens/full/delta(154)
+I[02:20:26.912] <-- textDocument/documentSymbol(155)
+I[02:20:26.915] --> reply:textDocument/semanticTokens/full/delta(154) 3 ms
+I[02:20:26.915] --> reply:textDocument/documentSymbol(155) 3 ms
+I[02:20:26.915] --> textDocument/clangd.fileStatus
+I[02:21:00.654] <-- textDocument/didClose
+I[02:21:00.654] --> textDocument/publishDiagnostics
+I[02:21:00.742] <-- textDocument/didOpen
+I[02:21:00.742] <-- textDocument/documentSymbol(156)
+I[02:21:00.742] <-- textDocument/semanticTokens/full(157)
+I[02:21:00.742] <-- textDocument/codeAction(158)
+I[02:21:00.743] Failed to find compilation database for /home/efarzad22/intro-to-os/io.c
+I[02:21:00.743] ASTWorker building file /home/efarzad22/intro-to-os/io.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/io.c
+I[02:21:00.747] --> textDocument/clangd.fileStatus
+I[02:21:00.796] <-- textDocument/documentLink(159)
+I[02:21:00.950] --> workspace/semanticTokens/refresh(14)
+I[02:21:00.952] <-- reply(14)
+I[02:21:00.959] <-- $/cancelRequest
+I[02:21:00.959] <-- textDocument/codeAction(160)
+I[02:21:00.973] --> textDocument/publishDiagnostics
+I[02:21:00.974] --> reply:textDocument/documentSymbol(156) 231 ms
+I[02:21:00.974] --> reply:textDocument/semanticTokens/full(157) 231 ms
+I[02:21:00.974] --> reply:textDocument/codeAction(158) 231 ms, error: Task was cancelled.
+I[02:21:00.974] --> reply:textDocument/documentLink(159) 178 ms
+I[02:21:00.974] --> reply:textDocument/codeAction(160) 15 ms
+I[02:21:00.974] --> textDocument/clangd.fileStatus
+[Error - 2:21:00 AM] Request textDocument/codeAction failed.
+[object Object]
+I[02:21:00.996] <-- textDocument/documentSymbol(161)
+I[02:21:00.998] --> reply:textDocument/documentSymbol(161) 2 ms
+I[02:21:00.998] --> textDocument/clangd.fileStatus
+I[02:21:01.135] <-- clangd/inlayHints(162)
+I[02:21:01.139] --> reply:clangd/inlayHints(162) 4 ms
+I[02:21:01.139] --> textDocument/clangd.fileStatus
+I[02:21:01.395] <-- textDocument/semanticTokens/full/delta(163)
+I[02:21:01.397] --> reply:textDocument/semanticTokens/full/delta(163) 2 ms
+I[02:21:01.397] --> textDocument/clangd.fileStatus

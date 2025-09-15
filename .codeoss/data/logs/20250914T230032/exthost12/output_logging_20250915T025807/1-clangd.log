@@ -1,0 +1,1110 @@
+I[02:58:10.625] Ubuntu clangd version 14.0.6
+I[02:58:10.625] Features: linux+grpc
+I[02:58:10.625] PID: 27023
+I[02:58:10.625] Working directory: /home/efarzad22
+I[02:58:10.625] argv[0]: /usr/bin/clangd
+I[02:58:10.626] Starting LSP over stdin/stdout
+I[02:58:10.626] <-- initialize(0)
+I[02:58:10.628] --> reply:initialize(0) 1 ms
+I[02:58:10.632] <-- initialized
+I[02:58:10.649] <-- textDocument/didOpen
+I[02:58:10.651] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[02:58:10.651] ASTWorker building file /home/efarzad22/programming1/problem6.c version 1 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[02:58:10.653] --> textDocument/clangd.fileStatus
+I[02:58:10.730] --> workspace/semanticTokens/refresh(0)
+I[02:58:10.733] <-- reply(0)
+I[02:58:10.741] --> textDocument/publishDiagnostics
+I[02:58:10.742] --> textDocument/clangd.fileStatus
+I[02:58:12.165] <-- textDocument/documentSymbol(1)
+I[02:58:12.165] <-- textDocument/documentLink(2)
+I[02:58:12.165] <-- clangd/inlayHints(3)
+I[02:58:12.165] --> reply:textDocument/documentSymbol(1) 0 ms
+I[02:58:12.166] --> reply:textDocument/documentLink(2) 0 ms
+I[02:58:12.166] <-- textDocument/documentSymbol(4)
+I[02:58:12.166] <-- textDocument/documentLink(5)
+I[02:58:12.166] --> reply:clangd/inlayHints(3) 0 ms
+I[02:58:12.166] --> reply:textDocument/documentSymbol(4) 0 ms
+I[02:58:12.166] <-- textDocument/semanticTokens/full(6)
+I[02:58:12.166] --> reply:textDocument/documentLink(5) 0 ms
+I[02:58:12.166] <-- textDocument/documentLink(7)
+I[02:58:12.166] --> reply:textDocument/semanticTokens/full(6) 0 ms
+I[02:58:12.166] <-- textDocument/codeAction(8)
+I[02:58:12.166] --> reply:textDocument/documentLink(7) 0 ms
+I[02:58:12.166] --> reply:textDocument/codeAction(8) 0 ms
+I[02:58:12.166] <-- textDocument/codeAction(9)
+I[02:58:12.166] --> textDocument/clangd.fileStatus
+I[02:58:12.166] --> reply:textDocument/codeAction(9) 0 ms
+I[02:58:12.166] <-- textDocument/codeAction(10)
+I[02:58:12.166] --> textDocument/clangd.fileStatus
+I[02:58:12.166] --> reply:textDocument/codeAction(10) 0 ms
+I[02:58:12.166] --> textDocument/clangd.fileStatus
+I[02:58:12.167] <-- textDocument/documentSymbol(11)
+I[02:58:12.167] --> reply:textDocument/documentSymbol(11) 0 ms
+I[02:58:12.167] --> textDocument/clangd.fileStatus
+I[02:58:12.187] <-- $/cancelRequest
+I[02:58:12.187] <-- $/cancelRequest
+I[02:58:12.187] <-- $/cancelRequest
+I[02:58:12.187] <-- $/cancelRequest
+I[02:58:12.187] <-- $/cancelRequest
+I[02:58:32.836] <-- textDocument/documentLink(12)
+I[02:58:32.836] --> reply:textDocument/documentLink(12) 0 ms
+I[02:58:32.836] --> textDocument/clangd.fileStatus
+I[02:58:33.116] <-- textDocument/documentSymbol(13)
+I[02:58:33.116] --> reply:textDocument/documentSymbol(13) 0 ms
+I[02:58:33.116] --> textDocument/clangd.fileStatus
+I[02:58:35.881] <-- textDocument/codeAction(14)
+I[02:58:35.881] <-- textDocument/codeAction(15)
+I[02:58:35.881] --> reply:textDocument/codeAction(14) 0 ms
+I[02:58:35.882] --> reply:textDocument/codeAction(15) 0 ms
+I[02:58:35.882] --> textDocument/clangd.fileStatus
+I[02:58:35.890] <-- $/cancelRequest
+I[02:58:35.894] <-- textDocument/documentLink(16)
+I[02:58:35.894] --> reply:textDocument/documentLink(16) 0 ms
+I[02:58:35.894] --> textDocument/clangd.fileStatus
+I[03:00:43.952] <-- textDocument/hover(17)
+I[03:00:43.953] --> reply:textDocument/hover(17) 0 ms
+I[03:00:43.953] --> textDocument/clangd.fileStatus
+I[03:00:43.953] <-- $/cancelRequest
+I[03:00:44.433] <-- textDocument/documentHighlight(18)
+I[03:00:44.433] --> reply:textDocument/documentHighlight(18) 0 ms
+I[03:00:44.434] --> textDocument/clangd.fileStatus
+I[03:00:44.639] <-- textDocument/codeAction(19)
+I[03:00:44.640] --> reply:textDocument/codeAction(19) 0 ms
+I[03:00:44.640] --> textDocument/clangd.fileStatus
+I[03:00:45.103] <-- textDocument/didChange
+I[03:00:45.103] --> textDocument/clangd.fileStatus
+I[03:00:45.153] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:00:45.154] ASTWorker building file /home/efarzad22/programming1/problem6.c version 2 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:00:45.155] <-- textDocument/didChange
+I[03:00:45.156] --> textDocument/clangd.fileStatus
+I[03:00:45.156] --> textDocument/clangd.fileStatus
+I[03:00:45.156] --> textDocument/clangd.fileStatus
+I[03:00:45.163] --> textDocument/publishDiagnostics
+I[03:00:45.163] --> textDocument/clangd.fileStatus
+I[03:00:45.205] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:00:45.205] ASTWorker building file /home/efarzad22/programming1/problem6.c version 3 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:00:45.207] --> textDocument/clangd.fileStatus
+I[03:00:45.207] --> textDocument/clangd.fileStatus
+I[03:00:45.208] --> textDocument/clangd.fileStatus
+I[03:00:45.215] --> textDocument/publishDiagnostics
+I[03:00:45.215] --> textDocument/clangd.fileStatus
+I[03:00:45.309] <-- textDocument/signatureHelp(20)
+I[03:00:45.316] --> reply:textDocument/signatureHelp(20) 6 ms
+I[03:00:45.378] <-- textDocument/didChange
+I[03:00:45.378] --> textDocument/clangd.fileStatus
+I[03:00:45.384] <-- textDocument/completion(21)
+I[03:00:45.393] Code complete: sema context Expression, query scopes [] (AnyScope=true), expected type <none>
+I[03:00:45.393] Code complete: 0 results from Sema, 9 from Index, 0 matched, 0 from identifiers, 9 returned (incomplete).
+I[03:00:45.393] --> reply:textDocument/completion(21) 9 ms
+I[03:00:45.429] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:00:45.429] ASTWorker building file /home/efarzad22/programming1/problem6.c version 4 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:00:45.430] --> textDocument/clangd.fileStatus
+I[03:00:45.430] --> textDocument/clangd.fileStatus
+I[03:00:45.431] --> textDocument/clangd.fileStatus
+I[03:00:45.438] --> textDocument/publishDiagnostics
+I[03:00:45.438] --> textDocument/clangd.fileStatus
+I[03:00:45.523] <-- textDocument/didChange
+I[03:00:45.523] <-- textDocument/completion(22)
+I[03:00:45.523] --> textDocument/clangd.fileStatus
+I[03:00:45.523] <-- textDocument/signatureHelp(23)
+I[03:00:45.530] Code complete: sema context Expression, query scopes [] (AnyScope=true), expected type <none>
+I[03:00:45.531] Code complete: 0 results from Sema, 1 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[03:00:45.531] --> reply:textDocument/completion(22) 8 ms
+I[03:00:45.532] --> reply:textDocument/signatureHelp(23) 8 ms
+I[03:00:45.573] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:00:45.573] ASTWorker building file /home/efarzad22/programming1/problem6.c version 5 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:00:45.575] --> textDocument/clangd.fileStatus
+I[03:00:45.575] --> textDocument/clangd.fileStatus
+I[03:00:45.575] --> textDocument/clangd.fileStatus
+I[03:00:45.583] --> textDocument/publishDiagnostics
+I[03:00:45.583] --> textDocument/clangd.fileStatus
+I[03:00:45.681] <-- textDocument/signatureHelp(24)
+I[03:00:45.687] --> reply:textDocument/signatureHelp(24) 5 ms
+I[03:00:45.748] <-- textDocument/didChange
+I[03:00:45.748] --> textDocument/clangd.fileStatus
+I[03:00:45.748] <-- textDocument/completion(25)
+I[03:00:45.756] Code complete: sema context Expression, query scopes [] (AnyScope=true), expected type <none>
+I[03:00:45.756] Code complete: 0 results from Sema, 1 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[03:00:45.756] --> reply:textDocument/completion(25) 8 ms
+I[03:00:45.798] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:00:45.798] ASTWorker building file /home/efarzad22/programming1/problem6.c version 6 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:00:45.800] --> textDocument/clangd.fileStatus
+I[03:00:45.800] --> textDocument/clangd.fileStatus
+I[03:00:45.801] --> textDocument/clangd.fileStatus
+I[03:00:45.808] --> textDocument/publishDiagnostics
+I[03:00:45.808] --> textDocument/clangd.fileStatus
+I[03:00:45.895] <-- textDocument/didChange
+I[03:00:45.895] <-- textDocument/completion(26)
+I[03:00:45.895] --> textDocument/clangd.fileStatus
+I[03:00:45.898] <-- textDocument/signatureHelp(27)
+I[03:00:45.903] Code complete: sema context Expression, query scopes [] (AnyScope=true), expected type <none>
+I[03:00:45.904] --> reply:textDocument/signatureHelp(27) 5 ms
+I[03:00:45.904] Code complete: 1 results from Sema, 1 from Index, 1 matched, 0 from identifiers, 1 returned.
+I[03:00:45.904] --> reply:textDocument/completion(26) 8 ms
+I[03:00:45.945] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:00:45.945] ASTWorker building file /home/efarzad22/programming1/problem6.c version 7 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:00:45.947] --> textDocument/clangd.fileStatus
+I[03:00:45.947] --> textDocument/clangd.fileStatus
+I[03:00:45.948] --> textDocument/clangd.fileStatus
+I[03:00:45.956] --> textDocument/publishDiagnostics
+I[03:00:45.956] --> textDocument/clangd.fileStatus
+I[03:00:46.045] <-- textDocument/signatureHelp(28)
+I[03:00:46.052] --> reply:textDocument/signatureHelp(28) 6 ms
+I[03:00:46.238] <-- textDocument/documentSymbol(29)
+I[03:00:46.239] <-- textDocument/codeAction(30)
+I[03:00:46.239] --> reply:textDocument/documentSymbol(29) 0 ms
+I[03:00:46.239] --> reply:textDocument/codeAction(30) 0 ms
+I[03:00:46.239] --> textDocument/clangd.fileStatus
+I[03:00:46.511] <-- clangd/inlayHints(31)
+I[03:00:46.511] --> reply:clangd/inlayHints(31) 0 ms
+I[03:00:46.511] --> textDocument/clangd.fileStatus
+I[03:00:46.534] <-- textDocument/didChange
+I[03:00:46.535] --> textDocument/clangd.fileStatus
+I[03:00:46.585] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:00:46.585] ASTWorker building file /home/efarzad22/programming1/problem6.c version 8 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:00:46.586] --> textDocument/clangd.fileStatus
+I[03:00:46.587] --> textDocument/clangd.fileStatus
+I[03:00:46.587] --> textDocument/clangd.fileStatus
+I[03:00:46.594] --> textDocument/publishDiagnostics
+I[03:00:46.594] --> textDocument/clangd.fileStatus
+I[03:00:46.669] <-- textDocument/signatureHelp(32)
+I[03:00:46.676] --> reply:textDocument/signatureHelp(32) 6 ms
+I[03:00:46.703] <-- textDocument/didChange
+I[03:00:46.703] --> textDocument/clangd.fileStatus
+I[03:00:46.753] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:00:46.753] ASTWorker building file /home/efarzad22/programming1/problem6.c version 9 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:00:46.755] --> textDocument/clangd.fileStatus
+I[03:00:46.755] --> textDocument/clangd.fileStatus
+I[03:00:46.755] --> textDocument/clangd.fileStatus
+I[03:00:46.762] --> textDocument/publishDiagnostics
+I[03:00:46.762] --> textDocument/clangd.fileStatus
+I[03:00:46.853] <-- textDocument/signatureHelp(33)
+I[03:00:46.859] --> reply:textDocument/signatureHelp(33) 5 ms
+I[03:00:47.037] <-- textDocument/documentSymbol(34)
+I[03:00:47.037] --> reply:textDocument/documentSymbol(34) 0 ms
+I[03:00:47.037] --> textDocument/clangd.fileStatus
+I[03:00:47.047] <-- textDocument/codeAction(35)
+I[03:00:47.047] --> reply:textDocument/codeAction(35) 0 ms
+I[03:00:47.047] --> textDocument/clangd.fileStatus
+I[03:00:47.078] <-- textDocument/semanticTokens/full/delta(36)
+I[03:00:47.078] --> reply:textDocument/semanticTokens/full/delta(36) 0 ms
+I[03:00:47.078] --> textDocument/clangd.fileStatus
+I[03:00:47.314] <-- clangd/inlayHints(37)
+I[03:00:47.314] --> reply:clangd/inlayHints(37) 0 ms
+I[03:00:47.314] --> textDocument/clangd.fileStatus
+I[03:00:47.503] <-- clangd/inlayHints(38)
+I[03:00:47.503] --> reply:clangd/inlayHints(38) 0 ms
+I[03:00:47.503] --> textDocument/clangd.fileStatus
+I[03:00:47.702] <-- textDocument/documentLink(39)
+I[03:00:47.703] --> reply:textDocument/documentLink(39) 0 ms
+I[03:00:47.703] --> textDocument/clangd.fileStatus
+I[03:00:47.880] <-- textDocument/didSave
+I[03:00:47.880] File version went from 9 to 9
+I[03:00:47.880] --> textDocument/clangd.fileStatus
+I[03:00:47.930] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:00:47.931] ASTWorker building file /home/efarzad22/programming1/problem6.c version 9 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:00:47.933] --> textDocument/clangd.fileStatus
+I[03:00:47.933] --> textDocument/clangd.fileStatus
+I[03:00:47.934] --> textDocument/clangd.fileStatus
+I[03:00:47.935] --> textDocument/clangd.fileStatus
+I[03:00:51.393] <-- textDocument/documentSymbol(40)
+I[03:00:51.393] --> reply:textDocument/documentSymbol(40) 0 ms
+I[03:00:51.393] --> textDocument/clangd.fileStatus
+I[03:00:51.804] <-- textDocument/didChange
+I[03:00:51.805] --> textDocument/clangd.fileStatus
+I[03:00:51.855] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:00:51.855] ASTWorker building file /home/efarzad22/programming1/problem6.c version 10 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:00:51.856] --> textDocument/clangd.fileStatus
+I[03:00:51.857] --> textDocument/clangd.fileStatus
+I[03:00:51.857] --> textDocument/clangd.fileStatus
+I[03:00:51.864] --> textDocument/publishDiagnostics
+I[03:00:51.864] --> textDocument/clangd.fileStatus
+I[03:00:51.971] <-- textDocument/signatureHelp(41)
+I[03:00:51.977] --> reply:textDocument/signatureHelp(41) 5 ms
+I[03:00:52.129] <-- textDocument/documentSymbol(42)
+I[03:00:52.129] --> reply:textDocument/documentSymbol(42) 0 ms
+I[03:00:52.129] --> textDocument/clangd.fileStatus
+I[03:00:52.150] <-- textDocument/codeAction(43)
+I[03:00:52.150] --> reply:textDocument/codeAction(43) 0 ms
+I[03:00:52.150] --> textDocument/clangd.fileStatus
+I[03:00:52.406] <-- clangd/inlayHints(44)
+I[03:00:52.407] --> reply:clangd/inlayHints(44) 0 ms
+I[03:00:52.407] --> textDocument/clangd.fileStatus
+I[03:00:52.585] <-- clangd/inlayHints(45)
+I[03:00:52.586] --> reply:clangd/inlayHints(45) 0 ms
+I[03:00:52.586] --> textDocument/clangd.fileStatus
+I[03:00:52.792] <-- textDocument/documentLink(46)
+I[03:00:52.792] --> reply:textDocument/documentLink(46) 0 ms
+I[03:00:52.792] --> textDocument/clangd.fileStatus
+I[03:00:52.939] <-- textDocument/didSave
+I[03:00:52.939] File version went from 10 to 10
+I[03:00:52.939] --> textDocument/clangd.fileStatus
+I[03:00:52.989] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:00:52.989] ASTWorker building file /home/efarzad22/programming1/problem6.c version 10 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:00:52.991] --> textDocument/clangd.fileStatus
+I[03:00:52.992] --> textDocument/clangd.fileStatus
+I[03:00:52.993] --> textDocument/clangd.fileStatus
+I[03:00:52.993] --> textDocument/clangd.fileStatus
+I[03:00:53.781] <-- textDocument/semanticTokens/full/delta(47)
+I[03:00:53.782] --> reply:textDocument/semanticTokens/full/delta(47) 0 ms
+I[03:00:53.782] --> textDocument/clangd.fileStatus
+I[03:00:54.050] <-- textDocument/didSave
+I[03:00:54.050] File version went from 10 to 10
+I[03:00:54.050] --> textDocument/clangd.fileStatus
+I[03:00:54.100] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:00:54.100] ASTWorker building file /home/efarzad22/programming1/problem6.c version 10 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:00:54.102] --> textDocument/clangd.fileStatus
+I[03:00:54.102] --> textDocument/clangd.fileStatus
+I[03:00:54.103] --> textDocument/clangd.fileStatus
+I[03:00:54.103] --> textDocument/clangd.fileStatus
+I[03:00:54.929] <-- textDocument/documentSymbol(48)
+I[03:00:54.929] --> reply:textDocument/documentSymbol(48) 0 ms
+I[03:00:54.929] --> textDocument/clangd.fileStatus
+I[03:01:40.775] <-- clangd/inlayHints(49)
+I[03:01:40.775] --> reply:clangd/inlayHints(49) 0 ms
+I[03:01:40.775] --> textDocument/clangd.fileStatus
+I[03:01:40.854] <-- textDocument/codeAction(50)
+I[03:01:40.854] --> reply:textDocument/codeAction(50) 0 ms
+I[03:01:40.854] --> textDocument/clangd.fileStatus
+I[03:01:42.035] <-- clangd/inlayHints(51)
+I[03:01:42.035] --> reply:clangd/inlayHints(51) 0 ms
+I[03:01:42.035] --> textDocument/clangd.fileStatus
+I[03:01:51.167] <-- textDocument/didSave
+I[03:01:51.167] File version went from 10 to 10
+I[03:01:51.167] --> textDocument/clangd.fileStatus
+I[03:01:51.217] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:01:51.217] ASTWorker building file /home/efarzad22/programming1/problem6.c version 10 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:01:51.219] --> textDocument/clangd.fileStatus
+I[03:01:51.220] --> textDocument/clangd.fileStatus
+I[03:01:51.220] --> textDocument/clangd.fileStatus
+I[03:01:51.221] --> textDocument/clangd.fileStatus
+I[03:01:52.099] <-- clangd/inlayHints(52)
+I[03:01:52.099] --> reply:clangd/inlayHints(52) 0 ms
+I[03:01:52.099] --> textDocument/clangd.fileStatus
+I[03:01:52.382] <-- clangd/inlayHints(53)
+I[03:01:52.382] --> reply:clangd/inlayHints(53) 0 ms
+I[03:01:52.382] --> textDocument/clangd.fileStatus
+I[03:01:53.061] <-- clangd/inlayHints(54)
+I[03:01:53.061] --> reply:clangd/inlayHints(54) 0 ms
+I[03:01:53.061] --> textDocument/clangd.fileStatus
+I[03:02:00.458] <-- clangd/inlayHints(55)
+I[03:02:00.458] --> reply:clangd/inlayHints(55) 0 ms
+I[03:02:00.458] --> textDocument/clangd.fileStatus
+I[03:02:05.325] <-- textDocument/documentHighlight(56)
+I[03:02:05.325] --> reply:textDocument/documentHighlight(56) 0 ms
+I[03:02:05.325] --> textDocument/clangd.fileStatus
+I[03:02:05.530] <-- textDocument/codeAction(57)
+I[03:02:05.530] --> reply:textDocument/codeAction(57) 0 ms
+I[03:02:05.530] --> textDocument/clangd.fileStatus
+I[03:02:05.924] <-- textDocument/didChange
+I[03:02:05.924] --> textDocument/clangd.fileStatus
+I[03:02:05.945] <-- clangd/inlayHints(58)
+I[03:02:05.945] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:05.946] ASTWorker building file /home/efarzad22/programming1/problem6.c version 11 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:05.947] --> textDocument/clangd.fileStatus
+I[03:02:05.956] --> reply:clangd/inlayHints(58) 10 ms
+I[03:02:05.956] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:05.956] --> textDocument/publishDiagnostics
+I[03:02:05.957] --> textDocument/clangd.fileStatus
+I[03:02:06.258] <-- textDocument/documentSymbol(59)
+I[03:02:06.258] --> reply:textDocument/documentSymbol(59) 0 ms
+I[03:02:06.258] --> textDocument/clangd.fileStatus
+I[03:02:06.709] <-- clangd/inlayHints(60)
+I[03:02:06.710] --> reply:clangd/inlayHints(60) 0 ms
+I[03:02:06.710] --> textDocument/clangd.fileStatus
+I[03:02:06.784] <-- textDocument/didChange
+I[03:02:06.785] <-- textDocument/completion(61)
+I[03:02:06.785] --> reply:textDocument/completion(61) 0 ms
+I[03:02:06.785] --> textDocument/clangd.fileStatus
+I[03:02:06.815] <-- clangd/inlayHints(62)
+I[03:02:06.815] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:06.815] ASTWorker building file /home/efarzad22/programming1/problem6.c version 12 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:06.817] --> textDocument/clangd.fileStatus
+I[03:02:06.825] --> reply:clangd/inlayHints(62) 9 ms
+I[03:02:06.825] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:06.825] --> textDocument/publishDiagnostics
+I[03:02:06.825] --> textDocument/clangd.fileStatus
+I[03:02:06.900] <-- textDocument/didChange
+I[03:02:06.900] <-- textDocument/completion(63)
+I[03:02:06.900] --> reply:textDocument/completion(63) 0 ms
+I[03:02:06.900] --> textDocument/clangd.fileStatus
+I[03:02:06.935] <-- clangd/inlayHints(64)
+I[03:02:06.936] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:06.936] ASTWorker building file /home/efarzad22/programming1/problem6.c version 13 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:06.938] --> textDocument/clangd.fileStatus
+I[03:02:06.946] --> reply:clangd/inlayHints(64) 10 ms
+I[03:02:06.946] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:06.946] --> textDocument/publishDiagnostics
+I[03:02:06.946] --> textDocument/clangd.fileStatus
+I[03:02:07.246] <-- textDocument/documentSymbol(65)
+I[03:02:07.246] --> reply:textDocument/documentSymbol(65) 0 ms
+I[03:02:07.246] --> textDocument/clangd.fileStatus
+I[03:02:07.251] <-- textDocument/codeAction(66)
+I[03:02:07.251] --> reply:textDocument/codeAction(66) 0 ms
+I[03:02:07.251] --> textDocument/clangd.fileStatus
+I[03:02:07.503] <-- textDocument/semanticTokens/full/delta(67)
+I[03:02:07.503] --> reply:textDocument/semanticTokens/full/delta(67) 0 ms
+I[03:02:07.503] --> textDocument/clangd.fileStatus
+I[03:02:07.578] <-- textDocument/didChange
+I[03:02:07.579] --> textDocument/clangd.fileStatus
+I[03:02:07.610] <-- clangd/inlayHints(68)
+I[03:02:07.610] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:07.610] ASTWorker building file /home/efarzad22/programming1/problem6.c version 14 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:07.612] --> textDocument/clangd.fileStatus
+I[03:02:07.619] --> reply:clangd/inlayHints(68) 9 ms
+I[03:02:07.619] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:07.619] --> textDocument/publishDiagnostics
+I[03:02:07.620] --> textDocument/clangd.fileStatus
+I[03:02:07.668] <-- textDocument/didChange
+I[03:02:07.668] --> textDocument/clangd.fileStatus
+I[03:02:07.706] <-- clangd/inlayHints(69)
+I[03:02:07.706] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:07.707] ASTWorker building file /home/efarzad22/programming1/problem6.c version 15 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:07.708] --> textDocument/clangd.fileStatus
+I[03:02:07.715] --> reply:clangd/inlayHints(69) 9 ms
+I[03:02:07.716] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:07.716] --> textDocument/publishDiagnostics
+I[03:02:07.716] --> textDocument/clangd.fileStatus
+I[03:02:07.803] <-- textDocument/didChange
+I[03:02:07.803] --> textDocument/clangd.fileStatus
+I[03:02:07.845] <-- clangd/inlayHints(70)
+I[03:02:07.845] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:07.846] ASTWorker building file /home/efarzad22/programming1/problem6.c version 16 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:07.847] --> textDocument/clangd.fileStatus
+I[03:02:07.854] --> reply:clangd/inlayHints(70) 9 ms
+I[03:02:07.854] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:07.855] --> textDocument/publishDiagnostics
+I[03:02:07.855] --> textDocument/clangd.fileStatus
+I[03:02:07.910] <-- textDocument/didChange
+I[03:02:07.910] --> textDocument/clangd.fileStatus
+I[03:02:07.954] <-- clangd/inlayHints(71)
+I[03:02:07.954] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:07.954] ASTWorker building file /home/efarzad22/programming1/problem6.c version 17 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:07.956] --> textDocument/clangd.fileStatus
+I[03:02:07.963] --> reply:clangd/inlayHints(71) 9 ms
+I[03:02:07.963] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:07.964] --> textDocument/publishDiagnostics
+I[03:02:07.964] --> textDocument/clangd.fileStatus
+I[03:02:07.992] <-- textDocument/didChange
+I[03:02:07.992] --> textDocument/clangd.fileStatus
+I[03:02:08.030] <-- clangd/inlayHints(72)
+I[03:02:08.030] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:08.030] ASTWorker building file /home/efarzad22/programming1/problem6.c version 18 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:08.032] --> textDocument/clangd.fileStatus
+I[03:02:08.039] --> reply:clangd/inlayHints(72) 9 ms
+I[03:02:08.039] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:08.040] --> textDocument/publishDiagnostics
+I[03:02:08.040] --> textDocument/clangd.fileStatus
+I[03:02:08.118] <-- textDocument/didChange
+I[03:02:08.118] --> textDocument/clangd.fileStatus
+I[03:02:08.134] <-- textDocument/didChange
+I[03:02:08.135] --> textDocument/clangd.fileStatus
+I[03:02:08.181] <-- clangd/inlayHints(73)
+I[03:02:08.181] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:08.182] ASTWorker building file /home/efarzad22/programming1/problem6.c version 20 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:08.183] --> textDocument/clangd.fileStatus
+I[03:02:08.190] --> reply:clangd/inlayHints(73) 9 ms
+I[03:02:08.191] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:08.191] --> textDocument/publishDiagnostics
+I[03:02:08.191] --> textDocument/clangd.fileStatus
+I[03:02:08.266] <-- textDocument/didChange
+I[03:02:08.267] --> textDocument/clangd.fileStatus
+I[03:02:08.311] <-- clangd/inlayHints(74)
+I[03:02:08.311] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:08.311] ASTWorker building file /home/efarzad22/programming1/problem6.c version 21 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:08.313] --> textDocument/clangd.fileStatus
+I[03:02:08.320] --> reply:clangd/inlayHints(74) 9 ms
+I[03:02:08.320] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:08.321] --> textDocument/publishDiagnostics
+I[03:02:08.321] --> textDocument/clangd.fileStatus
+I[03:02:08.331] <-- textDocument/didChange
+I[03:02:08.331] --> textDocument/clangd.fileStatus
+I[03:02:08.365] <-- clangd/inlayHints(75)
+I[03:02:08.365] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:08.366] ASTWorker building file /home/efarzad22/programming1/problem6.c version 22 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:08.367] --> textDocument/clangd.fileStatus
+I[03:02:08.375] --> reply:clangd/inlayHints(75) 9 ms
+I[03:02:08.375] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:08.375] --> textDocument/publishDiagnostics
+I[03:02:08.375] --> textDocument/clangd.fileStatus
+I[03:02:08.454] <-- textDocument/didChange
+I[03:02:08.454] --> textDocument/clangd.fileStatus
+I[03:02:08.485] <-- clangd/inlayHints(76)
+I[03:02:08.486] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:08.486] ASTWorker building file /home/efarzad22/programming1/problem6.c version 23 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:08.487] --> textDocument/clangd.fileStatus
+I[03:02:08.495] --> reply:clangd/inlayHints(76) 9 ms
+I[03:02:08.495] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:08.495] --> textDocument/publishDiagnostics
+I[03:02:08.495] --> textDocument/clangd.fileStatus
+I[03:02:08.502] <-- textDocument/didChange
+I[03:02:08.502] --> textDocument/clangd.fileStatus
+I[03:02:08.541] <-- clangd/inlayHints(77)
+I[03:02:08.541] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:08.542] ASTWorker building file /home/efarzad22/programming1/problem6.c version 24 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:08.544] --> textDocument/clangd.fileStatus
+I[03:02:08.551] --> reply:clangd/inlayHints(77) 9 ms
+I[03:02:08.551] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:08.552] --> textDocument/publishDiagnostics
+I[03:02:08.552] --> textDocument/clangd.fileStatus
+I[03:02:08.618] <-- textDocument/didChange
+I[03:02:08.618] --> textDocument/clangd.fileStatus
+I[03:02:08.663] <-- clangd/inlayHints(78)
+I[03:02:08.663] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:08.663] ASTWorker building file /home/efarzad22/programming1/problem6.c version 25 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:08.665] --> textDocument/clangd.fileStatus
+I[03:02:08.672] --> reply:clangd/inlayHints(78) 9 ms
+I[03:02:08.672] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:08.673] --> textDocument/publishDiagnostics
+I[03:02:08.673] --> textDocument/clangd.fileStatus
+I[03:02:08.677] <-- $/cancelRequest
+I[03:02:08.677] <-- textDocument/didChange
+I[03:02:08.677] --> textDocument/clangd.fileStatus
+I[03:02:08.717] <-- clangd/inlayHints(79)
+I[03:02:08.718] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:08.718] ASTWorker building file /home/efarzad22/programming1/problem6.c version 26 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:08.720] --> textDocument/clangd.fileStatus
+I[03:02:08.728] --> reply:clangd/inlayHints(79) 10 ms
+I[03:02:08.728] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:08.728] --> textDocument/publishDiagnostics
+I[03:02:08.728] --> textDocument/clangd.fileStatus
+I[03:02:08.770] <-- textDocument/semanticTokens/full/delta(80)
+I[03:02:08.770] --> reply:textDocument/semanticTokens/full/delta(80) 0 ms
+I[03:02:08.770] --> textDocument/clangd.fileStatus
+I[03:02:08.847] <-- textDocument/didChange
+I[03:02:08.847] --> textDocument/clangd.fileStatus
+I[03:02:08.883] <-- clangd/inlayHints(81)
+I[03:02:08.883] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:08.883] ASTWorker building file /home/efarzad22/programming1/problem6.c version 27 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:08.885] --> textDocument/clangd.fileStatus
+I[03:02:08.892] --> reply:clangd/inlayHints(81) 9 ms
+I[03:02:08.892] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:08.892] --> textDocument/publishDiagnostics
+I[03:02:08.893] --> textDocument/clangd.fileStatus
+I[03:02:09.072] <-- textDocument/didChange
+I[03:02:09.072] --> textDocument/clangd.fileStatus
+I[03:02:09.110] <-- clangd/inlayHints(82)
+I[03:02:09.110] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:09.110] ASTWorker building file /home/efarzad22/programming1/problem6.c version 28 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:09.112] --> textDocument/clangd.fileStatus
+I[03:02:09.119] --> reply:clangd/inlayHints(82) 9 ms
+I[03:02:09.119] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:09.119] --> textDocument/publishDiagnostics
+I[03:02:09.119] --> textDocument/clangd.fileStatus
+I[03:02:09.323] <-- textDocument/codeAction(83)
+I[03:02:09.323] --> reply:textDocument/codeAction(83) 0 ms
+I[03:02:09.323] --> textDocument/clangd.fileStatus
+I[03:02:09.419] <-- textDocument/documentSymbol(84)
+I[03:02:09.419] --> reply:textDocument/documentSymbol(84) 0 ms
+I[03:02:09.419] --> textDocument/clangd.fileStatus
+I[03:02:09.490] <-- textDocument/didChange
+I[03:02:09.490] --> textDocument/clangd.fileStatus
+I[03:02:09.534] <-- clangd/inlayHints(85)
+I[03:02:09.534] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:09.534] ASTWorker building file /home/efarzad22/programming1/problem6.c version 29 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:09.536] --> textDocument/clangd.fileStatus
+I[03:02:09.543] --> reply:clangd/inlayHints(85) 9 ms
+I[03:02:09.544] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:09.544] --> textDocument/publishDiagnostics
+I[03:02:09.544] --> textDocument/clangd.fileStatus
+I[03:02:09.624] <-- textDocument/didChange
+I[03:02:09.624] --> textDocument/clangd.fileStatus
+I[03:02:09.674] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:09.675] ASTWorker building file /home/efarzad22/programming1/problem6.c version 30 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:09.676] --> textDocument/clangd.fileStatus
+I[03:02:09.676] --> textDocument/clangd.fileStatus
+I[03:02:09.677] --> textDocument/clangd.fileStatus
+I[03:02:09.677] <-- clangd/inlayHints(86)
+I[03:02:09.683] --> textDocument/publishDiagnostics
+I[03:02:09.684] --> reply:clangd/inlayHints(86) 6 ms
+I[03:02:09.684] --> textDocument/clangd.fileStatus
+I[03:02:09.798] <-- textDocument/didChange
+I[03:02:09.798] --> textDocument/clangd.fileStatus
+I[03:02:09.809] <-- textDocument/semanticTokens/full/delta(87)
+I[03:02:09.810] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:09.810] ASTWorker building file /home/efarzad22/programming1/problem6.c version 31 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:09.811] --> textDocument/clangd.fileStatus
+I[03:02:09.818] --> reply:textDocument/semanticTokens/full/delta(87) 8 ms
+I[03:02:09.818] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:09.819] --> textDocument/publishDiagnostics
+I[03:02:09.819] --> textDocument/clangd.fileStatus
+I[03:02:09.841] <-- clangd/inlayHints(88)
+I[03:02:09.842] --> reply:clangd/inlayHints(88) 0 ms
+I[03:02:09.842] --> textDocument/clangd.fileStatus
+I[03:02:09.930] <-- textDocument/didChange
+I[03:02:09.930] --> textDocument/clangd.fileStatus
+I[03:02:09.966] <-- clangd/inlayHints(89)
+I[03:02:09.966] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:09.966] ASTWorker building file /home/efarzad22/programming1/problem6.c version 32 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:09.968] --> textDocument/clangd.fileStatus
+I[03:02:09.968] --> textDocument/clangd.fileStatus
+I[03:02:09.976] --> reply:clangd/inlayHints(89) 10 ms
+I[03:02:09.976] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:09.976] --> textDocument/publishDiagnostics
+I[03:02:09.976] --> textDocument/clangd.fileStatus
+I[03:02:10.182] <-- textDocument/codeAction(90)
+I[03:02:10.182] --> reply:textDocument/codeAction(90) 0 ms
+I[03:02:10.183] --> textDocument/clangd.fileStatus
+I[03:02:10.275] <-- textDocument/documentSymbol(91)
+I[03:02:10.275] --> reply:textDocument/documentSymbol(91) 0 ms
+I[03:02:10.275] --> textDocument/clangd.fileStatus
+I[03:02:10.328] <-- textDocument/didChange
+I[03:02:10.328] --> textDocument/clangd.fileStatus
+I[03:02:10.353] <-- clangd/inlayHints(92)
+I[03:02:10.353] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:10.354] ASTWorker building file /home/efarzad22/programming1/problem6.c version 33 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:10.355] --> textDocument/clangd.fileStatus
+I[03:02:10.363] --> reply:clangd/inlayHints(92) 9 ms
+I[03:02:10.363] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:10.363] --> textDocument/publishDiagnostics
+I[03:02:10.363] --> textDocument/clangd.fileStatus
+I[03:02:10.430] <-- textDocument/didChange
+I[03:02:10.430] --> textDocument/clangd.fileStatus
+I[03:02:10.481] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:10.481] ASTWorker building file /home/efarzad22/programming1/problem6.c version 34 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:10.483] --> textDocument/clangd.fileStatus
+I[03:02:10.483] --> textDocument/clangd.fileStatus
+I[03:02:10.483] --> textDocument/clangd.fileStatus
+I[03:02:10.485] <-- clangd/inlayHints(93)
+I[03:02:10.490] --> textDocument/publishDiagnostics
+I[03:02:10.491] --> reply:clangd/inlayHints(93) 5 ms
+I[03:02:10.491] --> textDocument/clangd.fileStatus
+I[03:02:10.534] <-- textDocument/didChange
+I[03:02:10.535] --> textDocument/clangd.fileStatus
+I[03:02:10.573] <-- clangd/inlayHints(94)
+I[03:02:10.573] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:10.574] ASTWorker building file /home/efarzad22/programming1/problem6.c version 35 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:10.575] --> textDocument/clangd.fileStatus
+I[03:02:10.583] --> reply:clangd/inlayHints(94) 9 ms
+I[03:02:10.583] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:10.584] --> textDocument/publishDiagnostics
+I[03:02:10.584] --> textDocument/clangd.fileStatus
+I[03:02:10.682] <-- textDocument/didChange
+I[03:02:10.683] --> textDocument/clangd.fileStatus
+I[03:02:10.715] <-- clangd/inlayHints(95)
+I[03:02:10.715] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:10.715] ASTWorker building file /home/efarzad22/programming1/problem6.c version 36 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:10.717] --> textDocument/clangd.fileStatus
+I[03:02:10.725] --> reply:clangd/inlayHints(95) 10 ms
+I[03:02:10.725] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:10.725] --> textDocument/publishDiagnostics
+I[03:02:10.725] --> textDocument/clangd.fileStatus
+I[03:02:10.737] <-- textDocument/semanticTokens/full/delta(96)
+I[03:02:10.737] --> reply:textDocument/semanticTokens/full/delta(96) 0 ms
+I[03:02:10.737] --> textDocument/clangd.fileStatus
+I[03:02:10.890] <-- textDocument/didChange
+I[03:02:10.890] --> textDocument/clangd.fileStatus
+I[03:02:10.915] <-- clangd/inlayHints(97)
+I[03:02:10.915] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:10.915] ASTWorker building file /home/efarzad22/programming1/problem6.c version 37 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:10.917] --> textDocument/clangd.fileStatus
+I[03:02:10.924] --> reply:clangd/inlayHints(97) 9 ms
+I[03:02:10.924] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:10.924] --> textDocument/publishDiagnostics
+I[03:02:10.924] --> textDocument/clangd.fileStatus
+I[03:02:10.963] <-- textDocument/didChange
+I[03:02:10.963] --> textDocument/clangd.fileStatus
+I[03:02:10.999] <-- clangd/inlayHints(98)
+I[03:02:10.999] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:10.999] ASTWorker building file /home/efarzad22/programming1/problem6.c version 38 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:11.001] --> textDocument/clangd.fileStatus
+I[03:02:11.009] --> reply:clangd/inlayHints(98) 10 ms
+I[03:02:11.009] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:11.010] --> textDocument/publishDiagnostics
+I[03:02:11.010] --> textDocument/clangd.fileStatus
+I[03:02:11.115] <-- textDocument/didChange
+I[03:02:11.115] --> textDocument/clangd.fileStatus
+I[03:02:11.146] <-- clangd/inlayHints(99)
+I[03:02:11.146] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:11.146] ASTWorker building file /home/efarzad22/programming1/problem6.c version 39 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:11.148] --> textDocument/clangd.fileStatus
+I[03:02:11.155] --> reply:clangd/inlayHints(99) 9 ms
+I[03:02:11.156] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:11.156] --> textDocument/publishDiagnostics
+I[03:02:11.156] --> textDocument/clangd.fileStatus
+I[03:02:11.167] <-- textDocument/semanticTokens/full/delta(100)
+I[03:02:11.167] --> reply:textDocument/semanticTokens/full/delta(100) 0 ms
+I[03:02:11.167] --> textDocument/clangd.fileStatus
+I[03:02:11.354] <-- textDocument/codeAction(101)
+I[03:02:11.355] --> reply:textDocument/codeAction(101) 0 ms
+I[03:02:11.355] --> textDocument/clangd.fileStatus
+I[03:02:11.453] <-- textDocument/documentSymbol(102)
+I[03:02:11.453] --> reply:textDocument/documentSymbol(102) 0 ms
+I[03:02:11.454] --> textDocument/clangd.fileStatus
+I[03:02:11.567] <-- textDocument/didChange
+I[03:02:11.567] --> textDocument/clangd.fileStatus
+I[03:02:11.593] <-- clangd/inlayHints(103)
+I[03:02:11.593] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:11.594] ASTWorker building file /home/efarzad22/programming1/problem6.c version 40 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:11.595] --> textDocument/clangd.fileStatus
+I[03:02:11.603] --> reply:clangd/inlayHints(103) 9 ms
+I[03:02:11.603] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:11.603] --> textDocument/publishDiagnostics
+I[03:02:11.603] --> textDocument/clangd.fileStatus
+I[03:02:11.808] <-- textDocument/codeAction(104)
+I[03:02:11.808] --> reply:textDocument/codeAction(104) 0 ms
+I[03:02:11.808] --> textDocument/clangd.fileStatus
+I[03:02:11.845] <-- textDocument/semanticTokens/full/delta(105)
+I[03:02:11.846] --> reply:textDocument/semanticTokens/full/delta(105) 0 ms
+I[03:02:11.846] --> textDocument/clangd.fileStatus
+I[03:02:11.897] <-- textDocument/documentSymbol(106)
+I[03:02:11.898] --> reply:textDocument/documentSymbol(106) 0 ms
+I[03:02:11.898] --> textDocument/clangd.fileStatus
+I[03:02:12.350] <-- textDocument/didChange
+I[03:02:12.350] --> textDocument/clangd.fileStatus
+I[03:02:12.386] <-- clangd/inlayHints(107)
+I[03:02:12.386] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:12.386] ASTWorker building file /home/efarzad22/programming1/problem6.c version 41 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:12.388] --> textDocument/clangd.fileStatus
+I[03:02:12.395] --> reply:clangd/inlayHints(107) 9 ms
+I[03:02:12.395] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:12.395] --> textDocument/publishDiagnostics
+I[03:02:12.396] --> textDocument/clangd.fileStatus
+I[03:02:12.462] <-- textDocument/didChange
+I[03:02:12.462] --> textDocument/clangd.fileStatus
+I[03:02:12.502] <-- clangd/inlayHints(108)
+I[03:02:12.502] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:12.502] ASTWorker building file /home/efarzad22/programming1/problem6.c version 42 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:12.504] --> textDocument/clangd.fileStatus
+I[03:02:12.511] --> reply:clangd/inlayHints(108) 9 ms
+I[03:02:12.511] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:12.512] --> textDocument/publishDiagnostics
+I[03:02:12.512] --> textDocument/clangd.fileStatus
+I[03:02:12.550] <-- textDocument/didChange
+I[03:02:12.550] --> textDocument/clangd.fileStatus
+I[03:02:12.589] <-- clangd/inlayHints(109)
+I[03:02:12.590] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:12.590] ASTWorker building file /home/efarzad22/programming1/problem6.c version 43 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:12.591] --> textDocument/clangd.fileStatus
+I[03:02:12.599] --> reply:clangd/inlayHints(109) 9 ms
+I[03:02:12.599] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:12.599] --> textDocument/publishDiagnostics
+I[03:02:12.600] --> textDocument/clangd.fileStatus
+I[03:02:12.633] <-- textDocument/semanticTokens/full/delta(110)
+I[03:02:12.633] --> reply:textDocument/semanticTokens/full/delta(110) 0 ms
+I[03:02:12.634] --> textDocument/clangd.fileStatus
+I[03:02:12.650] <-- textDocument/didChange
+I[03:02:12.650] --> textDocument/clangd.fileStatus
+I[03:02:12.689] <-- clangd/inlayHints(111)
+I[03:02:12.690] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:12.690] ASTWorker building file /home/efarzad22/programming1/problem6.c version 44 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:12.692] --> textDocument/clangd.fileStatus
+I[03:02:12.699] --> reply:clangd/inlayHints(111) 10 ms
+I[03:02:12.700] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:12.700] --> textDocument/publishDiagnostics
+I[03:02:12.700] --> textDocument/clangd.fileStatus
+I[03:02:12.946] <-- textDocument/semanticTokens/full/delta(112)
+I[03:02:12.946] --> reply:textDocument/semanticTokens/full/delta(112) 0 ms
+I[03:02:12.946] --> textDocument/clangd.fileStatus
+I[03:02:12.993] <-- textDocument/documentSymbol(113)
+I[03:02:12.994] --> reply:textDocument/documentSymbol(113) 0 ms
+I[03:02:12.994] --> textDocument/clangd.fileStatus
+I[03:02:13.050] <-- textDocument/didChange
+I[03:02:13.051] --> textDocument/clangd.fileStatus
+I[03:02:13.083] <-- clangd/inlayHints(114)
+I[03:02:13.083] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:13.083] ASTWorker building file /home/efarzad22/programming1/problem6.c version 45 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:13.085] --> textDocument/clangd.fileStatus
+I[03:02:13.092] --> reply:clangd/inlayHints(114) 9 ms
+I[03:02:13.092] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:13.092] --> textDocument/publishDiagnostics
+I[03:02:13.092] --> textDocument/clangd.fileStatus
+I[03:02:13.143] <-- textDocument/didChange
+I[03:02:13.143] --> textDocument/clangd.fileStatus
+I[03:02:13.183] <-- clangd/inlayHints(115)
+I[03:02:13.183] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:13.183] ASTWorker building file /home/efarzad22/programming1/problem6.c version 46 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:13.185] --> textDocument/clangd.fileStatus
+I[03:02:13.192] --> reply:clangd/inlayHints(115) 9 ms
+I[03:02:13.193] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:13.193] --> textDocument/publishDiagnostics
+I[03:02:13.193] --> textDocument/clangd.fileStatus
+I[03:02:13.216] <-- textDocument/didChange
+I[03:02:13.216] --> textDocument/clangd.fileStatus
+I[03:02:13.257] <-- clangd/inlayHints(116)
+I[03:02:13.257] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:13.258] ASTWorker building file /home/efarzad22/programming1/problem6.c version 47 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:13.259] --> textDocument/clangd.fileStatus
+I[03:02:13.266] --> reply:clangd/inlayHints(116) 9 ms
+I[03:02:13.267] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:13.267] --> textDocument/publishDiagnostics
+I[03:02:13.267] --> textDocument/clangd.fileStatus
+I[03:02:13.334] <-- textDocument/semanticTokens/full/delta(117)
+I[03:02:13.334] --> reply:textDocument/semanticTokens/full/delta(117) 0 ms
+I[03:02:13.334] --> textDocument/clangd.fileStatus
+I[03:02:13.419] <-- textDocument/didChange
+I[03:02:13.419] --> textDocument/clangd.fileStatus
+I[03:02:13.457] <-- clangd/inlayHints(118)
+I[03:02:13.458] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:13.458] ASTWorker building file /home/efarzad22/programming1/problem6.c version 48 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:13.460] --> textDocument/clangd.fileStatus
+I[03:02:13.468] --> reply:clangd/inlayHints(118) 10 ms
+I[03:02:13.468] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:13.469] --> textDocument/publishDiagnostics
+I[03:02:13.469] --> textDocument/clangd.fileStatus
+I[03:02:13.546] <-- textDocument/didChange
+I[03:02:13.546] --> textDocument/clangd.fileStatus
+I[03:02:13.566] <-- clangd/inlayHints(119)
+I[03:02:13.566] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:13.567] ASTWorker building file /home/efarzad22/programming1/problem6.c version 49 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:13.568] --> textDocument/clangd.fileStatus
+I[03:02:13.575] --> reply:clangd/inlayHints(119) 9 ms
+I[03:02:13.576] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:13.576] --> textDocument/publishDiagnostics
+I[03:02:13.576] --> textDocument/clangd.fileStatus
+I[03:02:13.614] <-- textDocument/didChange
+I[03:02:13.615] --> textDocument/clangd.fileStatus
+I[03:02:13.655] <-- clangd/inlayHints(120)
+I[03:02:13.655] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:13.656] ASTWorker building file /home/efarzad22/programming1/problem6.c version 50 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:13.657] --> textDocument/clangd.fileStatus
+I[03:02:13.665] --> reply:clangd/inlayHints(120) 9 ms
+I[03:02:13.665] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:13.665] --> textDocument/publishDiagnostics
+I[03:02:13.665] --> textDocument/clangd.fileStatus
+I[03:02:13.709] <-- textDocument/semanticTokens/full/delta(121)
+I[03:02:13.709] --> reply:textDocument/semanticTokens/full/delta(121) 0 ms
+I[03:02:13.710] --> textDocument/clangd.fileStatus
+I[03:02:13.756] <-- textDocument/didChange
+I[03:02:13.757] --> textDocument/clangd.fileStatus
+I[03:02:13.798] <-- clangd/inlayHints(122)
+I[03:02:13.798] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:13.798] ASTWorker building file /home/efarzad22/programming1/problem6.c version 51 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:13.800] --> textDocument/clangd.fileStatus
+I[03:02:13.812] --> reply:clangd/inlayHints(122) 13 ms
+I[03:02:13.812] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:13.812] --> textDocument/publishDiagnostics
+I[03:02:13.812] --> textDocument/clangd.fileStatus
+I[03:02:13.843] <-- textDocument/didChange
+I[03:02:13.844] --> textDocument/clangd.fileStatus
+I[03:02:13.878] <-- clangd/inlayHints(123)
+I[03:02:13.878] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:13.878] ASTWorker building file /home/efarzad22/programming1/problem6.c version 52 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:13.880] --> textDocument/clangd.fileStatus
+I[03:02:13.889] --> reply:clangd/inlayHints(123) 11 ms
+I[03:02:13.889] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:13.889] --> textDocument/publishDiagnostics
+I[03:02:13.889] --> textDocument/clangd.fileStatus
+I[03:02:13.910] <-- textDocument/didChange
+I[03:02:13.910] --> textDocument/clangd.fileStatus
+I[03:02:13.955] <-- clangd/inlayHints(124)
+I[03:02:13.955] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:13.955] ASTWorker building file /home/efarzad22/programming1/problem6.c version 53 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:13.957] --> textDocument/clangd.fileStatus
+I[03:02:13.965] --> reply:clangd/inlayHints(124) 10 ms
+I[03:02:13.965] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:13.966] --> textDocument/publishDiagnostics
+I[03:02:13.966] --> textDocument/clangd.fileStatus
+I[03:02:14.061] <-- textDocument/semanticTokens/full/delta(125)
+I[03:02:14.062] --> reply:textDocument/semanticTokens/full/delta(125) 0 ms
+I[03:02:14.062] --> textDocument/clangd.fileStatus
+I[03:02:14.262] <-- textDocument/documentSymbol(126)
+I[03:02:14.262] --> reply:textDocument/documentSymbol(126) 0 ms
+I[03:02:14.262] --> textDocument/clangd.fileStatus
+I[03:02:14.711] <-- clangd/inlayHints(127)
+I[03:02:14.711] --> reply:clangd/inlayHints(127) 0 ms
+I[03:02:14.711] --> textDocument/clangd.fileStatus
+I[03:02:14.911] <-- textDocument/documentLink(128)
+I[03:02:14.912] --> reply:textDocument/documentLink(128) 0 ms
+I[03:02:14.912] --> textDocument/clangd.fileStatus
+I[03:02:15.064] <-- textDocument/didSave
+I[03:02:15.064] File version went from 53 to 53
+I[03:02:15.064] --> textDocument/clangd.fileStatus
+I[03:02:15.114] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:15.114] ASTWorker building file /home/efarzad22/programming1/problem6.c version 53 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:15.116] --> textDocument/clangd.fileStatus
+I[03:02:15.116] --> textDocument/clangd.fileStatus
+I[03:02:15.117] --> textDocument/clangd.fileStatus
+I[03:02:15.117] --> textDocument/clangd.fileStatus
+I[03:02:15.567] <-- textDocument/didChange
+I[03:02:15.568] --> textDocument/clangd.fileStatus
+I[03:02:15.593] <-- clangd/inlayHints(129)
+I[03:02:15.594] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:15.594] ASTWorker building file /home/efarzad22/programming1/problem6.c version 54 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:15.596] --> textDocument/clangd.fileStatus
+I[03:02:15.603] --> reply:clangd/inlayHints(129) 9 ms
+I[03:02:15.603] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:15.604] --> textDocument/publishDiagnostics
+I[03:02:15.604] --> textDocument/clangd.fileStatus
+I[03:02:15.652] <-- textDocument/didChange
+I[03:02:15.652] --> textDocument/clangd.fileStatus
+I[03:02:15.698] <-- clangd/inlayHints(130)
+I[03:02:15.698] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:15.699] ASTWorker building file /home/efarzad22/programming1/problem6.c version 55 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:15.700] --> textDocument/clangd.fileStatus
+I[03:02:15.708] --> reply:clangd/inlayHints(130) 9 ms
+I[03:02:15.708] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:15.708] --> textDocument/publishDiagnostics
+I[03:02:15.708] --> textDocument/clangd.fileStatus
+I[03:02:15.742] <-- textDocument/didChange
+I[03:02:15.742] --> textDocument/clangd.fileStatus
+I[03:02:15.781] <-- clangd/inlayHints(131)
+I[03:02:15.782] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:15.782] ASTWorker building file /home/efarzad22/programming1/problem6.c version 56 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:15.784] --> textDocument/clangd.fileStatus
+I[03:02:15.791] --> reply:clangd/inlayHints(131) 10 ms
+I[03:02:15.792] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:15.792] --> textDocument/publishDiagnostics
+I[03:02:15.792] --> textDocument/clangd.fileStatus
+I[03:02:15.847] <-- textDocument/didChange
+I[03:02:15.848] --> textDocument/clangd.fileStatus
+I[03:02:15.849] <-- textDocument/semanticTokens/full/delta(132)
+I[03:02:15.849] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:15.850] ASTWorker building file /home/efarzad22/programming1/problem6.c version 57 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:15.851] --> textDocument/clangd.fileStatus
+I[03:02:15.859] --> reply:textDocument/semanticTokens/full/delta(132) 9 ms
+I[03:02:15.859] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:15.859] --> textDocument/publishDiagnostics
+I[03:02:15.859] --> textDocument/clangd.fileStatus
+I[03:02:15.889] <-- clangd/inlayHints(133)
+I[03:02:15.890] --> reply:clangd/inlayHints(133) 0 ms
+I[03:02:15.890] --> textDocument/clangd.fileStatus
+I[03:02:15.930] <-- textDocument/didChange
+I[03:02:15.930] --> textDocument/clangd.fileStatus
+I[03:02:15.971] <-- clangd/inlayHints(134)
+I[03:02:15.971] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:15.971] ASTWorker building file /home/efarzad22/programming1/problem6.c version 58 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:15.973] --> textDocument/clangd.fileStatus
+I[03:02:15.980] --> reply:clangd/inlayHints(134) 9 ms
+I[03:02:15.980] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:15.980] --> textDocument/publishDiagnostics
+I[03:02:15.981] --> textDocument/clangd.fileStatus
+I[03:02:16.067] <-- textDocument/didChange
+I[03:02:16.067] --> textDocument/clangd.fileStatus
+I[03:02:16.093] <-- clangd/inlayHints(135)
+I[03:02:16.094] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:16.094] ASTWorker building file /home/efarzad22/programming1/problem6.c version 59 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:16.096] --> textDocument/clangd.fileStatus
+I[03:02:16.104] --> reply:clangd/inlayHints(135) 10 ms
+I[03:02:16.104] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:16.105] --> textDocument/publishDiagnostics
+I[03:02:16.105] --> textDocument/clangd.fileStatus
+I[03:02:16.195] <-- textDocument/didChange
+I[03:02:16.195] --> textDocument/clangd.fileStatus
+I[03:02:16.197] <-- clangd/inlayHints(136)
+I[03:02:16.197] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:16.198] ASTWorker building file /home/efarzad22/programming1/problem6.c version 60 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:16.200] --> textDocument/clangd.fileStatus
+I[03:02:16.208] --> reply:clangd/inlayHints(136) 11 ms
+I[03:02:16.208] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:16.209] --> textDocument/publishDiagnostics
+I[03:02:16.209] --> textDocument/clangd.fileStatus
+I[03:02:16.223] <-- textDocument/semanticTokens/full/delta(137)
+I[03:02:16.223] --> reply:textDocument/semanticTokens/full/delta(137) 0 ms
+I[03:02:16.223] --> textDocument/clangd.fileStatus
+I[03:02:16.246] <-- textDocument/didChange
+I[03:02:16.246] --> textDocument/clangd.fileStatus
+I[03:02:16.285] <-- clangd/inlayHints(138)
+I[03:02:16.285] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:16.286] ASTWorker building file /home/efarzad22/programming1/problem6.c version 61 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:16.287] --> textDocument/clangd.fileStatus
+I[03:02:16.295] --> reply:clangd/inlayHints(138) 9 ms
+I[03:02:16.295] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:16.295] --> textDocument/publishDiagnostics
+I[03:02:16.295] --> textDocument/clangd.fileStatus
+I[03:02:16.353] <-- textDocument/didChange
+I[03:02:16.353] --> textDocument/clangd.fileStatus
+I[03:02:16.391] <-- clangd/inlayHints(139)
+I[03:02:16.391] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:16.391] ASTWorker building file /home/efarzad22/programming1/problem6.c version 62 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:16.393] --> textDocument/clangd.fileStatus
+I[03:02:16.401] --> reply:clangd/inlayHints(139) 10 ms
+I[03:02:16.401] Skipping rebuild of the AST for /home/efarzad22/programming1/problem6.c, inputs are the same.
+I[03:02:16.401] --> textDocument/publishDiagnostics
+I[03:02:16.401] --> textDocument/clangd.fileStatus
+I[03:02:16.543] <-- textDocument/semanticTokens/full/delta(140)
+I[03:02:16.543] --> reply:textDocument/semanticTokens/full/delta(140) 0 ms
+I[03:02:16.543] --> textDocument/clangd.fileStatus
+I[03:02:16.596] <-- textDocument/codeAction(141)
+I[03:02:16.596] --> reply:textDocument/codeAction(141) 0 ms
+I[03:02:16.596] --> textDocument/clangd.fileStatus
+I[03:02:16.695] <-- textDocument/documentSymbol(142)
+I[03:02:16.695] --> reply:textDocument/documentSymbol(142) 0 ms
+I[03:02:16.695] --> textDocument/clangd.fileStatus
+I[03:02:17.154] <-- clangd/inlayHints(143)
+I[03:02:17.154] --> reply:clangd/inlayHints(143) 0 ms
+I[03:02:17.154] --> textDocument/clangd.fileStatus
+I[03:02:17.359] <-- textDocument/documentLink(144)
+I[03:02:17.359] --> reply:textDocument/documentLink(144) 0 ms
+I[03:02:17.359] --> textDocument/clangd.fileStatus
+I[03:02:17.507] <-- textDocument/didSave
+I[03:02:17.507] File version went from 62 to 62
+I[03:02:17.507] --> textDocument/clangd.fileStatus
+I[03:02:17.557] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:17.557] ASTWorker building file /home/efarzad22/programming1/problem6.c version 62 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:17.559] --> textDocument/clangd.fileStatus
+I[03:02:17.559] --> textDocument/clangd.fileStatus
+I[03:02:17.560] --> textDocument/clangd.fileStatus
+I[03:02:17.560] --> textDocument/clangd.fileStatus
+I[03:02:18.721] <-- textDocument/documentSymbol(145)
+I[03:02:18.722] --> reply:textDocument/documentSymbol(145) 0 ms
+I[03:02:18.722] --> textDocument/clangd.fileStatus
+I[03:02:41.523] <-- textDocument/didSave
+I[03:02:41.523] File version went from 62 to 62
+I[03:02:41.523] --> textDocument/clangd.fileStatus
+I[03:02:41.574] Failed to find compilation database for /home/efarzad22/programming1/problem6.c
+I[03:02:41.574] ASTWorker building file /home/efarzad22/programming1/problem6.c version 62 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem6.c
+I[03:02:41.576] --> textDocument/clangd.fileStatus
+I[03:02:41.576] --> textDocument/clangd.fileStatus
+I[03:02:41.576] --> textDocument/clangd.fileStatus
+I[03:02:41.577] --> textDocument/clangd.fileStatus
+I[03:02:55.802] <-- textDocument/documentHighlight(146)
+I[03:02:55.802] --> reply:textDocument/documentHighlight(146) 0 ms
+I[03:02:55.802] --> textDocument/clangd.fileStatus
+I[03:02:57.106] <-- clangd/inlayHints(147)
+I[03:02:57.108] --> reply:clangd/inlayHints(147) 2 ms
+I[03:02:57.108] --> textDocument/clangd.fileStatus
+I[03:03:00.438] <-- clangd/inlayHints(148)
+I[03:03:00.438] --> reply:clangd/inlayHints(148) 0 ms
+I[03:03:00.438] --> textDocument/clangd.fileStatus
+I[03:03:01.011] <-- clangd/inlayHints(149)
+I[03:03:01.012] --> reply:clangd/inlayHints(149) 0 ms
+I[03:03:01.012] --> textDocument/clangd.fileStatus
+I[03:03:01.889] <-- clangd/inlayHints(150)
+I[03:03:01.889] <-- clangd/inlayHints(151)
+I[03:03:01.889] --> reply:clangd/inlayHints(150) 0 ms
+I[03:03:01.890] --> reply:clangd/inlayHints(151) 0 ms
+I[03:03:01.890] --> textDocument/clangd.fileStatus
+I[03:03:01.900] <-- $/cancelRequest
+I[03:04:07.399] <-- textDocument/documentHighlight(152)
+I[03:04:07.400] --> reply:textDocument/documentHighlight(152) 0 ms
+I[03:04:07.400] --> textDocument/clangd.fileStatus
+I[03:04:11.986] <-- clangd/inlayHints(153)
+I[03:04:11.986] --> reply:clangd/inlayHints(153) 0 ms
+I[03:04:11.986] --> textDocument/clangd.fileStatus

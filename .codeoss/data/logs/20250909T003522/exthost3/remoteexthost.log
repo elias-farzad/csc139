@@ -1,0 +1,51 @@
+2025-09-09 01:37:15.397 [info] Extension host with pid 5548 started
+2025-09-09 01:37:15.402 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock': Lock acquired.
+2025-09-09 01:37:15.805 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-09 01:37:15.807 [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:c'
+2025-09-09 01:37:16.209 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-09 01:37:16.286 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-09 01:37:16.290 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-09 01:37:16.723 [info] Eager extensions activated
+2025-09-09 01:37:16.724 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-09-09 01:37:16.726 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2025-09-09 01:37:16.727 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2025-09-09 01:37:16.728 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-09 01:37:16.728 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2025-09-09 01:37:16.729 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-09 01:37:20.813 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-09-09 01:37:24.243 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-09 01:37:24.247 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-09 01:37:24.250 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-09 01:37:29.375 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-09-09 01:45:15.832 [info] Extension host terminating: received terminate message from renderer
+2025-09-09 01:45:15.839 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-09-09 01:45:16.200 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-09 01:45:16.213 [error] Error: Channel has been closed
+    at s (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:2431)
+    at Object.appendLine (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:2570)
+    at oc.error (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:39:683)
+    at oc.handleFailedRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:39:21129)
+    at oc.handleFailedRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:46:9535)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:37:60034
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Xm.provideCodeActions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:145:131459)
+2025-09-09 01:45:16.213 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-09 01:45:16.213 [error] Error: Channel has been closed
+    at s (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:2431)
+    at Object.appendLine (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:2570)
+    at oc.error (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:39:683)
+    at oc.handleFailedRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:39:21129)
+    at oc.handleFailedRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:46:9535)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:37:60034
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Xm.provideCodeActions (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:145:131459)
+2025-09-09 01:45:16.299 [error] Error: Channel has been closed
+    at s (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:2431)
+    at Object.append (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:2528)
+    at Socket.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:39:57046)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:191:23)
+2025-09-09 01:45:16.316 [info] Extension host with pid 5548 exiting with code 0

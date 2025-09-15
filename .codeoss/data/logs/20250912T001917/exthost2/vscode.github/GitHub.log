@@ -1,0 +1,4 @@
+2025-09-12 00:19:41.007 [info] Log level: Info
+2025-09-12 00:19:43.531 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-09-12 00:25:32.509 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for remzi-arpacidusseau/ostep-projects: Error: No GitHub authentication session available.
+2025-09-12 00:27:07.122 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.

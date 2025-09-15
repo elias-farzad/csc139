@@ -1,0 +1,813 @@
+2025-09-15 00:34:45.889 [info] Extension host with pid 9701 started
+2025-09-15 00:34:45.890 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock': Lock acquired.
+2025-09-15 00:34:46.339 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2025-09-15 00:34:46.341 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-15 00:34:46.342 [info] ExtensionService#_doActivateExtension llvm-vs-code-extensions.vscode-clangd, startup: false, activationEvent: 'onLanguage:c'
+2025-09-15 00:34:46.342 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-15 00:34:46.343 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-15 00:34:46.343 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-09-15 00:34:46.344 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onTerminalProfile:cloudshell.default'
+2025-09-15 00:34:48.152 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-15 00:34:48.355 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-15 00:34:48.356 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-15 00:34:48.769 [info] Eager extensions activated
+2025-09-15 00:34:48.769 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-09-15 00:34:48.769 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-09-15 00:34:48.770 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-15 00:34:48.770 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2025-09-15 00:34:48.770 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-15 00:34:51.976 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4743
+2025-09-15 00:34:53.823 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-09-15 00:34:54.516 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4746
+2025-09-15 00:34:59.360 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4746
+2025-09-15 00:35:04.524 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4748
+2025-09-15 00:35:09.686 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4748
+2025-09-15 00:36:12.825 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4751
+2025-09-15 00:36:17.980 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4750
+2025-09-15 00:36:23.133 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4750
+2025-09-15 00:36:42.903 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4750
+2025-09-15 00:37:06.258 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4750
+2025-09-15 00:37:24.978 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4750
+2025-09-15 00:41:35.471 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4750
+2025-09-15 00:41:40.616 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4750
+2025-09-15 00:41:45.791 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4751
+2025-09-15 00:41:47.246 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:41:47.246 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":1007}]}}
+2025-09-15 00:41:47.247 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:41:47.247 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":1011}]}}
+2025-09-15 00:41:47.247 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:41:47.247 [error] {"a":true,"b":null}
+2025-09-15 00:41:47.248 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:41:47.248 [error] {"a":true,"b":null}
+2025-09-15 00:41:50.937 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4751
+2025-09-15 00:41:50.984 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:41:50.988 [error] TypeError: Cannot read properties of null (reading 'items')
+    at Uo.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:46:10531)
+    at Generator.next (<anonymous>)
+    at s (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:1:1098)
+2025-09-15 00:41:50.989 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:41:50.989 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":1051}]}}
+2025-09-15 00:41:50.990 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:41:50.990 [error] {"a":true,"b":null}
+2025-09-15 00:41:50.990 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:41:50.991 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:41:50.991 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:41:50.991 [error] {"a":true,"b":null}
+2025-09-15 00:41:51.760 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:41:51.760 [error] {"a":true,"b":null}
+2025-09-15 00:41:55.504 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:41:55.504 [error] {"a":true,"b":null}
+2025-09-15 00:41:55.505 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:41:55.505 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:41:55.506 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:41:55.506 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:41:55.507 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:41:55.507 [error] {"a":true,"b":null}
+2025-09-15 00:41:56.090 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4752
+2025-09-15 00:41:56.889 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:41:56.890 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":1141}]}}
+2025-09-15 00:41:58.297 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:41:58.297 [error] {"a":true,"b":null}
+2025-09-15 00:42:01.268 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4752
+2025-09-15 00:42:02.075 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:42:02.075 [error] Error: Request cancelled
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:42:05.955 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:42:05.955 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":1307}]}}
+2025-09-15 00:42:06.417 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4752
+2025-09-15 00:42:07.220 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:42:07.220 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":1333}]}}
+2025-09-15 00:42:07.220 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:42:07.221 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:42:07.221 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:42:07.221 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:42:11.567 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4752
+2025-09-15 00:42:14.173 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:42:14.174 [error] TypeError: Cannot read properties of null (reading 'items')
+    at Uo.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:46:10531)
+    at Generator.next (<anonymous>)
+    at s (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:1:1098)
+2025-09-15 00:42:15.264 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:42:15.264 [error] {"a":true,"b":null}
+2025-09-15 00:42:16.537 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:42:16.537 [error] {"a":true,"b":null}
+2025-09-15 00:42:16.592 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:42:16.592 [error] {"a":true,"b":null}
+2025-09-15 00:42:16.731 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4752
+2025-09-15 00:42:21.873 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4753
+2025-09-15 00:42:27.016 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4753
+2025-09-15 00:42:32.162 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4753
+2025-09-15 00:42:37.319 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4753
+2025-09-15 00:42:39.714 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:42:39.714 [error] {"a":true,"b":null}
+2025-09-15 00:42:47.753 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:42:47.753 [error] {"a":true,"b":null}
+2025-09-15 00:43:33.933 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4753
+2025-09-15 00:43:56.921 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4754
+2025-09-15 00:44:02.061 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4754
+2025-09-15 00:44:07.209 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4754
+2025-09-15 00:44:36.203 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4755
+2025-09-15 00:44:37.057 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:44:37.057 [error] {"a":true,"b":null}
+2025-09-15 00:44:41.353 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4755
+2025-09-15 00:45:47.011 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4759
+2025-09-15 00:45:50.124 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:45:50.124 [error] {"a":true,"b":null}
+2025-09-15 00:45:50.183 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:45:50.183 [error] {"a":true,"b":null}
+2025-09-15 00:45:52.166 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4759
+2025-09-15 00:45:57.308 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4760
+2025-09-15 00:45:58.406 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:45:58.406 [error] {"a":true,"b":null}
+2025-09-15 00:46:02.303 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:02.303 [error] {"a":true,"b":null}
+2025-09-15 00:46:02.450 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4760
+2025-09-15 00:46:07.598 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4760
+2025-09-15 00:46:11.709 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:11.710 [error] Error: Request cancelled
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:46:11.711 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:11.711 [error] {"a":true,"b":null}
+2025-09-15 00:46:12.752 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4761
+2025-09-15 00:46:17.894 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4761
+2025-09-15 00:46:18.714 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:18.714 [error] {"a":true,"b":null}
+2025-09-15 00:46:18.715 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:18.715 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:46:18.717 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:18.717 [error] {"a":true,"b":null}
+2025-09-15 00:46:19.893 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:19.893 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":2957}]}}
+2025-09-15 00:46:23.039 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4761
+2025-09-15 00:46:29.157 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:29.157 [error] {"a":true,"b":null}
+2025-09-15 00:46:29.157 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:29.157 [error] {"a":true,"b":null}
+2025-09-15 00:46:29.166 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:29.166 [error] {"a":true,"b":null}
+2025-09-15 00:46:29.166 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:29.166 [error] {"a":true,"b":null}
+2025-09-15 00:46:29.245 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:29.245 [error] {"a":true,"b":null}
+2025-09-15 00:46:29.255 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:29.255 [error] Error: Request cancelled
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:46:29.381 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:29.381 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:46:29.381 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:29.381 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:46:29.382 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:29.382 [error] {"a":true,"b":null}
+2025-09-15 00:46:57.896 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:57.896 [error] {"a":true,"b":null}
+2025-09-15 00:46:57.899 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:57.899 [error] {"a":true,"b":null}
+2025-09-15 00:46:57.911 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:57.911 [error] {"a":true,"b":null}
+2025-09-15 00:46:57.911 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:57.911 [error] {"a":true,"b":null}
+2025-09-15 00:46:57.911 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:57.911 [error] {"a":true,"b":null}
+2025-09-15 00:46:57.912 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:57.912 [error] {"a":true,"b":null}
+2025-09-15 00:46:57.912 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:57.912 [error] {"a":true,"b":null}
+2025-09-15 00:46:57.912 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:57.912 [error] {"a":true,"b":null}
+2025-09-15 00:46:57.912 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:57.912 [error] {"a":true,"b":null}
+2025-09-15 00:46:57.912 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:57.912 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:46:57.913 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:57.913 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:46:57.913 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:57.913 [error] {"a":true,"b":null}
+2025-09-15 00:46:57.913 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:57.913 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:46:57.913 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:57.913 [error] {"a":true,"b":null}
+2025-09-15 00:46:57.913 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:57.913 [error] {"a":true,"b":null}
+2025-09-15 00:46:57.913 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:46:57.913 [error] {"a":true,"b":null}
+2025-09-15 00:47:04.276 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:47:04.276 [error] {"a":true,"b":null}
+2025-09-15 00:47:04.276 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:47:04.276 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:47:04.804 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:47:04.805 [error] Error: Request cancelled
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 00:47:05.716 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:47:05.716 [error] {"a":true,"b":null}
+2025-09-15 00:47:11.997 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:47:11.997 [error] {"a":true,"b":null}
+2025-09-15 00:47:14.673 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:47:14.673 [error] {"a":true,"b":null}
+2025-09-15 00:48:09.134 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 00:48:09.134 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:00:30.235 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4767
+2025-09-15 01:00:35.551 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4767
+2025-09-15 01:01:12.319 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:01:12.319 [error] {"a":true,"b":null}
+2025-09-15 01:01:12.339 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:01:12.340 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:01:12.340 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:01:12.340 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":4129}]}}
+2025-09-15 01:01:12.341 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:01:12.341 [error] {"a":true,"b":null}
+2025-09-15 01:01:12.341 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:01:12.341 [error] Error: Request cancelled
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:01:12.361 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:01:12.361 [error] {"a":true,"b":null}
+2025-09-15 01:01:12.362 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:01:12.362 [error] {"a":true,"b":null}
+2025-09-15 01:01:12.362 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:01:12.362 [error] {"a":true,"b":null}
+2025-09-15 01:01:12.363 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:01:12.363 [error] {"a":true,"b":null}
+2025-09-15 01:01:12.363 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:01:12.363 [error] {"a":true,"b":null}
+2025-09-15 01:01:12.363 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:01:12.363 [error] {"a":true,"b":null}
+2025-09-15 01:01:12.363 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:01:12.363 [error] {"a":true,"b":null}
+2025-09-15 01:01:12.364 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:01:12.364 [error] {"a":true,"b":null}
+2025-09-15 01:01:12.364 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:01:12.364 [error] {"a":true,"b":null}
+2025-09-15 01:01:12.364 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:01:12.364 [error] {"a":true,"b":null}
+2025-09-15 01:01:31.758 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4768
+2025-09-15 01:01:36.910 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4768
+2025-09-15 01:01:42.191 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4768
+2025-09-15 01:01:47.346 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4768
+2025-09-15 01:01:52.491 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4768
+2025-09-15 01:03:04.190 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4768
+2025-09-15 01:03:09.350 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4768
+2025-09-15 01:03:14.503 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4768
+2025-09-15 01:03:18.902 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:18.902 [error] {"a":true,"b":null}
+2025-09-15 01:03:19.655 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4768
+2025-09-15 01:03:20.502 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:20.502 [error] {"a":true,"b":null}
+2025-09-15 01:03:20.503 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:20.503 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":4365}]}}
+2025-09-15 01:03:20.503 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:20.503 [error] {"a":true,"b":null}
+2025-09-15 01:03:20.504 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:20.504 [error] {"a":true,"b":null}
+2025-09-15 01:03:20.512 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:20.512 [error] {"a":true,"b":null}
+2025-09-15 01:03:24.805 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4768
+2025-09-15 01:03:27.380 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:27.381 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:03:27.383 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:27.383 [error] TypeError: Cannot read properties of null (reading 'items')
+    at Uo.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:46:10531)
+    at Generator.next (<anonymous>)
+    at s (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:1:1098)
+2025-09-15 01:03:29.969 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:29.970 [error] TypeError: Cannot read properties of null (reading 'items')
+    at Uo.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:46:10531)
+    at Generator.next (<anonymous>)
+    at s (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:1:1098)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at processImmediate (node:internal/timers:453:9)
+2025-09-15 01:03:29.973 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:29.973 [error] {"a":true,"b":null}
+2025-09-15 01:03:29.975 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:29.975 [error] {"a":true,"b":null}
+2025-09-15 01:03:30.020 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4768
+2025-09-15 01:03:30.029 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:30.030 [error] TypeError: Cannot read properties of null (reading 'items')
+    at Uo.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:46:10531)
+    at Generator.next (<anonymous>)
+    at s (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:1:1098)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at processImmediate (node:internal/timers:453:9)
+2025-09-15 01:03:30.031 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:30.032 [error] {"a":true,"b":null}
+2025-09-15 01:03:30.032 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:30.032 [error] {"a":true,"b":null}
+2025-09-15 01:03:30.032 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:30.032 [error] {"a":true,"b":null}
+2025-09-15 01:03:30.032 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:30.033 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:03:30.033 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:30.033 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:03:30.034 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:30.034 [error] {"a":true,"b":null}
+2025-09-15 01:03:30.034 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:30.034 [error] {"a":true,"b":null}
+2025-09-15 01:03:30.036 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:30.036 [error] {"a":true,"b":null}
+2025-09-15 01:03:30.036 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:30.036 [error] {"a":true,"b":null}
+2025-09-15 01:03:30.036 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:30.036 [error] {"a":true,"b":null}
+2025-09-15 01:03:40.791 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:40.791 [error] {"a":true,"b":null}
+2025-09-15 01:03:40.805 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:40.805 [error] Error: Request cancelled
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:03:40.806 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:03:40.806 [error] {"a":true,"b":null}
+2025-09-15 01:03:41.917 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4769
+2025-09-15 01:04:47.998 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4770
+2025-09-15 01:04:53.149 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4770
+2025-09-15 01:04:54.073 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:04:54.073 [error] {"a":true,"b":null}
+2025-09-15 01:04:54.079 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:04:54.079 [error] {"a":true,"b":null}
+2025-09-15 01:04:54.171 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:04:54.171 [error] {"a":true,"b":null}
+2025-09-15 01:06:06.237 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:06:06.237 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:07:03.262 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:07:03.262 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:07:03.262 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:07:03.262 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":6389}]}}
+2025-09-15 01:07:07.878 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:07:07.878 [error] {"a":true,"b":null}
+2025-09-15 01:07:18.361 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:07:18.361 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:07:28.863 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:07:28.863 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:10:17.843 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4780
+2025-09-15 01:12:07.835 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4780
+2025-09-15 01:12:12.982 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4780
+2025-09-15 01:12:24.168 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4780
+2025-09-15 01:12:37.125 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4780
+2025-09-15 01:12:42.273 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4780
+2025-09-15 01:12:50.588 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4780
+2025-09-15 01:14:06.521 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4780
+2025-09-15 01:14:11.669 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4780
+2025-09-15 01:14:43.511 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:14:48.655 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:20:22.198 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:20:27.345 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:21:38.795 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:21:44.149 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:23:19.009 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:23:24.164 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:23:29.372 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:23:46.156 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:23:51.302 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:23:59.913 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:24:36.889 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:27:59.706 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:28:04.858 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:30:42.722 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:30:47.869 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:30:53.246 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:30:58.393 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:31:03.540 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:31:08.789 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4781
+2025-09-15 01:31:13.993 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4782
+2025-09-15 01:31:19.145 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4782
+2025-09-15 01:31:24.289 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4782
+2025-09-15 01:31:29.445 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4782
+2025-09-15 01:31:34.598 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4782
+2025-09-15 01:32:29.474 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4782
+2025-09-15 01:32:41.131 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4782
+2025-09-15 01:33:24.504 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:33:24.504 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":8941}]}}
+2025-09-15 01:33:29.082 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:33:29.082 [error] {"a":true,"b":null}
+2025-09-15 01:33:57.151 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:33:57.152 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:34:20.504 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4785
+2025-09-15 01:35:21.829 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at c.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:301:11)
+    at context (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:292:117)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/packages/experimentation/gemini_experiment_service.ts:46:35) cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:35:21.829 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at c.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:301:11)
+    at context (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:292:117)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/packages/experimentation/gemini_experiment_service.ts:46:35) cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:35:22.831 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at c.updateExperimentationDataCache (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:301:11)
+    at context (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/experimentation/experiment_service.ts:292:117)
+    at c.updateExperimentationData (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/packages/experimentation/gemini_experiment_service.ts:46:35)
+2025-09-15 01:35:22.835 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:36:23.790 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:36:24.792 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:37:23.788 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:37:24.790 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:38:23.794 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:38:24.796 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:39:23.792 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:39:24.794 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:40:23.793 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:40:24.676 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4785
+2025-09-15 01:40:25.521 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:41:23.789 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:41:24.791 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:42:23.793 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:42:24.795 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:43:01.911 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:43:01.911 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:43:02.815 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:43:02.816 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:43:05.315 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:43:05.315 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":10254}]}}
+2025-09-15 01:43:23.795 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:43:24.796 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:44:23.794 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:44:24.797 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:44:40.110 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4789
+2025-09-15 01:44:48.069 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4789
+2025-09-15 01:45:23.796 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:45:24.798 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:46:23.795 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:46:24.796 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:47:23.797 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:47:24.798 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:48:23.797 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:48:24.799 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:49:23.794 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:49:24.796 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:50:23.798 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:50:24.799 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:51:23.802 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:51:24.804 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:51:43.203 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4789
+2025-09-15 01:52:09.101 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4789
+2025-09-15 01:52:14.352 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4789
+2025-09-15 01:52:14.375 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:52:14.375 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:52:15.340 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:52:15.340 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:52:15.342 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:52:15.342 [error] {"a":false,"b":{"z":1,"w":{"i":-1,"end":0},"u":[{"id":10792}]}}
+2025-09-15 01:52:15.343 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:52:15.343 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:52:15.632 [error] [llvm-vs-code-extensions.vscode-clangd] provider FAILED
+2025-09-15 01:52:15.632 [error] Error: Request cancelled because the document was modified
+    at handleResponse (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:4:229)
+    at processMessageQueue (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7440)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:3:7260)
+    at processImmediate (node:internal/timers:485:21)
+2025-09-15 01:52:23.798 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:52:24.801 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:53:21.220 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4791
+2025-09-15 01:53:24.089 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:53:25.091 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:54:23.801 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:54:24.802 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:54:37.323 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4791
+2025-09-15 01:54:42.469 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4791
+2025-09-15 01:54:47.620 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4791
+2025-09-15 01:55:07.982 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4791
+2025-09-15 01:55:23.792 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:55:24.794 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:55:29.071 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4791
+2025-09-15 01:55:34.211 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4792
+2025-09-15 01:55:47.837 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4792
+2025-09-15 01:55:52.986 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4792
+2025-09-15 01:56:23.798 [error] Error: unauthorized.
+    at e.Authorization.authorize (/google/devshell/editor/code-oss-for-cloud-shell/extensions/cloud-shell/dist/extension.js:1:6008)
+    at Xb.resp [as h] (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:120:41516)
+    at t.CloudShellTheiaAuth.promptForOrGetAuth (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:86:11)
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:70:7)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13 cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-09-15 01:56:24.802 [error] Error: Error calling Cloud Shell Theia Authorization. unauthorized.
+    at t.CloudShellTheiaAuth.validCache [as runAuthorization] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/cloudshell/authorization.ts:73:13)
+    at t.CloudShellAuthProvider.accessToken [as getAccessToken] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/common/packages/auth/cloudshell_auth_provider.ts:39:35)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/geminicodeassist/dist/webpack:/gemini_code_assist/src/ai-companion/tier_client.ts:297:13
+2025-09-15 01:56:34.607 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4792
+2025-09-15 01:56:35.441 [info] Extension host terminating: received terminate message from renderer
+2025-09-15 01:56:35.442 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-09-15 01:56:35.600 [error] Error: Channel has been closed
+    at s (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:127:2431)
+    at Object.append (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:127:2528)
+    at Socket.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/llvm-vs-code-extensions.vscode-clangd/out/bundle.js:39:57046)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Socket.Readable.push (node:internal/streams/readable:392:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-09-15 01:56:35.605 [info] Extension host with pid 9701 exiting with code 0

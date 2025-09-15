@@ -1,0 +1,41 @@
+2025-09-04 22:12:49.479 [info] [main] Log level: Info
+2025-09-04 22:12:49.479 [info] [main] Validating found git in: "git"
+2025-09-04 22:12:49.479 [info] [main] Using git "2.43.0" from "git"
+2025-09-04 22:12:49.479 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-04 22:12:49.479 [info] > git rev-parse --show-toplevel [2390ms]
+2025-09-04 22:12:49.479 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-04 22:12:49.479 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-04 22:12:49.479 [info] > git rev-parse --show-toplevel [7ms]
+2025-09-04 22:12:49.479 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-04 22:12:49.479 [info] > git rev-parse --show-toplevel [2297ms]
+2025-09-04 22:12:49.479 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-04 22:13:05.395 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-04 22:13:05.414 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-09-04 22:13:05.433 [info] [Model][openRepository] Opened repository (path): /home/efarzad22/ostep-projects/ostep-projects
+2025-09-04 22:13:05.433 [info] [Model][openRepository] Opened repository (real path): /home/efarzad22/ostep-projects/ostep-projects
+2025-09-04 22:13:05.464 [info] > git config --get commit.template [15ms]
+2025-09-04 22:13:05.464 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-09-04 22:13:05.465 [warning] [Git][getBranch] No such branch: master
+2025-09-04 22:13:05.494 [info] > git status -z -uall [16ms]
+2025-09-04 22:13:05.495 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-04 22:13:05.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2025-09-04 22:13:05.529 [warning] [Git][getBranch] No such branch: master
+2025-09-04 22:13:05.530 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-09-04 22:13:05.537 [info] > git config --get commit.template [9ms]
+2025-09-04 22:13:05.609 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [59ms]
+2025-09-04 22:13:05.610 [warning] [Git][getBranch] No such branch: master
+2025-09-04 22:13:05.644 [info] > git status -z -uall [23ms]
+2025-09-04 22:13:05.645 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-09-04 22:13:06.050 [info] > git check-ignore -v -z --stdin [2ms]
+2025-09-04 22:13:08.494 [info] > git config --get commit.template [12ms]
+2025-09-04 22:13:08.494 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-09-04 22:13:08.505 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/efarzad22/ostep-projects/ostep-projects/.git/refs/remotes/origin/master'
+2025-09-04 22:13:08.507 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-09-04 22:13:08.532 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-04 22:13:08.840 [info] > git status -z -uall [322ms]
+2025-09-04 22:13:08.859 [info] > git merge-base refs/heads/master refs/remotes/origin/master [4ms]
+2025-09-04 22:13:08.874 [info] > git diff --name-status -z --diff-filter=ADMR 76cff3f89f4bf337af6e02e53a831b7eeb1396df...refs/remotes/origin/master [4ms]
+2025-09-04 22:13:13.628 [info] > git check-ignore -v -z --stdin [3ms]

@@ -1,0 +1,96 @@
+I[22:06:33.526] Ubuntu clangd version 14.0.6
+I[22:06:33.526] Features: linux+grpc
+I[22:06:33.526] PID: 1693
+I[22:06:33.526] Working directory: /home/efarzad22
+I[22:06:33.526] argv[0]: /usr/bin/clangd
+I[22:06:33.529] Starting LSP over stdin/stdout
+I[22:06:33.533] <-- initialize(0)
+I[22:06:33.544] --> reply:initialize(0) 11 ms
+I[22:06:35.235] <-- initialized
+I[22:06:35.326] <-- textDocument/didOpen
+I[22:06:35.336] Failed to find compilation database for /home/efarzad22/unix-practice/wzip.c
+I[22:06:35.336] ASTWorker building file /home/efarzad22/unix-practice/wzip.c version 1 with command clangd fallback
+[/home/efarzad22/unix-practice]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/unix-practice/wzip.c
+I[22:06:35.342] <-- textDocument/documentSymbol(1)
+I[22:06:35.342] <-- textDocument/documentLink(2)
+I[22:06:35.342] <-- clangd/inlayHints(3)
+I[22:06:35.342] <-- textDocument/codeAction(4)
+I[22:06:35.380] --> textDocument/clangd.fileStatus
+I[22:06:35.583] --> workspace/semanticTokens/refresh(0)
+I[22:06:35.583] --> textDocument/clangd.fileStatus
+I[22:06:35.583] --> textDocument/clangd.fileStatus
+I[22:06:35.645] --> textDocument/publishDiagnostics
+I[22:06:35.647] --> reply:textDocument/documentSymbol(1) 304 ms
+I[22:06:35.647] --> reply:textDocument/documentLink(2) 304 ms
+I[22:06:35.649] --> reply:clangd/inlayHints(3) 306 ms
+I[22:06:35.651] --> reply:textDocument/codeAction(4) 308 ms
+I[22:06:35.651] --> textDocument/clangd.fileStatus
+I[22:06:37.849] <-- $/cancelRequest
+I[22:06:37.849] <-- $/cancelRequest
+I[22:06:37.849] <-- $/cancelRequest
+I[22:06:37.849] <-- $/cancelRequest
+I[22:06:37.849] <-- textDocument/documentSymbol(5)
+I[22:06:37.849] <-- textDocument/semanticTokens/full(6)
+I[22:06:37.849] --> reply:textDocument/documentSymbol(5) 0 ms
+I[22:06:37.849] <-- textDocument/didOpen
+I[22:06:37.850] <-- textDocument/documentSymbol(7)
+I[22:06:37.850] <-- textDocument/semanticTokens/full(8)
+I[22:06:37.850] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[22:06:37.850] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[22:06:37.850] <-- clangd/inlayHints(9)
+I[22:06:37.850] <-- textDocument/documentLink(10)
+I[22:06:37.850] <-- textDocument/documentSymbol(11)
+I[22:06:37.850] <-- textDocument/codeAction(12)
+I[22:06:37.850] <-- textDocument/codeAction(13)
+I[22:06:37.851] --> reply:textDocument/semanticTokens/full(6) 1 ms
+I[22:06:37.851] --> textDocument/clangd.fileStatus
+I[22:06:37.852] --> textDocument/clangd.fileStatus
+I[22:06:37.928] --> workspace/semanticTokens/refresh(1)
+I[22:06:37.941] --> textDocument/publishDiagnostics
+I[22:06:37.941] --> reply:textDocument/documentSymbol(7) 90 ms
+I[22:06:37.941] --> reply:textDocument/semanticTokens/full(8) 90 ms
+I[22:06:37.941] --> reply:clangd/inlayHints(9) 90 ms
+I[22:06:37.941] --> reply:textDocument/documentLink(10) 90 ms
+I[22:06:37.941] --> reply:textDocument/documentSymbol(11) 90 ms
+I[22:06:37.941] --> reply:textDocument/codeAction(12) 90 ms
+I[22:06:37.941] --> reply:textDocument/codeAction(13) 90 ms
+I[22:06:37.941] --> textDocument/clangd.fileStatus
+I[22:06:37.996] <-- $/cancelRequest
+I[22:06:37.996] <-- $/cancelRequest
+I[22:06:37.996] <-- reply(0)
+I[22:06:38.068] <-- $/cancelRequest
+I[22:06:38.068] <-- $/cancelRequest
+I[22:06:38.069] <-- textDocument/documentSymbol(14)
+I[22:06:38.072] --> reply:textDocument/documentSymbol(14) 3 ms
+I[22:06:38.072] --> textDocument/clangd.fileStatus
+I[22:06:38.275] <-- $/cancelRequest
+I[22:06:38.275] <-- textDocument/documentLink(15)
+I[22:06:38.275] <-- textDocument/documentSymbol(16)
+I[22:06:38.276] --> reply:textDocument/documentLink(15) 0 ms
+I[22:06:38.276] --> reply:textDocument/documentSymbol(16) 0 ms
+I[22:06:38.276] --> textDocument/clangd.fileStatus
+I[22:06:38.347] <-- reply(1)
+I[22:06:38.524] <-- textDocument/documentLink(17)
+I[22:06:38.524] --> reply:textDocument/documentLink(17) 0 ms
+I[22:06:38.524] --> textDocument/clangd.fileStatus
+I[22:06:38.817] <-- textDocument/documentSymbol(18)
+I[22:06:38.818] --> reply:textDocument/documentSymbol(18) 0 ms
+I[22:06:38.818] --> textDocument/clangd.fileStatus
+I[22:06:39.867] <-- textDocument/semanticTokens/full/delta(19)
+I[22:06:39.867] --> reply:textDocument/semanticTokens/full/delta(19) 0 ms
+I[22:06:39.868] --> textDocument/clangd.fileStatus
+I[22:06:44.823] <-- textDocument/documentLink(20)
+I[22:06:44.825] --> reply:textDocument/documentLink(20) 1 ms
+I[22:06:44.825] --> textDocument/clangd.fileStatus
+I[22:06:45.112] <-- textDocument/documentSymbol(21)
+I[22:06:45.113] --> reply:textDocument/documentSymbol(21) 0 ms
+I[22:06:45.113] --> textDocument/clangd.fileStatus
+I[22:06:48.786] <-- textDocument/documentLink(22)
+I[22:06:48.786] --> reply:textDocument/documentLink(22) 0 ms
+I[22:06:48.786] --> textDocument/clangd.fileStatus
+I[22:11:52.960] <-- textDocument/codeAction(23)
+I[22:11:52.960] --> reply:textDocument/codeAction(23) 0 ms
+I[22:11:52.960] --> textDocument/clangd.fileStatus

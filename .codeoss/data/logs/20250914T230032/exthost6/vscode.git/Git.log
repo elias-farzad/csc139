@@ -1,0 +1,74 @@
+2025-09-15 00:25:18.158 [info] [main] Log level: Info
+2025-09-15 00:25:18.158 [info] [main] Validating found git in: "git"
+2025-09-15 00:25:18.158 [info] [main] Using git "2.43.0" from "git"
+2025-09-15 00:25:18.158 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-15 00:25:18.158 [info] > git rev-parse --show-toplevel [3ms]
+2025-09-15 00:25:18.158 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-09-15 00:25:18.158 [info] [Model][openRepository] Opened repository (path): /home/efarzad22
+2025-09-15 00:25:18.158 [info] [Model][openRepository] Opened repository (real path): /home/efarzad22
+2025-09-15 00:25:18.158 [info] > git rev-parse --show-toplevel [27ms]
+2025-09-15 00:25:18.158 [info] > git config --get commit.template [35ms]
+2025-09-15 00:25:18.158 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-15 00:25:18.158 [info] > git rev-parse --show-toplevel [4ms]
+2025-09-15 00:25:18.158 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-09-15 00:25:18.158 [info] > git rev-parse --show-toplevel [3ms]
+2025-09-15 00:25:18.158 [info] > git rev-parse --show-toplevel [3ms]
+2025-09-15 00:25:18.158 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-15 00:25:18.158 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-15 00:25:18.158 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-15 00:25:18.158 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-15 00:25:18.158 [info] > git rev-parse --show-toplevel [6ms]
+2025-09-15 00:25:18.158 [info] > git status -z -uall [81ms]
+2025-09-15 00:25:18.158 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [387ms]
+2025-09-15 00:25:18.158 [info] > git config --get --local branch.main.vscode-merge-base [867ms]
+2025-09-15 00:25:18.158 [warning] [Git][config] git config failed: Failed to execute git
+2025-09-15 00:25:18.158 [info] > git config --get commit.template [1252ms]
+2025-09-15 00:25:18.158 [info] > git rev-parse --show-toplevel [1257ms]
+2025-09-15 00:25:18.158 [info] > git check-ignore -v -z --stdin [13ms]
+2025-09-15 00:25:18.158 [info] > git reflog main --grep-reflog=branch: Created from *. [35ms]
+2025-09-15 00:25:18.158 [info] > git rev-parse --show-toplevel [19ms]
+2025-09-15 00:25:18.158 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-09-15 00:25:18.158 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [17ms]
+2025-09-15 00:25:18.158 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-09-15 00:25:18.158 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-09-15 00:25:18.158 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2025-09-15 00:25:18.158 [info] [Model][openRepository] Opened repository (path): /home/efarzad22/ostep-projects
+2025-09-15 00:25:18.158 [info] [Model][openRepository] Opened repository (real path): /home/efarzad22/ostep-projects
+2025-09-15 00:25:18.158 [info] > git merge-base refs/heads/main refs/remotes/origin/main [20ms]
+2025-09-15 00:25:18.183 [info] > git config --get commit.template [19ms]
+2025-09-15 00:25:18.183 [info] > git diff --name-status -z --diff-filter=ADMR 51ea7063ff6ed5f99aa192e4be657313910b2dfc...refs/remotes/origin/main [27ms]
+2025-09-15 00:25:18.185 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-15 00:25:18.185 [info] > git rev-parse --show-toplevel [17ms]
+2025-09-15 00:25:18.198 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-09-15 00:25:18.205 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/efarzad22/ostep-projects/.git/refs/remotes/origin/master'
+2025-09-15 00:25:18.205 [info] > git rev-parse --show-toplevel [8ms]
+2025-09-15 00:25:18.213 [info] > git rev-parse refs/remotes/origin/master [8ms]
+2025-09-15 00:25:18.228 [info] > git status -z -uall [9ms]
+2025-09-15 00:25:18.228 [info] > git rev-parse --show-toplevel [16ms]
+2025-09-15 00:25:18.229 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-15 00:25:18.230 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-15 00:25:18.255 [info] > git config --get commit.template [9ms]
+2025-09-15 00:25:18.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2025-09-15 00:25:18.272 [info] > git status -z -uall [98ms]
+2025-09-15 00:25:18.273 [info] > git config --get --local branch.master.vscode-merge-base [12ms]
+2025-09-15 00:25:18.279 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-09-15 00:25:18.344 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/efarzad22/ostep-projects/.git/refs/remotes/origin/master'
+2025-09-15 00:25:18.350 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [72ms]
+2025-09-15 00:25:18.357 [info] > git rev-parse refs/remotes/origin/master [13ms]
+2025-09-15 00:25:18.368 [info] > git status -z -uall [6ms]
+2025-09-15 00:25:18.369 [info] > git merge-base refs/heads/master refs/remotes/origin/master [13ms]
+2025-09-15 00:25:18.376 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-09-15 00:25:18.387 [info] > git diff --name-status -z --diff-filter=ADMR 76cff3f89f4bf337af6e02e53a831b7eeb1396df...refs/remotes/origin/master [13ms]
+2025-09-15 00:25:18.388 [info] > git merge-base refs/heads/master refs/remotes/origin/master [3ms]
+2025-09-15 00:25:19.117 [info] > git diff --name-status -z --diff-filter=ADMR 76cff3f89f4bf337af6e02e53a831b7eeb1396df...refs/remotes/origin/master [723ms]
+2025-09-15 00:25:29.213 [info] > git check-ignore -v -z --stdin [23ms]
+2025-09-15 00:25:29.214 [info] > git check-ignore -v -z --stdin [14ms]
+2025-09-15 00:25:44.832 [info] > git check-ignore -v -z --stdin [2ms]
+2025-09-15 00:28:32.599 [info] > git config --get commit.template [10ms]
+2025-09-15 00:28:32.600 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-09-15 00:28:32.621 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-15 00:28:32.684 [info] > git status -z -uall [75ms]
+2025-09-15 00:28:37.787 [info] > git config --get commit.template [9ms]
+2025-09-15 00:28:37.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-15 00:28:37.810 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-09-15 00:28:37.871 [info] > git status -z -uall [73ms]

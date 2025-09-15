@@ -1,0 +1,2569 @@
+I[00:35:50.175] Ubuntu clangd version 14.0.6
+I[00:35:50.175] Features: linux+grpc
+I[00:35:50.175] PID: 2529
+I[00:35:50.176] Working directory: /home/efarzad22
+I[00:35:50.176] argv[0]: /usr/bin/clangd
+I[00:35:50.180] Starting LSP over stdin/stdout
+I[00:35:50.185] <-- initialize(0)
+I[00:35:50.197] --> reply:initialize(0) 12 ms
+I[00:35:50.233] <-- initialized
+I[00:35:50.259] <-- textDocument/didOpen
+I[00:35:50.268] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:35:50.269] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:35:50.310] --> textDocument/clangd.fileStatus
+I[00:35:50.525] --> workspace/semanticTokens/refresh(0)
+I[00:35:50.526] --> textDocument/clangd.fileStatus
+I[00:35:50.526] --> textDocument/clangd.fileStatus
+I[00:35:50.597] --> textDocument/publishDiagnostics
+I[00:35:50.598] --> textDocument/clangd.fileStatus
+I[00:35:53.087] <-- textDocument/documentSymbol(1)
+I[00:35:53.087] <-- textDocument/documentSymbol(2)
+I[00:35:53.087] --> reply:textDocument/documentSymbol(1) 0 ms
+I[00:35:53.087] <-- clangd/inlayHints(3)
+I[00:35:53.087] --> reply:textDocument/documentSymbol(2) 0 ms
+I[00:35:53.087] <-- textDocument/documentLink(4)
+I[00:35:53.087] <-- textDocument/codeAction(5)
+I[00:35:53.087] <-- textDocument/codeAction(6)
+I[00:35:53.088] <-- textDocument/documentSymbol(7)
+I[00:35:53.088] <-- textDocument/semanticTokens/full(8)
+I[00:35:53.089] --> reply:clangd/inlayHints(3) 2 ms
+I[00:35:53.090] --> reply:textDocument/documentLink(4) 2 ms
+I[00:35:53.092] --> reply:textDocument/codeAction(5) 4 ms
+I[00:35:53.092] --> reply:textDocument/codeAction(6) 4 ms
+I[00:35:53.092] --> reply:textDocument/documentSymbol(7) 4 ms
+I[00:35:53.093] --> reply:textDocument/semanticTokens/full(8) 4 ms
+I[00:35:53.093] --> textDocument/clangd.fileStatus
+I[00:35:53.105] <-- reply(0)
+I[00:35:53.106] <-- $/cancelRequest
+I[00:35:53.106] <-- $/cancelRequest
+I[00:35:58.353] <-- textDocument/semanticTokens/full/delta(9)
+I[00:35:58.354] --> reply:textDocument/semanticTokens/full/delta(9) 0 ms
+I[00:35:58.354] --> textDocument/clangd.fileStatus
+I[00:36:06.451] <-- textDocument/documentLink(10)
+I[00:36:06.451] --> reply:textDocument/documentLink(10) 0 ms
+I[00:36:06.451] --> textDocument/clangd.fileStatus
+I[00:36:06.741] <-- textDocument/documentSymbol(11)
+I[00:36:06.741] --> reply:textDocument/documentSymbol(11) 0 ms
+I[00:36:06.741] --> textDocument/clangd.fileStatus
+I[00:36:08.551] <-- textDocument/codeAction(12)
+I[00:36:08.551] <-- textDocument/codeAction(13)
+I[00:36:08.551] --> reply:textDocument/codeAction(12) 0 ms
+I[00:36:08.551] --> reply:textDocument/codeAction(13) 0 ms
+I[00:36:08.551] --> textDocument/clangd.fileStatus
+I[00:36:08.555] <-- $/cancelRequest
+I[00:36:08.573] <-- textDocument/documentLink(14)
+I[00:36:08.574] --> reply:textDocument/documentLink(14) 0 ms
+I[00:36:08.574] --> textDocument/clangd.fileStatus
+I[00:38:06.898] <-- textDocument/hover(15)
+I[00:38:06.899] --> reply:textDocument/hover(15) 0 ms
+I[00:38:06.899] --> textDocument/clangd.fileStatus
+I[00:42:21.255] <-- textDocument/hover(16)
+I[00:42:21.257] --> reply:textDocument/hover(16) 1 ms
+I[00:42:21.257] --> textDocument/clangd.fileStatus
+I[00:50:49.300] <-- textDocument/documentLink(17)
+I[00:50:49.300] <-- textDocument/codeAction(18)
+I[00:50:49.300] --> reply:textDocument/documentLink(17) 0 ms
+I[00:50:49.300] --> reply:textDocument/codeAction(18) 0 ms
+I[00:50:49.300] --> textDocument/clangd.fileStatus
+I[00:50:49.475] <-- textDocument/codeAction(19)
+I[00:50:49.475] --> reply:textDocument/codeAction(19) 0 ms
+I[00:50:49.475] --> textDocument/clangd.fileStatus
+I[00:50:49.517] <-- textDocument/documentSymbol(20)
+I[00:50:49.518] --> reply:textDocument/documentSymbol(20) 0 ms
+I[00:50:49.518] --> textDocument/clangd.fileStatus
+I[00:50:49.850] <-- clangd/inlayHints(21)
+I[00:50:49.851] --> reply:clangd/inlayHints(21) 0 ms
+I[00:50:49.851] --> textDocument/clangd.fileStatus
+I[00:50:51.214] <-- textDocument/semanticTokens/full/delta(22)
+I[00:50:51.214] --> reply:textDocument/semanticTokens/full/delta(22) 0 ms
+I[00:50:51.214] --> textDocument/clangd.fileStatus
+I[00:51:15.646] <-- textDocument/didOpen
+I[00:51:15.647] <-- textDocument/documentSymbol(23)
+I[00:51:15.647] <-- textDocument/semanticTokens/full(24)
+I[00:51:15.647] Failed to find compilation database for /home/efarzad22/intro-to-os/intro.c
+I[00:51:15.647] ASTWorker building file /home/efarzad22/intro-to-os/intro.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/intro.c
+I[00:51:15.649] --> textDocument/clangd.fileStatus
+I[00:51:15.659] <-- clangd/inlayHints(25)
+I[00:51:15.659] <-- textDocument/documentLink(26)
+I[00:51:15.668] --> workspace/semanticTokens/refresh(1)
+I[00:51:15.668] --> textDocument/clangd.fileStatus
+I[00:51:15.668] --> textDocument/clangd.fileStatus
+I[00:51:15.671] <-- reply(1)
+I[00:51:15.675] --> textDocument/publishDiagnostics
+I[00:51:15.675] --> reply:textDocument/documentSymbol(23) 28 ms
+I[00:51:15.675] --> reply:textDocument/semanticTokens/full(24) 28 ms
+I[00:51:15.675] --> reply:clangd/inlayHints(25) 16 ms
+I[00:51:15.675] --> reply:textDocument/documentLink(26) 16 ms
+I[00:51:15.675] --> textDocument/clangd.fileStatus
+I[00:51:15.920] <-- textDocument/documentSymbol(27)
+I[00:51:15.920] --> reply:textDocument/documentSymbol(27) 0 ms
+I[00:51:15.920] --> textDocument/clangd.fileStatus
+I[00:51:16.032] <-- textDocument/semanticTokens/full/delta(28)
+I[00:51:16.032] --> reply:textDocument/semanticTokens/full/delta(28) 0 ms
+I[00:51:16.032] --> textDocument/clangd.fileStatus
+I[00:51:31.944] <-- textDocument/didClose
+I[00:51:31.944] --> textDocument/publishDiagnostics
+I[00:51:32.015] <-- textDocument/didOpen
+I[00:51:32.015] <-- textDocument/documentSymbol(29)
+I[00:51:32.015] <-- textDocument/semanticTokens/full(30)
+I[00:51:32.016] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:51:32.016] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 1 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:51:32.017] --> textDocument/clangd.fileStatus
+I[00:51:32.030] <-- clangd/inlayHints(31)
+I[00:51:32.030] <-- textDocument/documentLink(32)
+I[00:51:32.034] --> workspace/semanticTokens/refresh(2)
+I[00:51:32.034] --> textDocument/clangd.fileStatus
+I[00:51:32.034] --> textDocument/clangd.fileStatus
+I[00:51:32.035] <-- reply(2)
+I[00:51:32.040] --> textDocument/publishDiagnostics
+I[00:51:32.040] --> reply:textDocument/documentSymbol(29) 24 ms
+I[00:51:32.040] --> reply:textDocument/semanticTokens/full(30) 24 ms
+I[00:51:32.040] --> reply:clangd/inlayHints(31) 10 ms
+I[00:51:32.040] --> reply:textDocument/documentLink(32) 10 ms
+I[00:51:32.040] --> textDocument/clangd.fileStatus
+I[00:51:32.291] <-- textDocument/documentSymbol(33)
+I[00:51:32.292] --> reply:textDocument/documentSymbol(33) 0 ms
+I[00:51:32.292] --> textDocument/clangd.fileStatus
+I[00:51:32.396] <-- textDocument/semanticTokens/full/delta(34)
+I[00:51:32.396] --> reply:textDocument/semanticTokens/full/delta(34) 0 ms
+I[00:51:32.396] --> textDocument/clangd.fileStatus
+I[00:51:41.038] <-- textDocument/didChange
+I[00:51:41.038] --> textDocument/clangd.fileStatus
+I[00:51:41.088] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:51:41.089] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 2 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:51:41.090] --> textDocument/clangd.fileStatus
+I[00:51:41.090] --> textDocument/clangd.fileStatus
+I[00:51:41.111] <-- clangd/inlayHints(35)
+I[00:51:41.111] --> textDocument/clangd.fileStatus
+I[00:51:41.116] --> workspace/semanticTokens/refresh(3)
+I[00:51:41.117] <-- reply(3)
+I[00:51:41.125] --> reply:clangd/inlayHints(35) 13 ms
+I[00:51:41.131] --> textDocument/publishDiagnostics
+I[00:51:41.131] --> textDocument/clangd.fileStatus
+I[00:51:41.168] <-- textDocument/semanticTokens/full/delta(36)
+I[00:51:41.168] --> reply:textDocument/semanticTokens/full/delta(36) 0 ms
+I[00:51:41.168] --> textDocument/clangd.fileStatus
+I[00:51:41.384] <-- textDocument/documentSymbol(37)
+I[00:51:41.384] <-- textDocument/documentSymbol(38)
+I[00:51:41.384] --> reply:textDocument/documentSymbol(37) 0 ms
+I[00:51:41.384] --> reply:textDocument/documentSymbol(38) 0 ms
+I[00:51:41.384] --> textDocument/clangd.fileStatus
+I[00:51:41.434] <-- textDocument/codeAction(39)
+I[00:51:41.435] --> reply:textDocument/codeAction(39) 0 ms
+I[00:51:41.435] --> textDocument/clangd.fileStatus
+I[00:51:41.497] <-- clangd/inlayHints(40)
+I[00:51:41.497] --> reply:clangd/inlayHints(40) 0 ms
+I[00:51:41.497] --> textDocument/clangd.fileStatus
+I[00:51:41.830] <-- clangd/inlayHints(41)
+I[00:51:41.830] --> reply:clangd/inlayHints(41) 0 ms
+I[00:51:41.830] --> textDocument/clangd.fileStatus
+I[00:51:42.039] <-- textDocument/documentLink(42)
+I[00:51:42.039] --> reply:textDocument/documentLink(42) 0 ms
+I[00:51:42.039] --> textDocument/clangd.fileStatus
+I[00:51:42.141] <-- textDocument/hover(43)
+I[00:51:42.141] --> reply:textDocument/hover(43) 0 ms
+I[00:51:42.141] --> textDocument/clangd.fileStatus
+I[00:51:42.268] <-- textDocument/didSave
+I[00:51:42.268] File version went from 1 to 1
+I[00:51:42.268] File version went from 2 to 2
+I[00:51:42.268] --> textDocument/clangd.fileStatus
+I[00:51:42.268] --> textDocument/clangd.fileStatus
+I[00:51:42.318] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:51:42.318] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 2 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:51:42.320] --> textDocument/clangd.fileStatus
+I[00:51:42.320] --> textDocument/clangd.fileStatus
+I[00:51:42.321] --> textDocument/clangd.fileStatus
+I[00:51:42.321] --> textDocument/clangd.fileStatus
+I[00:51:42.338] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:51:42.338] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:51:42.339] --> textDocument/clangd.fileStatus
+I[00:51:42.340] --> textDocument/clangd.fileStatus
+I[00:51:42.340] --> textDocument/clangd.fileStatus
+I[00:51:42.340] --> textDocument/clangd.fileStatus
+I[00:51:51.142] <-- textDocument/didChange
+I[00:51:51.142] --> textDocument/clangd.fileStatus
+I[00:51:51.189] <-- clangd/inlayHints(44)
+I[00:51:51.190] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:51:51.190] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 3 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:51:51.191] --> textDocument/clangd.fileStatus
+I[00:51:51.198] --> reply:clangd/inlayHints(44) 8 ms
+I[00:51:51.198] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:51:51.198] --> textDocument/publishDiagnostics
+I[00:51:51.198] --> textDocument/clangd.fileStatus
+I[00:51:51.270] <-- textDocument/didChange
+I[00:51:51.271] --> textDocument/clangd.fileStatus
+I[00:51:51.321] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:51:51.321] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 4 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:51:51.322] --> textDocument/clangd.fileStatus
+I[00:51:51.323] --> textDocument/clangd.fileStatus
+I[00:51:51.323] --> textDocument/clangd.fileStatus
+I[00:51:51.329] --> textDocument/publishDiagnostics
+I[00:51:51.329] --> textDocument/clangd.fileStatus
+I[00:51:51.329] <-- clangd/inlayHints(45)
+I[00:51:51.329] --> reply:clangd/inlayHints(45) 0 ms
+I[00:51:51.329] --> textDocument/clangd.fileStatus
+I[00:51:51.445] <-- textDocument/semanticTokens/full/delta(46)
+I[00:51:51.445] --> reply:textDocument/semanticTokens/full/delta(46) 0 ms
+I[00:51:51.445] --> textDocument/clangd.fileStatus
+I[00:51:51.519] <-- textDocument/didChange
+I[00:51:51.519] --> textDocument/clangd.fileStatus
+I[00:51:51.569] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:51:51.570] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 5 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:51:51.571] --> textDocument/clangd.fileStatus
+I[00:51:51.571] --> textDocument/clangd.fileStatus
+I[00:51:51.572] --> textDocument/clangd.fileStatus
+I[00:51:51.577] <-- clangd/inlayHints(47)
+I[00:51:51.583] --> textDocument/publishDiagnostics
+I[00:51:51.583] --> reply:clangd/inlayHints(47) 6 ms
+I[00:51:51.583] --> textDocument/clangd.fileStatus
+I[00:51:51.816] <-- textDocument/semanticTokens/full/delta(48)
+I[00:51:51.816] --> reply:textDocument/semanticTokens/full/delta(48) 0 ms
+I[00:51:51.816] --> textDocument/clangd.fileStatus
+I[00:51:51.868] <-- textDocument/documentSymbol(49)
+I[00:51:51.868] --> reply:textDocument/documentSymbol(49) 0 ms
+I[00:51:51.868] --> textDocument/clangd.fileStatus
+I[00:51:51.875] <-- textDocument/documentSymbol(50)
+I[00:51:51.875] --> reply:textDocument/documentSymbol(50) 0 ms
+I[00:51:51.875] --> textDocument/clangd.fileStatus
+I[00:51:51.890] <-- textDocument/codeAction(51)
+I[00:51:51.890] --> reply:textDocument/codeAction(51) 0 ms
+I[00:51:51.890] --> textDocument/clangd.fileStatus
+I[00:51:52.317] <-- clangd/inlayHints(52)
+I[00:51:52.317] --> reply:clangd/inlayHints(52) 0 ms
+I[00:51:52.318] --> textDocument/clangd.fileStatus
+I[00:51:52.494] <-- textDocument/hover(53)
+I[00:51:52.494] --> reply:textDocument/hover(53) 0 ms
+I[00:51:52.494] --> textDocument/clangd.fileStatus
+I[00:51:52.523] <-- textDocument/documentLink(54)
+I[00:51:52.523] --> reply:textDocument/documentLink(54) 0 ms
+I[00:51:52.523] --> textDocument/clangd.fileStatus
+I[00:51:52.722] <-- textDocument/didSave
+I[00:51:52.723] File version went from 1 to 1
+I[00:51:52.723] File version went from 5 to 5
+I[00:51:52.723] --> textDocument/clangd.fileStatus
+I[00:51:52.723] --> textDocument/clangd.fileStatus
+I[00:51:52.773] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:51:52.773] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 5 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:51:52.775] --> textDocument/clangd.fileStatus
+I[00:51:52.775] --> textDocument/clangd.fileStatus
+I[00:51:52.775] --> textDocument/clangd.fileStatus
+I[00:51:52.775] --> textDocument/clangd.fileStatus
+I[00:51:52.793] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:51:52.793] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:51:52.794] --> textDocument/clangd.fileStatus
+I[00:51:52.794] --> textDocument/clangd.fileStatus
+I[00:51:52.795] --> textDocument/clangd.fileStatus
+I[00:51:52.795] --> textDocument/clangd.fileStatus
+I[00:51:59.718] <-- textDocument/didChange
+I[00:51:59.718] --> textDocument/clangd.fileStatus
+I[00:51:59.768] <-- clangd/inlayHints(55)
+I[00:51:59.768] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:51:59.768] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 6 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:51:59.770] --> textDocument/clangd.fileStatus
+I[00:51:59.776] --> reply:clangd/inlayHints(55) 8 ms
+I[00:51:59.776] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:51:59.776] --> textDocument/publishDiagnostics
+I[00:51:59.777] --> textDocument/clangd.fileStatus
+I[00:52:00.012] <-- textDocument/semanticTokens/full/delta(56)
+I[00:52:00.012] --> reply:textDocument/semanticTokens/full/delta(56) 0 ms
+I[00:52:00.012] --> textDocument/clangd.fileStatus
+I[00:52:00.062] <-- textDocument/didChange
+I[00:52:00.062] --> textDocument/clangd.fileStatus
+I[00:52:00.072] <-- textDocument/documentSymbol(57)
+I[00:52:00.073] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:00.073] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 7 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:00.074] --> textDocument/clangd.fileStatus
+I[00:52:00.081] --> reply:textDocument/documentSymbol(57) 8 ms
+I[00:52:00.081] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:52:00.081] --> textDocument/publishDiagnostics
+I[00:52:00.081] --> textDocument/clangd.fileStatus
+I[00:52:00.120] <-- clangd/inlayHints(58)
+I[00:52:00.120] --> reply:clangd/inlayHints(58) 0 ms
+I[00:52:00.120] --> textDocument/clangd.fileStatus
+I[00:52:00.364] <-- textDocument/semanticTokens/full/delta(59)
+I[00:52:00.364] --> reply:textDocument/semanticTokens/full/delta(59) 0 ms
+I[00:52:00.364] --> textDocument/clangd.fileStatus
+I[00:52:00.389] <-- textDocument/codeAction(60)
+I[00:52:00.390] --> reply:textDocument/codeAction(60) 0 ms
+I[00:52:00.390] --> textDocument/clangd.fileStatus
+I[00:52:00.416] <-- textDocument/documentSymbol(61)
+I[00:52:00.416] <-- textDocument/documentSymbol(62)
+I[00:52:00.416] --> reply:textDocument/documentSymbol(61) 0 ms
+I[00:52:00.416] --> reply:textDocument/documentSymbol(62) 0 ms
+I[00:52:00.416] --> textDocument/clangd.fileStatus
+I[00:52:00.864] <-- clangd/inlayHints(63)
+I[00:52:00.865] --> reply:clangd/inlayHints(63) 0 ms
+I[00:52:00.865] --> textDocument/clangd.fileStatus
+I[00:52:01.065] <-- textDocument/documentLink(64)
+I[00:52:01.065] --> reply:textDocument/documentLink(64) 0 ms
+I[00:52:01.065] --> textDocument/clangd.fileStatus
+I[00:52:01.259] <-- textDocument/didSave
+I[00:52:01.259] File version went from 1 to 1
+I[00:52:01.259] File version went from 7 to 7
+I[00:52:01.259] --> textDocument/clangd.fileStatus
+I[00:52:01.259] --> textDocument/clangd.fileStatus
+I[00:52:01.310] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:01.310] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 7 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:01.312] --> textDocument/clangd.fileStatus
+I[00:52:01.312] --> textDocument/clangd.fileStatus
+I[00:52:01.312] --> textDocument/clangd.fileStatus
+I[00:52:01.313] --> textDocument/clangd.fileStatus
+I[00:52:01.329] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:01.329] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:01.331] --> textDocument/clangd.fileStatus
+I[00:52:01.331] --> textDocument/clangd.fileStatus
+I[00:52:01.331] --> textDocument/clangd.fileStatus
+I[00:52:01.332] --> textDocument/clangd.fileStatus
+I[00:52:01.453] <-- textDocument/documentHighlight(65)
+I[00:52:01.453] --> reply:textDocument/documentHighlight(65) 0 ms
+I[00:52:01.453] --> textDocument/clangd.fileStatus
+I[00:52:01.654] <-- textDocument/codeAction(66)
+I[00:52:01.654] --> reply:textDocument/codeAction(66) 0 ms
+I[00:52:01.654] --> textDocument/clangd.fileStatus
+I[00:52:01.727] <-- textDocument/didChange
+I[00:52:01.727] --> textDocument/clangd.fileStatus
+I[00:52:01.777] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:01.778] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 8 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:01.779] --> textDocument/clangd.fileStatus
+I[00:52:01.779] --> textDocument/clangd.fileStatus
+I[00:52:01.780] --> textDocument/clangd.fileStatus
+I[00:52:01.785] --> textDocument/publishDiagnostics
+I[00:52:01.785] --> textDocument/clangd.fileStatus
+I[00:52:01.793] <-- clangd/inlayHints(67)
+I[00:52:01.793] --> reply:clangd/inlayHints(67) 0 ms
+I[00:52:01.793] --> textDocument/clangd.fileStatus
+I[00:52:01.909] <-- textDocument/didChange
+I[00:52:01.909] --> textDocument/clangd.fileStatus
+I[00:52:01.959] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:01.960] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 9 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:01.960] <-- clangd/inlayHints(68)
+I[00:52:01.961] --> textDocument/clangd.fileStatus
+I[00:52:01.968] --> reply:clangd/inlayHints(68) 7 ms
+I[00:52:01.968] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:52:01.968] --> textDocument/publishDiagnostics
+I[00:52:01.968] --> textDocument/clangd.fileStatus
+I[00:52:02.020] <-- textDocument/semanticTokens/full/delta(69)
+I[00:52:02.020] --> reply:textDocument/semanticTokens/full/delta(69) 0 ms
+I[00:52:02.021] --> textDocument/clangd.fileStatus
+I[00:52:02.252] <-- textDocument/documentSymbol(70)
+I[00:52:02.252] <-- textDocument/documentSymbol(71)
+I[00:52:02.253] --> reply:textDocument/documentSymbol(70) 0 ms
+I[00:52:02.253] --> reply:textDocument/documentSymbol(71) 0 ms
+I[00:52:02.253] --> textDocument/clangd.fileStatus
+I[00:52:02.270] <-- textDocument/codeAction(72)
+I[00:52:02.270] --> reply:textDocument/codeAction(72) 0 ms
+I[00:52:02.270] --> textDocument/clangd.fileStatus
+I[00:52:02.526] <-- textDocument/didChange
+I[00:52:02.526] --> textDocument/clangd.fileStatus
+I[00:52:02.564] <-- clangd/inlayHints(73)
+I[00:52:02.564] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:02.565] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 10 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:02.566] --> textDocument/clangd.fileStatus
+I[00:52:02.572] --> reply:clangd/inlayHints(73) 8 ms
+I[00:52:02.573] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:52:02.573] --> textDocument/publishDiagnostics
+I[00:52:02.573] --> textDocument/clangd.fileStatus
+I[00:52:02.809] <-- textDocument/semanticTokens/full/delta(74)
+I[00:52:02.809] --> reply:textDocument/semanticTokens/full/delta(74) 0 ms
+I[00:52:02.809] --> textDocument/clangd.fileStatus
+I[00:52:02.856] <-- textDocument/documentSymbol(75)
+I[00:52:02.856] --> reply:textDocument/documentSymbol(75) 0 ms
+I[00:52:02.856] <-- textDocument/documentSymbol(76)
+I[00:52:02.856] --> textDocument/clangd.fileStatus
+I[00:52:02.856] --> reply:textDocument/documentSymbol(76) 0 ms
+I[00:52:02.856] --> textDocument/clangd.fileStatus
+I[00:52:02.874] <-- textDocument/codeAction(77)
+I[00:52:02.874] --> reply:textDocument/codeAction(77) 0 ms
+I[00:52:02.874] --> textDocument/clangd.fileStatus
+I[00:52:02.887] <-- textDocument/didChange
+I[00:52:02.887] --> textDocument/clangd.fileStatus
+I[00:52:02.937] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:02.938] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 11 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:02.939] --> textDocument/clangd.fileStatus
+I[00:52:02.939] --> textDocument/clangd.fileStatus
+I[00:52:02.939] --> textDocument/clangd.fileStatus
+I[00:52:02.944] <-- clangd/inlayHints(78)
+I[00:52:02.945] --> textDocument/publishDiagnostics
+I[00:52:02.945] --> reply:clangd/inlayHints(78) 0 ms
+I[00:52:02.945] --> textDocument/clangd.fileStatus
+I[00:52:03.058] <-- textDocument/didChange
+I[00:52:03.058] --> textDocument/clangd.fileStatus
+I[00:52:03.109] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:03.109] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 12 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:03.110] --> textDocument/clangd.fileStatus
+I[00:52:03.110] --> textDocument/clangd.fileStatus
+I[00:52:03.111] --> textDocument/clangd.fileStatus
+I[00:52:03.112] <-- clangd/inlayHints(79)
+I[00:52:03.116] --> textDocument/publishDiagnostics
+I[00:52:03.117] --> reply:clangd/inlayHints(79) 4 ms
+I[00:52:03.117] --> textDocument/clangd.fileStatus
+I[00:52:03.184] <-- textDocument/semanticTokens/full/delta(80)
+I[00:52:03.184] --> reply:textDocument/semanticTokens/full/delta(80) 0 ms
+I[00:52:03.185] --> textDocument/clangd.fileStatus
+I[00:52:03.408] <-- textDocument/documentSymbol(81)
+I[00:52:03.408] --> reply:textDocument/documentSymbol(81) 0 ms
+I[00:52:03.408] <-- textDocument/documentSymbol(82)
+I[00:52:03.408] --> textDocument/clangd.fileStatus
+I[00:52:03.408] --> reply:textDocument/documentSymbol(82) 0 ms
+I[00:52:03.408] --> textDocument/clangd.fileStatus
+I[00:52:03.422] <-- textDocument/codeAction(83)
+I[00:52:03.422] --> reply:textDocument/codeAction(83) 0 ms
+I[00:52:03.422] --> textDocument/clangd.fileStatus
+I[00:52:03.521] <-- textDocument/didChange
+I[00:52:03.521] --> textDocument/clangd.fileStatus
+I[00:52:03.564] <-- clangd/inlayHints(84)
+I[00:52:03.564] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:03.565] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 13 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:03.566] --> textDocument/clangd.fileStatus
+I[00:52:03.573] --> reply:clangd/inlayHints(84) 8 ms
+I[00:52:03.573] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:52:03.573] --> textDocument/publishDiagnostics
+I[00:52:03.573] --> textDocument/clangd.fileStatus
+I[00:52:03.812] <-- textDocument/semanticTokens/full/delta(85)
+I[00:52:03.812] --> reply:textDocument/semanticTokens/full/delta(85) 0 ms
+I[00:52:03.812] --> textDocument/clangd.fileStatus
+I[00:52:03.857] <-- textDocument/documentSymbol(86)
+I[00:52:03.858] <-- textDocument/documentSymbol(87)
+I[00:52:03.858] --> reply:textDocument/documentSymbol(86) 0 ms
+I[00:52:03.858] --> reply:textDocument/documentSymbol(87) 0 ms
+I[00:52:03.858] --> textDocument/clangd.fileStatus
+I[00:52:03.878] <-- textDocument/codeAction(88)
+I[00:52:03.878] --> reply:textDocument/codeAction(88) 0 ms
+I[00:52:03.878] --> textDocument/clangd.fileStatus
+I[00:52:04.308] <-- clangd/inlayHints(89)
+I[00:52:04.308] --> reply:clangd/inlayHints(89) 0 ms
+I[00:52:04.309] --> textDocument/clangd.fileStatus
+I[00:52:04.514] <-- textDocument/documentLink(90)
+I[00:52:04.514] --> reply:textDocument/documentLink(90) 0 ms
+I[00:52:04.514] --> textDocument/clangd.fileStatus
+I[00:52:04.677] <-- textDocument/hover(91)
+I[00:52:04.677] --> reply:textDocument/hover(91) 0 ms
+I[00:52:04.677] --> textDocument/clangd.fileStatus
+I[00:52:04.702] <-- textDocument/didSave
+I[00:52:04.702] File version went from 1 to 1
+I[00:52:04.702] File version went from 13 to 13
+I[00:52:04.702] --> textDocument/clangd.fileStatus
+I[00:52:04.702] --> textDocument/clangd.fileStatus
+I[00:52:04.752] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:04.752] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 13 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:04.754] --> textDocument/clangd.fileStatus
+I[00:52:04.755] --> textDocument/clangd.fileStatus
+I[00:52:04.755] --> textDocument/clangd.fileStatus
+I[00:52:04.756] --> textDocument/clangd.fileStatus
+I[00:52:04.772] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:04.772] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:04.774] --> textDocument/clangd.fileStatus
+I[00:52:04.774] --> textDocument/clangd.fileStatus
+I[00:52:04.775] --> textDocument/clangd.fileStatus
+I[00:52:04.775] --> textDocument/clangd.fileStatus
+I[00:52:04.861] <-- textDocument/documentHighlight(92)
+I[00:52:04.861] --> reply:textDocument/documentHighlight(92) 0 ms
+I[00:52:04.861] --> textDocument/clangd.fileStatus
+I[00:52:05.062] <-- textDocument/codeAction(93)
+I[00:52:05.062] --> reply:textDocument/codeAction(93) 0 ms
+I[00:52:05.062] --> textDocument/clangd.fileStatus
+I[00:52:05.143] <-- textDocument/didChange
+I[00:52:05.143] --> textDocument/clangd.fileStatus
+I[00:52:05.193] <-- clangd/inlayHints(94)
+I[00:52:05.193] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:05.193] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 14 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:05.195] --> textDocument/clangd.fileStatus
+I[00:52:05.201] --> reply:clangd/inlayHints(94) 8 ms
+I[00:52:05.201] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:52:05.201] --> textDocument/publishDiagnostics
+I[00:52:05.201] --> textDocument/clangd.fileStatus
+I[00:52:05.366] <-- textDocument/didChange
+I[00:52:05.366] --> textDocument/clangd.fileStatus
+I[00:52:05.416] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:05.417] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 15 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:05.418] --> textDocument/clangd.fileStatus
+I[00:52:05.418] --> textDocument/clangd.fileStatus
+I[00:52:05.419] --> textDocument/clangd.fileStatus
+I[00:52:05.423] <-- clangd/inlayHints(95)
+I[00:52:05.424] --> textDocument/publishDiagnostics
+I[00:52:05.424] --> reply:clangd/inlayHints(95) 0 ms
+I[00:52:05.424] --> textDocument/clangd.fileStatus
+I[00:52:05.432] <-- textDocument/semanticTokens/full/delta(96)
+I[00:52:05.432] --> reply:textDocument/semanticTokens/full/delta(96) 0 ms
+I[00:52:05.432] --> textDocument/clangd.fileStatus
+I[00:52:05.717] <-- textDocument/documentSymbol(97)
+I[00:52:05.717] <-- textDocument/documentSymbol(98)
+I[00:52:05.717] --> reply:textDocument/documentSymbol(97) 0 ms
+I[00:52:05.717] --> reply:textDocument/documentSymbol(98) 0 ms
+I[00:52:05.717] --> textDocument/clangd.fileStatus
+I[00:52:05.729] <-- textDocument/codeAction(99)
+I[00:52:05.730] --> reply:textDocument/codeAction(99) 0 ms
+I[00:52:05.730] --> textDocument/clangd.fileStatus
+I[00:52:05.794] <-- textDocument/didChange
+I[00:52:05.794] --> textDocument/clangd.fileStatus
+I[00:52:05.837] <-- clangd/inlayHints(100)
+I[00:52:05.838] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:05.838] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 16 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:05.839] --> textDocument/clangd.fileStatus
+I[00:52:05.845] --> reply:clangd/inlayHints(100) 7 ms
+I[00:52:05.845] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:52:05.846] --> textDocument/publishDiagnostics
+I[00:52:05.846] --> textDocument/clangd.fileStatus
+I[00:52:06.088] <-- textDocument/semanticTokens/full/delta(101)
+I[00:52:06.088] --> reply:textDocument/semanticTokens/full/delta(101) 0 ms
+I[00:52:06.088] --> textDocument/clangd.fileStatus
+I[00:52:06.142] <-- textDocument/documentSymbol(102)
+I[00:52:06.142] <-- textDocument/documentSymbol(103)
+I[00:52:06.142] --> reply:textDocument/documentSymbol(102) 0 ms
+I[00:52:06.142] --> reply:textDocument/documentSymbol(103) 0 ms
+I[00:52:06.142] --> textDocument/clangd.fileStatus
+I[00:52:06.148] <-- textDocument/codeAction(104)
+I[00:52:06.148] --> reply:textDocument/codeAction(104) 0 ms
+I[00:52:06.148] --> textDocument/clangd.fileStatus
+I[00:52:06.585] <-- clangd/inlayHints(105)
+I[00:52:06.585] --> reply:clangd/inlayHints(105) 0 ms
+I[00:52:06.585] --> textDocument/clangd.fileStatus
+I[00:52:06.785] <-- textDocument/documentLink(106)
+I[00:52:06.785] --> reply:textDocument/documentLink(106) 0 ms
+I[00:52:06.785] --> textDocument/clangd.fileStatus
+I[00:52:06.888] <-- textDocument/hover(107)
+I[00:52:06.889] --> reply:textDocument/hover(107) 0 ms
+I[00:52:06.889] --> textDocument/clangd.fileStatus
+I[00:52:06.981] <-- textDocument/didSave
+I[00:52:06.982] File version went from 1 to 1
+I[00:52:06.982] File version went from 16 to 16
+I[00:52:06.982] --> textDocument/clangd.fileStatus
+I[00:52:06.982] --> textDocument/clangd.fileStatus
+I[00:52:07.032] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:07.032] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 16 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:07.034] --> textDocument/clangd.fileStatus
+I[00:52:07.034] --> textDocument/clangd.fileStatus
+I[00:52:07.034] --> textDocument/clangd.fileStatus
+I[00:52:07.034] --> textDocument/clangd.fileStatus
+I[00:52:07.052] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:07.052] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:07.053] --> textDocument/clangd.fileStatus
+I[00:52:07.054] --> textDocument/clangd.fileStatus
+I[00:52:07.054] --> textDocument/clangd.fileStatus
+I[00:52:07.054] --> textDocument/clangd.fileStatus
+I[00:52:07.113] <-- textDocument/documentHighlight(108)
+I[00:52:07.113] --> reply:textDocument/documentHighlight(108) 0 ms
+I[00:52:07.113] --> textDocument/clangd.fileStatus
+I[00:52:07.314] <-- textDocument/codeAction(109)
+I[00:52:07.314] --> reply:textDocument/codeAction(109) 0 ms
+I[00:52:07.314] --> textDocument/clangd.fileStatus
+I[00:52:07.666] <-- textDocument/hover(110)
+I[00:52:07.666] --> reply:textDocument/hover(110) 0 ms
+I[00:52:07.666] --> textDocument/clangd.fileStatus
+I[00:52:09.298] <-- textDocument/documentHighlight(111)
+I[00:52:09.298] --> reply:textDocument/documentHighlight(111) 0 ms
+I[00:52:09.298] --> textDocument/clangd.fileStatus
+I[00:52:10.100] <-- textDocument/hover(112)
+I[00:52:10.101] --> reply:textDocument/hover(112) 0 ms
+I[00:52:10.101] --> textDocument/clangd.fileStatus
+I[00:52:12.474] <-- textDocument/documentHighlight(113)
+I[00:52:12.474] --> reply:textDocument/documentHighlight(113) 0 ms
+I[00:52:12.474] --> textDocument/clangd.fileStatus
+I[00:52:13.192] <-- textDocument/hover(114)
+I[00:52:13.192] --> reply:textDocument/hover(114) 0 ms
+I[00:52:13.192] --> textDocument/clangd.fileStatus
+I[00:52:13.622] <-- textDocument/codeAction(115)
+I[00:52:13.622] --> reply:textDocument/codeAction(115) 0 ms
+I[00:52:13.622] --> textDocument/clangd.fileStatus
+I[00:52:13.694] <-- textDocument/didChange
+I[00:52:13.694] --> textDocument/clangd.fileStatus
+I[00:52:13.744] <-- clangd/inlayHints(116)
+I[00:52:13.744] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:13.744] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 17 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:13.746] --> textDocument/clangd.fileStatus
+I[00:52:13.752] --> reply:clangd/inlayHints(116) 8 ms
+I[00:52:13.752] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:52:13.752] --> textDocument/publishDiagnostics
+I[00:52:13.753] --> textDocument/clangd.fileStatus
+I[00:52:13.833] <-- textDocument/didChange
+I[00:52:13.833] --> textDocument/clangd.fileStatus
+I[00:52:13.883] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:13.884] <-- clangd/inlayHints(117)
+I[00:52:13.884] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 18 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:13.885] --> textDocument/clangd.fileStatus
+I[00:52:13.893] --> reply:clangd/inlayHints(117) 8 ms
+I[00:52:13.893] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:52:13.893] --> textDocument/publishDiagnostics
+I[00:52:13.893] --> textDocument/clangd.fileStatus
+I[00:52:13.983] <-- textDocument/semanticTokens/full/delta(118)
+I[00:52:13.984] --> reply:textDocument/semanticTokens/full/delta(118) 0 ms
+I[00:52:13.984] --> textDocument/clangd.fileStatus
+I[00:52:14.180] <-- textDocument/documentSymbol(119)
+I[00:52:14.180] <-- textDocument/documentSymbol(120)
+I[00:52:14.180] --> reply:textDocument/documentSymbol(119) 0 ms
+I[00:52:14.180] --> reply:textDocument/documentSymbol(120) 0 ms
+I[00:52:14.180] --> textDocument/clangd.fileStatus
+I[00:52:14.193] <-- textDocument/codeAction(121)
+I[00:52:14.193] --> reply:textDocument/codeAction(121) 0 ms
+I[00:52:14.193] --> textDocument/clangd.fileStatus
+I[00:52:14.524] <-- textDocument/hover(122)
+I[00:52:14.524] --> reply:textDocument/hover(122) 0 ms
+I[00:52:14.524] --> textDocument/clangd.fileStatus
+I[00:52:14.636] <-- clangd/inlayHints(123)
+I[00:52:14.636] --> reply:clangd/inlayHints(123) 0 ms
+I[00:52:14.636] --> textDocument/clangd.fileStatus
+I[00:52:14.837] <-- textDocument/documentLink(124)
+I[00:52:14.837] --> reply:textDocument/documentLink(124) 0 ms
+I[00:52:14.837] --> textDocument/clangd.fileStatus
+I[00:52:15.022] <-- textDocument/codeAction(125)
+I[00:52:15.022] --> reply:textDocument/codeAction(125) 0 ms
+I[00:52:15.023] --> textDocument/clangd.fileStatus
+I[00:52:15.038] <-- textDocument/didSave
+I[00:52:15.038] File version went from 1 to 1
+I[00:52:15.038] File version went from 18 to 18
+I[00:52:15.038] --> textDocument/clangd.fileStatus
+I[00:52:15.038] --> textDocument/clangd.fileStatus
+I[00:52:15.038] <-- textDocument/didChange
+I[00:52:15.038] --> textDocument/clangd.fileStatus
+I[00:52:15.089] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:15.090] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 19 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:15.092] <-- clangd/inlayHints(126)
+I[00:52:15.093] --> textDocument/clangd.fileStatus
+I[00:52:15.101] --> reply:clangd/inlayHints(126) 9 ms
+I[00:52:15.101] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:52:15.101] --> textDocument/publishDiagnostics
+I[00:52:15.101] --> textDocument/clangd.fileStatus
+I[00:52:15.108] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:15.108] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:15.109] --> textDocument/clangd.fileStatus
+I[00:52:15.109] --> textDocument/clangd.fileStatus
+I[00:52:15.110] --> textDocument/clangd.fileStatus
+I[00:52:15.110] --> textDocument/clangd.fileStatus
+I[00:52:15.168] <-- textDocument/didChange
+I[00:52:15.168] --> textDocument/clangd.fileStatus
+I[00:52:15.218] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:15.218] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 20 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:15.220] --> textDocument/clangd.fileStatus
+I[00:52:15.220] --> textDocument/clangd.fileStatus
+I[00:52:15.220] --> textDocument/clangd.fileStatus
+I[00:52:15.222] <-- clangd/inlayHints(127)
+I[00:52:15.227] --> textDocument/publishDiagnostics
+I[00:52:15.227] --> reply:clangd/inlayHints(127) 4 ms
+I[00:52:15.227] --> textDocument/clangd.fileStatus
+I[00:52:15.332] <-- textDocument/semanticTokens/full/delta(128)
+I[00:52:15.332] --> reply:textDocument/semanticTokens/full/delta(128) 0 ms
+I[00:52:15.332] --> textDocument/clangd.fileStatus
+I[00:52:15.514] <-- textDocument/documentSymbol(129)
+I[00:52:15.514] <-- textDocument/documentSymbol(130)
+I[00:52:15.514] --> reply:textDocument/documentSymbol(129) 0 ms
+I[00:52:15.514] --> reply:textDocument/documentSymbol(130) 0 ms
+I[00:52:15.514] --> textDocument/clangd.fileStatus
+I[00:52:15.534] <-- textDocument/codeAction(131)
+I[00:52:15.534] --> reply:textDocument/codeAction(131) 0 ms
+I[00:52:15.534] --> textDocument/clangd.fileStatus
+I[00:52:15.630] <-- textDocument/hover(132)
+I[00:52:15.630] --> reply:textDocument/hover(132) 0 ms
+I[00:52:15.630] --> textDocument/clangd.fileStatus
+I[00:52:15.972] <-- clangd/inlayHints(133)
+I[00:52:15.973] --> reply:clangd/inlayHints(133) 0 ms
+I[00:52:15.973] --> textDocument/clangd.fileStatus
+I[00:52:16.126] <-- textDocument/hover(134)
+I[00:52:16.127] --> reply:textDocument/hover(134) 0 ms
+I[00:52:16.127] --> textDocument/clangd.fileStatus
+I[00:52:16.169] <-- textDocument/documentLink(135)
+I[00:52:16.169] --> reply:textDocument/documentLink(135) 0 ms
+I[00:52:16.169] --> textDocument/clangd.fileStatus
+I[00:52:16.367] <-- textDocument/didSave
+I[00:52:16.367] File version went from 1 to 1
+I[00:52:16.367] File version went from 20 to 20
+I[00:52:16.367] --> textDocument/clangd.fileStatus
+I[00:52:16.367] --> textDocument/clangd.fileStatus
+I[00:52:16.417] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:16.418] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 20 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:16.420] --> textDocument/clangd.fileStatus
+I[00:52:16.420] --> textDocument/clangd.fileStatus
+I[00:52:16.421] --> textDocument/clangd.fileStatus
+I[00:52:16.421] --> textDocument/clangd.fileStatus
+I[00:52:16.437] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:16.437] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:16.439] --> textDocument/clangd.fileStatus
+I[00:52:16.439] --> textDocument/clangd.fileStatus
+I[00:52:16.440] --> textDocument/clangd.fileStatus
+I[00:52:16.440] --> textDocument/clangd.fileStatus
+I[00:52:16.617] <-- textDocument/codeAction(136)
+I[00:52:16.617] --> reply:textDocument/codeAction(136) 0 ms
+I[00:52:16.617] --> textDocument/clangd.fileStatus
+I[00:52:16.634] <-- textDocument/didChange
+I[00:52:16.635] --> textDocument/clangd.fileStatus
+I[00:52:16.685] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:16.685] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 21 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:16.686] --> textDocument/clangd.fileStatus
+I[00:52:16.686] --> textDocument/clangd.fileStatus
+I[00:52:16.687] --> textDocument/clangd.fileStatus
+I[00:52:16.690] <-- clangd/inlayHints(137)
+I[00:52:16.694] --> textDocument/publishDiagnostics
+I[00:52:16.694] --> reply:clangd/inlayHints(137) 3 ms
+I[00:52:16.694] --> textDocument/clangd.fileStatus
+I[00:52:16.798] <-- textDocument/didChange
+I[00:52:16.798] --> textDocument/clangd.fileStatus
+I[00:52:16.848] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:16.848] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 22 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:16.849] --> textDocument/clangd.fileStatus
+I[00:52:16.850] --> textDocument/clangd.fileStatus
+I[00:52:16.850] --> textDocument/clangd.fileStatus
+I[00:52:16.855] <-- clangd/inlayHints(138)
+I[00:52:16.859] --> textDocument/publishDiagnostics
+I[00:52:16.859] --> reply:clangd/inlayHints(138) 4 ms
+I[00:52:16.859] --> textDocument/clangd.fileStatus
+I[00:52:16.928] <-- textDocument/semanticTokens/full/delta(139)
+I[00:52:16.928] --> reply:textDocument/semanticTokens/full/delta(139) 0 ms
+I[00:52:16.928] --> textDocument/clangd.fileStatus
+I[00:52:17.149] <-- textDocument/documentSymbol(140)
+I[00:52:17.150] <-- textDocument/documentSymbol(141)
+I[00:52:17.150] --> reply:textDocument/documentSymbol(140) 0 ms
+I[00:52:17.150] --> reply:textDocument/documentSymbol(141) 0 ms
+I[00:52:17.150] --> textDocument/clangd.fileStatus
+I[00:52:17.171] <-- textDocument/codeAction(142)
+I[00:52:17.172] --> reply:textDocument/codeAction(142) 0 ms
+I[00:52:17.172] --> textDocument/clangd.fileStatus
+I[00:52:17.338] <-- textDocument/hover(143)
+I[00:52:17.339] --> reply:textDocument/hover(143) 0 ms
+I[00:52:17.339] --> textDocument/clangd.fileStatus
+I[00:52:17.600] <-- clangd/inlayHints(144)
+I[00:52:17.600] --> reply:clangd/inlayHints(144) 0 ms
+I[00:52:17.600] --> textDocument/clangd.fileStatus
+I[00:52:17.763] <-- textDocument/codeAction(145)
+I[00:52:17.763] --> reply:textDocument/codeAction(145) 0 ms
+I[00:52:17.763] --> textDocument/clangd.fileStatus
+I[00:52:17.801] <-- textDocument/documentLink(146)
+I[00:52:17.801] --> reply:textDocument/documentLink(146) 0 ms
+I[00:52:17.801] --> textDocument/clangd.fileStatus
+I[00:52:17.828] <-- textDocument/didChange
+I[00:52:17.829] --> textDocument/clangd.fileStatus
+I[00:52:17.879] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:17.879] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 23 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:17.880] --> textDocument/clangd.fileStatus
+I[00:52:17.881] --> textDocument/clangd.fileStatus
+I[00:52:17.881] --> textDocument/clangd.fileStatus
+I[00:52:17.884] <-- clangd/inlayHints(147)
+I[00:52:17.891] --> textDocument/publishDiagnostics
+I[00:52:17.891] --> reply:clangd/inlayHints(147) 7 ms
+I[00:52:17.891] --> textDocument/clangd.fileStatus
+I[00:52:17.973] <-- textDocument/didChange
+I[00:52:17.973] --> textDocument/clangd.fileStatus
+I[00:52:17.984] <-- textDocument/didSave
+I[00:52:17.984] File version went from 1 to 1
+I[00:52:17.985] File version went from 24 to 24
+I[00:52:17.985] --> textDocument/clangd.fileStatus
+I[00:52:17.985] --> textDocument/clangd.fileStatus
+I[00:52:18.030] <-- clangd/inlayHints(148)
+I[00:52:18.030] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:18.031] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 24 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:18.032] --> textDocument/clangd.fileStatus
+I[00:52:18.055] --> reply:clangd/inlayHints(148) 25 ms
+I[00:52:18.056] --> textDocument/clangd.fileStatus
+I[00:52:18.056] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:18.056] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:18.057] --> textDocument/clangd.fileStatus
+I[00:52:18.058] --> textDocument/clangd.fileStatus
+I[00:52:18.058] --> textDocument/clangd.fileStatus
+I[00:52:18.058] --> textDocument/clangd.fileStatus
+I[00:52:18.087] --> workspace/semanticTokens/refresh(4)
+I[00:52:18.087] --> textDocument/clangd.fileStatus
+I[00:52:18.088] <-- reply(4)
+I[00:52:18.095] --> textDocument/publishDiagnostics
+I[00:52:18.095] --> textDocument/clangd.fileStatus
+I[00:52:18.128] <-- textDocument/semanticTokens/full/delta(149)
+I[00:52:18.128] --> reply:textDocument/semanticTokens/full/delta(149) 0 ms
+I[00:52:18.128] --> textDocument/clangd.fileStatus
+I[00:52:18.330] <-- textDocument/documentSymbol(150)
+I[00:52:18.330] <-- textDocument/documentSymbol(151)
+I[00:52:18.330] --> reply:textDocument/documentSymbol(150) 0 ms
+I[00:52:18.330] --> reply:textDocument/documentSymbol(151) 0 ms
+I[00:52:18.330] --> textDocument/clangd.fileStatus
+I[00:52:18.397] <-- textDocument/codeAction(152)
+I[00:52:18.397] --> reply:textDocument/codeAction(152) 0 ms
+I[00:52:18.397] --> textDocument/clangd.fileStatus
+I[00:52:18.480] <-- textDocument/semanticTokens/full/delta(153)
+I[00:52:18.480] --> reply:textDocument/semanticTokens/full/delta(153) 0 ms
+I[00:52:18.480] --> textDocument/clangd.fileStatus
+I[00:52:18.596] <-- textDocument/hover(154)
+I[00:52:18.596] --> reply:textDocument/hover(154) 0 ms
+I[00:52:18.596] --> textDocument/clangd.fileStatus
+I[00:52:18.776] <-- clangd/inlayHints(155)
+I[00:52:18.776] --> reply:clangd/inlayHints(155) 0 ms
+I[00:52:18.776] --> textDocument/clangd.fileStatus
+I[00:52:18.916] <-- textDocument/hover(156)
+I[00:52:18.916] --> reply:textDocument/hover(156) 0 ms
+I[00:52:18.916] --> textDocument/clangd.fileStatus
+I[00:52:18.974] <-- textDocument/documentLink(157)
+I[00:52:18.974] --> reply:textDocument/documentLink(157) 0 ms
+I[00:52:18.975] --> textDocument/clangd.fileStatus
+I[00:52:19.181] <-- textDocument/didSave
+I[00:52:19.181] File version went from 1 to 1
+I[00:52:19.181] File version went from 24 to 24
+I[00:52:19.181] --> textDocument/clangd.fileStatus
+I[00:52:19.182] --> textDocument/clangd.fileStatus
+I[00:52:19.233] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:19.233] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 24 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:19.236] --> textDocument/clangd.fileStatus
+I[00:52:19.236] --> textDocument/clangd.fileStatus
+I[00:52:19.236] --> textDocument/clangd.fileStatus
+I[00:52:19.236] --> textDocument/clangd.fileStatus
+I[00:52:19.251] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:19.251] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:19.253] --> textDocument/clangd.fileStatus
+I[00:52:19.253] --> textDocument/clangd.fileStatus
+I[00:52:19.254] --> textDocument/clangd.fileStatus
+I[00:52:19.254] --> textDocument/clangd.fileStatus
+I[00:52:20.072] <-- textDocument/codeAction(158)
+I[00:52:20.072] --> reply:textDocument/codeAction(158) 0 ms
+I[00:52:20.072] --> textDocument/clangd.fileStatus
+I[00:52:21.105] <-- textDocument/hover(159)
+I[00:52:21.111] --> reply:textDocument/hover(159) 5 ms
+I[00:52:21.111] --> textDocument/clangd.fileStatus
+I[00:52:21.728] <-- textDocument/hover(160)
+I[00:52:21.729] --> reply:textDocument/hover(160) 0 ms
+I[00:52:21.729] --> textDocument/clangd.fileStatus
+I[00:52:22.141] <-- textDocument/hover(161)
+I[00:52:22.142] --> reply:textDocument/hover(161) 1 ms
+I[00:52:22.142] --> textDocument/clangd.fileStatus
+I[00:52:22.369] <-- textDocument/documentHighlight(162)
+I[00:52:22.369] --> reply:textDocument/documentHighlight(162) 0 ms
+I[00:52:22.369] --> textDocument/clangd.fileStatus
+I[00:52:23.315] <-- textDocument/codeAction(163)
+I[00:52:23.315] --> reply:textDocument/codeAction(163) 0 ms
+I[00:52:23.315] --> textDocument/clangd.fileStatus
+I[00:52:23.944] <-- textDocument/didChange
+I[00:52:23.944] --> textDocument/clangd.fileStatus
+I[00:52:23.994] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:23.994] <-- clangd/inlayHints(164)
+I[00:52:23.994] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 25 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:23.996] --> textDocument/clangd.fileStatus
+I[00:52:24.004] --> reply:clangd/inlayHints(164) 9 ms
+I[00:52:24.004] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:52:24.004] --> textDocument/publishDiagnostics
+I[00:52:24.004] --> textDocument/clangd.fileStatus
+I[00:52:24.234] <-- textDocument/semanticTokens/full/delta(165)
+I[00:52:24.234] --> reply:textDocument/semanticTokens/full/delta(165) 0 ms
+I[00:52:24.234] --> textDocument/clangd.fileStatus
+I[00:52:24.285] <-- textDocument/documentSymbol(166)
+I[00:52:24.286] <-- textDocument/documentSymbol(167)
+I[00:52:24.286] --> reply:textDocument/documentSymbol(166) 0 ms
+I[00:52:24.286] --> reply:textDocument/documentSymbol(167) 0 ms
+I[00:52:24.286] --> textDocument/clangd.fileStatus
+I[00:52:24.307] <-- textDocument/codeAction(168)
+I[00:52:24.307] --> reply:textDocument/codeAction(168) 0 ms
+I[00:52:24.307] --> textDocument/clangd.fileStatus
+I[00:52:24.737] <-- clangd/inlayHints(169)
+I[00:52:24.737] --> reply:clangd/inlayHints(169) 0 ms
+I[00:52:24.737] --> textDocument/clangd.fileStatus
+I[00:52:24.938] <-- textDocument/documentLink(170)
+I[00:52:24.938] --> reply:textDocument/documentLink(170) 0 ms
+I[00:52:24.938] --> textDocument/clangd.fileStatus
+I[00:52:25.121] <-- textDocument/didSave
+I[00:52:25.121] File version went from 1 to 1
+I[00:52:25.121] File version went from 25 to 25
+I[00:52:25.121] --> textDocument/clangd.fileStatus
+I[00:52:25.121] --> textDocument/clangd.fileStatus
+I[00:52:25.171] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:25.171] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 25 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:25.174] --> textDocument/clangd.fileStatus
+I[00:52:25.174] --> textDocument/clangd.fileStatus
+I[00:52:25.174] --> textDocument/clangd.fileStatus
+I[00:52:25.174] --> textDocument/clangd.fileStatus
+I[00:52:25.191] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:25.191] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:25.193] --> textDocument/clangd.fileStatus
+I[00:52:25.193] --> textDocument/clangd.fileStatus
+I[00:52:25.193] --> textDocument/clangd.fileStatus
+I[00:52:25.194] --> textDocument/clangd.fileStatus
+I[00:52:25.502] <-- textDocument/codeAction(171)
+I[00:52:25.502] --> reply:textDocument/codeAction(171) 0 ms
+I[00:52:25.502] --> textDocument/clangd.fileStatus
+I[00:52:26.953] <-- textDocument/codeAction(172)
+I[00:52:26.953] --> reply:textDocument/codeAction(172) 0 ms
+I[00:52:26.953] --> textDocument/clangd.fileStatus
+I[00:52:27.093] <-- textDocument/didChange
+I[00:52:27.093] --> textDocument/clangd.fileStatus
+I[00:52:27.143] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:27.144] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 26 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:27.145] --> textDocument/clangd.fileStatus
+I[00:52:27.146] --> textDocument/clangd.fileStatus
+I[00:52:27.146] --> textDocument/clangd.fileStatus
+I[00:52:27.152] <-- clangd/inlayHints(173)
+I[00:52:27.158] --> textDocument/publishDiagnostics
+I[00:52:27.159] --> reply:clangd/inlayHints(173) 6 ms
+I[00:52:27.159] --> textDocument/clangd.fileStatus
+I[00:52:27.389] <-- textDocument/semanticTokens/full/delta(174)
+I[00:52:27.389] --> reply:textDocument/semanticTokens/full/delta(174) 0 ms
+I[00:52:27.389] --> textDocument/clangd.fileStatus
+I[00:52:27.445] <-- textDocument/documentSymbol(175)
+I[00:52:27.445] <-- textDocument/documentSymbol(176)
+I[00:52:27.446] --> reply:textDocument/documentSymbol(175) 0 ms
+I[00:52:27.446] --> reply:textDocument/documentSymbol(176) 0 ms
+I[00:52:27.446] --> textDocument/clangd.fileStatus
+I[00:52:27.465] <-- textDocument/codeAction(177)
+I[00:52:27.465] --> reply:textDocument/codeAction(177) 0 ms
+I[00:52:27.465] --> textDocument/clangd.fileStatus
+I[00:52:27.898] <-- clangd/inlayHints(178)
+I[00:52:27.898] --> reply:clangd/inlayHints(178) 0 ms
+I[00:52:27.898] --> textDocument/clangd.fileStatus
+I[00:52:28.093] <-- textDocument/documentLink(179)
+I[00:52:28.094] --> reply:textDocument/documentLink(179) 0 ms
+I[00:52:28.094] --> textDocument/clangd.fileStatus
+I[00:52:28.279] <-- textDocument/didSave
+I[00:52:28.279] File version went from 1 to 1
+I[00:52:28.279] File version went from 26 to 26
+I[00:52:28.279] --> textDocument/clangd.fileStatus
+I[00:52:28.279] --> textDocument/clangd.fileStatus
+I[00:52:28.313] <-- textDocument/codeAction(180)
+I[00:52:28.313] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:28.313] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 26 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:28.315] --> textDocument/clangd.fileStatus
+I[00:52:28.315] --> reply:textDocument/codeAction(180) 2 ms
+I[00:52:28.315] --> textDocument/clangd.fileStatus
+I[00:52:28.316] --> textDocument/clangd.fileStatus
+I[00:52:28.316] --> textDocument/clangd.fileStatus
+I[00:52:28.349] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:28.349] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:28.351] --> textDocument/clangd.fileStatus
+I[00:52:28.351] --> textDocument/clangd.fileStatus
+I[00:52:28.352] --> textDocument/clangd.fileStatus
+I[00:52:28.352] --> textDocument/clangd.fileStatus
+I[00:52:28.352] --> textDocument/clangd.fileStatus
+I[00:52:29.931] <-- textDocument/codeAction(181)
+I[00:52:29.931] --> reply:textDocument/codeAction(181) 0 ms
+I[00:52:29.931] --> textDocument/clangd.fileStatus
+I[00:52:29.965] <-- textDocument/didChange
+I[00:52:29.966] --> textDocument/clangd.fileStatus
+I[00:52:30.016] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:30.016] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 27 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:30.017] --> textDocument/clangd.fileStatus
+I[00:52:30.017] --> textDocument/clangd.fileStatus
+I[00:52:30.018] --> textDocument/clangd.fileStatus
+I[00:52:30.023] <-- clangd/inlayHints(182)
+I[00:52:30.025] --> textDocument/publishDiagnostics
+I[00:52:30.025] --> reply:clangd/inlayHints(182) 2 ms
+I[00:52:30.025] --> textDocument/clangd.fileStatus
+I[00:52:30.260] <-- textDocument/semanticTokens/full/delta(183)
+I[00:52:30.260] --> reply:textDocument/semanticTokens/full/delta(183) 0 ms
+I[00:52:30.260] --> textDocument/clangd.fileStatus
+I[00:52:30.314] <-- textDocument/documentSymbol(184)
+I[00:52:30.314] <-- textDocument/documentSymbol(185)
+I[00:52:30.314] --> reply:textDocument/documentSymbol(184) 0 ms
+I[00:52:30.314] --> reply:textDocument/documentSymbol(185) 0 ms
+I[00:52:30.314] --> textDocument/clangd.fileStatus
+I[00:52:30.331] <-- textDocument/codeAction(186)
+I[00:52:30.331] --> reply:textDocument/codeAction(186) 0 ms
+I[00:52:30.331] --> textDocument/clangd.fileStatus
+I[00:52:30.439] <-- textDocument/didChange
+I[00:52:30.439] --> textDocument/clangd.fileStatus
+I[00:52:30.483] <-- clangd/inlayHints(187)
+I[00:52:30.483] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:30.484] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 28 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:30.485] --> textDocument/clangd.fileStatus
+I[00:52:30.492] --> reply:clangd/inlayHints(187) 9 ms
+I[00:52:30.493] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:52:30.493] --> textDocument/publishDiagnostics
+I[00:52:30.493] --> textDocument/clangd.fileStatus
+I[00:52:30.728] <-- textDocument/semanticTokens/full/delta(188)
+I[00:52:30.729] --> reply:textDocument/semanticTokens/full/delta(188) 0 ms
+I[00:52:30.729] --> textDocument/clangd.fileStatus
+I[00:52:30.781] <-- textDocument/documentSymbol(189)
+I[00:52:30.781] <-- textDocument/documentSymbol(190)
+I[00:52:30.781] --> reply:textDocument/documentSymbol(189) 0 ms
+I[00:52:30.781] --> reply:textDocument/documentSymbol(190) 0 ms
+I[00:52:30.781] --> textDocument/clangd.fileStatus
+I[00:52:30.795] <-- textDocument/codeAction(191)
+I[00:52:30.795] --> reply:textDocument/codeAction(191) 0 ms
+I[00:52:30.795] --> textDocument/clangd.fileStatus
+I[00:52:31.237] <-- clangd/inlayHints(192)
+I[00:52:31.237] --> reply:clangd/inlayHints(192) 0 ms
+I[00:52:31.237] --> textDocument/clangd.fileStatus
+I[00:52:31.432] <-- textDocument/documentLink(193)
+I[00:52:31.432] --> reply:textDocument/documentLink(193) 0 ms
+I[00:52:31.432] --> textDocument/clangd.fileStatus
+I[00:52:31.636] <-- textDocument/didSave
+I[00:52:31.636] File version went from 1 to 1
+I[00:52:31.636] File version went from 28 to 28
+I[00:52:31.636] --> textDocument/clangd.fileStatus
+I[00:52:31.636] --> textDocument/clangd.fileStatus
+I[00:52:31.686] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:31.686] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 28 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:31.687] --> textDocument/clangd.fileStatus
+I[00:52:31.687] --> textDocument/clangd.fileStatus
+I[00:52:31.688] --> textDocument/clangd.fileStatus
+I[00:52:31.688] --> textDocument/clangd.fileStatus
+I[00:52:31.706] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:31.706] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:31.707] --> textDocument/clangd.fileStatus
+I[00:52:31.707] --> textDocument/clangd.fileStatus
+I[00:52:31.708] --> textDocument/clangd.fileStatus
+I[00:52:31.708] --> textDocument/clangd.fileStatus
+I[00:52:32.265] <-- textDocument/hover(194)
+I[00:52:32.266] --> reply:textDocument/hover(194) 1 ms
+I[00:52:32.266] --> textDocument/clangd.fileStatus
+I[00:52:35.797] <-- textDocument/hover(195)
+I[00:52:35.798] --> reply:textDocument/hover(195) 0 ms
+I[00:52:35.798] --> textDocument/clangd.fileStatus
+I[00:52:38.970] <-- textDocument/hover(196)
+I[00:52:38.971] --> reply:textDocument/hover(196) 0 ms
+I[00:52:38.971] --> textDocument/clangd.fileStatus
+I[00:52:39.235] <-- textDocument/codeAction(197)
+I[00:52:39.235] --> reply:textDocument/codeAction(197) 0 ms
+I[00:52:39.235] --> textDocument/clangd.fileStatus
+I[00:52:39.900] <-- textDocument/didChange
+I[00:52:39.900] --> textDocument/clangd.fileStatus
+I[00:52:39.946] <-- clangd/inlayHints(198)
+I[00:52:39.946] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:39.946] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 29 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:39.948] --> textDocument/clangd.fileStatus
+I[00:52:39.955] --> reply:clangd/inlayHints(198) 9 ms
+I[00:52:39.955] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:52:39.956] --> textDocument/publishDiagnostics
+I[00:52:39.956] --> textDocument/clangd.fileStatus
+I[00:52:40.187] <-- textDocument/semanticTokens/full/delta(199)
+I[00:52:40.188] --> reply:textDocument/semanticTokens/full/delta(199) 0 ms
+I[00:52:40.188] --> textDocument/clangd.fileStatus
+I[00:52:40.241] <-- textDocument/documentSymbol(200)
+I[00:52:40.241] <-- textDocument/documentSymbol(201)
+I[00:52:40.242] --> reply:textDocument/documentSymbol(200) 0 ms
+I[00:52:40.242] --> reply:textDocument/documentSymbol(201) 0 ms
+I[00:52:40.242] --> textDocument/clangd.fileStatus
+I[00:52:40.267] <-- textDocument/codeAction(202)
+I[00:52:40.267] --> reply:textDocument/codeAction(202) 0 ms
+I[00:52:40.267] --> textDocument/clangd.fileStatus
+I[00:52:40.691] <-- clangd/inlayHints(203)
+I[00:52:40.692] --> reply:clangd/inlayHints(203) 0 ms
+I[00:52:40.692] --> textDocument/clangd.fileStatus
+I[00:52:40.895] <-- textDocument/documentLink(204)
+I[00:52:40.895] --> reply:textDocument/documentLink(204) 0 ms
+I[00:52:40.895] --> textDocument/clangd.fileStatus
+I[00:52:41.088] <-- textDocument/didSave
+I[00:52:41.088] File version went from 1 to 1
+I[00:52:41.088] File version went from 29 to 29
+I[00:52:41.088] --> textDocument/clangd.fileStatus
+I[00:52:41.088] --> textDocument/clangd.fileStatus
+I[00:52:41.138] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:41.139] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 29 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:41.140] --> textDocument/clangd.fileStatus
+I[00:52:41.140] --> textDocument/clangd.fileStatus
+I[00:52:41.141] --> textDocument/clangd.fileStatus
+I[00:52:41.141] --> textDocument/clangd.fileStatus
+I[00:52:41.158] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:41.158] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:41.160] --> textDocument/clangd.fileStatus
+I[00:52:41.160] --> textDocument/clangd.fileStatus
+I[00:52:41.161] --> textDocument/clangd.fileStatus
+I[00:52:41.161] --> textDocument/clangd.fileStatus
+I[00:52:53.312] <-- textDocument/hover(205)
+I[00:52:53.313] --> reply:textDocument/hover(205) 0 ms
+I[00:52:53.313] --> textDocument/clangd.fileStatus
+I[00:52:53.500] <-- textDocument/hover(206)
+I[00:52:53.501] --> reply:textDocument/hover(206) 1 ms
+I[00:52:53.501] --> textDocument/clangd.fileStatus
+I[00:52:54.748] <-- textDocument/hover(207)
+I[00:52:54.749] --> reply:textDocument/hover(207) 0 ms
+I[00:52:54.749] --> textDocument/clangd.fileStatus
+I[00:52:55.076] <-- textDocument/hover(208)
+I[00:52:55.076] --> reply:textDocument/hover(208) 0 ms
+I[00:52:55.076] --> textDocument/clangd.fileStatus
+I[00:52:55.188] <-- textDocument/documentHighlight(209)
+I[00:52:55.188] --> reply:textDocument/documentHighlight(209) 0 ms
+I[00:52:55.188] --> textDocument/clangd.fileStatus
+I[00:52:55.398] <-- textDocument/codeAction(210)
+I[00:52:55.398] --> reply:textDocument/codeAction(210) 0 ms
+I[00:52:55.398] --> textDocument/clangd.fileStatus
+I[00:52:55.637] <-- textDocument/hover(211)
+I[00:52:55.637] --> reply:textDocument/hover(211) 0 ms
+I[00:52:55.637] --> textDocument/clangd.fileStatus
+I[00:52:56.159] <-- textDocument/codeAction(212)
+I[00:52:56.159] --> reply:textDocument/codeAction(212) 0 ms
+I[00:52:56.159] --> textDocument/clangd.fileStatus
+I[00:52:56.382] <-- textDocument/didChange
+I[00:52:56.383] --> textDocument/clangd.fileStatus
+I[00:52:56.433] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:56.433] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 30 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:56.434] --> textDocument/clangd.fileStatus
+I[00:52:56.434] --> textDocument/clangd.fileStatus
+I[00:52:56.435] --> textDocument/clangd.fileStatus
+I[00:52:56.442] --> textDocument/publishDiagnostics
+I[00:52:56.442] --> textDocument/clangd.fileStatus
+I[00:52:56.443] <-- clangd/inlayHints(213)
+I[00:52:56.443] --> reply:clangd/inlayHints(213) 0 ms
+I[00:52:56.444] --> textDocument/clangd.fileStatus
+I[00:52:56.688] <-- textDocument/semanticTokens/full/delta(214)
+I[00:52:56.688] --> reply:textDocument/semanticTokens/full/delta(214) 0 ms
+I[00:52:56.688] --> textDocument/clangd.fileStatus
+I[00:52:56.735] <-- textDocument/documentSymbol(215)
+I[00:52:56.736] <-- textDocument/documentSymbol(216)
+I[00:52:56.736] --> reply:textDocument/documentSymbol(215) 0 ms
+I[00:52:56.736] --> reply:textDocument/documentSymbol(216) 0 ms
+I[00:52:56.736] --> textDocument/clangd.fileStatus
+I[00:52:56.741] <-- textDocument/codeAction(217)
+I[00:52:56.741] --> reply:textDocument/codeAction(217) 0 ms
+I[00:52:56.742] --> textDocument/clangd.fileStatus
+I[00:52:57.181] <-- clangd/inlayHints(218)
+I[00:52:57.181] --> reply:clangd/inlayHints(218) 0 ms
+I[00:52:57.181] --> textDocument/clangd.fileStatus
+I[00:52:57.385] <-- textDocument/documentLink(219)
+I[00:52:57.385] --> reply:textDocument/documentLink(219) 0 ms
+I[00:52:57.385] --> textDocument/clangd.fileStatus
+I[00:52:57.577] <-- textDocument/didSave
+I[00:52:57.577] File version went from 1 to 1
+I[00:52:57.578] File version went from 30 to 30
+I[00:52:57.578] --> textDocument/clangd.fileStatus
+I[00:52:57.578] --> textDocument/clangd.fileStatus
+I[00:52:57.628] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:52:57.628] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 30 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:52:57.630] --> textDocument/clangd.fileStatus
+I[00:52:57.630] --> textDocument/clangd.fileStatus
+I[00:52:57.630] --> textDocument/clangd.fileStatus
+I[00:52:57.630] --> textDocument/clangd.fileStatus
+I[00:52:57.647] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:57.648] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:52:57.649] --> textDocument/clangd.fileStatus
+I[00:52:57.649] --> textDocument/clangd.fileStatus
+I[00:52:57.650] --> textDocument/clangd.fileStatus
+I[00:52:57.650] --> textDocument/clangd.fileStatus
+I[00:52:59.757] <-- textDocument/hover(220)
+I[00:52:59.757] --> reply:textDocument/hover(220) 0 ms
+I[00:52:59.757] --> textDocument/clangd.fileStatus
+I[00:53:00.689] <-- textDocument/documentHighlight(221)
+I[00:53:00.689] --> reply:textDocument/documentHighlight(221) 0 ms
+I[00:53:00.689] --> textDocument/clangd.fileStatus
+I[00:53:00.892] <-- textDocument/codeAction(222)
+I[00:53:00.893] --> reply:textDocument/codeAction(222) 0 ms
+I[00:53:00.893] --> textDocument/clangd.fileStatus
+I[00:53:00.962] <-- textDocument/didChange
+I[00:53:00.962] --> textDocument/clangd.fileStatus
+I[00:53:01.013] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:01.013] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 31 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:01.014] --> textDocument/clangd.fileStatus
+I[00:53:01.014] --> textDocument/clangd.fileStatus
+I[00:53:01.015] --> textDocument/clangd.fileStatus
+I[00:53:01.022] --> textDocument/publishDiagnostics
+I[00:53:01.022] --> textDocument/clangd.fileStatus
+I[00:53:01.024] <-- clangd/inlayHints(223)
+I[00:53:01.024] --> reply:clangd/inlayHints(223) 0 ms
+I[00:53:01.024] --> textDocument/clangd.fileStatus
+I[00:53:01.208] <-- textDocument/hover(224)
+I[00:53:01.209] --> reply:textDocument/hover(224) 0 ms
+I[00:53:01.209] --> textDocument/clangd.fileStatus
+I[00:53:01.249] <-- textDocument/semanticTokens/full/delta(225)
+I[00:53:01.249] --> reply:textDocument/semanticTokens/full/delta(225) 0 ms
+I[00:53:01.249] --> textDocument/clangd.fileStatus
+I[00:53:01.290] <-- textDocument/didChange
+I[00:53:01.290] --> textDocument/clangd.fileStatus
+I[00:53:01.338] <-- textDocument/documentSymbol(226)
+I[00:53:01.338] <-- clangd/inlayHints(227)
+I[00:53:01.338] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:01.338] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 32 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:01.340] <-- $/cancelRequest
+I[00:53:01.340] --> reply:textDocument/documentSymbol(226) 2 ms, error: Task was cancelled.
+I[00:53:01.340] --> textDocument/clangd.fileStatus
+[Error - 12:53:01 AM] Request textDocument/documentSymbol failed.
+[object Object]
+I[00:53:01.340] --> textDocument/clangd.fileStatus
+I[00:53:01.349] --> reply:clangd/inlayHints(227) 10 ms
+I[00:53:01.349] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:53:01.349] --> textDocument/publishDiagnostics
+I[00:53:01.349] --> textDocument/clangd.fileStatus
+I[00:53:01.580] <-- textDocument/semanticTokens/full/delta(228)
+I[00:53:01.580] --> reply:textDocument/semanticTokens/full/delta(228) 0 ms
+I[00:53:01.580] --> textDocument/clangd.fileStatus
+I[00:53:01.636] <-- textDocument/documentSymbol(229)
+I[00:53:01.636] <-- textDocument/documentSymbol(230)
+I[00:53:01.636] --> reply:textDocument/documentSymbol(229) 0 ms
+I[00:53:01.636] --> reply:textDocument/documentSymbol(230) 0 ms
+I[00:53:01.636] --> textDocument/clangd.fileStatus
+I[00:53:01.649] <-- textDocument/codeAction(231)
+I[00:53:01.650] --> reply:textDocument/codeAction(231) 0 ms
+I[00:53:01.650] --> textDocument/clangd.fileStatus
+I[00:53:02.080] <-- clangd/inlayHints(232)
+I[00:53:02.080] --> reply:clangd/inlayHints(232) 0 ms
+I[00:53:02.080] --> textDocument/clangd.fileStatus
+I[00:53:02.282] <-- textDocument/documentLink(233)
+I[00:53:02.282] --> reply:textDocument/documentLink(233) 0 ms
+I[00:53:02.282] --> textDocument/clangd.fileStatus
+I[00:53:02.477] <-- textDocument/didSave
+I[00:53:02.477] File version went from 1 to 1
+I[00:53:02.477] File version went from 32 to 32
+I[00:53:02.477] --> textDocument/clangd.fileStatus
+I[00:53:02.478] --> textDocument/clangd.fileStatus
+I[00:53:02.528] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:02.528] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 32 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:02.529] --> textDocument/clangd.fileStatus
+I[00:53:02.529] --> textDocument/clangd.fileStatus
+I[00:53:02.530] --> textDocument/clangd.fileStatus
+I[00:53:02.531] --> textDocument/clangd.fileStatus
+I[00:53:02.547] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:02.547] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:02.549] --> textDocument/clangd.fileStatus
+I[00:53:02.549] --> textDocument/clangd.fileStatus
+I[00:53:02.550] --> textDocument/clangd.fileStatus
+I[00:53:02.550] --> textDocument/clangd.fileStatus
+I[00:53:03.756] <-- textDocument/documentHighlight(234)
+I[00:53:03.757] --> reply:textDocument/documentHighlight(234) 0 ms
+I[00:53:03.757] --> textDocument/clangd.fileStatus
+I[00:53:05.430] <-- textDocument/codeAction(235)
+I[00:53:05.430] --> reply:textDocument/codeAction(235) 0 ms
+I[00:53:05.430] --> textDocument/clangd.fileStatus
+I[00:53:05.640] <-- textDocument/hover(236)
+I[00:53:05.640] --> reply:textDocument/hover(236) 0 ms
+I[00:53:05.640] --> textDocument/clangd.fileStatus
+I[00:53:06.122] <-- textDocument/codeAction(237)
+I[00:53:06.122] --> reply:textDocument/codeAction(237) 0 ms
+I[00:53:06.122] --> textDocument/clangd.fileStatus
+I[00:53:08.113] <-- textDocument/hover(238)
+I[00:53:08.114] --> reply:textDocument/hover(238) 0 ms
+I[00:53:08.114] --> textDocument/clangd.fileStatus
+I[00:53:08.479] <-- textDocument/didChange
+I[00:53:08.479] --> textDocument/clangd.fileStatus
+I[00:53:08.529] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:08.529] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 33 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:08.531] --> textDocument/clangd.fileStatus
+I[00:53:08.531] --> textDocument/clangd.fileStatus
+I[00:53:08.531] --> textDocument/clangd.fileStatus
+I[00:53:08.534] <-- clangd/inlayHints(239)
+I[00:53:08.538] --> textDocument/publishDiagnostics
+I[00:53:08.539] --> reply:clangd/inlayHints(239) 4 ms
+I[00:53:08.539] --> textDocument/clangd.fileStatus
+I[00:53:08.769] <-- textDocument/semanticTokens/full/delta(240)
+I[00:53:08.769] --> reply:textDocument/semanticTokens/full/delta(240) 0 ms
+I[00:53:08.769] --> textDocument/clangd.fileStatus
+I[00:53:08.828] <-- textDocument/documentSymbol(241)
+I[00:53:08.829] <-- textDocument/documentSymbol(242)
+I[00:53:08.829] --> reply:textDocument/documentSymbol(241) 0 ms
+I[00:53:08.829] --> reply:textDocument/documentSymbol(242) 0 ms
+I[00:53:08.829] --> textDocument/clangd.fileStatus
+I[00:53:08.845] <-- textDocument/codeAction(243)
+I[00:53:08.846] --> reply:textDocument/codeAction(243) 0 ms
+I[00:53:08.846] --> textDocument/clangd.fileStatus
+I[00:53:09.272] <-- clangd/inlayHints(244)
+I[00:53:09.273] --> reply:clangd/inlayHints(244) 0 ms
+I[00:53:09.273] --> textDocument/clangd.fileStatus
+I[00:53:09.473] <-- textDocument/documentLink(245)
+I[00:53:09.473] --> reply:textDocument/documentLink(245) 0 ms
+I[00:53:09.473] --> textDocument/clangd.fileStatus
+I[00:53:09.736] <-- textDocument/didSave
+I[00:53:09.736] File version went from 1 to 1
+I[00:53:09.736] File version went from 33 to 33
+I[00:53:09.736] --> textDocument/clangd.fileStatus
+I[00:53:09.736] --> textDocument/clangd.fileStatus
+I[00:53:09.786] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:09.786] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 33 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:09.788] --> textDocument/clangd.fileStatus
+I[00:53:09.788] --> textDocument/clangd.fileStatus
+I[00:53:09.788] --> textDocument/clangd.fileStatus
+I[00:53:09.788] --> textDocument/clangd.fileStatus
+I[00:53:09.806] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:09.806] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:09.807] --> textDocument/clangd.fileStatus
+I[00:53:09.807] --> textDocument/clangd.fileStatus
+I[00:53:09.808] --> textDocument/clangd.fileStatus
+I[00:53:09.808] --> textDocument/clangd.fileStatus
+I[00:53:11.585] <-- textDocument/hover(246)
+I[00:53:11.586] --> reply:textDocument/hover(246) 0 ms
+I[00:53:11.586] --> textDocument/clangd.fileStatus
+I[00:53:11.675] <-- textDocument/documentHighlight(247)
+I[00:53:11.675] --> reply:textDocument/documentHighlight(247) 0 ms
+I[00:53:11.675] --> textDocument/clangd.fileStatus
+I[00:53:11.872] <-- textDocument/codeAction(248)
+I[00:53:11.872] --> reply:textDocument/codeAction(248) 0 ms
+I[00:53:11.872] --> textDocument/clangd.fileStatus
+I[00:53:11.895] <-- textDocument/didChange
+I[00:53:11.895] --> textDocument/clangd.fileStatus
+I[00:53:11.945] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:11.946] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 34 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:11.947] --> textDocument/clangd.fileStatus
+I[00:53:11.947] --> textDocument/clangd.fileStatus
+I[00:53:11.947] --> textDocument/clangd.fileStatus
+I[00:53:11.948] <-- clangd/inlayHints(249)
+I[00:53:11.954] --> textDocument/publishDiagnostics
+I[00:53:11.954] --> reply:clangd/inlayHints(249) 5 ms
+I[00:53:11.954] --> textDocument/clangd.fileStatus
+I[00:53:12.049] <-- textDocument/didChange
+I[00:53:12.049] --> textDocument/clangd.fileStatus
+I[00:53:12.099] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:12.099] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 35 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:12.101] --> textDocument/clangd.fileStatus
+I[00:53:12.101] --> textDocument/clangd.fileStatus
+I[00:53:12.101] --> textDocument/clangd.fileStatus
+I[00:53:12.108] --> textDocument/publishDiagnostics
+I[00:53:12.108] --> textDocument/clangd.fileStatus
+I[00:53:12.109] <-- clangd/inlayHints(250)
+I[00:53:12.109] --> reply:clangd/inlayHints(250) 0 ms
+I[00:53:12.109] --> textDocument/clangd.fileStatus
+I[00:53:12.183] <-- textDocument/semanticTokens/full/delta(251)
+I[00:53:12.183] --> reply:textDocument/semanticTokens/full/delta(251) 0 ms
+I[00:53:12.183] --> textDocument/clangd.fileStatus
+I[00:53:12.398] <-- textDocument/documentSymbol(252)
+I[00:53:12.398] <-- textDocument/documentSymbol(253)
+I[00:53:12.398] --> reply:textDocument/documentSymbol(252) 0 ms
+I[00:53:12.398] --> reply:textDocument/documentSymbol(253) 0 ms
+I[00:53:12.398] --> textDocument/clangd.fileStatus
+I[00:53:12.420] <-- textDocument/codeAction(254)
+I[00:53:12.420] --> reply:textDocument/codeAction(254) 0 ms
+I[00:53:12.420] --> textDocument/clangd.fileStatus
+I[00:53:12.855] <-- clangd/inlayHints(255)
+I[00:53:12.855] --> reply:clangd/inlayHints(255) 0 ms
+I[00:53:12.856] --> textDocument/clangd.fileStatus
+I[00:53:13.048] <-- textDocument/documentLink(256)
+I[00:53:13.048] --> reply:textDocument/documentLink(256) 0 ms
+I[00:53:13.048] --> textDocument/clangd.fileStatus
+I[00:53:13.236] <-- textDocument/didSave
+I[00:53:13.236] File version went from 1 to 1
+I[00:53:13.236] File version went from 35 to 35
+I[00:53:13.236] --> textDocument/clangd.fileStatus
+I[00:53:13.236] --> textDocument/clangd.fileStatus
+I[00:53:13.286] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:13.286] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 35 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:13.288] --> textDocument/clangd.fileStatus
+I[00:53:13.288] --> textDocument/clangd.fileStatus
+I[00:53:13.289] --> textDocument/clangd.fileStatus
+I[00:53:13.290] --> textDocument/clangd.fileStatus
+I[00:53:13.306] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:13.306] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:13.308] --> textDocument/clangd.fileStatus
+I[00:53:13.308] --> textDocument/clangd.fileStatus
+I[00:53:13.308] --> textDocument/clangd.fileStatus
+I[00:53:13.308] --> textDocument/clangd.fileStatus
+I[00:53:13.308] --> textDocument/clangd.fileStatus
+I[00:53:13.356] <-- textDocument/documentHighlight(257)
+I[00:53:13.357] --> reply:textDocument/documentHighlight(257) 0 ms
+I[00:53:13.357] --> textDocument/clangd.fileStatus
+I[00:53:13.558] <-- textDocument/codeAction(258)
+I[00:53:13.558] --> reply:textDocument/codeAction(258) 0 ms
+I[00:53:13.558] --> textDocument/clangd.fileStatus
+I[00:53:13.621] <-- textDocument/didChange
+I[00:53:13.621] --> textDocument/clangd.fileStatus
+I[00:53:13.671] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:13.671] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 36 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:13.672] <-- clangd/inlayHints(259)
+I[00:53:13.673] --> textDocument/clangd.fileStatus
+I[00:53:13.680] --> reply:clangd/inlayHints(259) 8 ms
+I[00:53:13.680] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:53:13.680] --> textDocument/publishDiagnostics
+I[00:53:13.680] --> textDocument/clangd.fileStatus
+I[00:53:13.763] <-- textDocument/didChange
+I[00:53:13.763] --> textDocument/clangd.fileStatus
+I[00:53:13.813] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:13.814] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 37 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:13.815] --> textDocument/clangd.fileStatus
+I[00:53:13.815] --> textDocument/clangd.fileStatus
+I[00:53:13.815] --> textDocument/clangd.fileStatus
+I[00:53:13.822] --> textDocument/publishDiagnostics
+I[00:53:13.822] --> textDocument/clangd.fileStatus
+I[00:53:13.823] <-- clangd/inlayHints(260)
+I[00:53:13.823] --> reply:clangd/inlayHints(260) 0 ms
+I[00:53:13.824] --> textDocument/clangd.fileStatus
+I[00:53:13.911] <-- textDocument/semanticTokens/full/delta(261)
+I[00:53:13.911] --> reply:textDocument/semanticTokens/full/delta(261) 0 ms
+I[00:53:13.911] --> textDocument/clangd.fileStatus
+I[00:53:14.117] <-- textDocument/documentSymbol(262)
+I[00:53:14.117] <-- textDocument/documentSymbol(263)
+I[00:53:14.117] --> reply:textDocument/documentSymbol(262) 0 ms
+I[00:53:14.117] --> reply:textDocument/documentSymbol(263) 0 ms
+I[00:53:14.117] --> textDocument/clangd.fileStatus
+I[00:53:14.127] <-- textDocument/codeAction(264)
+I[00:53:14.127] --> reply:textDocument/codeAction(264) 0 ms
+I[00:53:14.127] --> textDocument/clangd.fileStatus
+I[00:53:14.563] <-- clangd/inlayHints(265)
+I[00:53:14.563] --> reply:clangd/inlayHints(265) 0 ms
+I[00:53:14.563] --> textDocument/clangd.fileStatus
+I[00:53:14.767] <-- textDocument/documentLink(266)
+I[00:53:14.767] --> reply:textDocument/documentLink(266) 0 ms
+I[00:53:14.767] --> textDocument/clangd.fileStatus
+I[00:53:14.963] <-- textDocument/didSave
+I[00:53:14.963] File version went from 1 to 1
+I[00:53:14.963] File version went from 37 to 37
+I[00:53:14.963] --> textDocument/clangd.fileStatus
+I[00:53:14.963] --> textDocument/clangd.fileStatus
+I[00:53:15.013] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:15.013] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 37 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:15.015] --> textDocument/clangd.fileStatus
+I[00:53:15.015] --> textDocument/clangd.fileStatus
+I[00:53:15.016] --> textDocument/clangd.fileStatus
+I[00:53:15.016] --> textDocument/clangd.fileStatus
+I[00:53:15.033] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:15.033] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:15.035] --> textDocument/clangd.fileStatus
+I[00:53:15.035] --> textDocument/clangd.fileStatus
+I[00:53:15.035] --> textDocument/clangd.fileStatus
+I[00:53:15.035] --> textDocument/clangd.fileStatus
+I[00:53:15.051] <-- textDocument/hover(267)
+I[00:53:15.052] --> reply:textDocument/hover(267) 0 ms
+I[00:53:15.052] --> textDocument/clangd.fileStatus
+I[00:53:15.439] <-- textDocument/hover(268)
+I[00:53:15.439] --> reply:textDocument/hover(268) 0 ms
+I[00:53:15.439] --> textDocument/clangd.fileStatus
+I[00:53:18.295] <-- textDocument/documentHighlight(269)
+I[00:53:18.295] --> reply:textDocument/documentHighlight(269) 0 ms
+I[00:53:18.295] --> textDocument/clangd.fileStatus
+I[00:53:19.352] <-- textDocument/hover(270)
+I[00:53:19.352] --> reply:textDocument/hover(270) 0 ms
+I[00:53:19.352] --> textDocument/clangd.fileStatus
+I[00:53:19.352] <-- $/cancelRequest
+I[00:53:21.449] <-- textDocument/documentHighlight(271)
+I[00:53:21.450] --> reply:textDocument/documentHighlight(271) 0 ms
+I[00:53:21.450] --> textDocument/clangd.fileStatus
+I[00:53:22.357] <-- textDocument/documentHighlight(272)
+I[00:53:22.357] --> reply:textDocument/documentHighlight(272) 0 ms
+I[00:53:22.357] --> textDocument/clangd.fileStatus
+I[00:53:22.559] <-- textDocument/codeAction(273)
+I[00:53:22.559] --> reply:textDocument/codeAction(273) 0 ms
+I[00:53:22.559] --> textDocument/clangd.fileStatus
+I[00:53:22.698] <-- textDocument/didChange
+I[00:53:22.698] --> textDocument/clangd.fileStatus
+I[00:53:22.748] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:22.748] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 38 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:22.750] --> textDocument/clangd.fileStatus
+I[00:53:22.750] --> textDocument/clangd.fileStatus
+I[00:53:22.750] --> textDocument/clangd.fileStatus
+I[00:53:22.754] <-- clangd/inlayHints(274)
+I[00:53:22.757] --> textDocument/publishDiagnostics
+I[00:53:22.758] --> reply:clangd/inlayHints(274) 3 ms
+I[00:53:22.758] --> textDocument/clangd.fileStatus
+I[00:53:22.848] <-- textDocument/didChange
+I[00:53:22.849] --> textDocument/clangd.fileStatus
+I[00:53:22.898] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:22.899] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 39 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:22.900] --> textDocument/clangd.fileStatus
+I[00:53:22.900] --> textDocument/clangd.fileStatus
+I[00:53:22.901] --> textDocument/clangd.fileStatus
+I[00:53:22.907] --> textDocument/publishDiagnostics
+I[00:53:22.907] --> textDocument/clangd.fileStatus
+I[00:53:22.910] <-- clangd/inlayHints(275)
+I[00:53:22.910] --> reply:clangd/inlayHints(275) 0 ms
+I[00:53:22.910] --> textDocument/clangd.fileStatus
+I[00:53:22.994] <-- textDocument/semanticTokens/full/delta(276)
+I[00:53:22.994] --> reply:textDocument/semanticTokens/full/delta(276) 0 ms
+I[00:53:22.995] --> textDocument/clangd.fileStatus
+I[00:53:23.201] <-- textDocument/documentSymbol(277)
+I[00:53:23.201] <-- textDocument/documentSymbol(278)
+I[00:53:23.201] --> reply:textDocument/documentSymbol(277) 0 ms
+I[00:53:23.201] --> reply:textDocument/documentSymbol(278) 0 ms
+I[00:53:23.201] --> textDocument/clangd.fileStatus
+I[00:53:23.215] <-- textDocument/codeAction(279)
+I[00:53:23.215] --> reply:textDocument/codeAction(279) 0 ms
+I[00:53:23.215] --> textDocument/clangd.fileStatus
+I[00:53:23.647] <-- clangd/inlayHints(280)
+I[00:53:23.648] --> reply:clangd/inlayHints(280) 0 ms
+I[00:53:23.648] --> textDocument/clangd.fileStatus
+I[00:53:23.848] <-- textDocument/documentLink(281)
+I[00:53:23.848] --> reply:textDocument/documentLink(281) 0 ms
+I[00:53:23.849] --> textDocument/clangd.fileStatus
+I[00:53:23.998] <-- textDocument/hover(282)
+I[00:53:23.998] --> reply:textDocument/hover(282) 0 ms
+I[00:53:23.998] --> textDocument/clangd.fileStatus
+I[00:53:24.056] <-- textDocument/didSave
+I[00:53:24.056] File version went from 1 to 1
+I[00:53:24.056] File version went from 39 to 39
+I[00:53:24.056] --> textDocument/clangd.fileStatus
+I[00:53:24.056] --> textDocument/clangd.fileStatus
+I[00:53:24.106] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:24.106] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 39 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:24.108] --> textDocument/clangd.fileStatus
+I[00:53:24.108] --> textDocument/clangd.fileStatus
+I[00:53:24.109] --> textDocument/clangd.fileStatus
+I[00:53:24.109] --> textDocument/clangd.fileStatus
+I[00:53:24.126] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:24.126] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:24.128] --> textDocument/clangd.fileStatus
+I[00:53:24.128] --> textDocument/clangd.fileStatus
+I[00:53:24.128] --> textDocument/clangd.fileStatus
+I[00:53:24.129] --> textDocument/clangd.fileStatus
+I[00:53:24.296] <-- textDocument/codeAction(283)
+I[00:53:24.297] --> reply:textDocument/codeAction(283) 0 ms
+I[00:53:24.297] --> textDocument/clangd.fileStatus
+I[00:53:24.325] <-- textDocument/didChange
+I[00:53:24.325] --> textDocument/clangd.fileStatus
+I[00:53:24.376] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:24.376] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 40 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:24.377] <-- clangd/inlayHints(284)
+I[00:53:24.378] --> textDocument/clangd.fileStatus
+I[00:53:24.385] --> reply:clangd/inlayHints(284) 7 ms
+I[00:53:24.385] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:53:24.386] --> textDocument/publishDiagnostics
+I[00:53:24.386] --> textDocument/clangd.fileStatus
+I[00:53:24.484] <-- textDocument/didChange
+I[00:53:24.484] --> textDocument/clangd.fileStatus
+I[00:53:24.535] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:24.535] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 41 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:24.536] --> textDocument/clangd.fileStatus
+I[00:53:24.536] --> textDocument/clangd.fileStatus
+I[00:53:24.537] --> textDocument/clangd.fileStatus
+I[00:53:24.539] <-- clangd/inlayHints(285)
+I[00:53:24.543] --> textDocument/publishDiagnostics
+I[00:53:24.543] --> reply:clangd/inlayHints(285) 4 ms
+I[00:53:24.544] --> textDocument/clangd.fileStatus
+I[00:53:24.617] <-- textDocument/semanticTokens/full/delta(286)
+I[00:53:24.617] --> reply:textDocument/semanticTokens/full/delta(286) 0 ms
+I[00:53:24.617] --> textDocument/clangd.fileStatus
+I[00:53:24.836] <-- textDocument/documentSymbol(287)
+I[00:53:24.836] <-- textDocument/documentSymbol(288)
+I[00:53:24.836] --> reply:textDocument/documentSymbol(287) 0 ms
+I[00:53:24.836] --> reply:textDocument/documentSymbol(288) 0 ms
+I[00:53:24.836] --> textDocument/clangd.fileStatus
+I[00:53:24.852] <-- textDocument/codeAction(289)
+I[00:53:24.852] --> reply:textDocument/codeAction(289) 0 ms
+I[00:53:24.852] --> textDocument/clangd.fileStatus
+I[00:53:25.281] <-- clangd/inlayHints(290)
+I[00:53:25.281] --> reply:clangd/inlayHints(290) 0 ms
+I[00:53:25.281] --> textDocument/clangd.fileStatus
+I[00:53:25.420] <-- textDocument/hover(291)
+I[00:53:25.420] --> reply:textDocument/hover(291) 0 ms
+I[00:53:25.420] --> textDocument/clangd.fileStatus
+I[00:53:25.488] <-- textDocument/documentLink(292)
+I[00:53:25.489] --> reply:textDocument/documentLink(292) 0 ms
+I[00:53:25.489] --> textDocument/clangd.fileStatus
+I[00:53:25.617] <-- textDocument/hover(293)
+I[00:53:25.617] --> reply:textDocument/hover(293) 0 ms
+I[00:53:25.618] --> textDocument/clangd.fileStatus
+I[00:53:25.698] <-- textDocument/didSave
+I[00:53:25.698] File version went from 1 to 1
+I[00:53:25.699] File version went from 41 to 41
+I[00:53:25.699] --> textDocument/clangd.fileStatus
+I[00:53:25.699] --> textDocument/clangd.fileStatus
+I[00:53:25.736] <-- textDocument/documentHighlight(294)
+I[00:53:25.736] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:25.736] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 41 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:25.738] --> textDocument/clangd.fileStatus
+I[00:53:25.738] --> reply:textDocument/documentHighlight(294) 2 ms
+I[00:53:25.738] --> textDocument/clangd.fileStatus
+I[00:53:25.738] --> textDocument/clangd.fileStatus
+I[00:53:25.739] --> textDocument/clangd.fileStatus
+I[00:53:25.768] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:25.769] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:25.771] --> textDocument/clangd.fileStatus
+I[00:53:25.771] --> textDocument/clangd.fileStatus
+I[00:53:25.771] --> textDocument/clangd.fileStatus
+I[00:53:25.771] --> textDocument/clangd.fileStatus
+I[00:53:25.936] <-- textDocument/codeAction(295)
+I[00:53:25.936] --> reply:textDocument/codeAction(295) 0 ms
+I[00:53:25.936] --> textDocument/clangd.fileStatus
+I[00:53:26.310] <-- textDocument/didChange
+I[00:53:26.310] --> textDocument/clangd.fileStatus
+I[00:53:26.360] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:26.360] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 42 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:26.362] --> textDocument/clangd.fileStatus
+I[00:53:26.362] --> textDocument/clangd.fileStatus
+I[00:53:26.362] --> textDocument/clangd.fileStatus
+I[00:53:26.362] <-- clangd/inlayHints(296)
+I[00:53:26.369] --> textDocument/publishDiagnostics
+I[00:53:26.370] --> reply:clangd/inlayHints(296) 7 ms
+I[00:53:26.370] --> textDocument/clangd.fileStatus
+I[00:53:26.604] <-- textDocument/semanticTokens/full/delta(297)
+I[00:53:26.604] --> reply:textDocument/semanticTokens/full/delta(297) 0 ms
+I[00:53:26.604] --> textDocument/clangd.fileStatus
+I[00:53:26.660] <-- textDocument/documentSymbol(298)
+I[00:53:26.660] <-- textDocument/documentSymbol(299)
+I[00:53:26.660] --> reply:textDocument/documentSymbol(298) 0 ms
+I[00:53:26.660] --> reply:textDocument/documentSymbol(299) 0 ms
+I[00:53:26.660] --> textDocument/clangd.fileStatus
+I[00:53:26.677] <-- textDocument/codeAction(300)
+I[00:53:26.677] --> reply:textDocument/codeAction(300) 0 ms
+I[00:53:26.677] --> textDocument/clangd.fileStatus
+I[00:53:26.753] <-- textDocument/didChange
+I[00:53:26.753] --> textDocument/clangd.fileStatus
+I[00:53:26.803] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:26.803] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 43 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:26.803] <-- clangd/inlayHints(301)
+I[00:53:26.805] --> textDocument/clangd.fileStatus
+I[00:53:26.813] --> reply:clangd/inlayHints(301) 9 ms
+I[00:53:26.813] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:53:26.813] --> textDocument/publishDiagnostics
+I[00:53:26.814] --> textDocument/clangd.fileStatus
+I[00:53:27.044] <-- textDocument/semanticTokens/full/delta(302)
+I[00:53:27.044] --> reply:textDocument/semanticTokens/full/delta(302) 0 ms
+I[00:53:27.044] --> textDocument/clangd.fileStatus
+I[00:53:27.097] <-- textDocument/documentSymbol(303)
+I[00:53:27.097] <-- textDocument/documentSymbol(304)
+I[00:53:27.098] --> reply:textDocument/documentSymbol(303) 0 ms
+I[00:53:27.098] --> reply:textDocument/documentSymbol(304) 0 ms
+I[00:53:27.098] --> textDocument/clangd.fileStatus
+I[00:53:27.118] <-- textDocument/codeAction(305)
+I[00:53:27.119] --> reply:textDocument/codeAction(305) 0 ms
+I[00:53:27.119] --> textDocument/clangd.fileStatus
+I[00:53:27.553] <-- clangd/inlayHints(306)
+I[00:53:27.553] --> reply:clangd/inlayHints(306) 0 ms
+I[00:53:27.553] --> textDocument/clangd.fileStatus
+I[00:53:27.746] <-- textDocument/documentLink(307)
+I[00:53:27.746] --> reply:textDocument/documentLink(307) 0 ms
+I[00:53:27.746] --> textDocument/clangd.fileStatus
+I[00:53:27.948] <-- textDocument/didSave
+I[00:53:27.948] File version went from 1 to 1
+I[00:53:27.948] File version went from 43 to 43
+I[00:53:27.948] --> textDocument/clangd.fileStatus
+I[00:53:27.948] --> textDocument/clangd.fileStatus
+I[00:53:27.998] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:27.999] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 43 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:28.000] --> textDocument/clangd.fileStatus
+I[00:53:28.000] --> textDocument/clangd.fileStatus
+I[00:53:28.001] --> textDocument/clangd.fileStatus
+I[00:53:28.001] --> textDocument/clangd.fileStatus
+I[00:53:28.018] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:28.018] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:28.019] --> textDocument/clangd.fileStatus
+I[00:53:28.019] --> textDocument/clangd.fileStatus
+I[00:53:28.020] --> textDocument/clangd.fileStatus
+I[00:53:28.020] --> textDocument/clangd.fileStatus
+I[00:53:29.794] <-- textDocument/documentHighlight(308)
+I[00:53:29.794] --> reply:textDocument/documentHighlight(308) 0 ms
+I[00:53:29.794] --> textDocument/clangd.fileStatus
+I[00:53:30.168] <-- textDocument/hover(309)
+I[00:53:30.169] --> reply:textDocument/hover(309) 0 ms
+I[00:53:30.169] --> textDocument/clangd.fileStatus
+I[00:53:31.126] <-- textDocument/didChange
+I[00:53:31.126] --> textDocument/clangd.fileStatus
+I[00:53:31.176] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:31.177] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 44 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:31.178] --> textDocument/clangd.fileStatus
+I[00:53:31.178] --> textDocument/clangd.fileStatus
+I[00:53:31.178] --> textDocument/clangd.fileStatus
+I[00:53:31.181] <-- clangd/inlayHints(310)
+I[00:53:31.186] --> textDocument/publishDiagnostics
+I[00:53:31.186] --> reply:clangd/inlayHints(310) 4 ms
+I[00:53:31.186] --> textDocument/clangd.fileStatus
+I[00:53:31.262] <-- textDocument/didChange
+I[00:53:31.262] --> textDocument/clangd.fileStatus
+I[00:53:31.312] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:31.313] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 45 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:31.314] --> textDocument/clangd.fileStatus
+I[00:53:31.314] --> textDocument/clangd.fileStatus
+I[00:53:31.315] --> textDocument/clangd.fileStatus
+I[00:53:31.319] <-- clangd/inlayHints(311)
+I[00:53:31.322] --> textDocument/publishDiagnostics
+I[00:53:31.322] --> reply:clangd/inlayHints(311) 2 ms
+I[00:53:31.322] --> textDocument/clangd.fileStatus
+I[00:53:31.421] <-- textDocument/semanticTokens/full/delta(312)
+I[00:53:31.421] --> reply:textDocument/semanticTokens/full/delta(312) 0 ms
+I[00:53:31.421] --> textDocument/clangd.fileStatus
+I[00:53:31.612] <-- textDocument/documentSymbol(313)
+I[00:53:31.613] <-- textDocument/documentSymbol(314)
+I[00:53:31.613] --> reply:textDocument/documentSymbol(313) 0 ms
+I[00:53:31.613] --> reply:textDocument/documentSymbol(314) 0 ms
+I[00:53:31.613] --> textDocument/clangd.fileStatus
+I[00:53:31.628] <-- textDocument/codeAction(315)
+I[00:53:31.628] --> reply:textDocument/codeAction(315) 0 ms
+I[00:53:31.628] --> textDocument/clangd.fileStatus
+I[00:53:32.063] <-- clangd/inlayHints(316)
+I[00:53:32.063] --> reply:clangd/inlayHints(316) 0 ms
+I[00:53:32.063] --> textDocument/clangd.fileStatus
+I[00:53:32.267] <-- textDocument/documentLink(317)
+I[00:53:32.267] --> reply:textDocument/documentLink(317) 0 ms
+I[00:53:32.267] --> textDocument/clangd.fileStatus
+I[00:53:32.462] <-- textDocument/didSave
+I[00:53:32.462] File version went from 1 to 1
+I[00:53:32.462] File version went from 45 to 45
+I[00:53:32.462] --> textDocument/clangd.fileStatus
+I[00:53:32.462] --> textDocument/clangd.fileStatus
+I[00:53:32.512] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:32.512] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 45 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:32.514] --> textDocument/clangd.fileStatus
+I[00:53:32.514] --> textDocument/clangd.fileStatus
+I[00:53:32.515] --> textDocument/clangd.fileStatus
+I[00:53:32.515] --> textDocument/clangd.fileStatus
+I[00:53:32.532] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:32.532] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:32.534] --> textDocument/clangd.fileStatus
+I[00:53:32.534] --> textDocument/clangd.fileStatus
+I[00:53:32.535] --> textDocument/clangd.fileStatus
+I[00:53:32.535] --> textDocument/clangd.fileStatus
+I[00:53:32.966] <-- textDocument/codeAction(318)
+I[00:53:32.966] --> reply:textDocument/codeAction(318) 0 ms
+I[00:53:32.966] --> textDocument/clangd.fileStatus
+I[00:53:33.026] <-- textDocument/didChange
+I[00:53:33.026] --> textDocument/clangd.fileStatus
+I[00:53:33.075] <-- clangd/inlayHints(319)
+I[00:53:33.075] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:33.075] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 46 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:33.077] --> textDocument/clangd.fileStatus
+I[00:53:33.084] --> reply:clangd/inlayHints(319) 9 ms
+I[00:53:33.084] Skipping rebuild of the AST for /home/efarzad22/intro-to-os/cpu.c, inputs are the same.
+I[00:53:33.084] --> textDocument/publishDiagnostics
+I[00:53:33.084] --> textDocument/clangd.fileStatus
+I[00:53:33.316] <-- textDocument/semanticTokens/full/delta(320)
+I[00:53:33.316] --> reply:textDocument/semanticTokens/full/delta(320) 0 ms
+I[00:53:33.317] --> textDocument/clangd.fileStatus
+I[00:53:33.375] <-- textDocument/documentSymbol(321)
+I[00:53:33.375] <-- textDocument/documentSymbol(322)
+I[00:53:33.376] --> reply:textDocument/documentSymbol(321) 0 ms
+I[00:53:33.376] --> reply:textDocument/documentSymbol(322) 0 ms
+I[00:53:33.376] --> textDocument/clangd.fileStatus
+I[00:53:33.388] <-- textDocument/codeAction(323)
+I[00:53:33.389] --> reply:textDocument/codeAction(323) 0 ms
+I[00:53:33.389] --> textDocument/clangd.fileStatus
+I[00:53:33.827] <-- clangd/inlayHints(324)
+I[00:53:33.828] --> reply:clangd/inlayHints(324) 0 ms
+I[00:53:33.828] --> textDocument/clangd.fileStatus
+I[00:53:34.019] <-- textDocument/documentLink(325)
+I[00:53:34.019] --> reply:textDocument/documentLink(325) 0 ms
+I[00:53:34.019] --> textDocument/clangd.fileStatus
+I[00:53:34.088] <-- clangd/inlayHints(326)
+I[00:53:34.088] --> reply:clangd/inlayHints(326) 0 ms
+I[00:53:34.088] --> textDocument/clangd.fileStatus
+I[00:53:34.201] <-- textDocument/didSave
+I[00:53:34.202] File version went from 1 to 1
+I[00:53:34.202] File version went from 46 to 46
+I[00:53:34.202] --> textDocument/clangd.fileStatus
+I[00:53:34.202] --> textDocument/clangd.fileStatus
+I[00:53:34.252] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:34.252] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 46 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:34.253] --> textDocument/clangd.fileStatus
+I[00:53:34.253] --> textDocument/clangd.fileStatus
+I[00:53:34.254] --> textDocument/clangd.fileStatus
+I[00:53:34.254] --> textDocument/clangd.fileStatus
+I[00:53:34.271] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:34.272] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:34.273] --> textDocument/clangd.fileStatus
+I[00:53:34.273] --> textDocument/clangd.fileStatus
+I[00:53:34.274] --> textDocument/clangd.fileStatus
+I[00:53:34.274] --> textDocument/clangd.fileStatus
+I[00:53:34.443] <-- textDocument/codeAction(327)
+I[00:53:34.443] --> reply:textDocument/codeAction(327) 0 ms
+I[00:53:34.443] --> textDocument/clangd.fileStatus
+I[00:53:35.085] <-- textDocument/didSave
+I[00:53:35.085] File version went from 1 to 1
+I[00:53:35.085] File version went from 46 to 46
+I[00:53:35.085] --> textDocument/clangd.fileStatus
+I[00:53:35.085] --> textDocument/clangd.fileStatus
+I[00:53:35.135] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:35.135] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 46 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:35.137] --> textDocument/clangd.fileStatus
+I[00:53:35.138] --> textDocument/clangd.fileStatus
+I[00:53:35.155] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:35.155] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:35.157] --> textDocument/clangd.fileStatus
+I[00:53:35.157] --> textDocument/clangd.fileStatus
+I[00:53:35.157] --> textDocument/clangd.fileStatus
+I[00:53:35.157] --> textDocument/clangd.fileStatus
+I[00:53:36.961] <-- textDocument/hover(328)
+I[00:53:36.961] --> reply:textDocument/hover(328) 0 ms
+I[00:53:36.961] --> textDocument/clangd.fileStatus
+I[00:53:37.123] <-- textDocument/codeAction(329)
+I[00:53:37.123] --> reply:textDocument/codeAction(329) 0 ms
+I[00:53:37.123] --> textDocument/clangd.fileStatus
+I[00:53:41.886] <-- textDocument/codeAction(330)
+I[00:53:41.887] --> reply:textDocument/codeAction(330) 0 ms
+I[00:53:41.887] --> textDocument/clangd.fileStatus
+I[00:53:42.791] <-- textDocument/codeAction(331)
+I[00:53:42.791] --> reply:textDocument/codeAction(331) 0 ms
+I[00:53:42.791] --> textDocument/clangd.fileStatus
+I[00:53:44.040] <-- textDocument/didChange
+I[00:53:44.040] <-- textDocument/completion(332)
+I[00:53:44.040] --> textDocument/clangd.fileStatus
+I[00:53:44.040] --> reply:textDocument/completion(332) 0 ms
+I[00:53:44.076] <-- clangd/inlayHints(333)
+I[00:53:44.076] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:44.076] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 47 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:44.078] --> textDocument/clangd.fileStatus
+I[00:53:44.088] --> reply:clangd/inlayHints(333) 12 ms
+I[00:53:44.088] --> textDocument/clangd.fileStatus
+I[00:53:44.119] --> workspace/semanticTokens/refresh(5)
+I[00:53:44.119] --> textDocument/clangd.fileStatus
+I[00:53:44.119] <-- reply(5)
+I[00:53:44.126] --> textDocument/publishDiagnostics
+I[00:53:44.126] --> textDocument/clangd.fileStatus
+I[00:53:44.165] <-- textDocument/semanticTokens/full/delta(334)
+I[00:53:44.166] --> reply:textDocument/semanticTokens/full/delta(334) 0 ms
+I[00:53:44.166] --> textDocument/clangd.fileStatus
+I[00:53:44.196] <-- textDocument/signatureHelp(335)
+I[00:53:44.204] --> reply:textDocument/signatureHelp(335) 7 ms
+I[00:53:44.369] <-- textDocument/documentSymbol(336)
+I[00:53:44.369] <-- textDocument/documentSymbol(337)
+I[00:53:44.369] --> reply:textDocument/documentSymbol(336) 0 ms
+I[00:53:44.369] --> reply:textDocument/documentSymbol(337) 0 ms
+I[00:53:44.369] --> textDocument/clangd.fileStatus
+I[00:53:44.434] <-- textDocument/codeAction(338)
+I[00:53:44.434] --> reply:textDocument/codeAction(338) 0 ms
+I[00:53:44.435] --> textDocument/clangd.fileStatus
+I[00:53:44.650] <-- textDocument/documentHighlight(339)
+I[00:53:44.650] --> reply:textDocument/documentHighlight(339) 0 ms
+I[00:53:44.650] --> textDocument/clangd.fileStatus
+I[00:53:44.771] <-- textDocument/documentHighlight(340)
+I[00:53:44.772] --> reply:textDocument/documentHighlight(340) 0 ms
+I[00:53:44.772] --> textDocument/clangd.fileStatus
+I[00:53:44.826] <-- clangd/inlayHints(341)
+I[00:53:44.826] --> reply:clangd/inlayHints(341) 0 ms
+I[00:53:44.826] --> textDocument/clangd.fileStatus
+I[00:53:44.954] <-- textDocument/documentHighlight(342)
+I[00:53:44.954] --> reply:textDocument/documentHighlight(342) 0 ms
+I[00:53:44.954] --> textDocument/clangd.fileStatus
+I[00:53:45.026] <-- textDocument/documentLink(343)
+I[00:53:45.026] --> reply:textDocument/documentLink(343) 0 ms
+I[00:53:45.026] --> textDocument/clangd.fileStatus
+I[00:53:45.064] <-- textDocument/documentHighlight(344)
+I[00:53:45.064] --> reply:textDocument/documentHighlight(344) 0 ms
+I[00:53:45.064] --> textDocument/clangd.fileStatus
+I[00:53:45.177] <-- textDocument/documentHighlight(345)
+I[00:53:45.177] --> reply:textDocument/documentHighlight(345) 0 ms
+I[00:53:45.177] --> textDocument/clangd.fileStatus
+I[00:53:45.233] <-- textDocument/didSave
+I[00:53:45.233] File version went from 1 to 1
+I[00:53:45.233] File version went from 47 to 47
+I[00:53:45.233] --> textDocument/clangd.fileStatus
+I[00:53:45.233] --> textDocument/clangd.fileStatus
+I[00:53:45.283] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:45.283] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 47 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:45.285] --> textDocument/clangd.fileStatus
+I[00:53:45.285] --> textDocument/clangd.fileStatus
+I[00:53:45.286] --> textDocument/clangd.fileStatus
+I[00:53:45.286] --> textDocument/clangd.fileStatus
+I[00:53:45.303] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:45.303] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:45.305] --> textDocument/clangd.fileStatus
+I[00:53:45.305] --> textDocument/clangd.fileStatus
+I[00:53:45.305] --> textDocument/clangd.fileStatus
+I[00:53:45.305] --> textDocument/clangd.fileStatus
+I[00:53:45.308] <-- textDocument/documentHighlight(346)
+I[00:53:45.308] --> reply:textDocument/documentHighlight(346) 0 ms
+I[00:53:45.308] --> textDocument/clangd.fileStatus
+I[00:53:45.434] <-- textDocument/documentHighlight(347)
+I[00:53:45.434] --> reply:textDocument/documentHighlight(347) 0 ms
+I[00:53:45.434] --> textDocument/clangd.fileStatus
+I[00:53:45.561] <-- textDocument/documentHighlight(348)
+I[00:53:45.561] --> reply:textDocument/documentHighlight(348) 0 ms
+I[00:53:45.562] --> textDocument/clangd.fileStatus
+I[00:53:45.672] <-- textDocument/documentHighlight(349)
+I[00:53:45.673] --> reply:textDocument/documentHighlight(349) 0 ms
+I[00:53:45.673] --> textDocument/clangd.fileStatus
+I[00:53:46.024] <-- textDocument/codeAction(350)
+I[00:53:46.024] --> reply:textDocument/codeAction(350) 0 ms
+I[00:53:46.024] --> textDocument/clangd.fileStatus
+I[00:53:46.462] <-- textDocument/didChange
+I[00:53:46.462] <-- textDocument/completion(351)
+I[00:53:46.462] --> textDocument/clangd.fileStatus
+I[00:53:46.476] Code complete: sema context IncludedFile, query scopes [] (AnyScope=true), expected type <none>
+I[00:53:46.476] Code complete: 375 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 100 returned (incomplete).
+I[00:53:46.480] --> reply:textDocument/completion(351) 17 ms
+I[00:53:46.504] <-- clangd/inlayHints(352)
+I[00:53:46.504] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:46.504] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 48 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:46.506] --> textDocument/clangd.fileStatus
+I[00:53:46.512] --> reply:clangd/inlayHints(352) 8 ms
+I[00:53:46.512] --> textDocument/clangd.fileStatus
+I[00:53:46.543] --> workspace/semanticTokens/refresh(6)
+I[00:53:46.543] --> textDocument/clangd.fileStatus
+I[00:53:46.544] <-- reply(6)
+I[00:53:46.551] --> textDocument/publishDiagnostics
+I[00:53:46.551] --> textDocument/clangd.fileStatus
+I[00:53:46.630] <-- textDocument/semanticTokens/full/delta(353)
+I[00:53:46.631] --> reply:textDocument/semanticTokens/full/delta(353) 0 ms
+I[00:53:46.631] --> textDocument/clangd.fileStatus
+I[00:53:46.635] <-- textDocument/signatureHelp(354)
+I[00:53:46.642] --> reply:textDocument/signatureHelp(354) 6 ms
+I[00:53:46.799] <-- textDocument/documentSymbol(355)
+I[00:53:46.799] <-- textDocument/documentSymbol(356)
+I[00:53:46.799] --> reply:textDocument/documentSymbol(355) 0 ms
+I[00:53:46.799] --> reply:textDocument/documentSymbol(356) 0 ms
+I[00:53:46.799] --> textDocument/clangd.fileStatus
+I[00:53:46.885] <-- textDocument/codeAction(357)
+I[00:53:46.885] --> reply:textDocument/codeAction(357) 0 ms
+I[00:53:46.885] --> textDocument/clangd.fileStatus
+I[00:53:47.249] <-- clangd/inlayHints(358)
+I[00:53:47.250] --> reply:clangd/inlayHints(358) 0 ms
+I[00:53:47.250] --> textDocument/clangd.fileStatus
+I[00:53:47.449] <-- textDocument/documentLink(359)
+I[00:53:47.449] --> reply:textDocument/documentLink(359) 0 ms
+I[00:53:47.449] --> textDocument/clangd.fileStatus
+I[00:53:47.630] <-- textDocument/didSave
+I[00:53:47.630] File version went from 1 to 1
+I[00:53:47.630] File version went from 48 to 48
+I[00:53:47.630] --> textDocument/clangd.fileStatus
+I[00:53:47.630] --> textDocument/clangd.fileStatus
+I[00:53:47.680] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:53:47.680] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 48 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:53:47.682] --> textDocument/clangd.fileStatus
+I[00:53:47.682] --> textDocument/clangd.fileStatus
+I[00:53:47.682] --> textDocument/clangd.fileStatus
+I[00:53:47.683] --> textDocument/clangd.fileStatus
+I[00:53:47.701] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:47.701] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:53:47.702] --> textDocument/clangd.fileStatus
+I[00:53:47.703] --> textDocument/clangd.fileStatus
+I[00:53:47.703] --> textDocument/clangd.fileStatus
+I[00:53:47.703] --> textDocument/clangd.fileStatus
+I[00:53:47.861] <-- textDocument/codeAction(360)
+I[00:53:47.861] --> reply:textDocument/codeAction(360) 0 ms
+I[00:53:47.861] --> textDocument/clangd.fileStatus
+I[00:53:49.440] <-- textDocument/hover(361)
+I[00:53:49.440] --> reply:textDocument/hover(361) 0 ms
+I[00:53:49.440] --> textDocument/clangd.fileStatus
+I[00:53:49.598] <-- textDocument/codeAction(362)
+I[00:53:49.599] --> reply:textDocument/codeAction(362) 0 ms
+I[00:53:49.599] --> textDocument/clangd.fileStatus
+I[00:55:03.779] <-- textDocument/hover(363)
+I[00:55:03.779] --> reply:textDocument/hover(363) 0 ms
+I[00:55:03.779] --> textDocument/clangd.fileStatus
+I[00:56:31.121] <-- textDocument/codeAction(364)
+I[00:56:31.121] --> reply:textDocument/codeAction(364) 0 ms
+I[00:56:31.121] --> textDocument/clangd.fileStatus
+I[00:56:31.151] <-- textDocument/documentLink(365)
+I[00:56:31.151] <-- clangd/inlayHints(366)
+I[00:56:31.151] --> reply:textDocument/documentLink(365) 0 ms
+I[00:56:31.151] --> reply:clangd/inlayHints(366) 0 ms
+I[00:56:31.151] --> textDocument/clangd.fileStatus
+I[00:56:31.343] <-- textDocument/codeAction(367)
+I[00:56:31.343] --> reply:textDocument/codeAction(367) 0 ms
+I[00:56:31.343] --> textDocument/clangd.fileStatus
+I[00:56:31.372] <-- textDocument/semanticTokens/full/delta(368)
+I[00:56:31.372] --> reply:textDocument/semanticTokens/full/delta(368) 0 ms
+I[00:56:31.372] --> textDocument/clangd.fileStatus
+I[00:56:31.387] <-- textDocument/documentSymbol(369)
+I[00:56:31.387] --> reply:textDocument/documentSymbol(369) 0 ms
+I[00:56:31.388] --> textDocument/clangd.fileStatus
+I[00:56:33.031] <-- textDocument/didChange
+I[00:56:33.031] --> textDocument/clangd.fileStatus
+I[00:56:33.081] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:56:33.082] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 49 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:56:33.083] --> textDocument/clangd.fileStatus
+I[00:56:33.083] --> textDocument/clangd.fileStatus
+I[00:56:33.099] <-- clangd/inlayHints(370)
+I[00:56:33.099] --> textDocument/clangd.fileStatus
+I[00:56:33.111] --> reply:clangd/inlayHints(370) 12 ms
+I[00:56:33.111] --> textDocument/clangd.fileStatus
+I[00:56:33.129] --> workspace/semanticTokens/refresh(7)
+I[00:56:33.129] --> textDocument/clangd.fileStatus
+I[00:56:33.130] <-- reply(7)
+I[00:56:33.137] --> textDocument/publishDiagnostics
+I[00:56:33.137] --> textDocument/clangd.fileStatus
+I[00:56:33.179] <-- textDocument/semanticTokens/full/delta(371)
+I[00:56:33.180] --> reply:textDocument/semanticTokens/full/delta(371) 0 ms
+I[00:56:33.180] --> textDocument/clangd.fileStatus
+I[00:56:33.234] <-- textDocument/didSave
+I[00:56:33.234] File version went from 1 to 1
+I[00:56:33.234] File version went from 49 to 49
+I[00:56:33.234] --> textDocument/clangd.fileStatus
+I[00:56:33.234] --> textDocument/clangd.fileStatus
+I[00:56:33.284] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:56:33.284] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 49 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:56:33.286] --> textDocument/clangd.fileStatus
+I[00:56:33.286] --> textDocument/clangd.fileStatus
+I[00:56:33.287] --> textDocument/clangd.fileStatus
+I[00:56:33.287] --> textDocument/clangd.fileStatus
+I[00:56:33.304] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:56:33.304] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:56:33.306] --> textDocument/clangd.fileStatus
+I[00:56:33.306] --> textDocument/clangd.fileStatus
+I[00:56:33.306] --> textDocument/clangd.fileStatus
+I[00:56:33.306] --> textDocument/clangd.fileStatus
+I[00:56:33.306] --> textDocument/clangd.fileStatus
+I[00:56:33.377] <-- textDocument/documentSymbol(372)
+I[00:56:33.377] <-- textDocument/documentSymbol(373)
+I[00:56:33.377] --> reply:textDocument/documentSymbol(372) 0 ms
+I[00:56:33.377] --> reply:textDocument/documentSymbol(373) 0 ms
+I[00:56:33.377] --> textDocument/clangd.fileStatus
+I[00:56:33.440] <-- textDocument/codeAction(374)
+I[00:56:33.441] --> reply:textDocument/codeAction(374) 0 ms
+I[00:56:33.441] --> textDocument/clangd.fileStatus
+I[00:56:33.830] <-- clangd/inlayHints(375)
+I[00:56:33.830] --> reply:clangd/inlayHints(375) 0 ms
+I[00:56:33.830] --> textDocument/clangd.fileStatus
+I[00:56:34.028] <-- textDocument/documentLink(376)
+I[00:56:34.028] --> reply:textDocument/documentLink(376) 0 ms
+I[00:56:34.028] --> textDocument/clangd.fileStatus
+I[00:56:34.805] <-- textDocument/didChange
+I[00:56:34.805] --> textDocument/clangd.fileStatus
+I[00:56:34.855] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:56:34.856] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 50 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:56:34.857] --> textDocument/clangd.fileStatus
+I[00:56:34.857] --> textDocument/clangd.fileStatus
+I[00:56:34.879] <-- clangd/inlayHints(377)
+I[00:56:34.879] --> textDocument/clangd.fileStatus
+I[00:56:34.890] --> reply:clangd/inlayHints(377) 11 ms
+I[00:56:34.890] --> textDocument/clangd.fileStatus
+I[00:56:34.900] --> workspace/semanticTokens/refresh(8)
+I[00:56:34.900] --> textDocument/clangd.fileStatus
+I[00:56:34.901] <-- reply(8)
+I[00:56:34.908] --> textDocument/publishDiagnostics
+I[00:56:34.908] --> textDocument/clangd.fileStatus
+I[00:56:34.948] <-- textDocument/semanticTokens/full/delta(378)
+I[00:56:34.948] --> reply:textDocument/semanticTokens/full/delta(378) 0 ms
+I[00:56:34.949] --> textDocument/clangd.fileStatus
+I[00:56:35.151] <-- textDocument/documentSymbol(379)
+I[00:56:35.152] --> reply:textDocument/documentSymbol(379) 0 ms
+I[00:56:35.152] --> textDocument/clangd.fileStatus
+I[00:56:35.155] <-- textDocument/documentSymbol(380)
+I[00:56:35.156] --> reply:textDocument/documentSymbol(380) 0 ms
+I[00:56:35.156] --> textDocument/clangd.fileStatus
+I[00:56:35.604] <-- clangd/inlayHints(381)
+I[00:56:35.604] --> reply:clangd/inlayHints(381) 0 ms
+I[00:56:35.604] --> textDocument/clangd.fileStatus
+I[00:56:35.805] <-- textDocument/documentLink(382)
+I[00:56:35.805] --> reply:textDocument/documentLink(382) 0 ms
+I[00:56:35.805] --> textDocument/clangd.fileStatus
+I[00:56:36.008] <-- textDocument/didSave
+I[00:56:36.008] File version went from 1 to 1
+I[00:56:36.008] File version went from 50 to 50
+I[00:56:36.008] --> textDocument/clangd.fileStatus
+I[00:56:36.008] --> textDocument/clangd.fileStatus
+I[00:56:36.058] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:56:36.059] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 50 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:56:36.060] --> textDocument/clangd.fileStatus
+I[00:56:36.060] --> textDocument/clangd.fileStatus
+I[00:56:36.061] --> textDocument/clangd.fileStatus
+I[00:56:36.061] --> textDocument/clangd.fileStatus
+I[00:56:36.078] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:56:36.079] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:56:36.081] --> textDocument/clangd.fileStatus
+I[00:56:36.081] --> textDocument/clangd.fileStatus
+I[00:56:36.081] --> textDocument/clangd.fileStatus
+I[00:56:36.082] --> textDocument/clangd.fileStatus
+I[00:56:46.874] <-- textDocument/codeAction(383)
+I[00:56:46.874] --> reply:textDocument/codeAction(383) 0 ms
+I[00:56:46.874] --> textDocument/clangd.fileStatus
+I[00:56:46.886] <-- textDocument/documentLink(384)
+I[00:56:46.886] <-- clangd/inlayHints(385)
+I[00:56:46.886] --> reply:textDocument/documentLink(384) 0 ms
+I[00:56:46.886] --> reply:clangd/inlayHints(385) 0 ms
+I[00:56:46.886] --> textDocument/clangd.fileStatus
+I[00:56:47.132] <-- textDocument/semanticTokens/full/delta(386)
+I[00:56:47.132] --> reply:textDocument/semanticTokens/full/delta(386) 0 ms
+I[00:56:47.133] --> textDocument/clangd.fileStatus
+I[00:56:47.142] <-- textDocument/documentSymbol(387)
+I[00:56:47.142] --> reply:textDocument/documentSymbol(387) 0 ms
+I[00:56:47.142] --> textDocument/clangd.fileStatus
+I[00:56:48.461] <-- textDocument/didSave
+I[00:56:48.461] File version went from 1 to 1
+I[00:56:48.461] File version went from 50 to 50
+I[00:56:48.461] --> textDocument/clangd.fileStatus
+I[00:56:48.461] --> textDocument/clangd.fileStatus
+I[00:56:48.511] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[00:56:48.511] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 50 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[00:56:48.513] --> textDocument/clangd.fileStatus
+I[00:56:48.513] --> textDocument/clangd.fileStatus
+I[00:56:48.514] --> textDocument/clangd.fileStatus
+I[00:56:48.514] --> textDocument/clangd.fileStatus
+I[00:56:48.531] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:56:48.531] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[00:56:48.533] --> textDocument/clangd.fileStatus
+I[00:56:48.533] --> textDocument/clangd.fileStatus
+I[00:56:48.533] --> textDocument/clangd.fileStatus
+I[00:56:48.534] --> textDocument/clangd.fileStatus
+I[00:58:00.469] <-- textDocument/hover(388)
+I[00:58:00.470] --> reply:textDocument/hover(388) 0 ms
+I[00:58:00.470] --> textDocument/clangd.fileStatus
+I[01:24:40.056] <-- textDocument/hover(389)
+I[01:24:40.057] <-- $/cancelRequest
+I[01:24:40.058] --> reply:textDocument/hover(389) 2 ms
+I[01:24:40.058] --> textDocument/clangd.fileStatus
+I[01:24:44.178] <-- textDocument/codeAction(390)
+I[01:24:44.178] --> reply:textDocument/codeAction(390) 0 ms
+I[01:24:44.178] --> textDocument/clangd.fileStatus
+I[01:24:44.221] <-- textDocument/documentLink(391)
+I[01:24:44.221] <-- clangd/inlayHints(392)
+I[01:24:44.221] --> reply:textDocument/documentLink(391) 0 ms
+I[01:24:44.221] --> reply:clangd/inlayHints(392) 0 ms
+I[01:24:44.222] --> textDocument/clangd.fileStatus
+I[01:24:44.444] <-- textDocument/semanticTokens/full/delta(393)
+I[01:24:44.444] --> reply:textDocument/semanticTokens/full/delta(393) 0 ms
+I[01:24:44.444] --> textDocument/clangd.fileStatus
+I[01:24:44.448] <-- textDocument/documentSymbol(394)
+I[01:24:44.448] --> reply:textDocument/documentSymbol(394) 0 ms
+I[01:24:44.448] --> textDocument/clangd.fileStatus
+I[01:24:50.666] <-- textDocument/codeAction(395)
+I[01:24:50.666] --> reply:textDocument/codeAction(395) 0 ms
+I[01:24:50.666] --> textDocument/clangd.fileStatus
+I[01:24:50.704] <-- textDocument/didChange
+I[01:24:50.704] --> textDocument/clangd.fileStatus
+I[01:24:50.755] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[01:24:50.755] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 51 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[01:24:50.757] --> textDocument/clangd.fileStatus
+I[01:24:50.757] --> textDocument/clangd.fileStatus
+I[01:24:50.763] <-- clangd/inlayHints(396)
+I[01:24:50.763] --> textDocument/clangd.fileStatus
+I[01:24:50.770] --> reply:clangd/inlayHints(396) 7 ms
+I[01:24:50.771] --> textDocument/clangd.fileStatus
+I[01:24:50.799] --> workspace/semanticTokens/refresh(9)
+I[01:24:50.799] --> textDocument/clangd.fileStatus
+I[01:24:50.801] <-- reply(9)
+I[01:24:50.810] --> textDocument/publishDiagnostics
+I[01:24:50.810] --> textDocument/clangd.fileStatus
+I[01:24:50.852] <-- textDocument/semanticTokens/full/delta(397)
+I[01:24:50.852] --> reply:textDocument/semanticTokens/full/delta(397) 0 ms
+I[01:24:50.852] --> textDocument/clangd.fileStatus
+I[01:24:51.060] <-- textDocument/documentSymbol(398)
+I[01:24:51.060] <-- textDocument/documentSymbol(399)
+I[01:24:51.060] --> reply:textDocument/documentSymbol(398) 0 ms
+I[01:24:51.060] --> reply:textDocument/documentSymbol(399) 0 ms
+I[01:24:51.060] --> textDocument/clangd.fileStatus
+I[01:24:51.113] <-- textDocument/codeAction(400)
+I[01:24:51.113] --> reply:textDocument/codeAction(400) 0 ms
+I[01:24:51.113] --> textDocument/clangd.fileStatus
+I[01:24:51.490] <-- textDocument/hover(401)
+I[01:24:51.490] --> reply:textDocument/hover(401) 0 ms
+I[01:24:51.490] --> textDocument/clangd.fileStatus
+I[01:24:51.504] <-- clangd/inlayHints(402)
+I[01:24:51.504] --> reply:clangd/inlayHints(402) 0 ms
+I[01:24:51.504] --> textDocument/clangd.fileStatus
+I[01:24:51.702] <-- textDocument/documentLink(403)
+I[01:24:51.702] --> reply:textDocument/documentLink(403) 0 ms
+I[01:24:51.702] --> textDocument/clangd.fileStatus
+I[01:24:51.765] <-- textDocument/codeAction(404)
+I[01:24:51.765] --> reply:textDocument/codeAction(404) 0 ms
+I[01:24:51.765] --> textDocument/clangd.fileStatus
+I[01:24:51.900] <-- textDocument/didSave
+I[01:24:51.900] File version went from 1 to 1
+I[01:24:51.900] File version went from 51 to 51
+I[01:24:51.900] --> textDocument/clangd.fileStatus
+I[01:24:51.900] --> textDocument/clangd.fileStatus
+I[01:24:51.950] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[01:24:51.950] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 51 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[01:24:51.952] --> textDocument/clangd.fileStatus
+I[01:24:51.952] --> textDocument/clangd.fileStatus
+I[01:24:51.953] --> textDocument/clangd.fileStatus
+I[01:24:51.953] --> textDocument/clangd.fileStatus
+I[01:24:51.970] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[01:24:51.970] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[01:24:51.972] --> textDocument/clangd.fileStatus
+I[01:24:51.972] --> textDocument/clangd.fileStatus
+I[01:24:51.973] --> textDocument/clangd.fileStatus
+I[01:24:51.973] --> textDocument/clangd.fileStatus
+I[01:24:52.023] <-- textDocument/didChange
+I[01:24:52.023] --> textDocument/clangd.fileStatus
+I[01:24:52.073] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[01:24:52.074] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 52 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[01:24:52.075] --> textDocument/clangd.fileStatus
+I[01:24:52.075] --> textDocument/clangd.fileStatus
+I[01:24:52.078] <-- clangd/inlayHints(405)
+I[01:24:52.078] --> textDocument/clangd.fileStatus
+I[01:24:52.085] --> reply:clangd/inlayHints(405) 6 ms
+I[01:24:52.085] --> textDocument/clangd.fileStatus
+I[01:24:52.116] --> workspace/semanticTokens/refresh(10)
+I[01:24:52.116] --> textDocument/clangd.fileStatus
+I[01:24:52.117] <-- reply(10)
+I[01:24:52.125] --> textDocument/publishDiagnostics
+I[01:24:52.125] --> textDocument/clangd.fileStatus
+I[01:24:52.166] <-- textDocument/semanticTokens/full/delta(406)
+I[01:24:52.166] --> reply:textDocument/semanticTokens/full/delta(406) 0 ms
+I[01:24:52.166] --> textDocument/clangd.fileStatus
+I[01:24:52.372] <-- textDocument/documentSymbol(407)
+I[01:24:52.372] <-- textDocument/documentSymbol(408)
+I[01:24:52.372] --> reply:textDocument/documentSymbol(407) 0 ms
+I[01:24:52.372] --> reply:textDocument/documentSymbol(408) 0 ms
+I[01:24:52.372] --> textDocument/clangd.fileStatus
+I[01:24:52.433] <-- textDocument/codeAction(409)
+I[01:24:52.434] --> reply:textDocument/codeAction(409) 0 ms
+I[01:24:52.434] --> textDocument/clangd.fileStatus
+I[01:24:52.794] <-- textDocument/didSave
+I[01:24:52.794] File version went from 1 to 1
+I[01:24:52.794] File version went from 52 to 52
+I[01:24:52.794] --> textDocument/clangd.fileStatus
+I[01:24:52.794] --> textDocument/clangd.fileStatus
+I[01:24:52.820] <-- clangd/inlayHints(410)
+I[01:24:52.820] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[01:24:52.820] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 52 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[01:24:52.822] --> textDocument/clangd.fileStatus
+I[01:24:52.822] --> reply:clangd/inlayHints(410) 2 ms
+I[01:24:52.822] --> textDocument/clangd.fileStatus
+I[01:24:52.823] --> textDocument/clangd.fileStatus
+I[01:24:52.823] --> textDocument/clangd.fileStatus
+I[01:24:52.864] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[01:24:52.864] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[01:24:52.866] --> textDocument/clangd.fileStatus
+I[01:24:52.868] --> textDocument/clangd.fileStatus
+I[01:24:52.868] --> textDocument/clangd.fileStatus
+I[01:24:52.868] --> textDocument/clangd.fileStatus
+I[01:24:53.019] <-- textDocument/documentLink(411)
+I[01:24:53.019] --> reply:textDocument/documentLink(411) 0 ms
+I[01:24:53.019] --> textDocument/clangd.fileStatus
+I[01:24:57.110] <-- textDocument/codeAction(412)
+I[01:24:57.111] --> reply:textDocument/codeAction(412) 0 ms
+I[01:24:57.111] --> textDocument/clangd.fileStatus
+I[01:25:14.056] <-- textDocument/codeAction(413)
+I[01:25:14.057] --> reply:textDocument/codeAction(413) 0 ms
+I[01:25:14.057] --> textDocument/clangd.fileStatus
+I[01:25:14.070] <-- textDocument/documentLink(414)
+I[01:25:14.070] <-- clangd/inlayHints(415)
+I[01:25:14.070] --> reply:textDocument/documentLink(414) 0 ms
+I[01:25:14.070] --> reply:clangd/inlayHints(415) 0 ms
+I[01:25:14.070] --> textDocument/clangd.fileStatus
+I[01:25:14.266] <-- textDocument/codeAction(416)
+I[01:25:14.266] --> reply:textDocument/codeAction(416) 0 ms
+I[01:25:14.266] --> textDocument/clangd.fileStatus
+I[01:25:14.304] <-- textDocument/semanticTokens/full/delta(417)
+I[01:25:14.304] --> reply:textDocument/semanticTokens/full/delta(417) 0 ms
+I[01:25:14.304] --> textDocument/clangd.fileStatus
+I[01:25:14.314] <-- textDocument/documentSymbol(418)
+I[01:25:14.314] --> reply:textDocument/documentSymbol(418) 0 ms
+I[01:25:14.314] --> textDocument/clangd.fileStatus
+I[01:25:44.865] <-- textDocument/hover(419)
+I[01:25:44.866] --> reply:textDocument/hover(419) 0 ms
+I[01:25:44.866] --> textDocument/clangd.fileStatus
+I[01:26:57.579] <-- textDocument/codeAction(420)
+I[01:26:57.580] --> reply:textDocument/codeAction(420) 0 ms
+I[01:26:57.580] --> textDocument/clangd.fileStatus
+I[01:26:57.596] <-- textDocument/documentLink(421)
+I[01:26:57.597] <-- clangd/inlayHints(422)
+I[01:26:57.597] --> reply:textDocument/documentLink(421) 0 ms
+I[01:26:57.597] --> reply:clangd/inlayHints(422) 0 ms
+I[01:26:57.597] --> textDocument/clangd.fileStatus
+I[01:26:57.796] <-- textDocument/codeAction(423)
+I[01:26:57.796] --> reply:textDocument/codeAction(423) 0 ms
+I[01:26:57.796] --> textDocument/clangd.fileStatus
+I[01:26:57.821] <-- textDocument/semanticTokens/full/delta(424)
+I[01:26:57.821] --> reply:textDocument/semanticTokens/full/delta(424) 0 ms
+I[01:26:57.821] --> textDocument/clangd.fileStatus
+I[01:26:57.836] <-- textDocument/documentSymbol(425)
+I[01:26:57.837] --> reply:textDocument/documentSymbol(425) 0 ms
+I[01:26:57.837] --> textDocument/clangd.fileStatus
+I[01:27:04.350] <-- textDocument/codeAction(426)
+I[01:27:04.350] --> reply:textDocument/codeAction(426) 0 ms
+I[01:27:04.350] --> textDocument/clangd.fileStatus
+I[01:27:05.156] <-- textDocument/didSave
+I[01:27:05.156] File version went from 1 to 1
+I[01:27:05.156] File version went from 52 to 52
+I[01:27:05.156] --> textDocument/clangd.fileStatus
+I[01:27:05.156] --> textDocument/clangd.fileStatus
+I[01:27:05.207] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[01:27:05.207] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 52 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[01:27:05.209] --> textDocument/clangd.fileStatus
+I[01:27:05.209] --> textDocument/clangd.fileStatus
+I[01:27:05.209] --> textDocument/clangd.fileStatus
+I[01:27:05.209] --> textDocument/clangd.fileStatus
+I[01:27:05.226] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[01:27:05.226] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[01:27:05.228] --> textDocument/clangd.fileStatus
+I[01:27:05.228] --> textDocument/clangd.fileStatus
+I[01:27:05.229] --> textDocument/clangd.fileStatus
+I[01:27:05.229] --> textDocument/clangd.fileStatus
+I[01:30:18.761] <-- textDocument/codeAction(427)
+I[01:30:18.761] --> reply:textDocument/codeAction(427) 0 ms
+I[01:30:18.761] --> textDocument/clangd.fileStatus
+I[01:30:18.781] <-- textDocument/documentLink(428)
+I[01:30:18.781] <-- clangd/inlayHints(429)
+I[01:30:18.782] --> reply:textDocument/documentLink(428) 0 ms
+I[01:30:18.782] --> reply:clangd/inlayHints(429) 0 ms
+I[01:30:18.782] --> textDocument/clangd.fileStatus
+I[01:30:18.977] <-- textDocument/codeAction(430)
+I[01:30:18.977] --> reply:textDocument/codeAction(430) 0 ms
+I[01:30:18.977] --> textDocument/clangd.fileStatus
+I[01:30:19.018] <-- textDocument/semanticTokens/full/delta(431)
+I[01:30:19.018] --> reply:textDocument/semanticTokens/full/delta(431) 0 ms
+I[01:30:19.019] --> textDocument/clangd.fileStatus
+I[01:30:19.023] <-- textDocument/documentSymbol(432)
+I[01:30:19.023] --> reply:textDocument/documentSymbol(432) 0 ms
+I[01:30:19.023] --> textDocument/clangd.fileStatus
+I[01:30:22.028] <-- textDocument/documentHighlight(433)
+I[01:30:22.028] --> reply:textDocument/documentHighlight(433) 0 ms
+I[01:30:22.028] --> textDocument/clangd.fileStatus
+I[01:30:22.226] <-- textDocument/codeAction(434)
+I[01:30:22.226] --> reply:textDocument/codeAction(434) 0 ms
+I[01:30:22.226] --> textDocument/clangd.fileStatus
+I[01:30:22.879] <-- textDocument/hover(435)
+I[01:30:22.880] --> reply:textDocument/hover(435) 1 ms
+I[01:30:22.880] --> textDocument/clangd.fileStatus
+I[01:30:23.135] <-- textDocument/hover(436)
+I[01:30:23.136] --> reply:textDocument/hover(436) 1 ms
+I[01:30:23.136] --> textDocument/clangd.fileStatus
+I[01:31:39.376] <-- textDocument/didChange
+I[01:31:39.376] --> textDocument/clangd.fileStatus
+I[01:31:39.426] <-- clangd/inlayHints(437)
+I[01:31:39.426] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[01:31:39.427] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 53 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[01:31:39.428] --> textDocument/clangd.fileStatus
+I[01:31:39.438] --> reply:clangd/inlayHints(437) 12 ms
+I[01:31:39.438] --> textDocument/clangd.fileStatus
+I[01:31:39.474] --> workspace/semanticTokens/refresh(11)
+I[01:31:39.474] --> textDocument/clangd.fileStatus
+I[01:31:39.475] <-- reply(11)
+I[01:31:39.484] --> textDocument/publishDiagnostics
+I[01:31:39.484] --> textDocument/clangd.fileStatus
+I[01:31:39.528] <-- textDocument/semanticTokens/full/delta(438)
+I[01:31:39.528] --> reply:textDocument/semanticTokens/full/delta(438) 0 ms
+I[01:31:39.528] --> textDocument/clangd.fileStatus
+I[01:31:39.716] <-- textDocument/documentSymbol(439)
+I[01:31:39.716] <-- textDocument/documentSymbol(440)
+I[01:31:39.717] --> reply:textDocument/documentSymbol(439) 0 ms
+I[01:31:39.717] --> reply:textDocument/documentSymbol(440) 0 ms
+I[01:31:39.717] --> textDocument/clangd.fileStatus
+I[01:31:40.169] <-- clangd/inlayHints(441)
+I[01:31:40.169] --> reply:clangd/inlayHints(441) 0 ms
+I[01:31:40.169] --> textDocument/clangd.fileStatus
+I[01:31:40.368] <-- textDocument/documentLink(442)
+I[01:31:40.369] --> reply:textDocument/documentLink(442) 0 ms
+I[01:31:40.369] --> textDocument/clangd.fileStatus
+I[01:31:43.077] <-- clangd/inlayHints(443)
+I[01:31:43.078] --> reply:clangd/inlayHints(443) 0 ms
+I[01:31:43.078] --> textDocument/clangd.fileStatus
+I[01:31:49.953] <-- textDocument/documentHighlight(444)
+I[01:31:49.953] <-- textDocument/codeAction(445)
+I[01:31:49.953] --> reply:textDocument/documentHighlight(444) 0 ms
+I[01:31:49.954] --> reply:textDocument/codeAction(445) 0 ms
+I[01:31:49.954] --> textDocument/clangd.fileStatus
+I[01:31:49.968] <-- textDocument/documentLink(446)
+I[01:31:49.968] --> reply:textDocument/documentLink(446) 0 ms
+I[01:31:49.968] --> textDocument/clangd.fileStatus
+I[01:31:49.974] <-- $/cancelRequest
+I[01:31:49.974] <-- clangd/inlayHints(447)
+I[01:31:49.974] --> reply:clangd/inlayHints(447) 0 ms
+I[01:31:49.974] --> textDocument/clangd.fileStatus
+I[01:31:50.188] <-- textDocument/semanticTokens/full/delta(448)
+I[01:31:50.188] --> reply:textDocument/semanticTokens/full/delta(448) 0 ms
+I[01:31:50.189] --> textDocument/clangd.fileStatus
+I[01:31:50.200] <-- textDocument/documentSymbol(449)
+I[01:31:50.200] --> reply:textDocument/documentSymbol(449) 0 ms
+I[01:31:50.200] --> textDocument/clangd.fileStatus
+I[01:31:51.116] <-- textDocument/codeAction(450)
+I[01:31:51.117] --> reply:textDocument/codeAction(450) 0 ms
+I[01:31:51.117] --> textDocument/clangd.fileStatus
+I[01:31:51.861] <-- textDocument/didSave
+I[01:31:51.861] File version went from 1 to 1
+I[01:31:51.861] File version went from 53 to 53
+I[01:31:51.862] --> textDocument/clangd.fileStatus
+I[01:31:51.862] --> textDocument/clangd.fileStatus
+I[01:31:51.912] Failed to find compilation database for /home/efarzad22/intro-to-os/cpu.c
+I[01:31:51.912] ASTWorker building file /home/efarzad22/intro-to-os/cpu.c version 53 with command clangd fallback
+[/home/efarzad22/intro-to-os]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/intro-to-os/cpu.c
+I[01:31:51.914] --> textDocument/clangd.fileStatus
+I[01:31:51.914] --> textDocument/clangd.fileStatus
+I[01:31:51.915] --> textDocument/clangd.fileStatus
+I[01:31:51.916] --> textDocument/clangd.fileStatus
+I[01:31:51.932] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[01:31:51.932] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[01:31:51.935] --> textDocument/clangd.fileStatus
+I[01:31:51.935] --> textDocument/clangd.fileStatus
+I[01:36:38.961] <-- textDocument/documentLink(451)
+I[01:36:38.961] <-- textDocument/documentLink(452)
+I[01:36:38.961] <-- textDocument/codeAction(453)
+I[01:36:38.961] <-- textDocument/codeAction(454)
+I[01:36:38.961] --> reply:textDocument/documentLink(451) 0 ms
+I[01:36:38.961] <-- textDocument/codeAction(455)
+I[01:36:38.961] --> reply:textDocument/documentLink(452) 0 ms
+I[01:36:38.961] --> reply:textDocument/codeAction(453) 0 ms
+I[01:36:38.962] --> reply:textDocument/codeAction(454) 0 ms
+I[01:36:38.962] --> reply:textDocument/codeAction(455) 0 ms
+I[01:36:38.962] --> textDocument/clangd.fileStatus
+I[01:36:38.974] <-- $/cancelRequest
+I[01:36:38.974] <-- $/cancelRequest
+I[01:36:38.974] <-- $/cancelRequest

@@ -1,0 +1,201 @@
+I[05:15:30.662] Ubuntu clangd version 14.0.6
+I[05:15:30.662] Features: linux+grpc
+I[05:15:30.662] PID: 12508
+I[05:15:30.662] Working directory: /home/efarzad22
+I[05:15:30.662] argv[0]: /usr/bin/clangd
+I[05:15:30.662] Starting LSP over stdin/stdout
+I[05:15:30.693] <-- initialize(0)
+I[05:15:30.694] --> reply:initialize(0) 1 ms
+I[05:15:33.716] <-- initialized
+I[05:15:33.770] <-- textDocument/didOpen
+I[05:15:33.771] Failed to find compilation database for /home/efarzad22/programming1/problem8.c
+I[05:15:33.771] ASTWorker building file /home/efarzad22/programming1/problem8.c version 1 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem8.c
+I[05:15:33.774] --> textDocument/clangd.fileStatus
+I[05:15:33.868] --> workspace/semanticTokens/refresh(0)
+I[05:15:33.868] --> textDocument/clangd.fileStatus
+I[05:15:33.868] --> textDocument/clangd.fileStatus
+I[05:15:33.878] --> textDocument/publishDiagnostics
+I[05:15:33.878] --> textDocument/clangd.fileStatus
+I[05:15:33.881] <-- reply(0)
+I[05:15:34.013] <-- textDocument/documentSymbol(1)
+I[05:15:34.013] <-- textDocument/documentLink(2)
+I[05:15:34.013] <-- clangd/inlayHints(3)
+I[05:15:34.013] --> reply:textDocument/documentSymbol(1) 0 ms
+I[05:15:34.013] <-- textDocument/codeAction(4)
+I[05:15:34.013] --> reply:textDocument/documentLink(2) 0 ms
+I[05:15:34.014] --> reply:clangd/inlayHints(3) 1 ms
+I[05:15:34.015] --> reply:textDocument/codeAction(4) 2 ms
+I[05:15:34.015] --> textDocument/clangd.fileStatus
+I[05:15:34.202] <-- textDocument/semanticTokens/full(5)
+I[05:15:34.203] <-- textDocument/documentSymbol(6)
+I[05:15:34.203] --> reply:textDocument/semanticTokens/full(5) 0 ms
+I[05:15:34.203] --> reply:textDocument/documentSymbol(6) 0 ms
+I[05:15:34.203] --> textDocument/clangd.fileStatus
+I[05:15:38.870] <-- clangd/inlayHints(7)
+I[05:15:38.870] <-- clangd/inlayHints(8)
+I[05:15:38.872] --> reply:clangd/inlayHints(7) 1 ms
+I[05:15:38.873] --> reply:clangd/inlayHints(8) 2 ms
+I[05:15:38.873] --> textDocument/clangd.fileStatus
+I[05:15:38.942] <-- $/cancelRequest
+I[05:15:39.846] <-- textDocument/codeAction(9)
+I[05:15:39.847] --> reply:textDocument/codeAction(9) 0 ms
+I[05:15:39.847] --> textDocument/clangd.fileStatus
+I[05:15:43.602] <-- clangd/inlayHints(10)
+I[05:15:43.602] --> reply:clangd/inlayHints(10) 0 ms
+I[05:15:43.603] --> textDocument/clangd.fileStatus
+I[05:15:44.437] <-- clangd/inlayHints(11)
+I[05:15:44.438] --> reply:clangd/inlayHints(11) 1 ms
+I[05:15:44.438] --> textDocument/clangd.fileStatus
+I[05:15:45.725] <-- clangd/inlayHints(12)
+I[05:15:45.727] --> reply:clangd/inlayHints(12) 1 ms
+I[05:15:45.727] --> textDocument/clangd.fileStatus
+I[05:15:46.818] <-- textDocument/documentLink(13)
+I[05:15:46.818] --> reply:textDocument/documentLink(13) 0 ms
+I[05:15:46.818] --> textDocument/clangd.fileStatus
+I[05:15:46.818] <-- textDocument/codeAction(14)
+I[05:15:46.818] <-- textDocument/codeAction(15)
+I[05:15:46.819] --> reply:textDocument/codeAction(14) 0 ms
+I[05:15:46.819] --> reply:textDocument/codeAction(15) 0 ms
+I[05:15:46.819] --> textDocument/clangd.fileStatus
+I[05:15:46.822] <-- $/cancelRequest
+I[05:15:47.026] <-- clangd/inlayHints(16)
+I[05:15:47.028] --> reply:clangd/inlayHints(16) 1 ms
+I[05:15:47.028] --> textDocument/clangd.fileStatus
+I[05:15:47.069] <-- textDocument/documentLink(17)
+I[05:15:47.070] --> reply:textDocument/documentLink(17) 0 ms
+I[05:15:47.071] --> textDocument/clangd.fileStatus
+I[05:15:47.357] <-- textDocument/documentSymbol(18)
+I[05:15:47.357] --> reply:textDocument/documentSymbol(18) 0 ms
+I[05:15:47.358] --> textDocument/clangd.fileStatus
+I[05:15:48.951] <-- textDocument/hover(19)
+I[05:15:48.951] --> reply:textDocument/hover(19) 0 ms
+I[05:15:48.951] --> textDocument/clangd.fileStatus
+I[05:15:50.174] <-- clangd/inlayHints(20)
+I[05:15:50.174] --> reply:clangd/inlayHints(20) 0 ms
+I[05:15:50.174] --> textDocument/clangd.fileStatus
+I[05:15:50.575] <-- textDocument/hover(21)
+I[05:15:50.576] --> reply:textDocument/hover(21) 1 ms
+I[05:15:50.576] --> textDocument/clangd.fileStatus
+I[05:15:50.922] <-- textDocument/hover(22)
+I[05:15:50.923] --> reply:textDocument/hover(22) 0 ms
+I[05:15:50.923] --> textDocument/clangd.fileStatus
+I[05:15:51.386] <-- textDocument/hover(23)
+I[05:15:51.386] --> reply:textDocument/hover(23) 0 ms
+I[05:15:51.386] --> textDocument/clangd.fileStatus
+I[05:15:51.865] <-- textDocument/hover(24)
+I[05:15:51.866] --> reply:textDocument/hover(24) 0 ms
+I[05:15:51.866] --> textDocument/clangd.fileStatus
+I[05:15:52.247] <-- textDocument/hover(25)
+I[05:15:52.248] --> reply:textDocument/hover(25) 0 ms
+I[05:15:52.248] --> textDocument/clangd.fileStatus
+I[05:15:52.528] <-- textDocument/documentHighlight(26)
+I[05:15:52.529] --> reply:textDocument/documentHighlight(26) 0 ms
+I[05:15:52.529] --> textDocument/clangd.fileStatus
+I[05:15:52.663] <-- textDocument/documentHighlight(27)
+I[05:15:52.663] --> reply:textDocument/documentHighlight(27) 0 ms
+I[05:15:52.663] --> textDocument/clangd.fileStatus
+I[05:15:52.869] <-- textDocument/codeAction(28)
+I[05:15:52.869] --> reply:textDocument/codeAction(28) 0 ms
+I[05:15:52.869] --> textDocument/clangd.fileStatus
+I[05:15:52.956] <-- textDocument/didChange
+I[05:15:52.956] --> textDocument/clangd.fileStatus
+I[05:15:53.006] Failed to find compilation database for /home/efarzad22/programming1/problem8.c
+I[05:15:53.007] ASTWorker building file /home/efarzad22/programming1/problem8.c version 2 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem8.c
+I[05:15:53.008] --> textDocument/clangd.fileStatus
+I[05:15:53.008] --> textDocument/clangd.fileStatus
+I[05:15:53.008] --> textDocument/clangd.fileStatus
+I[05:15:53.016] --> textDocument/publishDiagnostics
+I[05:15:53.016] --> textDocument/clangd.fileStatus
+I[05:15:53.293] <-- textDocument/documentSymbol(29)
+I[05:15:53.293] <-- textDocument/documentSymbol(30)
+I[05:15:53.293] <-- clangd/inlayHints(31)
+I[05:15:53.294] --> reply:textDocument/documentSymbol(29) 0 ms
+I[05:15:53.294] --> reply:textDocument/documentSymbol(30) 0 ms
+I[05:15:53.294] --> reply:clangd/inlayHints(31) 0 ms
+I[05:15:53.295] --> textDocument/clangd.fileStatus
+I[05:15:53.368] <-- textDocument/didChange
+I[05:15:53.368] --> textDocument/clangd.fileStatus
+I[05:15:53.418] Failed to find compilation database for /home/efarzad22/programming1/problem8.c
+I[05:15:53.419] ASTWorker building file /home/efarzad22/programming1/problem8.c version 3 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem8.c
+I[05:15:53.420] --> textDocument/clangd.fileStatus
+I[05:15:53.420] --> textDocument/clangd.fileStatus
+I[05:15:53.421] --> textDocument/clangd.fileStatus
+I[05:15:53.429] --> textDocument/publishDiagnostics
+I[05:15:53.429] --> textDocument/clangd.fileStatus
+I[05:15:53.477] <-- clangd/inlayHints(32)
+I[05:15:53.478] --> reply:clangd/inlayHints(32) 0 ms
+I[05:15:53.478] --> textDocument/clangd.fileStatus
+I[05:15:53.616] <-- textDocument/codeAction(33)
+I[05:15:53.616] --> reply:textDocument/codeAction(33) 0 ms
+I[05:15:53.616] --> textDocument/clangd.fileStatus
+I[05:15:53.717] <-- textDocument/documentSymbol(34)
+I[05:15:53.717] <-- textDocument/documentSymbol(35)
+I[05:15:53.717] --> reply:textDocument/documentSymbol(34) 0 ms
+I[05:15:53.718] --> reply:textDocument/documentSymbol(35) 0 ms
+I[05:15:53.718] --> textDocument/clangd.fileStatus
+I[05:15:54.169] <-- clangd/inlayHints(36)
+I[05:15:54.170] --> reply:clangd/inlayHints(36) 0 ms
+I[05:15:54.170] --> textDocument/clangd.fileStatus
+I[05:15:54.367] <-- textDocument/documentLink(37)
+I[05:15:54.367] --> reply:textDocument/documentLink(37) 0 ms
+I[05:15:54.368] --> textDocument/clangd.fileStatus
+I[05:15:54.451] <-- clangd/inlayHints(38)
+I[05:15:54.451] --> reply:clangd/inlayHints(38) 0 ms
+I[05:15:54.452] --> textDocument/clangd.fileStatus
+I[05:15:54.567] <-- textDocument/didSave
+I[05:15:54.567] File version went from 3 to 3
+I[05:15:54.567] --> textDocument/clangd.fileStatus
+I[05:15:54.617] Failed to find compilation database for /home/efarzad22/programming1/problem8.c
+I[05:15:54.617] ASTWorker building file /home/efarzad22/programming1/problem8.c version 3 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem8.c
+I[05:15:54.619] --> textDocument/clangd.fileStatus
+I[05:15:54.620] --> textDocument/clangd.fileStatus
+I[05:15:54.620] --> textDocument/clangd.fileStatus
+I[05:15:54.621] --> textDocument/clangd.fileStatus
+I[05:15:54.939] <-- textDocument/semanticTokens/full/delta(39)
+I[05:15:54.939] --> reply:textDocument/semanticTokens/full/delta(39) 0 ms
+I[05:15:54.939] --> textDocument/clangd.fileStatus
+I[05:15:55.487] <-- textDocument/hover(40)
+I[05:15:55.488] --> reply:textDocument/hover(40) 1 ms
+I[05:15:55.488] --> textDocument/clangd.fileStatus
+I[05:15:55.881] <-- textDocument/hover(41)
+I[05:15:55.882] --> reply:textDocument/hover(41) 0 ms
+I[05:15:55.882] --> textDocument/clangd.fileStatus
+I[05:15:56.808] <-- textDocument/codeAction(42)
+I[05:15:56.808] --> reply:textDocument/codeAction(42) 0 ms
+I[05:15:56.808] --> textDocument/clangd.fileStatus
+I[05:16:00.295] <-- textDocument/didSave
+I[05:16:00.296] File version went from 3 to 3
+I[05:16:00.296] --> textDocument/clangd.fileStatus
+I[05:16:00.346] Failed to find compilation database for /home/efarzad22/programming1/problem8.c
+I[05:16:00.346] ASTWorker building file /home/efarzad22/programming1/problem8.c version 3 with command clangd fallback
+[/home/efarzad22/programming1]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/programming1/problem8.c
+I[05:16:00.347] --> textDocument/clangd.fileStatus
+I[05:16:00.347] --> textDocument/clangd.fileStatus
+I[05:16:00.348] --> textDocument/clangd.fileStatus
+I[05:16:00.348] --> textDocument/clangd.fileStatus
+I[05:16:35.493] <-- textDocument/hover(43)
+I[05:16:35.493] <-- clangd/inlayHints(44)
+I[05:16:35.493] <-- clangd/inlayHints(45)
+I[05:16:35.493] <-- clangd/inlayHints(46)
+I[05:16:35.493] <-- textDocument/codeAction(47)
+I[05:16:35.494] --> reply:textDocument/hover(43) 0 ms
+I[05:16:35.494] --> reply:clangd/inlayHints(44) 1 ms
+I[05:16:35.495] --> reply:clangd/inlayHints(45) 2 ms
+I[05:16:35.496] --> reply:clangd/inlayHints(46) 3 ms
+I[05:16:35.496] --> reply:textDocument/codeAction(47) 3 ms
+I[05:16:35.496] --> textDocument/clangd.fileStatus
+I[05:16:35.672] <-- $/cancelRequest
+I[05:16:35.672] <-- $/cancelRequest
+I[05:16:35.672] <-- $/cancelRequest
+I[05:18:17.262] <-- clangd/inlayHints(48)
+I[05:18:17.263] --> reply:clangd/inlayHints(48) 0 ms
+I[05:18:17.264] --> textDocument/clangd.fileStatus

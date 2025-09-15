@@ -1,0 +1,121 @@
+2025-09-12 00:19:38.352 [info] [main] Log level: Info
+2025-09-12 00:19:38.352 [info] [main] Validating found git in: "git"
+2025-09-12 00:19:38.352 [info] [main] Using git "2.43.0" from "git"
+2025-09-12 00:19:38.352 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-12 00:19:38.352 [info] > git rev-parse --show-toplevel [9ms]
+2025-09-12 00:19:38.352 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 00:19:38.352 [info] > git rev-parse --show-toplevel [4ms]
+2025-09-12 00:19:38.352 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 00:19:38.352 [info] > git rev-parse --show-toplevel [10ms]
+2025-09-12 00:19:38.352 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 00:19:38.396 [info] > git rev-parse --show-toplevel [3422ms]
+2025-09-12 00:19:38.396 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 00:19:38.573 [info] > git rev-parse --show-toplevel [169ms]
+2025-09-12 00:19:38.573 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 00:19:40.972 [info] > git rev-parse --show-toplevel [2391ms]
+2025-09-12 00:19:40.972 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 00:19:41.120 [info] > git rev-parse --show-toplevel [138ms]
+2025-09-12 00:19:41.120 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 00:19:41.383 [info] > git rev-parse --show-toplevel [238ms]
+2025-09-12 00:19:41.383 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 00:19:41.411 [info] > git rev-parse --show-toplevel [14ms]
+2025-09-12 00:19:41.411 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 00:19:41.426 [info] > git rev-parse --show-toplevel [8ms]
+2025-09-12 00:19:41.426 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 00:19:41.434 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-12 00:19:41.434 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 00:19:41.483 [info] > git rev-parse --show-toplevel [40ms]
+2025-09-12 00:19:41.497 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2025-09-12 00:19:41.510 [info] [Model][openRepository] Opened repository (path): /home/efarzad22/ostep-projects
+2025-09-12 00:19:41.510 [info] [Model][openRepository] Opened repository (real path): /home/efarzad22/ostep-projects
+2025-09-12 00:19:41.533 [info] > git rev-parse --show-toplevel [5ms]
+2025-09-12 00:19:41.533 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 00:19:41.533 [info] > git config --get commit.template [12ms]
+2025-09-12 00:19:41.551 [info] > git rev-parse --show-toplevel [11ms]
+2025-09-12 00:19:41.551 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 00:19:41.552 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-12 00:19:41.561 [info] > git rev-parse --show-toplevel [2ms]
+2025-09-12 00:19:41.561 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 00:19:41.643 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [94ms]
+2025-09-12 00:19:41.653 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/efarzad22/ostep-projects/.git/refs/remotes/origin/master'
+2025-09-12 00:19:41.655 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2025-09-12 00:19:41.689 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-09-12 00:19:42.089 [info] > git check-ignore -v -z --stdin [2ms]
+2025-09-12 00:19:43.209 [info] > git status -z -uall [1536ms]
+2025-09-12 00:19:43.246 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2025-09-12 00:19:43.261 [info] > git config --get commit.template [15ms]
+2025-09-12 00:19:43.262 [info] > git config --get --local branch.master.vscode-merge-base [4ms]
+2025-09-12 00:19:43.329 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [56ms]
+2025-09-12 00:19:43.359 [info] > git merge-base refs/heads/master refs/remotes/origin/master [19ms]
+2025-09-12 00:19:43.371 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [86ms]
+2025-09-12 00:19:43.382 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/efarzad22/ostep-projects/.git/refs/remotes/origin/master'
+2025-09-12 00:19:43.390 [info] > git rev-parse refs/remotes/origin/master [8ms]
+2025-09-12 00:19:43.415 [info] > git diff --name-status -z --diff-filter=ADMR 76cff3f89f4bf337af6e02e53a831b7eeb1396df...refs/remotes/origin/master [44ms]
+2025-09-12 00:19:43.419 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-09-12 00:19:43.791 [info] > git status -z -uall [389ms]
+2025-09-12 00:25:21.316 [info] > git check-ignore -v -z --stdin [3ms]
+2025-09-12 00:25:32.402 [info] > git rev-parse --show-toplevel [3ms]
+2025-09-12 00:25:32.402 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-09-12 00:25:32.419 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [56ms]
+2025-09-12 00:25:32.899 [info] > git check-ignore -v -z --stdin [2ms]
+2025-09-12 00:27:04.694 [info] > git rev-parse --show-toplevel [1ms]
+2025-09-12 00:27:04.704 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-09-12 00:27:04.715 [info] [Model][openRepository] Opened repository (path): /home/efarzad22
+2025-09-12 00:27:04.715 [info] [Model][openRepository] Opened repository (real path): /home/efarzad22
+2025-09-12 00:27:04.734 [info] > git config --get commit.template [9ms]
+2025-09-12 00:27:04.734 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-09-12 00:27:04.735 [warning] [Git][getBranch] No such branch: main
+2025-09-12 00:27:04.753 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-12 00:27:04.824 [info] > git status -z -uall [82ms]
+2025-09-12 00:27:04.941 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-09-12 00:27:04.941 [warning] [Git][getBranch] No such branch: main
+2025-09-12 00:27:04.942 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-09-12 00:27:04.943 [info] > git config --get commit.template [4ms]
+2025-09-12 00:27:05.769 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [819ms]
+2025-09-12 00:27:05.769 [warning] [Git][getBranch] No such branch: main
+2025-09-12 00:27:05.796 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-09-12 00:27:05.875 [info] > git status -z -uall [98ms]
+2025-09-12 00:27:06.780 [info] > git check-ignore -v -z --stdin [25ms]
+2025-09-12 00:27:06.780 [info] > git check-ignore -v -z --stdin [19ms]
+2025-09-12 00:28:05.605 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [9ms]
+2025-09-12 00:28:06.107 [info] > git check-ignore -v -z --stdin [2ms]
+2025-09-12 00:28:45.002 [info] > git config --get commit.template [2ms]
+2025-09-12 00:28:45.012 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-12 00:28:45.012 [warning] [Git][getBranch] No such branch: main
+2025-09-12 00:28:45.028 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-09-12 00:28:45.091 [info] > git status -z -uall [71ms]
+2025-09-12 00:30:01.902 [info] > git config --get commit.template [3ms]
+2025-09-12 00:30:01.912 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-12 00:30:01.932 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-09-12 00:30:01.990 [info] > git status -z -uall [69ms]
+2025-09-12 00:30:02.058 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2025-09-12 00:30:02.069 [info] > git diff --name-status -z --diff-filter=ADMR afc4b9265dd3a554f49c0c751fc8cc9c9fdde57c...refs/remotes/origin/main [3ms]
+2025-09-12 00:30:07.076 [info] > git config --get commit.template [9ms]
+2025-09-12 00:30:07.077 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-09-12 00:30:07.096 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-09-12 00:30:07.153 [info] > git status -z -uall [67ms]
+2025-09-12 00:30:08.751 [info] > git check-ignore -v -z --stdin [9ms]
+2025-09-12 00:30:08.752 [info] > git check-ignore -v -z --stdin [2ms]
+2025-09-12 00:30:09.741 [info] > git check-ignore -v -z --stdin [1ms]
+2025-09-12 00:30:12.015 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [2ms]
+2025-09-12 00:30:15.877 [info] > git check-ignore -v -z --stdin [2ms]
+2025-09-12 00:30:16.642 [info] > git check-ignore -v -z --stdin [2ms]
+2025-09-12 00:30:17.604 [info] > git check-ignore -v -z --stdin [2ms]
+2025-09-12 00:30:18.368 [info] > git check-ignore -v -z --stdin [2ms]
+2025-09-12 00:30:20.040 [info] > git check-ignore -v -z --stdin [5ms]
+2025-09-12 00:30:20.668 [info] > git check-ignore -v -z --stdin [2ms]

@@ -1,0 +1,2120 @@
+I[03:42:09.624] Ubuntu clangd version 14.0.6
+I[03:42:09.624] Features: linux+grpc
+I[03:42:09.624] PID: 1826
+I[03:42:09.625] Working directory: /home/efarzad22
+I[03:42:09.625] argv[0]: /usr/bin/clangd
+I[03:42:09.628] Starting LSP over stdin/stdout
+I[03:42:09.632] <-- initialize(0)
+I[03:42:09.643] --> reply:initialize(0) 11 ms
+I[03:42:09.646] <-- initialized
+I[03:42:09.657] <-- textDocument/didOpen
+I[03:42:09.667] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:09.667] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:09.717] --> textDocument/clangd.fileStatus
+I[03:42:09.724] <-- textDocument/documentSymbol(1)
+I[03:42:09.727] <-- textDocument/documentLink(2)
+I[03:42:09.727] <-- clangd/inlayHints(3)
+I[03:42:09.777] --> workspace/semanticTokens/refresh(0)
+I[03:42:09.780] <-- reply(0)
+I[03:42:09.826] <-- textDocument/semanticTokens/full(4)
+I[03:42:09.832] --> textDocument/publishDiagnostics
+I[03:42:09.833] --> reply:textDocument/documentSymbol(1) 108 ms
+I[03:42:09.833] --> reply:textDocument/documentLink(2) 105 ms
+I[03:42:09.834] --> reply:clangd/inlayHints(3) 106 ms
+I[03:42:09.834] --> reply:textDocument/semanticTokens/full(4) 7 ms
+I[03:42:09.834] --> textDocument/clangd.fileStatus
+I[03:42:10.006] <-- textDocument/documentSymbol(5)
+I[03:42:10.006] --> reply:textDocument/documentSymbol(5) 0 ms
+I[03:42:10.006] --> textDocument/clangd.fileStatus
+I[03:42:11.765] <-- textDocument/didChange
+I[03:42:11.765] --> textDocument/clangd.fileStatus
+I[03:42:11.819] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:11.820] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 2 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:11.822] --> textDocument/clangd.fileStatus
+I[03:42:11.822] --> textDocument/clangd.fileStatus
+I[03:42:11.830] --> workspace/semanticTokens/refresh(1)
+I[03:42:11.830] --> textDocument/clangd.fileStatus
+I[03:42:11.831] <-- reply(1)
+I[03:42:11.835] --> textDocument/publishDiagnostics
+I[03:42:11.835] --> textDocument/clangd.fileStatus
+I[03:42:11.877] <-- textDocument/semanticTokens/full/delta(6)
+I[03:42:11.877] --> reply:textDocument/semanticTokens/full/delta(6) 0 ms
+I[03:42:11.877] --> textDocument/clangd.fileStatus
+I[03:42:11.925] <-- clangd/inlayHints(7)
+I[03:42:11.925] --> reply:clangd/inlayHints(7) 0 ms
+I[03:42:11.925] --> textDocument/clangd.fileStatus
+I[03:42:11.959] <-- textDocument/didChange
+I[03:42:11.959] --> textDocument/clangd.fileStatus
+I[03:42:11.970] <-- textDocument/completion(8)
+I[03:42:11.987] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:11.987] Code complete: 7 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 7 returned.
+I[03:42:11.988] --> reply:textDocument/completion(8) 17 ms
+I[03:42:12.014] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:12.014] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 3 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:12.016] --> textDocument/clangd.fileStatus
+I[03:42:12.016] --> textDocument/clangd.fileStatus
+I[03:42:12.016] --> textDocument/clangd.fileStatus
+I[03:42:12.021] --> textDocument/publishDiagnostics
+I[03:42:12.021] --> textDocument/clangd.fileStatus
+I[03:42:12.030] <-- textDocument/didChange
+I[03:42:12.030] --> textDocument/clangd.fileStatus
+I[03:42:12.080] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:12.081] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 4 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:12.082] --> textDocument/clangd.fileStatus
+I[03:42:12.082] --> textDocument/clangd.fileStatus
+I[03:42:12.082] --> textDocument/clangd.fileStatus
+I[03:42:12.087] --> textDocument/publishDiagnostics
+I[03:42:12.087] --> textDocument/clangd.fileStatus
+I[03:42:12.116] <-- textDocument/didChange
+I[03:42:12.116] --> textDocument/clangd.fileStatus
+I[03:42:12.148] <-- textDocument/completion(9)
+I[03:42:12.153] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:12.153] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[03:42:12.153] --> reply:textDocument/completion(9) 5 ms
+I[03:42:12.166] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:12.167] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 5 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:12.169] --> textDocument/clangd.fileStatus
+I[03:42:12.169] --> textDocument/clangd.fileStatus
+I[03:42:12.169] --> textDocument/clangd.fileStatus
+I[03:42:12.176] --> textDocument/publishDiagnostics
+I[03:42:12.176] --> textDocument/clangd.fileStatus
+I[03:42:12.242] <-- textDocument/didChange
+I[03:42:12.242] <-- textDocument/completion(10)
+I[03:42:12.242] --> textDocument/clangd.fileStatus
+I[03:42:12.248] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:12.249] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[03:42:12.249] --> reply:textDocument/completion(10) 6 ms
+I[03:42:12.252] <-- textDocument/semanticTokens/full/delta(11)
+I[03:42:12.252] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:12.252] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 6 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:12.254] --> textDocument/clangd.fileStatus
+I[03:42:12.260] --> reply:textDocument/semanticTokens/full/delta(11) 7 ms
+I[03:42:12.260] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:12.260] --> textDocument/publishDiagnostics
+I[03:42:12.260] --> textDocument/clangd.fileStatus
+I[03:42:12.403] <-- textDocument/didChange
+I[03:42:12.403] <-- textDocument/completion(12)
+I[03:42:12.403] --> textDocument/clangd.fileStatus
+I[03:42:12.409] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:12.409] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[03:42:12.410] --> reply:textDocument/completion(12) 6 ms
+I[03:42:12.453] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:12.454] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 7 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:12.455] --> textDocument/clangd.fileStatus
+I[03:42:12.455] --> textDocument/clangd.fileStatus
+I[03:42:12.455] --> textDocument/clangd.fileStatus
+I[03:42:12.463] --> textDocument/publishDiagnostics
+I[03:42:12.463] --> textDocument/clangd.fileStatus
+I[03:42:12.465] <-- textDocument/didChange
+I[03:42:12.465] <-- textDocument/completion(13)
+I[03:42:12.465] --> textDocument/clangd.fileStatus
+I[03:42:12.472] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:12.472] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[03:42:12.472] --> reply:textDocument/completion(13) 6 ms
+I[03:42:12.515] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:12.516] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 8 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:12.517] --> textDocument/clangd.fileStatus
+I[03:42:12.517] --> textDocument/clangd.fileStatus
+I[03:42:12.517] --> textDocument/clangd.fileStatus
+I[03:42:12.523] --> textDocument/publishDiagnostics
+I[03:42:12.523] --> textDocument/clangd.fileStatus
+I[03:42:12.638] <-- textDocument/didChange
+I[03:42:12.638] <-- textDocument/completion(14)
+I[03:42:12.638] --> textDocument/clangd.fileStatus
+I[03:42:12.645] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:12.645] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[03:42:12.645] --> reply:textDocument/completion(14) 7 ms
+I[03:42:12.688] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:12.688] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 9 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:12.690] --> textDocument/clangd.fileStatus
+I[03:42:12.690] --> textDocument/clangd.fileStatus
+I[03:42:12.692] <-- textDocument/semanticTokens/full/delta(15)
+I[03:42:12.693] --> textDocument/clangd.fileStatus
+I[03:42:12.700] --> reply:textDocument/semanticTokens/full/delta(15) 8 ms
+I[03:42:12.700] --> textDocument/clangd.fileStatus
+I[03:42:12.700] --> workspace/semanticTokens/refresh(2)
+I[03:42:12.700] --> textDocument/clangd.fileStatus
+I[03:42:12.701] <-- reply(2)
+I[03:42:12.705] --> textDocument/publishDiagnostics
+I[03:42:12.705] --> textDocument/clangd.fileStatus
+I[03:42:12.805] <-- clangd/inlayHints(16)
+I[03:42:12.805] --> reply:clangd/inlayHints(16) 0 ms
+I[03:42:12.805] --> textDocument/clangd.fileStatus
+I[03:42:12.942] <-- textDocument/didChange
+I[03:42:12.942] --> textDocument/clangd.fileStatus
+I[03:42:12.980] <-- textDocument/documentSymbol(17)
+I[03:42:12.981] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:12.981] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 10 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:12.982] --> textDocument/clangd.fileStatus
+I[03:42:12.984] <-- $/cancelRequest
+I[03:42:12.990] --> reply:textDocument/documentSymbol(17) 9 ms
+I[03:42:12.990] --> textDocument/clangd.fileStatus
+I[03:42:12.992] --> workspace/semanticTokens/refresh(3)
+I[03:42:12.993] --> textDocument/clangd.fileStatus
+I[03:42:12.993] <-- reply(3)
+I[03:42:12.999] --> textDocument/publishDiagnostics
+I[03:42:12.999] --> textDocument/clangd.fileStatus
+I[03:42:13.043] <-- textDocument/semanticTokens/full/delta(18)
+I[03:42:13.043] --> reply:textDocument/semanticTokens/full/delta(18) 0 ms
+I[03:42:13.043] --> textDocument/clangd.fileStatus
+I[03:42:13.048] <-- clangd/inlayHints(19)
+I[03:42:13.048] --> reply:clangd/inlayHints(19) 0 ms
+I[03:42:13.048] --> textDocument/clangd.fileStatus
+I[03:42:13.284] <-- textDocument/documentSymbol(20)
+I[03:42:13.284] <-- textDocument/documentSymbol(21)
+I[03:42:13.284] --> reply:textDocument/documentSymbol(20) 0 ms
+I[03:42:13.284] --> reply:textDocument/documentSymbol(21) 0 ms
+I[03:42:13.285] --> textDocument/clangd.fileStatus
+I[03:42:13.736] <-- clangd/inlayHints(22)
+I[03:42:13.736] --> reply:clangd/inlayHints(22) 0 ms
+I[03:42:13.736] --> textDocument/clangd.fileStatus
+I[03:42:13.936] <-- textDocument/didChange
+I[03:42:13.936] --> textDocument/clangd.fileStatus
+I[03:42:13.986] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:13.986] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 11 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:13.988] --> textDocument/clangd.fileStatus
+I[03:42:13.988] --> textDocument/clangd.fileStatus
+I[03:42:13.996] --> workspace/semanticTokens/refresh(4)
+I[03:42:13.996] --> textDocument/clangd.fileStatus
+I[03:42:13.997] <-- reply(4)
+I[03:42:14.001] --> textDocument/publishDiagnostics
+I[03:42:14.001] --> textDocument/clangd.fileStatus
+I[03:42:14.013] <-- clangd/inlayHints(23)
+I[03:42:14.013] --> reply:clangd/inlayHints(23) 0 ms
+I[03:42:14.013] --> textDocument/clangd.fileStatus
+I[03:42:14.048] <-- textDocument/semanticTokens/full/delta(24)
+I[03:42:14.048] --> reply:textDocument/semanticTokens/full/delta(24) 0 ms
+I[03:42:14.048] --> textDocument/clangd.fileStatus
+I[03:42:14.281] <-- textDocument/documentSymbol(25)
+I[03:42:14.281] <-- textDocument/documentSymbol(26)
+I[03:42:14.281] --> reply:textDocument/documentSymbol(25) 0 ms
+I[03:42:14.281] --> reply:textDocument/documentSymbol(26) 0 ms
+I[03:42:14.281] --> textDocument/clangd.fileStatus
+I[03:42:14.348] <-- textDocument/codeAction(27)
+I[03:42:14.352] --> reply:textDocument/codeAction(27) 3 ms
+I[03:42:14.352] --> textDocument/clangd.fileStatus
+I[03:42:14.729] <-- clangd/inlayHints(28)
+I[03:42:14.730] --> reply:clangd/inlayHints(28) 0 ms
+I[03:42:14.730] --> textDocument/clangd.fileStatus
+I[03:42:14.937] <-- textDocument/documentLink(29)
+I[03:42:14.937] --> reply:textDocument/documentLink(29) 0 ms
+I[03:42:14.937] --> textDocument/clangd.fileStatus
+I[03:42:15.144] <-- textDocument/didSave
+I[03:42:15.144] File version went from 11 to 11
+I[03:42:15.144] --> textDocument/clangd.fileStatus
+I[03:42:15.194] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:15.194] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 11 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:15.196] --> textDocument/clangd.fileStatus
+I[03:42:15.196] --> textDocument/clangd.fileStatus
+I[03:42:15.196] --> textDocument/clangd.fileStatus
+I[03:42:15.196] --> textDocument/clangd.fileStatus
+I[03:42:15.346] <-- textDocument/didChange
+I[03:42:15.346] --> textDocument/clangd.fileStatus
+I[03:42:15.396] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:15.397] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 12 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:15.398] --> textDocument/clangd.fileStatus
+I[03:42:15.398] --> textDocument/clangd.fileStatus
+I[03:42:15.407] --> workspace/semanticTokens/refresh(5)
+I[03:42:15.407] --> textDocument/clangd.fileStatus
+I[03:42:15.409] <-- reply(5)
+I[03:42:15.411] <-- clangd/inlayHints(30)
+I[03:42:15.413] --> textDocument/publishDiagnostics
+I[03:42:15.413] --> reply:clangd/inlayHints(30) 2 ms
+I[03:42:15.413] --> textDocument/clangd.fileStatus
+I[03:42:15.432] <-- textDocument/didChange
+I[03:42:15.432] --> textDocument/clangd.fileStatus
+I[03:42:15.434] <-- textDocument/completion(31)
+I[03:42:15.440] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[03:42:15.440] --> reply:textDocument/completion(31) 5 ms
+I[03:42:15.454] <-- textDocument/semanticTokens/full/delta(32)
+I[03:42:15.455] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:15.455] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 13 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:15.456] --> textDocument/clangd.fileStatus
+I[03:42:15.465] --> reply:textDocument/semanticTokens/full/delta(32) 10 ms
+I[03:42:15.465] --> textDocument/clangd.fileStatus
+I[03:42:15.467] --> workspace/semanticTokens/refresh(6)
+I[03:42:15.467] --> textDocument/clangd.fileStatus
+I[03:42:15.468] <-- reply(6)
+I[03:42:15.472] --> textDocument/publishDiagnostics
+I[03:42:15.472] --> textDocument/clangd.fileStatus
+I[03:42:15.493] <-- clangd/inlayHints(33)
+I[03:42:15.493] --> reply:clangd/inlayHints(33) 0 ms
+I[03:42:15.493] --> textDocument/clangd.fileStatus
+I[03:42:15.512] <-- textDocument/semanticTokens/full/delta(34)
+I[03:42:15.512] --> reply:textDocument/semanticTokens/full/delta(34) 0 ms
+I[03:42:15.512] --> textDocument/clangd.fileStatus
+I[03:42:15.773] <-- textDocument/documentSymbol(35)
+I[03:42:15.773] <-- textDocument/documentSymbol(36)
+I[03:42:15.773] --> reply:textDocument/documentSymbol(35) 0 ms
+I[03:42:15.773] <-- textDocument/codeAction(37)
+I[03:42:15.773] --> reply:textDocument/documentSymbol(36) 0 ms
+I[03:42:15.774] --> reply:textDocument/codeAction(37) 0 ms
+I[03:42:15.774] --> textDocument/clangd.fileStatus
+I[03:42:15.912] <-- textDocument/didChange
+I[03:42:15.912] --> textDocument/clangd.fileStatus
+I[03:42:15.962] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:15.962] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 14 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:15.964] <-- clangd/inlayHints(38)
+I[03:42:15.964] --> textDocument/clangd.fileStatus
+I[03:42:15.973] --> reply:clangd/inlayHints(38) 8 ms
+I[03:42:15.973] --> textDocument/clangd.fileStatus
+I[03:42:15.975] --> workspace/semanticTokens/refresh(7)
+I[03:42:15.975] --> textDocument/clangd.fileStatus
+I[03:42:15.977] <-- reply(7)
+I[03:42:15.981] --> textDocument/publishDiagnostics
+I[03:42:15.981] --> textDocument/clangd.fileStatus
+I[03:42:16.022] <-- textDocument/semanticTokens/full/delta(39)
+I[03:42:16.022] --> reply:textDocument/semanticTokens/full/delta(39) 0 ms
+I[03:42:16.022] --> textDocument/clangd.fileStatus
+I[03:42:16.074] <-- textDocument/didChange
+I[03:42:16.074] --> textDocument/clangd.fileStatus
+I[03:42:16.120] <-- clangd/inlayHints(40)
+I[03:42:16.120] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:16.120] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 15 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:16.122] --> textDocument/clangd.fileStatus
+I[03:42:16.130] --> reply:clangd/inlayHints(40) 9 ms
+I[03:42:16.130] --> textDocument/clangd.fileStatus
+I[03:42:16.131] --> workspace/semanticTokens/refresh(8)
+I[03:42:16.131] --> textDocument/clangd.fileStatus
+I[03:42:16.132] <-- reply(8)
+I[03:42:16.136] --> textDocument/publishDiagnostics
+I[03:42:16.136] --> textDocument/clangd.fileStatus
+I[03:42:16.176] <-- textDocument/semanticTokens/full/delta(41)
+I[03:42:16.176] --> reply:textDocument/semanticTokens/full/delta(41) 0 ms
+I[03:42:16.176] --> textDocument/clangd.fileStatus
+I[03:42:16.232] <-- textDocument/didChange
+I[03:42:16.233] --> textDocument/clangd.fileStatus
+I[03:42:16.283] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:16.283] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 16 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:16.285] --> textDocument/clangd.fileStatus
+I[03:42:16.285] --> textDocument/clangd.fileStatus
+I[03:42:16.286] <-- clangd/inlayHints(42)
+I[03:42:16.286] --> textDocument/clangd.fileStatus
+I[03:42:16.295] --> reply:clangd/inlayHints(42) 8 ms
+I[03:42:16.295] --> textDocument/clangd.fileStatus
+I[03:42:16.296] --> workspace/semanticTokens/refresh(9)
+I[03:42:16.296] --> textDocument/clangd.fileStatus
+I[03:42:16.297] <-- reply(9)
+I[03:42:16.301] --> textDocument/publishDiagnostics
+I[03:42:16.301] --> textDocument/clangd.fileStatus
+I[03:42:16.347] <-- textDocument/semanticTokens/full/delta(43)
+I[03:42:16.347] --> reply:textDocument/semanticTokens/full/delta(43) 0 ms
+I[03:42:16.347] --> textDocument/clangd.fileStatus
+I[03:42:16.405] <-- textDocument/didChange
+I[03:42:16.405] --> textDocument/clangd.fileStatus
+I[03:42:16.455] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:16.455] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 17 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:16.456] --> textDocument/clangd.fileStatus
+I[03:42:16.456] --> textDocument/clangd.fileStatus
+I[03:42:16.457] --> textDocument/clangd.fileStatus
+I[03:42:16.461] --> textDocument/publishDiagnostics
+I[03:42:16.461] --> textDocument/clangd.fileStatus
+I[03:42:16.463] <-- clangd/inlayHints(44)
+I[03:42:16.463] --> reply:clangd/inlayHints(44) 0 ms
+I[03:42:16.463] --> textDocument/clangd.fileStatus
+I[03:42:16.703] <-- textDocument/semanticTokens/full/delta(45)
+I[03:42:16.703] --> reply:textDocument/semanticTokens/full/delta(45) 0 ms
+I[03:42:16.703] --> textDocument/clangd.fileStatus
+I[03:42:16.756] <-- textDocument/documentSymbol(46)
+I[03:42:16.756] <-- textDocument/documentSymbol(47)
+I[03:42:16.756] --> reply:textDocument/documentSymbol(46) 0 ms
+I[03:42:16.757] --> reply:textDocument/documentSymbol(47) 0 ms
+I[03:42:16.757] --> textDocument/clangd.fileStatus
+I[03:42:16.770] <-- textDocument/codeAction(48)
+I[03:42:16.770] --> reply:textDocument/codeAction(48) 0 ms
+I[03:42:16.770] --> textDocument/clangd.fileStatus
+I[03:42:16.943] <-- textDocument/didChange
+I[03:42:16.943] --> textDocument/clangd.fileStatus
+I[03:42:16.947] <-- textDocument/completion(49)
+I[03:42:16.953] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:16.953] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[03:42:16.953] --> reply:textDocument/completion(49) 6 ms
+I[03:42:16.993] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:16.994] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 18 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:16.995] <-- clangd/inlayHints(50)
+I[03:42:16.996] --> textDocument/clangd.fileStatus
+I[03:42:17.001] --> reply:clangd/inlayHints(50) 6 ms
+I[03:42:17.002] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:17.002] --> textDocument/publishDiagnostics
+I[03:42:17.002] --> textDocument/clangd.fileStatus
+I[03:42:17.112] <-- textDocument/didChange
+I[03:42:17.113] <-- textDocument/completion(51)
+I[03:42:17.113] --> textDocument/clangd.fileStatus
+I[03:42:17.120] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:17.121] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[03:42:17.121] --> reply:textDocument/completion(51) 8 ms
+I[03:42:17.163] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:17.163] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 19 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:17.163] <-- clangd/inlayHints(52)
+I[03:42:17.165] --> textDocument/clangd.fileStatus
+I[03:42:17.173] --> reply:clangd/inlayHints(52) 9 ms
+I[03:42:17.173] --> textDocument/clangd.fileStatus
+I[03:42:17.175] --> workspace/semanticTokens/refresh(10)
+I[03:42:17.175] --> textDocument/clangd.fileStatus
+I[03:42:17.176] <-- reply(10)
+I[03:42:17.180] --> textDocument/publishDiagnostics
+I[03:42:17.180] --> textDocument/clangd.fileStatus
+I[03:42:17.225] <-- textDocument/semanticTokens/full/delta(53)
+I[03:42:17.225] --> reply:textDocument/semanticTokens/full/delta(53) 0 ms
+I[03:42:17.225] --> textDocument/clangd.fileStatus
+I[03:42:17.454] <-- textDocument/documentSymbol(54)
+I[03:42:17.454] <-- textDocument/documentSymbol(55)
+I[03:42:17.454] --> reply:textDocument/documentSymbol(54) 0 ms
+I[03:42:17.454] --> reply:textDocument/documentSymbol(55) 0 ms
+I[03:42:17.454] --> textDocument/clangd.fileStatus
+I[03:42:17.481] <-- textDocument/codeAction(56)
+I[03:42:17.481] --> reply:textDocument/codeAction(56) 0 ms
+I[03:42:17.481] --> textDocument/clangd.fileStatus
+I[03:42:17.906] <-- clangd/inlayHints(57)
+I[03:42:17.906] --> reply:clangd/inlayHints(57) 0 ms
+I[03:42:17.906] --> textDocument/clangd.fileStatus
+I[03:42:18.103] <-- textDocument/documentLink(58)
+I[03:42:18.103] --> reply:textDocument/documentLink(58) 0 ms
+I[03:42:18.103] --> textDocument/clangd.fileStatus
+I[03:42:18.306] <-- textDocument/didSave
+I[03:42:18.306] File version went from 19 to 19
+I[03:42:18.306] --> textDocument/clangd.fileStatus
+I[03:42:18.356] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:18.356] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 19 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:18.358] --> textDocument/clangd.fileStatus
+I[03:42:18.358] --> textDocument/clangd.fileStatus
+I[03:42:18.358] --> textDocument/clangd.fileStatus
+I[03:42:18.358] --> textDocument/clangd.fileStatus
+I[03:42:18.708] <-- textDocument/didChange
+I[03:42:18.708] --> textDocument/clangd.fileStatus
+I[03:42:18.758] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:18.758] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 20 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:18.759] <-- clangd/inlayHints(59)
+I[03:42:18.760] --> textDocument/clangd.fileStatus
+I[03:42:18.768] --> reply:clangd/inlayHints(59) 8 ms
+I[03:42:18.768] --> textDocument/clangd.fileStatus
+I[03:42:18.770] --> workspace/semanticTokens/refresh(11)
+I[03:42:18.770] --> textDocument/clangd.fileStatus
+I[03:42:18.771] <-- reply(11)
+I[03:42:18.775] --> textDocument/publishDiagnostics
+I[03:42:18.775] --> textDocument/clangd.fileStatus
+I[03:42:18.820] <-- textDocument/semanticTokens/full/delta(60)
+I[03:42:18.820] --> reply:textDocument/semanticTokens/full/delta(60) 0 ms
+I[03:42:18.820] --> textDocument/clangd.fileStatus
+I[03:42:19.054] <-- textDocument/documentSymbol(61)
+I[03:42:19.054] <-- textDocument/documentSymbol(62)
+I[03:42:19.054] --> reply:textDocument/documentSymbol(61) 0 ms
+I[03:42:19.054] --> reply:textDocument/documentSymbol(62) 0 ms
+I[03:42:19.054] --> textDocument/clangd.fileStatus
+I[03:42:19.524] <-- clangd/inlayHints(63)
+I[03:42:19.524] --> reply:clangd/inlayHints(63) 0 ms
+I[03:42:19.524] --> textDocument/clangd.fileStatus
+I[03:42:19.705] <-- textDocument/documentLink(64)
+I[03:42:19.705] --> reply:textDocument/documentLink(64) 0 ms
+I[03:42:19.705] --> textDocument/clangd.fileStatus
+I[03:42:19.920] <-- textDocument/didSave
+I[03:42:19.920] File version went from 20 to 20
+I[03:42:19.920] --> textDocument/clangd.fileStatus
+I[03:42:19.970] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:19.970] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 20 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:19.972] --> textDocument/clangd.fileStatus
+I[03:42:19.973] --> textDocument/clangd.fileStatus
+I[03:42:19.973] --> textDocument/clangd.fileStatus
+I[03:42:19.973] --> textDocument/clangd.fileStatus
+I[03:42:20.002] <-- textDocument/didChange
+I[03:42:20.002] --> textDocument/clangd.fileStatus
+I[03:42:20.002] <-- textDocument/completion(65)
+I[03:42:20.018] Code complete: sema context IncludedFile, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:20.018] Code complete: 375 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 100 returned (incomplete).
+I[03:42:20.021] --> reply:textDocument/completion(65) 18 ms
+I[03:42:20.047] <-- clangd/inlayHints(66)
+I[03:42:20.048] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:20.048] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 21 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:20.049] --> textDocument/clangd.fileStatus
+I[03:42:20.056] --> reply:clangd/inlayHints(66) 8 ms
+I[03:42:20.056] --> textDocument/clangd.fileStatus
+I[03:42:20.057] --> workspace/semanticTokens/refresh(12)
+I[03:42:20.057] --> textDocument/clangd.fileStatus
+I[03:42:20.058] <-- reply(12)
+I[03:42:20.062] --> textDocument/publishDiagnostics
+I[03:42:20.062] --> textDocument/clangd.fileStatus
+I[03:42:20.110] <-- textDocument/semanticTokens/full/delta(67)
+I[03:42:20.110] --> reply:textDocument/semanticTokens/full/delta(67) 0 ms
+I[03:42:20.110] --> textDocument/clangd.fileStatus
+I[03:42:20.111] <-- textDocument/signatureHelp(68)
+I[03:42:20.117] --> reply:textDocument/signatureHelp(68) 5 ms
+I[03:42:20.205] <-- textDocument/didChange
+I[03:42:20.205] <-- textDocument/completion(69)
+I[03:42:20.205] --> reply:textDocument/completion(69) 0 ms
+I[03:42:20.205] --> textDocument/clangd.fileStatus
+I[03:42:20.255] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:20.256] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 22 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:20.257] <-- clangd/inlayHints(70)
+I[03:42:20.257] --> textDocument/clangd.fileStatus
+I[03:42:20.264] --> reply:clangd/inlayHints(70) 7 ms
+I[03:42:20.264] --> textDocument/clangd.fileStatus
+I[03:42:20.268] --> workspace/semanticTokens/refresh(13)
+I[03:42:20.268] --> textDocument/clangd.fileStatus
+I[03:42:20.268] <-- reply(13)
+I[03:42:20.273] --> textDocument/publishDiagnostics
+I[03:42:20.273] --> textDocument/clangd.fileStatus
+I[03:42:20.318] <-- textDocument/semanticTokens/full/delta(71)
+I[03:42:20.318] <-- textDocument/signatureHelp(72)
+I[03:42:20.319] --> reply:textDocument/semanticTokens/full/delta(71) 0 ms
+I[03:42:20.319] --> textDocument/clangd.fileStatus
+I[03:42:20.325] --> reply:textDocument/signatureHelp(72) 6 ms
+I[03:42:20.542] <-- textDocument/documentSymbol(73)
+I[03:42:20.542] --> reply:textDocument/documentSymbol(73) 0 ms
+I[03:42:20.542] --> textDocument/clangd.fileStatus
+I[03:42:20.544] <-- textDocument/documentSymbol(74)
+I[03:42:20.544] --> reply:textDocument/documentSymbol(74) 0 ms
+I[03:42:20.544] --> textDocument/clangd.fileStatus
+I[03:42:20.584] <-- textDocument/codeAction(75)
+I[03:42:20.584] --> reply:textDocument/codeAction(75) 0 ms
+I[03:42:20.584] --> textDocument/clangd.fileStatus
+I[03:42:25.832] <-- clangd/inlayHints(76)
+I[03:42:25.832] <-- textDocument/documentLink(77)
+I[03:42:25.832] <-- textDocument/didChange
+I[03:42:25.832] <-- clangd/inlayHints(78)
+I[03:42:25.833] <-- textDocument/didChange
+I[03:42:25.833] <-- clangd/inlayHints(79)
+I[03:42:25.833] <-- textDocument/semanticTokens/full/delta(80)
+I[03:42:25.833] <-- textDocument/didChange
+I[03:42:25.833] <-- clangd/inlayHints(81)
+I[03:42:25.833] <-- textDocument/documentSymbol(82)
+I[03:42:25.833] <-- textDocument/documentSymbol(83)
+I[03:42:25.833] --> reply:clangd/inlayHints(76) 0 ms, error: Task was cancelled.
+I[03:42:25.833] --> reply:textDocument/documentLink(77) 0 ms, error: Task was cancelled.
+I[03:42:25.833] --> reply:clangd/inlayHints(78) 0 ms, error: Task was cancelled.
+I[03:42:25.833] --> reply:clangd/inlayHints(79) 0 ms, error: Task was cancelled.
+I[03:42:25.833] --> reply:textDocument/semanticTokens/full/delta(80) 0 ms, error: Task was cancelled.
+I[03:42:25.833] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:25.834] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 25 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:25.834] <-- clangd/inlayHints(84)
+I[03:42:25.834] <-- textDocument/documentLink(85)
+I[03:42:25.834] <-- textDocument/didSave
+I[03:42:25.834] File version went from 25 to 25
+I[03:42:25.834] <-- textDocument/didChange
+I[03:42:25.834] <-- clangd/inlayHints(86)
+I[03:42:25.834] <-- textDocument/didChange
+I[03:42:25.834] <-- clangd/inlayHints(87)
+I[03:42:25.834] <-- textDocument/documentSymbol(88)
+I[03:42:25.834] <-- textDocument/documentSymbol(89)
+I[03:42:25.834] <-- textDocument/didChange
+I[03:42:25.834] <-- clangd/inlayHints(90)
+I[03:42:25.834] <-- textDocument/didChange
+I[03:42:25.834] <-- clangd/inlayHints(91)
+I[03:42:25.834] <-- textDocument/documentSymbol(92)
+I[03:42:25.834] <-- textDocument/documentSymbol(93)
+I[03:42:25.834] <-- textDocument/didChange
+I[03:42:25.834] <-- textDocument/completion(94)
+I[03:42:25.834] <-- clangd/inlayHints(95)
+I[03:42:25.834] <-- textDocument/didChange
+I[03:42:25.834] <-- clangd/inlayHints(96)
+I[03:42:25.834] <-- textDocument/documentSymbol(97)
+I[03:42:25.834] <-- textDocument/documentSymbol(98)
+I[03:42:25.834] <-- clangd/inlayHints(99)
+I[03:42:25.834] <-- textDocument/documentLink(100)
+I[03:42:25.835] <-- textDocument/codeAction(101)
+I[03:42:25.835] <-- textDocument/codeAction(102)
+I[03:42:25.835] <-- textDocument/codeAction(103)
+I[03:42:25.835] <-- textDocument/codeAction(104)
+I[03:42:25.835] <-- textDocument/codeAction(105)
+I[03:42:25.835] <-- textDocument/codeAction(106)
+I[03:42:25.835] <-- textDocument/codeAction(107)
+I[03:42:25.836] --> reply:clangd/inlayHints(81) 2 ms, error: Task was cancelled.
+I[03:42:25.836] --> reply:textDocument/documentSymbol(82) 2 ms, error: Task was cancelled.
+I[03:42:25.836] --> reply:textDocument/documentSymbol(83) 2 ms, error: Task was cancelled.
+I[03:42:25.836] --> reply:clangd/inlayHints(84) 2 ms, error: Task was cancelled.
+I[03:42:25.836] --> reply:textDocument/documentLink(85) 2 ms, error: Task was cancelled.
+I[03:42:25.836] --> reply:clangd/inlayHints(86) 1 ms, error: Task was cancelled.
+I[03:42:25.836] --> reply:clangd/inlayHints(87) 1 ms, error: Task was cancelled.
+I[03:42:25.836] --> reply:textDocument/documentSymbol(88) 1 ms, error: Task was cancelled.
+I[03:42:25.836] --> reply:textDocument/documentSymbol(89) 1 ms, error: Task was cancelled.
+I[03:42:25.836] --> reply:clangd/inlayHints(90) 1 ms, error: Task was cancelled.
+I[03:42:25.837] --> textDocument/clangd.fileStatus
+I[03:42:25.837] --> textDocument/clangd.fileStatus
+I[03:42:25.837] --> reply:clangd/inlayHints(91) 2 ms, error: Task was cancelled.
+I[03:42:25.837] --> textDocument/clangd.fileStatus
+I[03:42:25.837] --> reply:textDocument/documentSymbol(92) 2 ms, error: Task was cancelled.
+I[03:42:25.837] --> textDocument/clangd.fileStatus
+I[03:42:25.837] --> reply:textDocument/documentSymbol(93) 3 ms, error: Task was cancelled.
+I[03:42:25.837] --> textDocument/clangd.fileStatus
+I[03:42:25.837] --> reply:clangd/inlayHints(95) 2 ms, error: Task was cancelled.
+I[03:42:25.837] --> textDocument/clangd.fileStatus
+I[03:42:25.837] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:25.837] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 31 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:25.842] --> textDocument/clangd.fileStatus
+I[03:42:25.847] Code complete: sema context IncludedFile, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:25.847] Code complete: 2 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 2 returned.
+I[03:42:25.847] --> reply:textDocument/completion(94) 13 ms
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.848] <-- $/cancelRequest
+I[03:42:25.854] --> workspace/semanticTokens/refresh(14)
+I[03:42:25.854] --> textDocument/clangd.fileStatus
+[Error - 3:42:25 AM] Request textDocument/documentLink failed.
+[object Object]
+[Error - 3:42:25 AM] Request textDocument/semanticTokens/full/delta failed.
+[object Object]
+[Error - 3:42:25 AM] Request textDocument/documentSymbol failed.
+[object Object]
+[Error - 3:42:25 AM] Request textDocument/documentSymbol failed.
+[object Object]
+[Error - 3:42:25 AM] Request textDocument/documentLink failed.
+[object Object]
+[Error - 3:42:25 AM] Request textDocument/documentSymbol failed.
+[object Object]
+[Error - 3:42:25 AM] Request textDocument/documentSymbol failed.
+[object Object]
+[Error - 3:42:25 AM] Request textDocument/documentSymbol failed.
+[object Object]
+[Error - 3:42:25 AM] Request textDocument/documentSymbol failed.
+[object Object]
+I[03:42:25.908] <-- reply(14)
+I[03:42:25.940] --> reply:clangd/inlayHints(96) 106 ms
+I[03:42:25.942] --> textDocument/clangd.fileStatus
+I[03:42:25.943] --> textDocument/clangd.fileStatus
+I[03:42:25.951] --> textDocument/clangd.fileStatus
+I[03:42:25.952] --> textDocument/publishDiagnostics
+I[03:42:25.955] --> textDocument/clangd.fileStatus
+I[03:42:25.974] --> reply:textDocument/documentSymbol(97) 139 ms
+I[03:42:25.974] --> textDocument/clangd.fileStatus
+I[03:42:25.974] --> reply:textDocument/documentSymbol(98) 139 ms
+I[03:42:25.974] --> textDocument/clangd.fileStatus
+I[03:42:25.974] --> reply:clangd/inlayHints(99) 139 ms
+I[03:42:25.974] --> textDocument/clangd.fileStatus
+I[03:42:25.974] --> reply:textDocument/documentLink(100) 139 ms
+I[03:42:25.974] --> textDocument/clangd.fileStatus
+I[03:42:25.974] --> reply:textDocument/codeAction(101) 139 ms, error: Task was cancelled.
+I[03:42:25.974] --> textDocument/clangd.fileStatus
+I[03:42:25.974] --> reply:textDocument/codeAction(102) 139 ms, error: Task was cancelled.
+I[03:42:25.974] --> textDocument/clangd.fileStatus
+I[03:42:25.974] --> reply:textDocument/codeAction(103) 139 ms, error: Task was cancelled.
+I[03:42:25.974] --> textDocument/clangd.fileStatus
+I[03:42:25.974] --> reply:textDocument/codeAction(104) 139 ms, error: Task was cancelled.
+I[03:42:25.974] --> textDocument/clangd.fileStatus
+I[03:42:25.974] --> reply:textDocument/codeAction(105) 139 ms, error: Task was cancelled.
+I[03:42:25.974] --> textDocument/clangd.fileStatus
+I[03:42:25.974] --> reply:textDocument/codeAction(106) 139 ms, error: Task was cancelled.
+I[03:42:25.974] --> textDocument/clangd.fileStatus
+I[03:42:25.974] --> reply:textDocument/codeAction(107) 139 ms
+I[03:42:25.974] --> textDocument/clangd.fileStatus
+I[03:42:25.975] --> workspace/semanticTokens/refresh(15)
+I[03:42:25.975] --> textDocument/clangd.fileStatus
+[Error - 3:42:25 AM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 3:42:25 AM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 3:42:25 AM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 3:42:25 AM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 3:42:25 AM] Request textDocument/codeAction failed.
+[object Object]
+[Error - 3:42:25 AM] Request textDocument/codeAction failed.
+[object Object]
+I[03:42:25.980] <-- reply(15)
+I[03:42:25.983] --> textDocument/publishDiagnostics
+I[03:42:25.983] --> textDocument/clangd.fileStatus
+I[03:42:26.253] <-- textDocument/semanticTokens/full/delta(108)
+I[03:42:26.254] --> reply:textDocument/semanticTokens/full/delta(108) 0 ms
+I[03:42:26.254] --> textDocument/clangd.fileStatus
+I[03:42:26.391] <-- textDocument/didSave
+I[03:42:26.391] File version went from 31 to 31
+I[03:42:26.391] --> textDocument/clangd.fileStatus
+I[03:42:26.441] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:26.441] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 31 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:26.443] --> textDocument/clangd.fileStatus
+I[03:42:26.444] --> textDocument/clangd.fileStatus
+I[03:42:26.444] --> textDocument/clangd.fileStatus
+I[03:42:26.444] --> textDocument/clangd.fileStatus
+I[03:42:26.507] <-- textDocument/codeAction(109)
+I[03:42:26.508] --> reply:textDocument/codeAction(109) 0 ms
+I[03:42:26.508] --> textDocument/clangd.fileStatus
+I[03:42:26.601] <-- textDocument/semanticTokens/full/delta(110)
+I[03:42:26.601] --> reply:textDocument/semanticTokens/full/delta(110) 0 ms
+I[03:42:26.601] --> textDocument/clangd.fileStatus
+I[03:42:27.126] <-- clangd/inlayHints(111)
+I[03:42:27.126] --> reply:clangd/inlayHints(111) 0 ms
+I[03:42:27.126] --> textDocument/clangd.fileStatus
+I[03:42:27.503] <-- textDocument/hover(112)
+I[03:42:27.504] --> reply:textDocument/hover(112) 0 ms
+I[03:42:27.504] --> textDocument/clangd.fileStatus
+I[03:42:29.776] <-- textDocument/didChange
+I[03:42:29.777] --> textDocument/clangd.fileStatus
+I[03:42:29.827] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:29.827] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 32 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:29.828] --> textDocument/clangd.fileStatus
+I[03:42:29.828] --> textDocument/clangd.fileStatus
+I[03:42:29.828] --> textDocument/clangd.fileStatus
+I[03:42:29.829] --> textDocument/clangd.fileStatus
+I[03:42:29.988] <-- clangd/inlayHints(113)
+I[03:42:29.988] --> reply:clangd/inlayHints(113) 0 ms
+I[03:42:29.989] --> textDocument/clangd.fileStatus
+I[03:42:30.072] <-- textDocument/semanticTokens/full/delta(114)
+I[03:42:30.072] --> reply:textDocument/semanticTokens/full/delta(114) 0 ms
+I[03:42:30.072] --> textDocument/clangd.fileStatus
+I[03:42:30.123] <-- textDocument/documentSymbol(115)
+I[03:42:30.123] --> reply:textDocument/documentSymbol(115) 0 ms
+I[03:42:30.123] --> textDocument/clangd.fileStatus
+I[03:42:30.572] <-- clangd/inlayHints(116)
+I[03:42:30.572] --> reply:clangd/inlayHints(116) 0 ms
+I[03:42:30.572] --> textDocument/clangd.fileStatus
+I[03:42:30.583] <-- textDocument/didChange
+I[03:42:30.584] --> textDocument/clangd.fileStatus
+I[03:42:30.634] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:30.634] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 33 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:30.636] --> textDocument/clangd.fileStatus
+I[03:42:30.636] --> textDocument/clangd.fileStatus
+I[03:42:30.699] --> workspace/semanticTokens/refresh(16)
+I[03:42:30.699] --> textDocument/clangd.fileStatus
+I[03:42:30.700] <-- reply(16)
+I[03:42:30.705] --> textDocument/publishDiagnostics
+I[03:42:30.705] --> textDocument/clangd.fileStatus
+I[03:42:30.744] <-- textDocument/semanticTokens/full/delta(117)
+I[03:42:30.744] --> reply:textDocument/semanticTokens/full/delta(117) 0 ms
+I[03:42:30.744] --> textDocument/clangd.fileStatus
+I[03:42:30.791] <-- clangd/inlayHints(118)
+I[03:42:30.791] --> reply:clangd/inlayHints(118) 0 ms
+I[03:42:30.791] --> textDocument/clangd.fileStatus
+I[03:42:30.827] <-- textDocument/codeAction(119)
+I[03:42:30.827] --> reply:textDocument/codeAction(119) 0 ms
+I[03:42:30.827] --> textDocument/clangd.fileStatus
+I[03:42:30.925] <-- textDocument/documentSymbol(120)
+I[03:42:30.925] --> reply:textDocument/documentSymbol(120) 0 ms
+I[03:42:30.925] --> textDocument/clangd.fileStatus
+I[03:42:31.377] <-- clangd/inlayHints(121)
+I[03:42:31.378] --> reply:clangd/inlayHints(121) 0 ms
+I[03:42:31.378] --> textDocument/clangd.fileStatus
+I[03:42:31.781] <-- textDocument/didSave
+I[03:42:31.781] File version went from 33 to 33
+I[03:42:31.782] --> textDocument/clangd.fileStatus
+I[03:42:31.833] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:31.833] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 33 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:31.835] --> textDocument/clangd.fileStatus
+I[03:42:31.835] --> textDocument/clangd.fileStatus
+I[03:42:31.836] --> textDocument/clangd.fileStatus
+I[03:42:31.836] --> textDocument/clangd.fileStatus
+I[03:42:32.147] <-- textDocument/documentLink(122)
+I[03:42:32.148] --> reply:textDocument/documentLink(122) 0 ms
+I[03:42:32.148] --> textDocument/clangd.fileStatus
+I[03:42:32.327] <-- textDocument/documentSymbol(123)
+I[03:42:32.327] --> reply:textDocument/documentSymbol(123) 0 ms
+I[03:42:32.327] --> textDocument/clangd.fileStatus
+I[03:42:32.455] <-- textDocument/hover(124)
+I[03:42:32.456] --> reply:textDocument/hover(124) 0 ms
+I[03:42:32.456] --> textDocument/clangd.fileStatus
+I[03:42:32.864] <-- clangd/inlayHints(125)
+I[03:42:32.864] --> reply:clangd/inlayHints(125) 0 ms
+I[03:42:32.864] --> textDocument/clangd.fileStatus
+I[03:42:34.745] <-- textDocument/didChange
+I[03:42:34.745] --> textDocument/clangd.fileStatus
+I[03:42:34.795] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:34.796] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 34 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:34.798] --> textDocument/clangd.fileStatus
+I[03:42:34.798] --> textDocument/clangd.fileStatus
+I[03:42:34.836] --> workspace/semanticTokens/refresh(17)
+I[03:42:34.836] --> textDocument/clangd.fileStatus
+I[03:42:34.837] <-- reply(17)
+I[03:42:34.841] --> textDocument/publishDiagnostics
+I[03:42:34.841] --> textDocument/clangd.fileStatus
+I[03:42:34.881] <-- textDocument/semanticTokens/full/delta(126)
+I[03:42:34.881] --> reply:textDocument/semanticTokens/full/delta(126) 0 ms
+I[03:42:34.881] --> textDocument/clangd.fileStatus
+I[03:42:34.892] <-- textDocument/didChange
+I[03:42:34.893] --> textDocument/clangd.fileStatus
+I[03:42:34.943] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:34.943] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 35 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:34.945] --> textDocument/clangd.fileStatus
+I[03:42:34.945] --> textDocument/clangd.fileStatus
+I[03:42:34.981] --> workspace/semanticTokens/refresh(18)
+I[03:42:34.981] --> textDocument/clangd.fileStatus
+I[03:42:34.982] <-- reply(18)
+I[03:42:34.987] --> textDocument/publishDiagnostics
+I[03:42:34.987] --> textDocument/clangd.fileStatus
+I[03:42:35.031] <-- textDocument/semanticTokens/full/delta(127)
+I[03:42:35.031] --> reply:textDocument/semanticTokens/full/delta(127) 0 ms
+I[03:42:35.031] --> textDocument/clangd.fileStatus
+I[03:42:35.100] <-- clangd/inlayHints(128)
+I[03:42:35.100] --> reply:clangd/inlayHints(128) 0 ms
+I[03:42:35.100] --> textDocument/clangd.fileStatus
+I[03:42:35.251] <-- textDocument/documentSymbol(129)
+I[03:42:35.251] --> reply:textDocument/documentSymbol(129) 0 ms
+I[03:42:35.251] --> textDocument/clangd.fileStatus
+I[03:42:35.693] <-- clangd/inlayHints(130)
+I[03:42:35.693] --> reply:clangd/inlayHints(130) 0 ms
+I[03:42:35.693] --> textDocument/clangd.fileStatus
+I[03:42:35.739] <-- textDocument/didChange
+I[03:42:35.739] --> textDocument/clangd.fileStatus
+I[03:42:35.745] <-- textDocument/completion(131)
+I[03:42:35.756] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:35.756] Code complete: 3 results from Sema, 15 from Index, 0 matched, 0 from identifiers, 18 returned (incomplete).
+I[03:42:35.757] --> reply:textDocument/completion(131) 11 ms
+I[03:42:35.788] <-- clangd/inlayHints(132)
+I[03:42:35.788] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:35.788] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 36 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:35.790] --> textDocument/clangd.fileStatus
+I[03:42:35.802] --> reply:clangd/inlayHints(132) 13 ms
+I[03:42:35.802] --> textDocument/clangd.fileStatus
+I[03:42:35.830] --> workspace/semanticTokens/refresh(19)
+I[03:42:35.830] --> textDocument/clangd.fileStatus
+I[03:42:35.831] <-- reply(19)
+I[03:42:35.837] --> textDocument/publishDiagnostics
+I[03:42:35.837] --> textDocument/clangd.fileStatus
+I[03:42:35.842] <-- textDocument/didChange
+I[03:42:35.842] <-- textDocument/completion(133)
+I[03:42:35.842] --> textDocument/clangd.fileStatus
+I[03:42:35.849] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:35.849] Code complete: 2 results from Sema, 13 from Index, 0 matched, 0 from identifiers, 15 returned.
+I[03:42:35.849] --> reply:textDocument/completion(133) 7 ms
+I[03:42:35.876] <-- textDocument/semanticTokens/full/delta(134)
+I[03:42:35.876] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:35.877] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 37 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:35.878] --> textDocument/clangd.fileStatus
+I[03:42:35.879] <-- clangd/inlayHints(135)
+I[03:42:35.886] --> reply:textDocument/semanticTokens/full/delta(134) 9 ms
+I[03:42:35.886] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:35.886] --> textDocument/publishDiagnostics
+I[03:42:35.886] --> reply:clangd/inlayHints(135) 6 ms
+I[03:42:35.886] --> textDocument/clangd.fileStatus
+I[03:42:35.930] <-- textDocument/didChange
+I[03:42:35.930] <-- textDocument/completion(136)
+I[03:42:35.930] --> textDocument/clangd.fileStatus
+I[03:42:35.937] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:35.937] Code complete: 1 results from Sema, 10 from Index, 0 matched, 0 from identifiers, 11 returned.
+I[03:42:35.937] --> reply:textDocument/completion(136) 7 ms
+I[03:42:35.972] <-- clangd/inlayHints(137)
+I[03:42:35.972] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:35.973] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 38 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:35.974] --> textDocument/clangd.fileStatus
+I[03:42:35.981] --> reply:clangd/inlayHints(137) 8 ms
+I[03:42:35.981] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:35.981] --> textDocument/publishDiagnostics
+I[03:42:35.981] --> textDocument/clangd.fileStatus
+I[03:42:36.014] <-- textDocument/didChange
+I[03:42:36.015] --> textDocument/clangd.fileStatus
+I[03:42:36.059] <-- clangd/inlayHints(138)
+I[03:42:36.059] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:36.060] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 39 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:36.061] --> textDocument/clangd.fileStatus
+I[03:42:36.069] --> reply:clangd/inlayHints(138) 9 ms
+I[03:42:36.069] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:36.069] --> textDocument/publishDiagnostics
+I[03:42:36.069] --> textDocument/clangd.fileStatus
+I[03:42:36.113] <-- textDocument/didChange
+I[03:42:36.114] --> textDocument/clangd.fileStatus
+I[03:42:36.128] <-- textDocument/completion(139)
+I[03:42:36.134] Code complete: sema context SymbolOrNewName, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:36.134] Code complete: 0 results from Sema, 25 from Index, 0 matched, 0 from identifiers, 25 returned.
+I[03:42:36.135] --> reply:textDocument/completion(139) 6 ms
+I[03:42:36.156] <-- clangd/inlayHints(140)
+I[03:42:36.156] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:36.157] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 40 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:36.158] --> textDocument/clangd.fileStatus
+I[03:42:36.168] --> reply:clangd/inlayHints(140) 12 ms
+I[03:42:36.168] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:36.169] --> textDocument/publishDiagnostics
+I[03:42:36.169] --> textDocument/clangd.fileStatus
+I[03:42:36.228] <-- textDocument/semanticTokens/full/delta(141)
+I[03:42:36.229] --> reply:textDocument/semanticTokens/full/delta(141) 0 ms
+I[03:42:36.229] --> textDocument/clangd.fileStatus
+I[03:42:36.239] <-- textDocument/didChange
+I[03:42:36.239] <-- textDocument/completion(142)
+I[03:42:36.240] --> textDocument/clangd.fileStatus
+I[03:42:36.246] Code complete: sema context SymbolOrNewName, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:36.247] Code complete: 0 results from Sema, 2 from Index, 0 matched, 0 from identifiers, 2 returned.
+I[03:42:36.247] --> reply:textDocument/completion(142) 7 ms
+I[03:42:36.288] <-- clangd/inlayHints(143)
+I[03:42:36.288] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:36.289] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 41 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:36.290] --> textDocument/clangd.fileStatus
+I[03:42:36.298] --> reply:clangd/inlayHints(143) 9 ms
+I[03:42:36.298] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:36.298] --> textDocument/publishDiagnostics
+I[03:42:36.298] --> textDocument/clangd.fileStatus
+I[03:42:36.326] <-- textDocument/didChange
+I[03:42:36.326] <-- textDocument/completion(144)
+I[03:42:36.326] --> textDocument/clangd.fileStatus
+I[03:42:36.333] Code complete: sema context SymbolOrNewName, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:36.333] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[03:42:36.333] --> reply:textDocument/completion(144) 6 ms
+I[03:42:36.371] <-- clangd/inlayHints(145)
+I[03:42:36.371] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:36.372] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 42 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:36.374] --> textDocument/clangd.fileStatus
+I[03:42:36.382] --> reply:clangd/inlayHints(145) 11 ms
+I[03:42:36.382] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:36.383] --> textDocument/publishDiagnostics
+I[03:42:36.383] --> textDocument/clangd.fileStatus
+I[03:42:36.402] <-- textDocument/didChange
+I[03:42:36.403] --> textDocument/clangd.fileStatus
+I[03:42:36.436] <-- textDocument/completion(146)
+I[03:42:36.442] Code complete: sema context SymbolOrNewName, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:36.442] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[03:42:36.442] --> reply:textDocument/completion(146) 6 ms
+I[03:42:36.453] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:36.453] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 43 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:36.454] --> textDocument/clangd.fileStatus
+I[03:42:36.454] --> textDocument/clangd.fileStatus
+I[03:42:36.455] --> textDocument/clangd.fileStatus
+I[03:42:36.455] <-- clangd/inlayHints(147)
+I[03:42:36.462] --> textDocument/publishDiagnostics
+I[03:42:36.462] --> reply:clangd/inlayHints(147) 7 ms
+I[03:42:36.462] --> textDocument/clangd.fileStatus
+I[03:42:36.531] <-- textDocument/semanticTokens/full/delta(148)
+I[03:42:36.531] --> reply:textDocument/semanticTokens/full/delta(148) 0 ms
+I[03:42:36.532] --> textDocument/clangd.fileStatus
+I[03:42:36.752] <-- textDocument/documentSymbol(149)
+I[03:42:36.752] --> reply:textDocument/documentSymbol(149) 0 ms
+I[03:42:36.752] --> textDocument/clangd.fileStatus
+I[03:42:36.762] <-- textDocument/codeAction(150)
+I[03:42:36.763] --> reply:textDocument/codeAction(150) 0 ms
+I[03:42:36.763] --> textDocument/clangd.fileStatus
+I[03:42:36.911] <-- textDocument/didChange
+I[03:42:36.911] --> textDocument/clangd.fileStatus
+I[03:42:36.960] <-- clangd/inlayHints(151)
+I[03:42:36.960] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:36.961] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 44 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:36.963] --> textDocument/clangd.fileStatus
+I[03:42:36.971] --> reply:clangd/inlayHints(151) 10 ms
+I[03:42:36.971] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:36.971] --> textDocument/publishDiagnostics
+I[03:42:36.971] --> textDocument/clangd.fileStatus
+I[03:42:37.208] <-- textDocument/semanticTokens/full/delta(152)
+I[03:42:37.208] --> reply:textDocument/semanticTokens/full/delta(152) 0 ms
+I[03:42:37.208] --> textDocument/clangd.fileStatus
+I[03:42:37.258] <-- textDocument/documentSymbol(153)
+I[03:42:37.258] --> reply:textDocument/documentSymbol(153) 0 ms
+I[03:42:37.258] --> textDocument/clangd.fileStatus
+I[03:42:37.269] <-- textDocument/codeAction(154)
+I[03:42:37.269] --> reply:textDocument/codeAction(154) 0 ms
+I[03:42:37.269] --> textDocument/clangd.fileStatus
+I[03:42:37.696] <-- textDocument/didChange
+I[03:42:37.696] --> textDocument/clangd.fileStatus
+I[03:42:37.697] <-- textDocument/completion(155)
+I[03:42:37.703] Code complete: sema context SymbolOrNewName, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:37.703] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[03:42:37.703] --> reply:textDocument/completion(155) 6 ms
+I[03:42:37.736] <-- clangd/inlayHints(156)
+I[03:42:37.736] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:37.736] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 45 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:37.738] --> textDocument/clangd.fileStatus
+I[03:42:37.744] --> reply:clangd/inlayHints(156) 7 ms
+I[03:42:37.744] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:37.744] --> textDocument/publishDiagnostics
+I[03:42:37.744] --> textDocument/clangd.fileStatus
+I[03:42:37.933] <-- textDocument/didChange
+I[03:42:37.933] --> textDocument/clangd.fileStatus
+I[03:42:37.945] <-- clangd/inlayHints(157)
+I[03:42:37.945] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:37.945] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 46 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:37.947] --> textDocument/clangd.fileStatus
+I[03:42:37.957] --> reply:clangd/inlayHints(157) 12 ms
+I[03:42:37.957] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:37.957] --> textDocument/publishDiagnostics
+I[03:42:37.957] --> textDocument/clangd.fileStatus
+I[03:42:37.989] <-- textDocument/semanticTokens/full/delta(158)
+I[03:42:37.989] --> reply:textDocument/semanticTokens/full/delta(158) 0 ms
+I[03:42:37.989] --> textDocument/clangd.fileStatus
+I[03:42:38.018] <-- textDocument/signatureHelp(159)
+I[03:42:38.023] --> reply:textDocument/signatureHelp(159) 4 ms
+I[03:42:38.247] <-- textDocument/documentSymbol(160)
+I[03:42:38.248] --> reply:textDocument/documentSymbol(160) 0 ms
+I[03:42:38.248] --> textDocument/clangd.fileStatus
+I[03:42:38.260] <-- textDocument/codeAction(161)
+I[03:42:38.260] --> reply:textDocument/codeAction(161) 0 ms
+I[03:42:38.260] --> textDocument/clangd.fileStatus
+I[03:42:38.379] <-- clangd/inlayHints(162)
+I[03:42:38.380] --> reply:clangd/inlayHints(162) 0 ms
+I[03:42:38.380] --> textDocument/clangd.fileStatus
+I[03:42:38.702] <-- clangd/inlayHints(163)
+I[03:42:38.702] --> reply:clangd/inlayHints(163) 0 ms
+I[03:42:38.702] --> textDocument/clangd.fileStatus
+I[03:42:39.047] <-- clangd/inlayHints(164)
+I[03:42:39.047] --> reply:clangd/inlayHints(164) 0 ms
+I[03:42:39.047] --> textDocument/clangd.fileStatus
+I[03:42:39.158] <-- textDocument/didSave
+I[03:42:39.158] File version went from 46 to 46
+I[03:42:39.158] --> textDocument/clangd.fileStatus
+I[03:42:39.208] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:39.208] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 46 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:39.210] --> textDocument/clangd.fileStatus
+I[03:42:39.210] --> textDocument/clangd.fileStatus
+I[03:42:39.462] <-- textDocument/documentLink(165)
+I[03:42:39.463] --> reply:textDocument/documentLink(165) 0 ms
+I[03:42:39.463] --> textDocument/clangd.fileStatus
+I[03:42:39.630] <-- textDocument/documentSymbol(166)
+I[03:42:39.630] --> reply:textDocument/documentSymbol(166) 0 ms
+I[03:42:39.630] --> textDocument/clangd.fileStatus
+I[03:42:44.801] <-- textDocument/didChange
+I[03:42:44.801] <-- textDocument/completion(167)
+I[03:42:44.801] --> textDocument/clangd.fileStatus
+I[03:42:44.808] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:44.808] Code complete: 1 results from Sema, 18 from Index, 0 matched, 0 from identifiers, 19 returned.
+I[03:42:44.809] --> reply:textDocument/completion(167) 7 ms
+I[03:42:44.831] <-- clangd/inlayHints(168)
+I[03:42:44.831] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:44.832] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 47 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:44.834] --> textDocument/clangd.fileStatus
+I[03:42:44.841] --> reply:clangd/inlayHints(168) 9 ms
+I[03:42:44.841] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:44.841] --> textDocument/publishDiagnostics
+I[03:42:44.841] --> textDocument/clangd.fileStatus
+I[03:42:44.923] <-- textDocument/didChange
+I[03:42:44.923] <-- textDocument/completion(169)
+I[03:42:44.923] --> textDocument/clangd.fileStatus
+I[03:42:44.929] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:44.930] Code complete: 0 results from Sema, 3 from Index, 0 matched, 0 from identifiers, 3 returned.
+I[03:42:44.930] --> reply:textDocument/completion(169) 6 ms
+I[03:42:44.970] <-- clangd/inlayHints(170)
+I[03:42:44.970] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:44.971] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 48 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:44.972] --> textDocument/clangd.fileStatus
+I[03:42:44.978] --> reply:clangd/inlayHints(170) 7 ms
+I[03:42:44.978] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:44.978] --> textDocument/publishDiagnostics
+I[03:42:44.978] --> textDocument/clangd.fileStatus
+I[03:42:45.067] <-- textDocument/semanticTokens/full/delta(171)
+I[03:42:45.067] --> reply:textDocument/semanticTokens/full/delta(171) 0 ms
+I[03:42:45.067] --> textDocument/clangd.fileStatus
+I[03:42:45.136] <-- textDocument/didChange
+I[03:42:45.136] <-- textDocument/completion(172)
+I[03:42:45.136] --> textDocument/clangd.fileStatus
+I[03:42:45.144] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:45.144] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[03:42:45.145] --> reply:textDocument/completion(172) 8 ms
+I[03:42:45.182] <-- clangd/inlayHints(173)
+I[03:42:45.182] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:45.182] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 49 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:45.184] --> textDocument/clangd.fileStatus
+I[03:42:45.190] --> reply:clangd/inlayHints(173) 8 ms
+I[03:42:45.190] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:45.190] --> textDocument/publishDiagnostics
+I[03:42:45.190] --> textDocument/clangd.fileStatus
+I[03:42:45.434] <-- textDocument/semanticTokens/full/delta(174)
+I[03:42:45.434] --> reply:textDocument/semanticTokens/full/delta(174) 0 ms
+I[03:42:45.434] --> textDocument/clangd.fileStatus
+I[03:42:45.477] <-- textDocument/documentSymbol(175)
+I[03:42:45.477] --> reply:textDocument/documentSymbol(175) 0 ms
+I[03:42:45.477] --> textDocument/clangd.fileStatus
+I[03:42:45.496] <-- textDocument/codeAction(176)
+I[03:42:45.497] --> reply:textDocument/codeAction(176) 0 ms
+I[03:42:45.497] --> textDocument/clangd.fileStatus
+I[03:42:45.921] <-- textDocument/didChange
+I[03:42:45.921] --> textDocument/clangd.fileStatus
+I[03:42:45.971] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:45.971] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 50 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:45.973] --> textDocument/clangd.fileStatus
+I[03:42:45.973] --> textDocument/clangd.fileStatus
+I[03:42:45.974] --> textDocument/clangd.fileStatus
+I[03:42:45.974] <-- clangd/inlayHints(177)
+I[03:42:45.979] --> textDocument/publishDiagnostics
+I[03:42:45.979] --> reply:clangd/inlayHints(177) 5 ms
+I[03:42:45.979] --> textDocument/clangd.fileStatus
+I[03:42:46.063] <-- textDocument/didChange
+I[03:42:46.064] --> textDocument/clangd.fileStatus
+I[03:42:46.114] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:46.114] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 51 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:46.116] --> textDocument/clangd.fileStatus
+I[03:42:46.116] --> textDocument/clangd.fileStatus
+I[03:42:46.116] --> textDocument/clangd.fileStatus
+I[03:42:46.118] <-- clangd/inlayHints(178)
+I[03:42:46.122] --> textDocument/publishDiagnostics
+I[03:42:46.123] --> reply:clangd/inlayHints(178) 4 ms
+I[03:42:46.123] --> textDocument/clangd.fileStatus
+I[03:42:46.205] <-- textDocument/didChange
+I[03:42:46.205] --> textDocument/clangd.fileStatus
+I[03:42:46.216] <-- textDocument/semanticTokens/full/delta(179)
+I[03:42:46.216] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:46.217] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 52 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:46.218] --> textDocument/clangd.fileStatus
+I[03:42:46.224] --> reply:textDocument/semanticTokens/full/delta(179) 8 ms
+I[03:42:46.224] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:46.224] --> textDocument/publishDiagnostics
+I[03:42:46.224] --> textDocument/clangd.fileStatus
+I[03:42:46.260] <-- clangd/inlayHints(180)
+I[03:42:46.260] --> reply:clangd/inlayHints(180) 0 ms
+I[03:42:46.260] --> textDocument/clangd.fileStatus
+I[03:42:46.474] <-- textDocument/didChange
+I[03:42:46.474] --> textDocument/clangd.fileStatus
+I[03:42:46.477] <-- textDocument/completion(181)
+I[03:42:46.484] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:46.484] Code complete: 3 results from Sema, 15 from Index, 0 matched, 0 from identifiers, 18 returned.
+I[03:42:46.485] --> reply:textDocument/completion(181) 7 ms
+I[03:42:46.524] <-- clangd/inlayHints(182)
+I[03:42:46.524] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:46.524] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 53 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:46.525] --> textDocument/clangd.fileStatus
+I[03:42:46.531] --> reply:clangd/inlayHints(182) 7 ms
+I[03:42:46.531] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:46.531] --> textDocument/publishDiagnostics
+I[03:42:46.532] --> textDocument/clangd.fileStatus
+I[03:42:46.557] <-- textDocument/didChange
+I[03:42:46.557] <-- textDocument/completion(183)
+I[03:42:46.557] --> textDocument/clangd.fileStatus
+I[03:42:46.564] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:46.564] Code complete: 2 results from Sema, 13 from Index, 0 matched, 0 from identifiers, 15 returned.
+I[03:42:46.565] --> reply:textDocument/completion(183) 7 ms
+I[03:42:46.607] <-- clangd/inlayHints(184)
+I[03:42:46.607] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:46.608] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 54 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:46.610] --> textDocument/clangd.fileStatus
+I[03:42:46.617] --> reply:clangd/inlayHints(184) 9 ms
+I[03:42:46.617] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:46.617] --> textDocument/publishDiagnostics
+I[03:42:46.617] --> textDocument/clangd.fileStatus
+I[03:42:46.660] <-- textDocument/didChange
+I[03:42:46.660] <-- textDocument/completion(185)
+I[03:42:46.660] --> textDocument/clangd.fileStatus
+I[03:42:46.668] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:46.668] Code complete: 1 results from Sema, 10 from Index, 0 matched, 0 from identifiers, 11 returned.
+I[03:42:46.669] --> reply:textDocument/completion(185) 8 ms
+I[03:42:46.705] <-- clangd/inlayHints(186)
+I[03:42:46.705] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:46.705] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 55 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:46.707] --> textDocument/clangd.fileStatus
+I[03:42:46.713] --> reply:clangd/inlayHints(186) 8 ms
+I[03:42:46.713] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:46.713] --> textDocument/publishDiagnostics
+I[03:42:46.714] --> textDocument/clangd.fileStatus
+I[03:42:46.744] <-- textDocument/didChange
+I[03:42:46.744] --> textDocument/clangd.fileStatus
+I[03:42:46.764] <-- textDocument/semanticTokens/full/delta(187)
+I[03:42:46.764] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:46.765] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 56 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:46.766] --> textDocument/clangd.fileStatus
+I[03:42:46.772] --> reply:textDocument/semanticTokens/full/delta(187) 8 ms
+I[03:42:46.773] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:46.773] --> textDocument/publishDiagnostics
+I[03:42:46.773] --> textDocument/clangd.fileStatus
+I[03:42:46.798] <-- clangd/inlayHints(188)
+I[03:42:46.798] --> reply:clangd/inlayHints(188) 0 ms
+I[03:42:46.798] --> textDocument/clangd.fileStatus
+I[03:42:46.862] <-- textDocument/didChange
+I[03:42:46.862] --> textDocument/clangd.fileStatus
+I[03:42:46.877] <-- textDocument/completion(189)
+I[03:42:46.883] Code complete: sema context NewName, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:46.883] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[03:42:46.883] --> reply:textDocument/completion(189) 6 ms
+I[03:42:46.904] <-- clangd/inlayHints(190)
+I[03:42:46.904] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:46.904] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 57 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:46.906] --> textDocument/clangd.fileStatus
+I[03:42:46.912] --> reply:clangd/inlayHints(190) 8 ms
+I[03:42:46.912] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:46.912] --> textDocument/publishDiagnostics
+I[03:42:46.912] --> textDocument/clangd.fileStatus
+I[03:42:46.945] <-- textDocument/didChange
+I[03:42:46.946] --> textDocument/clangd.fileStatus
+I[03:42:46.950] <-- textDocument/completion(191)
+I[03:42:46.957] Code complete: sema context NewName, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:46.957] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[03:42:46.957] --> reply:textDocument/completion(191) 6 ms
+I[03:42:46.992] <-- clangd/inlayHints(192)
+I[03:42:46.992] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:46.992] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 58 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:46.994] --> textDocument/clangd.fileStatus
+I[03:42:47.000] --> reply:clangd/inlayHints(192) 7 ms
+I[03:42:47.000] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:47.000] --> textDocument/publishDiagnostics
+I[03:42:47.000] --> textDocument/clangd.fileStatus
+I[03:42:47.133] <-- textDocument/didChange
+I[03:42:47.133] --> textDocument/clangd.fileStatus
+I[03:42:47.140] <-- textDocument/completion(193)
+I[03:42:47.145] Code complete: sema context NewName, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:47.146] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[03:42:47.146] --> reply:textDocument/completion(193) 5 ms
+I[03:42:47.149] <-- textDocument/semanticTokens/full/delta(194)
+I[03:42:47.149] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:47.149] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 59 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:47.151] --> textDocument/clangd.fileStatus
+I[03:42:47.157] --> reply:textDocument/semanticTokens/full/delta(194) 7 ms
+I[03:42:47.157] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:47.157] --> textDocument/publishDiagnostics
+I[03:42:47.157] --> textDocument/clangd.fileStatus
+I[03:42:47.178] <-- clangd/inlayHints(195)
+I[03:42:47.178] --> reply:clangd/inlayHints(195) 0 ms
+I[03:42:47.178] --> textDocument/clangd.fileStatus
+I[03:42:47.458] <-- textDocument/codeAction(196)
+I[03:42:47.458] --> reply:textDocument/codeAction(196) 0 ms
+I[03:42:47.458] --> textDocument/clangd.fileStatus
+I[03:42:47.479] <-- textDocument/documentSymbol(197)
+I[03:42:47.479] --> reply:textDocument/documentSymbol(197) 0 ms
+I[03:42:47.479] --> textDocument/clangd.fileStatus
+I[03:42:47.924] <-- clangd/inlayHints(198)
+I[03:42:47.924] --> reply:clangd/inlayHints(198) 0 ms
+I[03:42:47.924] --> textDocument/clangd.fileStatus
+I[03:42:48.331] <-- textDocument/didSave
+I[03:42:48.331] File version went from 59 to 59
+I[03:42:48.331] --> textDocument/clangd.fileStatus
+I[03:42:48.381] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:48.381] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 59 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:48.383] --> textDocument/clangd.fileStatus
+I[03:42:48.383] --> textDocument/clangd.fileStatus
+I[03:42:48.384] --> textDocument/clangd.fileStatus
+I[03:42:48.385] --> textDocument/clangd.fileStatus
+I[03:42:48.704] <-- textDocument/documentLink(199)
+I[03:42:48.705] --> reply:textDocument/documentLink(199) 0 ms
+I[03:42:48.705] --> textDocument/clangd.fileStatus
+I[03:42:48.863] <-- textDocument/documentSymbol(200)
+I[03:42:48.863] --> reply:textDocument/documentSymbol(200) 0 ms
+I[03:42:48.863] --> textDocument/clangd.fileStatus
+I[03:42:49.749] <-- textDocument/didChange
+I[03:42:49.749] --> textDocument/clangd.fileStatus
+I[03:42:49.756] <-- textDocument/completion(201)
+I[03:42:49.756] <-- clangd/inlayHints(202)
+I[03:42:49.756] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:49.757] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 60 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:49.758] --> textDocument/clangd.fileStatus
+I[03:42:49.763] Code complete: sema context NewName, query scopes [] (AnyScope=true), expected type <none>
+I[03:42:49.763] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[03:42:49.763] --> reply:textDocument/completion(201) 7 ms
+I[03:42:49.766] --> reply:clangd/inlayHints(202) 9 ms
+I[03:42:49.766] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:49.766] --> textDocument/publishDiagnostics
+I[03:42:49.766] --> textDocument/clangd.fileStatus
+I[03:42:50.013] <-- textDocument/semanticTokens/full/delta(203)
+I[03:42:50.013] --> reply:textDocument/semanticTokens/full/delta(203) 0 ms
+I[03:42:50.014] --> textDocument/clangd.fileStatus
+I[03:42:50.049] <-- textDocument/documentSymbol(204)
+I[03:42:50.049] --> reply:textDocument/documentSymbol(204) 0 ms
+I[03:42:50.049] --> textDocument/clangd.fileStatus
+I[03:42:50.082] <-- textDocument/codeAction(205)
+I[03:42:50.083] --> reply:textDocument/codeAction(205) 0 ms
+I[03:42:50.083] --> textDocument/clangd.fileStatus
+I[03:42:50.507] <-- clangd/inlayHints(206)
+I[03:42:50.507] --> reply:clangd/inlayHints(206) 0 ms
+I[03:42:50.507] --> textDocument/clangd.fileStatus
+I[03:42:50.766] <-- textDocument/documentSymbol(207)
+I[03:42:50.766] --> reply:textDocument/documentSymbol(207) 0 ms
+I[03:42:50.766] --> textDocument/clangd.fileStatus
+I[03:42:50.898] <-- textDocument/didSave
+I[03:42:50.898] File version went from 60 to 60
+I[03:42:50.898] --> textDocument/clangd.fileStatus
+I[03:42:50.948] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:50.949] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 60 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:50.950] --> textDocument/clangd.fileStatus
+I[03:42:50.950] --> textDocument/clangd.fileStatus
+I[03:42:50.951] --> textDocument/clangd.fileStatus
+I[03:42:50.951] --> textDocument/clangd.fileStatus
+I[03:42:51.107] <-- textDocument/didChange
+I[03:42:51.107] --> textDocument/clangd.fileStatus
+I[03:42:51.124] <-- clangd/inlayHints(208)
+I[03:42:51.124] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:51.125] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 61 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:51.129] --> textDocument/clangd.fileStatus
+I[03:42:51.137] --> textDocument/publishDiagnostics
+I[03:42:51.137] --> reply:clangd/inlayHints(208) 12 ms
+I[03:42:51.137] --> textDocument/clangd.fileStatus
+I[03:42:51.182] <-- textDocument/signatureHelp(209)
+I[03:42:51.196] --> reply:textDocument/signatureHelp(209) 14 ms
+I[03:42:51.303] <-- textDocument/didChange
+I[03:42:51.303] --> textDocument/clangd.fileStatus
+I[03:42:51.353] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:51.353] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 62 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:51.355] --> textDocument/clangd.fileStatus
+I[03:42:51.355] --> textDocument/clangd.fileStatus
+I[03:42:51.356] --> textDocument/clangd.fileStatus
+I[03:42:51.363] --> textDocument/publishDiagnostics
+I[03:42:51.363] --> textDocument/clangd.fileStatus
+I[03:42:51.364] <-- clangd/inlayHints(210)
+I[03:42:51.365] --> reply:clangd/inlayHints(210) 0 ms
+I[03:42:51.365] --> textDocument/clangd.fileStatus
+I[03:42:51.371] <-- textDocument/semanticTokens/full/delta(211)
+I[03:42:51.371] --> reply:textDocument/semanticTokens/full/delta(211) 0 ms
+I[03:42:51.372] --> textDocument/clangd.fileStatus
+I[03:42:51.627] <-- textDocument/documentSymbol(212)
+I[03:42:51.627] --> reply:textDocument/documentSymbol(212) 0 ms
+I[03:42:51.627] --> textDocument/clangd.fileStatus
+I[03:42:51.699] <-- textDocument/codeAction(213)
+I[03:42:51.699] --> reply:textDocument/codeAction(213) 0 ms
+I[03:42:51.699] --> textDocument/clangd.fileStatus
+I[03:42:51.861] <-- textDocument/didChange
+I[03:42:51.861] --> textDocument/clangd.fileStatus
+I[03:42:51.911] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:51.912] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 63 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:51.914] --> textDocument/clangd.fileStatus
+I[03:42:51.914] --> textDocument/clangd.fileStatus
+I[03:42:51.914] --> textDocument/clangd.fileStatus
+I[03:42:51.920] --> textDocument/publishDiagnostics
+I[03:42:51.920] --> textDocument/clangd.fileStatus
+I[03:42:51.929] <-- clangd/inlayHints(214)
+I[03:42:51.929] --> reply:clangd/inlayHints(214) 0 ms
+I[03:42:51.929] --> textDocument/clangd.fileStatus
+I[03:42:52.159] <-- textDocument/semanticTokens/full/delta(215)
+I[03:42:52.159] --> reply:textDocument/semanticTokens/full/delta(215) 0 ms
+I[03:42:52.159] --> textDocument/clangd.fileStatus
+I[03:42:52.213] <-- textDocument/documentSymbol(216)
+I[03:42:52.213] --> reply:textDocument/documentSymbol(216) 0 ms
+I[03:42:52.213] --> textDocument/clangd.fileStatus
+I[03:42:52.221] <-- textDocument/codeAction(217)
+I[03:42:52.222] --> reply:textDocument/codeAction(217) 0 ms
+I[03:42:52.222] --> textDocument/clangd.fileStatus
+I[03:42:52.490] <-- textDocument/documentSymbol(218)
+I[03:42:52.490] --> reply:textDocument/documentSymbol(218) 0 ms
+I[03:42:52.490] --> textDocument/clangd.fileStatus
+I[03:42:52.660] <-- clangd/inlayHints(219)
+I[03:42:52.661] --> reply:clangd/inlayHints(219) 0 ms
+I[03:42:52.661] --> textDocument/clangd.fileStatus
+I[03:42:53.056] <-- textDocument/didSave
+I[03:42:53.057] File version went from 63 to 63
+I[03:42:53.057] --> textDocument/clangd.fileStatus
+I[03:42:53.107] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:53.107] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 63 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:53.109] --> textDocument/clangd.fileStatus
+I[03:42:53.110] --> textDocument/clangd.fileStatus
+I[03:42:53.111] --> textDocument/clangd.fileStatus
+I[03:42:53.111] --> textDocument/clangd.fileStatus
+I[03:42:53.430] <-- textDocument/documentLink(220)
+I[03:42:53.430] --> reply:textDocument/documentLink(220) 0 ms
+I[03:42:53.430] --> textDocument/clangd.fileStatus
+I[03:42:53.469] <-- textDocument/codeAction(221)
+I[03:42:53.469] --> reply:textDocument/codeAction(221) 0 ms
+I[03:42:53.469] --> textDocument/clangd.fileStatus
+I[03:42:54.402] <-- textDocument/didChange
+I[03:42:54.403] --> textDocument/clangd.fileStatus
+I[03:42:54.453] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:54.453] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 64 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:54.455] --> textDocument/clangd.fileStatus
+I[03:42:54.455] --> textDocument/clangd.fileStatus
+I[03:42:54.455] --> textDocument/clangd.fileStatus
+I[03:42:54.459] <-- clangd/inlayHints(222)
+I[03:42:54.462] --> textDocument/publishDiagnostics
+I[03:42:54.462] --> reply:clangd/inlayHints(222) 2 ms
+I[03:42:54.462] --> textDocument/clangd.fileStatus
+I[03:42:54.665] <-- textDocument/didChange
+I[03:42:54.666] --> textDocument/clangd.fileStatus
+I[03:42:54.689] <-- textDocument/semanticTokens/full/delta(223)
+I[03:42:54.690] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:54.690] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 65 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:54.691] --> textDocument/clangd.fileStatus
+I[03:42:54.701] --> reply:textDocument/semanticTokens/full/delta(223) 11 ms
+I[03:42:54.701] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:42:54.701] --> textDocument/publishDiagnostics
+I[03:42:54.701] --> textDocument/clangd.fileStatus
+I[03:42:54.715] <-- clangd/inlayHints(224)
+I[03:42:54.716] --> reply:clangd/inlayHints(224) 0 ms
+I[03:42:54.716] --> textDocument/clangd.fileStatus
+I[03:42:54.774] <-- textDocument/signatureHelp(225)
+I[03:42:54.779] --> reply:textDocument/signatureHelp(225) 5 ms
+I[03:42:54.867] <-- textDocument/didChange
+I[03:42:54.867] --> textDocument/clangd.fileStatus
+I[03:42:54.917] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:54.918] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 66 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:54.919] --> textDocument/clangd.fileStatus
+I[03:42:54.919] --> textDocument/clangd.fileStatus
+I[03:42:54.920] --> textDocument/clangd.fileStatus
+I[03:42:54.922] <-- clangd/inlayHints(226)
+I[03:42:54.926] --> textDocument/publishDiagnostics
+I[03:42:54.926] --> reply:clangd/inlayHints(226) 3 ms
+I[03:42:54.926] --> textDocument/clangd.fileStatus
+I[03:42:55.160] <-- textDocument/semanticTokens/full/delta(227)
+I[03:42:55.160] --> reply:textDocument/semanticTokens/full/delta(227) 0 ms
+I[03:42:55.160] --> textDocument/clangd.fileStatus
+I[03:42:55.209] <-- textDocument/documentSymbol(228)
+I[03:42:55.209] <-- textDocument/documentSymbol(229)
+I[03:42:55.209] --> reply:textDocument/documentSymbol(228) 0 ms
+I[03:42:55.209] --> reply:textDocument/documentSymbol(229) 0 ms
+I[03:42:55.209] --> textDocument/clangd.fileStatus
+I[03:42:55.663] <-- clangd/inlayHints(230)
+I[03:42:55.663] --> reply:clangd/inlayHints(230) 0 ms
+I[03:42:55.663] --> textDocument/clangd.fileStatus
+I[03:42:55.863] <-- textDocument/documentLink(231)
+I[03:42:55.863] --> reply:textDocument/documentLink(231) 0 ms
+I[03:42:55.863] --> textDocument/clangd.fileStatus
+I[03:42:56.066] <-- textDocument/didSave
+I[03:42:56.066] File version went from 66 to 66
+I[03:42:56.067] --> textDocument/clangd.fileStatus
+I[03:42:56.117] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:42:56.118] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 66 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:42:56.119] --> textDocument/clangd.fileStatus
+I[03:42:56.119] --> textDocument/clangd.fileStatus
+I[03:42:56.120] --> textDocument/clangd.fileStatus
+I[03:42:56.120] --> textDocument/clangd.fileStatus
+I[03:43:03.830] <-- clangd/inlayHints(232)
+I[03:43:03.830] --> reply:clangd/inlayHints(232) 0 ms
+I[03:43:03.830] --> textDocument/clangd.fileStatus
+I[03:43:13.854] <-- textDocument/didOpen
+I[03:43:13.855] Failed to find compilation database for /home/efarzad22/unix-practice/wcat.c
+I[03:43:13.856] ASTWorker building file /home/efarzad22/unix-practice/wcat.c version 1 with command clangd fallback
+[/home/efarzad22/unix-practice]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/unix-practice/wcat.c
+I[03:43:13.857] <-- textDocument/documentSymbol(233)
+I[03:43:13.857] <-- textDocument/codeAction(234)
+I[03:43:13.858] --> textDocument/clangd.fileStatus
+I[03:43:13.870] <-- textDocument/semanticTokens/full(235)
+I[03:43:13.870] <-- clangd/inlayHints(236)
+I[03:43:13.870] <-- textDocument/documentLink(237)
+I[03:43:13.900] --> workspace/semanticTokens/refresh(20)
+I[03:43:13.900] --> textDocument/clangd.fileStatus
+I[03:43:13.900] --> textDocument/clangd.fileStatus
+I[03:43:13.901] <-- reply(20)
+I[03:43:13.914] --> textDocument/publishDiagnostics
+I[03:43:13.914] --> reply:textDocument/documentSymbol(233) 57 ms
+I[03:43:13.914] --> reply:textDocument/codeAction(234) 57 ms
+I[03:43:13.915] --> reply:textDocument/semanticTokens/full(235) 44 ms
+I[03:43:13.915] --> reply:clangd/inlayHints(236) 45 ms
+I[03:43:13.915] --> reply:textDocument/documentLink(237) 45 ms
+I[03:43:13.915] --> textDocument/clangd.fileStatus
+I[03:43:14.109] <-- textDocument/documentSymbol(238)
+I[03:43:14.109] --> reply:textDocument/documentSymbol(238) 0 ms
+I[03:43:14.110] --> textDocument/clangd.fileStatus
+I[03:43:14.264] <-- textDocument/semanticTokens/full/delta(239)
+I[03:43:14.264] --> reply:textDocument/semanticTokens/full/delta(239) 0 ms
+I[03:43:14.264] --> textDocument/clangd.fileStatus
+I[03:43:18.298] <-- clangd/inlayHints(240)
+I[03:43:18.298] <-- textDocument/documentLink(241)
+I[03:43:18.298] <-- textDocument/codeAction(242)
+I[03:43:18.298] --> reply:clangd/inlayHints(240) 0 ms
+I[03:43:18.298] --> reply:textDocument/documentLink(241) 0 ms
+I[03:43:18.298] --> reply:textDocument/codeAction(242) 0 ms
+I[03:43:18.298] --> textDocument/clangd.fileStatus
+I[03:43:18.543] <-- textDocument/semanticTokens/full/delta(243)
+I[03:43:18.544] --> reply:textDocument/semanticTokens/full/delta(243) 0 ms
+I[03:43:18.544] --> textDocument/clangd.fileStatus
+I[03:43:18.549] <-- textDocument/documentSymbol(244)
+I[03:43:18.549] --> reply:textDocument/documentSymbol(244) 0 ms
+I[03:43:18.550] --> textDocument/clangd.fileStatus
+I[03:43:18.668] <-- textDocument/hover(245)
+I[03:43:18.669] --> reply:textDocument/hover(245) 0 ms
+I[03:43:18.669] --> textDocument/clangd.fileStatus
+I[03:43:18.916] <-- textDocument/hover(246)
+I[03:43:18.917] --> reply:textDocument/hover(246) 0 ms
+I[03:43:18.917] --> textDocument/clangd.fileStatus
+I[03:43:20.303] <-- textDocument/didChange
+I[03:43:20.303] --> textDocument/clangd.fileStatus
+I[03:43:20.348] <-- clangd/inlayHints(247)
+I[03:43:20.348] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:20.348] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 67 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:20.350] --> textDocument/clangd.fileStatus
+I[03:43:20.356] --> reply:clangd/inlayHints(247) 8 ms
+I[03:43:20.356] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:43:20.356] --> textDocument/publishDiagnostics
+I[03:43:20.356] --> textDocument/clangd.fileStatus
+I[03:43:20.550] <-- textDocument/didChange
+I[03:43:20.550] --> textDocument/clangd.fileStatus
+I[03:43:20.557] <-- textDocument/completion(248)
+I[03:43:20.564] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[03:43:20.564] Code complete: 3 results from Sema, 15 from Index, 0 matched, 0 from identifiers, 18 returned.
+I[03:43:20.565] --> reply:textDocument/completion(248) 8 ms
+I[03:43:20.593] <-- textDocument/semanticTokens/full/delta(249)
+I[03:43:20.593] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:20.594] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 68 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:20.596] --> textDocument/clangd.fileStatus
+I[03:43:20.598] <-- clangd/inlayHints(250)
+I[03:43:20.602] --> reply:textDocument/semanticTokens/full/delta(249) 9 ms
+I[03:43:20.602] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:43:20.603] --> textDocument/publishDiagnostics
+I[03:43:20.603] --> reply:clangd/inlayHints(250) 4 ms
+I[03:43:20.603] --> textDocument/clangd.fileStatus
+I[03:43:20.646] <-- textDocument/didChange
+I[03:43:20.646] <-- textDocument/completion(251)
+I[03:43:20.646] --> textDocument/clangd.fileStatus
+I[03:43:20.654] Code complete: sema context Statement, query scopes [] (AnyScope=true), expected type <none>
+I[03:43:20.654] Code complete: 1 results from Sema, 1 from Index, 0 matched, 0 from identifiers, 2 returned.
+I[03:43:20.654] --> reply:textDocument/completion(251) 7 ms
+I[03:43:20.696] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:20.697] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 69 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:20.698] --> textDocument/clangd.fileStatus
+I[03:43:20.698] --> textDocument/clangd.fileStatus
+I[03:43:20.699] --> textDocument/clangd.fileStatus
+I[03:43:20.701] <-- clangd/inlayHints(252)
+I[03:43:20.705] --> textDocument/publishDiagnostics
+I[03:43:20.705] --> reply:clangd/inlayHints(252) 4 ms
+I[03:43:20.705] --> textDocument/clangd.fileStatus
+I[03:43:20.772] <-- textDocument/didChange
+I[03:43:20.772] --> textDocument/clangd.fileStatus
+I[03:43:20.809] <-- clangd/inlayHints(253)
+I[03:43:20.809] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:20.810] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 70 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:20.811] --> textDocument/clangd.fileStatus
+I[03:43:20.819] --> reply:clangd/inlayHints(253) 9 ms
+I[03:43:20.819] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:43:20.819] --> textDocument/publishDiagnostics
+I[03:43:20.819] --> textDocument/clangd.fileStatus
+I[03:43:20.938] <-- textDocument/semanticTokens/full/delta(254)
+I[03:43:20.938] --> reply:textDocument/semanticTokens/full/delta(254) 0 ms
+I[03:43:20.938] --> textDocument/clangd.fileStatus
+I[03:43:20.954] <-- textDocument/didChange
+I[03:43:20.955] --> textDocument/clangd.fileStatus
+I[03:43:20.961] <-- textDocument/completion(255)
+I[03:43:20.967] Code complete: Ignoring sema code complete callback with Recovery context.
+I[03:43:20.967] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[03:43:20.967] --> reply:textDocument/completion(255) 5 ms
+I[03:43:21.005] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:21.005] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 71 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:21.006] --> textDocument/clangd.fileStatus
+I[03:43:21.007] --> textDocument/clangd.fileStatus
+I[03:43:21.007] --> textDocument/clangd.fileStatus
+I[03:43:21.010] <-- clangd/inlayHints(256)
+I[03:43:21.013] --> textDocument/publishDiagnostics
+I[03:43:21.013] --> reply:clangd/inlayHints(256) 3 ms
+I[03:43:21.013] --> textDocument/clangd.fileStatus
+I[03:43:21.092] <-- textDocument/didChange
+I[03:43:21.093] --> textDocument/clangd.fileStatus
+I[03:43:21.143] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:21.143] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 72 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:21.144] --> textDocument/clangd.fileStatus
+I[03:43:21.145] --> textDocument/clangd.fileStatus
+I[03:43:21.145] --> textDocument/clangd.fileStatus
+I[03:43:21.150] <-- clangd/inlayHints(257)
+I[03:43:21.152] --> textDocument/publishDiagnostics
+I[03:43:21.152] --> reply:clangd/inlayHints(257) 1 ms
+I[03:43:21.152] --> textDocument/clangd.fileStatus
+I[03:43:21.246] <-- textDocument/semanticTokens/full/delta(258)
+I[03:43:21.247] --> reply:textDocument/semanticTokens/full/delta(258) 0 ms
+I[03:43:21.247] --> textDocument/clangd.fileStatus
+I[03:43:21.282] <-- textDocument/didChange
+I[03:43:21.283] --> textDocument/clangd.fileStatus
+I[03:43:21.332] <-- clangd/inlayHints(259)
+I[03:43:21.332] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:21.332] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 73 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:21.334] --> textDocument/clangd.fileStatus
+I[03:43:21.342] --> reply:clangd/inlayHints(259) 10 ms
+I[03:43:21.342] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:43:21.342] --> textDocument/publishDiagnostics
+I[03:43:21.342] --> textDocument/clangd.fileStatus
+I[03:43:21.529] <-- textDocument/didChange
+I[03:43:21.529] --> textDocument/clangd.fileStatus
+I[03:43:21.567] <-- textDocument/semanticTokens/full/delta(260)
+I[03:43:21.567] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:21.568] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 74 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:21.569] --> textDocument/clangd.fileStatus
+I[03:43:21.575] --> reply:textDocument/semanticTokens/full/delta(260) 8 ms
+I[03:43:21.575] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:43:21.576] --> textDocument/publishDiagnostics
+I[03:43:21.576] --> textDocument/clangd.fileStatus
+I[03:43:21.585] <-- clangd/inlayHints(261)
+I[03:43:21.585] --> reply:clangd/inlayHints(261) 0 ms
+I[03:43:21.585] --> textDocument/clangd.fileStatus
+I[03:43:21.865] <-- textDocument/documentSymbol(262)
+I[03:43:21.865] <-- textDocument/documentSymbol(263)
+I[03:43:21.865] --> reply:textDocument/documentSymbol(262) 0 ms
+I[03:43:21.865] --> reply:textDocument/documentSymbol(263) 0 ms
+I[03:43:21.865] --> textDocument/clangd.fileStatus
+I[03:43:21.878] <-- textDocument/codeAction(264)
+I[03:43:21.878] --> reply:textDocument/codeAction(264) 0 ms
+I[03:43:21.878] --> textDocument/clangd.fileStatus
+I[03:43:22.357] <-- clangd/inlayHints(265)
+I[03:43:22.357] --> reply:clangd/inlayHints(265) 0 ms
+I[03:43:22.357] --> textDocument/clangd.fileStatus
+I[03:43:22.391] <-- textDocument/didChange
+I[03:43:22.391] --> textDocument/clangd.fileStatus
+I[03:43:22.442] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:22.442] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 75 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:22.443] --> textDocument/clangd.fileStatus
+I[03:43:22.443] --> textDocument/clangd.fileStatus
+I[03:43:22.444] --> textDocument/clangd.fileStatus
+I[03:43:22.450] --> textDocument/publishDiagnostics
+I[03:43:22.450] --> textDocument/clangd.fileStatus
+I[03:43:22.456] <-- clangd/inlayHints(266)
+I[03:43:22.456] --> reply:clangd/inlayHints(266) 0 ms
+I[03:43:22.456] --> textDocument/clangd.fileStatus
+I[03:43:22.687] <-- textDocument/semanticTokens/full/delta(267)
+I[03:43:22.687] --> reply:textDocument/semanticTokens/full/delta(267) 0 ms
+I[03:43:22.687] --> textDocument/clangd.fileStatus
+I[03:43:22.739] <-- textDocument/documentSymbol(268)
+I[03:43:22.739] <-- textDocument/documentSymbol(269)
+I[03:43:22.739] --> reply:textDocument/documentSymbol(268) 0 ms
+I[03:43:22.739] --> reply:textDocument/documentSymbol(269) 0 ms
+I[03:43:22.739] --> textDocument/clangd.fileStatus
+I[03:43:23.192] <-- clangd/inlayHints(270)
+I[03:43:23.192] --> reply:clangd/inlayHints(270) 0 ms
+I[03:43:23.192] --> textDocument/clangd.fileStatus
+I[03:43:23.393] <-- textDocument/documentLink(271)
+I[03:43:23.393] --> reply:textDocument/documentLink(271) 0 ms
+I[03:43:23.393] --> textDocument/clangd.fileStatus
+I[03:43:23.598] <-- textDocument/didSave
+I[03:43:23.598] File version went from 1 to 1
+I[03:43:23.598] File version went from 75 to 75
+I[03:43:23.598] --> textDocument/clangd.fileStatus
+I[03:43:23.598] --> textDocument/clangd.fileStatus
+I[03:43:23.648] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:23.648] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 75 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:23.648] Failed to find compilation database for /home/efarzad22/unix-practice/wcat.c
+I[03:43:23.649] ASTWorker building file /home/efarzad22/unix-practice/wcat.c version 1 with command clangd fallback
+[/home/efarzad22/unix-practice]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/unix-practice/wcat.c
+I[03:43:23.650] --> textDocument/clangd.fileStatus
+I[03:43:23.650] --> textDocument/clangd.fileStatus
+I[03:43:23.650] --> textDocument/clangd.fileStatus
+I[03:43:23.650] --> textDocument/clangd.fileStatus
+I[03:43:23.650] --> textDocument/clangd.fileStatus
+I[03:43:23.650] --> textDocument/clangd.fileStatus
+I[03:43:23.651] --> textDocument/clangd.fileStatus
+I[03:43:23.651] --> textDocument/clangd.fileStatus
+I[03:43:23.789] <-- textDocument/didChange
+I[03:43:23.789] <-- textDocument/completion(272)
+I[03:43:23.789] --> reply:textDocument/completion(272) 0 ms
+I[03:43:23.789] --> textDocument/clangd.fileStatus
+I[03:43:23.834] <-- clangd/inlayHints(273)
+I[03:43:23.834] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:23.835] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 76 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:23.836] --> textDocument/clangd.fileStatus
+I[03:43:23.844] --> reply:clangd/inlayHints(273) 10 ms
+I[03:43:23.844] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:43:23.844] --> textDocument/publishDiagnostics
+I[03:43:23.844] --> textDocument/clangd.fileStatus
+I[03:43:23.899] <-- textDocument/signatureHelp(274)
+I[03:43:23.904] --> reply:textDocument/signatureHelp(274) 5 ms
+I[03:43:24.079] <-- textDocument/semanticTokens/full/delta(275)
+I[03:43:24.079] --> reply:textDocument/semanticTokens/full/delta(275) 0 ms
+I[03:43:24.080] --> textDocument/clangd.fileStatus
+I[03:43:24.128] <-- textDocument/documentSymbol(276)
+I[03:43:24.128] <-- textDocument/documentSymbol(277)
+I[03:43:24.128] --> reply:textDocument/documentSymbol(276) 0 ms
+I[03:43:24.128] --> reply:textDocument/documentSymbol(277) 0 ms
+I[03:43:24.128] --> textDocument/clangd.fileStatus
+I[03:43:24.143] <-- textDocument/codeAction(278)
+I[03:43:24.143] --> reply:textDocument/codeAction(278) 0 ms
+I[03:43:24.143] --> textDocument/clangd.fileStatus
+I[03:43:24.608] <-- clangd/inlayHints(279)
+I[03:43:24.608] --> reply:clangd/inlayHints(279) 0 ms
+I[03:43:24.609] --> textDocument/clangd.fileStatus
+I[03:43:24.794] <-- textDocument/documentLink(280)
+I[03:43:24.795] --> reply:textDocument/documentLink(280) 0 ms
+I[03:43:24.795] --> textDocument/clangd.fileStatus
+I[03:43:25.005] <-- textDocument/didSave
+I[03:43:25.006] File version went from 1 to 1
+I[03:43:25.006] File version went from 76 to 76
+I[03:43:25.006] --> textDocument/clangd.fileStatus
+I[03:43:25.006] --> textDocument/clangd.fileStatus
+I[03:43:25.056] Failed to find compilation database for /home/efarzad22/unix-practice/wcat.c
+I[03:43:25.056] ASTWorker building file /home/efarzad22/unix-practice/wcat.c version 1 with command clangd fallback
+[/home/efarzad22/unix-practice]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/unix-practice/wcat.c
+I[03:43:25.057] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:25.057] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 76 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:25.058] --> textDocument/clangd.fileStatus
+I[03:43:25.058] --> textDocument/clangd.fileStatus
+I[03:43:25.059] --> textDocument/clangd.fileStatus
+I[03:43:25.059] --> textDocument/clangd.fileStatus
+I[03:43:25.060] --> textDocument/clangd.fileStatus
+I[03:43:25.060] --> textDocument/clangd.fileStatus
+I[03:43:25.167] <-- textDocument/didChange
+I[03:43:25.167] --> textDocument/clangd.fileStatus
+I[03:43:25.217] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:25.217] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 77 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:25.219] <-- clangd/inlayHints(281)
+I[03:43:25.219] --> textDocument/clangd.fileStatus
+I[03:43:25.225] --> reply:clangd/inlayHints(281) 6 ms
+I[03:43:25.225] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:43:25.226] --> textDocument/publishDiagnostics
+I[03:43:25.226] --> textDocument/clangd.fileStatus
+I[03:43:25.465] <-- textDocument/semanticTokens/full/delta(282)
+I[03:43:25.465] --> reply:textDocument/semanticTokens/full/delta(282) 0 ms
+I[03:43:25.465] --> textDocument/clangd.fileStatus
+I[03:43:25.508] <-- textDocument/documentSymbol(283)
+I[03:43:25.509] <-- textDocument/documentSymbol(284)
+I[03:43:25.509] --> reply:textDocument/documentSymbol(283) 0 ms
+I[03:43:25.509] --> reply:textDocument/documentSymbol(284) 0 ms
+I[03:43:25.509] --> textDocument/clangd.fileStatus
+I[03:43:25.524] <-- textDocument/codeAction(285)
+I[03:43:25.524] --> reply:textDocument/codeAction(285) 0 ms
+I[03:43:25.524] --> textDocument/clangd.fileStatus
+I[03:43:25.890] <-- clangd/inlayHints(286)
+I[03:43:25.890] --> reply:clangd/inlayHints(286) 0 ms
+I[03:43:25.891] --> textDocument/clangd.fileStatus
+I[03:43:25.966] <-- clangd/inlayHints(287)
+I[03:43:25.966] --> reply:clangd/inlayHints(287) 0 ms
+I[03:43:25.967] --> textDocument/clangd.fileStatus
+I[03:43:26.166] <-- textDocument/documentLink(288)
+I[03:43:26.166] --> reply:textDocument/documentLink(288) 0 ms
+I[03:43:26.166] --> textDocument/clangd.fileStatus
+I[03:43:26.384] <-- textDocument/didSave
+I[03:43:26.384] File version went from 1 to 1
+I[03:43:26.384] File version went from 77 to 77
+I[03:43:26.385] --> textDocument/clangd.fileStatus
+I[03:43:26.385] --> textDocument/clangd.fileStatus
+I[03:43:26.435] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:26.435] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 77 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:26.436] Failed to find compilation database for /home/efarzad22/unix-practice/wcat.c
+I[03:43:26.436] ASTWorker building file /home/efarzad22/unix-practice/wcat.c version 1 with command clangd fallback
+[/home/efarzad22/unix-practice]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/unix-practice/wcat.c
+I[03:43:26.436] --> textDocument/clangd.fileStatus
+I[03:43:26.437] --> textDocument/clangd.fileStatus
+I[03:43:26.437] --> textDocument/clangd.fileStatus
+I[03:43:26.437] --> textDocument/clangd.fileStatus
+I[03:43:26.437] --> textDocument/clangd.fileStatus
+I[03:43:26.437] --> textDocument/clangd.fileStatus
+I[03:43:26.438] --> textDocument/clangd.fileStatus
+I[03:43:26.439] --> textDocument/clangd.fileStatus
+I[03:43:27.600] <-- textDocument/didChange
+I[03:43:27.600] --> textDocument/clangd.fileStatus
+I[03:43:27.635] <-- clangd/inlayHints(289)
+I[03:43:27.635] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:27.635] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 78 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:27.637] --> textDocument/clangd.fileStatus
+I[03:43:27.643] --> reply:clangd/inlayHints(289) 8 ms
+I[03:43:27.643] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:43:27.643] --> textDocument/publishDiagnostics
+I[03:43:27.644] --> textDocument/clangd.fileStatus
+I[03:43:27.900] <-- textDocument/semanticTokens/full/delta(290)
+I[03:43:27.900] --> reply:textDocument/semanticTokens/full/delta(290) 0 ms
+I[03:43:27.900] --> textDocument/clangd.fileStatus
+I[03:43:27.926] <-- textDocument/documentSymbol(291)
+I[03:43:27.926] <-- textDocument/documentSymbol(292)
+I[03:43:27.926] --> reply:textDocument/documentSymbol(291) 0 ms
+I[03:43:27.926] --> reply:textDocument/documentSymbol(292) 0 ms
+I[03:43:27.926] --> textDocument/clangd.fileStatus
+I[03:43:28.373] <-- clangd/inlayHints(293)
+I[03:43:28.373] --> reply:clangd/inlayHints(293) 0 ms
+I[03:43:28.373] --> textDocument/clangd.fileStatus
+I[03:43:28.580] <-- textDocument/documentLink(294)
+I[03:43:28.580] --> reply:textDocument/documentLink(294) 0 ms
+I[03:43:28.581] --> textDocument/clangd.fileStatus
+I[03:43:28.777] <-- textDocument/didSave
+I[03:43:28.777] File version went from 1 to 1
+I[03:43:28.777] File version went from 78 to 78
+I[03:43:28.777] --> textDocument/clangd.fileStatus
+I[03:43:28.777] --> textDocument/clangd.fileStatus
+I[03:43:28.827] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:28.827] Failed to find compilation database for /home/efarzad22/unix-practice/wcat.c
+I[03:43:28.827] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 78 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:28.828] ASTWorker building file /home/efarzad22/unix-practice/wcat.c version 1 with command clangd fallback
+[/home/efarzad22/unix-practice]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/unix-practice/wcat.c
+I[03:43:28.829] --> textDocument/clangd.fileStatus
+I[03:43:28.829] --> textDocument/clangd.fileStatus
+I[03:43:28.830] --> textDocument/clangd.fileStatus
+I[03:43:28.830] --> textDocument/clangd.fileStatus
+I[03:43:28.831] --> textDocument/clangd.fileStatus
+I[03:43:28.831] --> textDocument/clangd.fileStatus
+I[03:43:28.831] --> textDocument/clangd.fileStatus
+I[03:43:28.831] --> textDocument/clangd.fileStatus
+I[03:43:29.144] <-- textDocument/didChange
+I[03:43:29.144] --> textDocument/clangd.fileStatus
+I[03:43:29.194] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:29.195] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 79 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:29.196] --> textDocument/clangd.fileStatus
+I[03:43:29.196] --> textDocument/clangd.fileStatus
+I[03:43:29.197] --> textDocument/clangd.fileStatus
+I[03:43:29.201] <-- clangd/inlayHints(295)
+I[03:43:29.202] --> textDocument/publishDiagnostics
+I[03:43:29.203] --> reply:clangd/inlayHints(295) 2 ms
+I[03:43:29.203] --> textDocument/clangd.fileStatus
+I[03:43:29.426] <-- textDocument/semanticTokens/full/delta(296)
+I[03:43:29.426] --> reply:textDocument/semanticTokens/full/delta(296) 0 ms
+I[03:43:29.426] --> textDocument/clangd.fileStatus
+I[03:43:29.480] <-- textDocument/documentSymbol(297)
+I[03:43:29.480] <-- textDocument/documentSymbol(298)
+I[03:43:29.480] --> reply:textDocument/documentSymbol(297) 0 ms
+I[03:43:29.480] --> reply:textDocument/documentSymbol(298) 0 ms
+I[03:43:29.480] --> textDocument/clangd.fileStatus
+I[03:43:29.519] <-- textDocument/codeAction(299)
+I[03:43:29.519] --> reply:textDocument/codeAction(299) 0 ms
+I[03:43:29.519] --> textDocument/clangd.fileStatus
+I[03:43:29.537] <-- textDocument/didChange
+I[03:43:29.537] --> textDocument/clangd.fileStatus
+I[03:43:29.587] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:29.587] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 80 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:29.589] --> textDocument/clangd.fileStatus
+I[03:43:29.589] --> textDocument/clangd.fileStatus
+I[03:43:29.589] <-- clangd/inlayHints(300)
+I[03:43:29.589] --> textDocument/clangd.fileStatus
+I[03:43:29.594] --> textDocument/publishDiagnostics
+I[03:43:29.595] --> reply:clangd/inlayHints(300) 5 ms
+I[03:43:29.595] --> textDocument/clangd.fileStatus
+I[03:43:29.743] <-- textDocument/didChange
+I[03:43:29.743] --> textDocument/clangd.fileStatus
+I[03:43:29.788] <-- clangd/inlayHints(301)
+I[03:43:29.788] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:29.789] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 81 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:29.790] --> textDocument/clangd.fileStatus
+I[03:43:29.796] --> reply:clangd/inlayHints(301) 7 ms
+I[03:43:29.796] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:43:29.796] --> textDocument/publishDiagnostics
+I[03:43:29.796] --> textDocument/clangd.fileStatus
+I[03:43:29.826] <-- textDocument/semanticTokens/full/delta(302)
+I[03:43:29.826] --> reply:textDocument/semanticTokens/full/delta(302) 0 ms
+I[03:43:29.826] --> textDocument/clangd.fileStatus
+I[03:43:29.847] <-- textDocument/signatureHelp(303)
+I[03:43:29.852] --> reply:textDocument/signatureHelp(303) 5 ms
+I[03:43:29.928] <-- textDocument/didChange
+I[03:43:29.928] --> textDocument/clangd.fileStatus
+I[03:43:29.978] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:29.979] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 82 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:29.980] --> textDocument/clangd.fileStatus
+I[03:43:29.980] --> textDocument/clangd.fileStatus
+I[03:43:29.980] <-- clangd/inlayHints(304)
+I[03:43:29.980] --> textDocument/clangd.fileStatus
+I[03:43:29.987] --> reply:clangd/inlayHints(304) 6 ms
+I[03:43:29.987] Skipping rebuild of the AST for /home/efarzad22/reverse-program/reverse.c, inputs are the same.
+I[03:43:29.987] --> textDocument/publishDiagnostics
+I[03:43:29.987] --> textDocument/clangd.fileStatus
+I[03:43:30.081] <-- clangd/inlayHints(305)
+I[03:43:30.081] --> reply:clangd/inlayHints(305) 0 ms
+I[03:43:30.081] --> textDocument/clangd.fileStatus
+I[03:43:30.215] <-- textDocument/semanticTokens/full/delta(306)
+I[03:43:30.215] --> reply:textDocument/semanticTokens/full/delta(306) 0 ms
+I[03:43:30.215] --> textDocument/clangd.fileStatus
+I[03:43:30.272] <-- textDocument/documentSymbol(307)
+I[03:43:30.272] <-- textDocument/documentSymbol(308)
+I[03:43:30.272] --> reply:textDocument/documentSymbol(307) 0 ms
+I[03:43:30.272] --> reply:textDocument/documentSymbol(308) 0 ms
+I[03:43:30.272] --> textDocument/clangd.fileStatus
+I[03:43:30.717] <-- clangd/inlayHints(309)
+I[03:43:30.717] --> reply:clangd/inlayHints(309) 0 ms
+I[03:43:30.718] --> textDocument/clangd.fileStatus
+I[03:43:30.921] <-- textDocument/documentLink(310)
+I[03:43:30.921] --> reply:textDocument/documentLink(310) 0 ms
+I[03:43:30.921] --> textDocument/clangd.fileStatus
+I[03:43:31.118] <-- textDocument/didSave
+I[03:43:31.118] File version went from 1 to 1
+I[03:43:31.118] File version went from 82 to 82
+I[03:43:31.119] --> textDocument/clangd.fileStatus
+I[03:43:31.119] --> textDocument/clangd.fileStatus
+I[03:43:31.169] Failed to find compilation database for /home/efarzad22/unix-practice/wcat.c
+I[03:43:31.169] ASTWorker building file /home/efarzad22/unix-practice/wcat.c version 1 with command clangd fallback
+[/home/efarzad22/unix-practice]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/unix-practice/wcat.c
+I[03:43:31.169] Failed to find compilation database for /home/efarzad22/reverse-program/reverse.c
+I[03:43:31.170] ASTWorker building file /home/efarzad22/reverse-program/reverse.c version 82 with command clangd fallback
+[/home/efarzad22/reverse-program]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/reverse-program/reverse.c
+I[03:43:31.171] --> textDocument/clangd.fileStatus
+I[03:43:31.171] --> textDocument/clangd.fileStatus
+I[03:43:31.172] --> textDocument/clangd.fileStatus
+I[03:43:31.172] --> textDocument/clangd.fileStatus
+I[03:43:31.172] --> textDocument/clangd.fileStatus
+I[03:43:31.172] --> textDocument/clangd.fileStatus
+I[03:43:31.172] --> textDocument/clangd.fileStatus
+I[03:43:31.172] --> textDocument/clangd.fileStatus
+I[03:43:32.989] <-- clangd/inlayHints(311)
+I[03:43:32.990] --> reply:clangd/inlayHints(311) 0 ms
+I[03:43:32.990] --> textDocument/clangd.fileStatus
+I[03:43:49.373] <-- textDocument/hover(312)
+I[03:43:49.374] --> reply:textDocument/hover(312) 0 ms
+I[03:43:49.374] --> textDocument/clangd.fileStatus
+I[03:44:03.420] <-- textDocument/codeAction(313)
+I[03:44:03.420] --> reply:textDocument/codeAction(313) 0 ms
+I[03:44:03.420] --> textDocument/clangd.fileStatus
+I[04:04:49.072] <-- $/setTrace
+I[04:04:49.072] unhandled notification $/setTrace
+I[04:04:50.971] <-- textDocument/codeAction(314)
+I[04:04:50.971] --> reply:textDocument/codeAction(314) 0 ms
+I[04:04:50.971] --> textDocument/clangd.fileStatus
+I[04:04:50.994] <-- clangd/inlayHints(315)
+I[04:04:50.994] <-- textDocument/documentLink(316)
+I[04:04:50.994] --> reply:clangd/inlayHints(315) 0 ms
+I[04:04:50.994] --> reply:textDocument/documentLink(316) 0 ms
+I[04:04:50.994] --> textDocument/clangd.fileStatus
+I[04:04:51.189] <-- textDocument/codeAction(317)
+I[04:04:51.189] --> reply:textDocument/codeAction(317) 0 ms
+I[04:04:51.189] --> textDocument/clangd.fileStatus
+I[04:04:51.215] <-- textDocument/semanticTokens/full(318)
+I[04:04:51.215] --> reply:textDocument/semanticTokens/full(318) 0 ms
+I[04:04:51.215] --> textDocument/clangd.fileStatus
+I[04:04:51.232] <-- textDocument/documentSymbol(319)
+I[04:04:51.232] --> reply:textDocument/documentSymbol(319) 0 ms
+I[04:04:51.232] --> textDocument/clangd.fileStatus
+I[04:04:52.241] <-- textDocument/codeAction(320)
+I[04:04:52.241] --> reply:textDocument/codeAction(320) 0 ms
+I[04:04:52.241] --> textDocument/clangd.fileStatus
+I[04:05:20.724] <-- textDocument/codeAction(321)
+I[04:05:20.725] --> reply:textDocument/codeAction(321) 0 ms
+I[04:05:20.725] --> textDocument/clangd.fileStatus
+I[04:05:20.735] <-- textDocument/documentLink(322)
+I[04:05:20.735] <-- clangd/inlayHints(323)
+I[04:05:20.735] --> reply:textDocument/documentLink(322) 0 ms
+I[04:05:20.735] --> reply:clangd/inlayHints(323) 0 ms
+I[04:05:20.735] --> textDocument/clangd.fileStatus
+I[04:05:20.988] <-- textDocument/semanticTokens/full(324)
+I[04:05:20.988] --> reply:textDocument/semanticTokens/full(324) 0 ms
+I[04:05:20.988] --> textDocument/clangd.fileStatus
+I[04:05:20.999] <-- textDocument/documentSymbol(325)
+I[04:05:20.999] --> reply:textDocument/documentSymbol(325) 0 ms
+I[04:05:20.999] --> textDocument/clangd.fileStatus
+I[04:05:23.202] <-- textDocument/didClose
+I[04:05:23.202] --> textDocument/publishDiagnostics
+I[04:05:23.294] <-- textDocument/didOpen
+I[04:05:23.294] <-- textDocument/documentSymbol(326)
+I[04:05:23.294] <-- textDocument/codeAction(327)
+I[04:05:23.295] Failed to find compilation database for /home/efarzad22/unix-practice/wzip.c
+I[04:05:23.295] ASTWorker building file /home/efarzad22/unix-practice/wzip.c version 1 with command clangd fallback
+[/home/efarzad22/unix-practice]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/unix-practice/wzip.c
+I[04:05:23.297] --> textDocument/clangd.fileStatus
+I[04:05:23.312] <-- textDocument/semanticTokens/full(328)
+I[04:05:23.312] <-- clangd/inlayHints(329)
+I[04:05:23.312] <-- textDocument/documentLink(330)
+I[04:05:23.335] --> workspace/semanticTokens/refresh(21)
+I[04:05:23.336] --> textDocument/clangd.fileStatus
+I[04:05:23.336] --> textDocument/clangd.fileStatus
+I[04:05:23.336] <-- reply(21)
+I[04:05:23.343] --> textDocument/publishDiagnostics
+I[04:05:23.343] --> reply:textDocument/documentSymbol(326) 48 ms
+I[04:05:23.343] --> reply:textDocument/codeAction(327) 48 ms
+I[04:05:23.344] --> reply:textDocument/semanticTokens/full(328) 31 ms
+I[04:05:23.344] --> reply:clangd/inlayHints(329) 31 ms
+I[04:05:23.344] --> reply:textDocument/documentLink(330) 31 ms
+I[04:05:23.344] --> textDocument/clangd.fileStatus
+I[04:05:23.565] <-- textDocument/documentSymbol(331)
+I[04:05:23.566] --> reply:textDocument/documentSymbol(331) 0 ms
+I[04:05:23.566] --> textDocument/clangd.fileStatus
+I[04:05:23.722] <-- textDocument/hover(332)
+I[04:05:23.722] <-- textDocument/semanticTokens/full/delta(333)
+I[04:05:23.729] --> reply:textDocument/hover(332) 7 ms
+I[04:05:23.730] --> reply:textDocument/semanticTokens/full/delta(333) 7 ms
+I[04:05:23.730] --> textDocument/clangd.fileStatus
+I[04:05:24.556] <-- clangd/inlayHints(334)
+I[04:05:24.557] --> reply:clangd/inlayHints(334) 0 ms
+I[04:05:24.557] --> textDocument/clangd.fileStatus
+I[04:06:13.283] <-- textDocument/codeAction(335)
+I[04:06:13.284] --> reply:textDocument/codeAction(335) 0 ms
+I[04:06:13.284] --> textDocument/clangd.fileStatus
+I[04:26:57.256] <-- clangd/inlayHints(336)
+I[04:26:57.257] --> reply:clangd/inlayHints(336) 1 ms
+I[04:26:57.258] --> textDocument/clangd.fileStatus
+I[04:27:06.527] <-- clangd/inlayHints(337)
+I[04:27:06.528] --> reply:clangd/inlayHints(337) 0 ms
+I[04:27:06.528] --> textDocument/clangd.fileStatus
+I[04:27:09.728] <-- textDocument/hover(338)
+I[04:27:09.729] --> reply:textDocument/hover(338) 0 ms
+I[04:27:09.729] --> textDocument/clangd.fileStatus
+I[04:27:21.695] <-- clangd/inlayHints(339)
+I[04:27:21.695] --> reply:clangd/inlayHints(339) 0 ms
+I[04:27:21.695] --> textDocument/clangd.fileStatus
+I[04:27:23.113] <-- clangd/inlayHints(340)
+I[04:27:23.114] --> reply:clangd/inlayHints(340) 0 ms
+I[04:27:23.114] --> textDocument/clangd.fileStatus
+I[04:27:23.286] <-- clangd/inlayHints(341)
+I[04:27:23.287] --> reply:clangd/inlayHints(341) 0 ms
+I[04:27:23.287] --> textDocument/clangd.fileStatus
+I[04:27:25.084] <-- textDocument/hover(342)
+I[04:27:25.085] --> reply:textDocument/hover(342) 0 ms
+I[04:27:25.085] --> textDocument/clangd.fileStatus
+I[04:27:25.538] <-- clangd/inlayHints(343)
+I[04:27:25.538] --> reply:clangd/inlayHints(343) 0 ms
+I[04:27:25.539] --> textDocument/clangd.fileStatus
+I[04:27:27.411] <-- textDocument/hover(344)
+I[04:27:27.414] --> reply:textDocument/hover(344) 3 ms
+I[04:27:27.414] --> textDocument/clangd.fileStatus
+I[04:27:28.364] <-- textDocument/hover(345)
+I[04:27:28.365] --> reply:textDocument/hover(345) 1 ms
+I[04:27:28.365] --> textDocument/clangd.fileStatus
+I[04:27:28.880] <-- clangd/inlayHints(346)
+I[04:27:28.881] --> reply:clangd/inlayHints(346) 0 ms
+I[04:27:28.881] --> textDocument/clangd.fileStatus
+I[04:32:39.264] <-- textDocument/hover(347)
+I[04:32:39.265] --> reply:textDocument/hover(347) 1 ms
+I[04:32:39.266] --> textDocument/clangd.fileStatus
+I[04:38:54.996] <-- clangd/inlayHints(348)
+I[04:38:54.997] --> reply:clangd/inlayHints(348) 0 ms
+I[04:38:54.997] --> textDocument/clangd.fileStatus
+I[04:39:02.907] <-- textDocument/hover(349)
+I[04:39:02.908] --> reply:textDocument/hover(349) 1 ms
+I[04:39:02.908] --> textDocument/clangd.fileStatus
+I[04:39:19.100] <-- textDocument/hover(350)
+I[04:39:19.102] --> reply:textDocument/hover(350) 1 ms
+I[04:39:19.102] --> textDocument/clangd.fileStatus
+I[04:39:19.772] <-- textDocument/hover(351)
+I[04:39:19.772] --> reply:textDocument/hover(351) 0 ms
+I[04:39:19.772] --> textDocument/clangd.fileStatus
+I[04:39:20.085] <-- textDocument/hover(352)
+I[04:39:20.086] --> reply:textDocument/hover(352) 0 ms
+I[04:39:20.086] --> textDocument/clangd.fileStatus
+I[05:04:04.251] <-- textDocument/hover(353)
+I[05:04:04.252] --> reply:textDocument/hover(353) 0 ms
+I[05:04:04.252] --> textDocument/clangd.fileStatus
+I[05:04:51.730] <-- textDocument/hover(354)
+I[05:04:51.731] --> reply:textDocument/hover(354) 0 ms
+I[05:04:51.731] --> textDocument/clangd.fileStatus
+I[05:05:33.070] <-- textDocument/hover(355)
+I[05:05:33.071] --> reply:textDocument/hover(355) 0 ms
+I[05:05:33.071] --> textDocument/clangd.fileStatus

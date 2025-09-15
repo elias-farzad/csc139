@@ -1,0 +1,50 @@
+I[01:17:53.326] Ubuntu clangd version 14.0.6
+I[01:17:53.327] Features: linux+grpc
+I[01:17:53.327] PID: 2652
+I[01:17:53.327] Working directory: /home/efarzad22
+I[01:17:53.327] argv[0]: /usr/bin/clangd
+I[01:17:53.330] Starting LSP over stdin/stdout
+I[01:17:53.333] <-- initialize(0)
+I[01:17:53.344] --> reply:initialize(0) 10 ms
+I[01:17:55.432] <-- initialized
+I[01:17:55.457] <-- textDocument/didOpen
+I[01:17:55.468] Failed to find compilation database for /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[01:17:55.468] ASTWorker building file /home/efarzad22/ostep-projects/initial-reverse/reverse.c version 1 with command clangd fallback
+[/home/efarzad22/ostep-projects/initial-reverse]
+/usr/bin/clang -resource-dir=/usr/lib/llvm-14/lib/clang/14.0.6 -- /home/efarzad22/ostep-projects/initial-reverse/reverse.c
+I[01:17:55.513] --> textDocument/clangd.fileStatus
+I[01:17:55.682] --> workspace/semanticTokens/refresh(0)
+I[01:17:55.749] --> textDocument/publishDiagnostics
+I[01:17:55.750] --> textDocument/clangd.fileStatus
+I[01:17:55.846] <-- reply(0)
+I[01:17:56.907] <-- textDocument/documentSymbol(1)
+I[01:17:56.907] <-- textDocument/codeAction(2)
+I[01:17:56.907] --> reply:textDocument/documentSymbol(1) 0 ms
+I[01:17:56.907] <-- textDocument/documentLink(3)
+I[01:17:56.907] <-- clangd/inlayHints(4)
+I[01:17:56.907] <-- textDocument/documentSymbol(5)
+I[01:17:56.907] <-- textDocument/semanticTokens/full(6)
+I[01:17:56.911] --> reply:textDocument/codeAction(2) 3 ms
+I[01:17:56.911] --> reply:textDocument/documentLink(3) 3 ms
+I[01:17:56.913] --> reply:clangd/inlayHints(4) 6 ms
+I[01:17:56.914] --> reply:textDocument/documentSymbol(5) 6 ms
+I[01:17:56.915] --> reply:textDocument/semanticTokens/full(6) 7 ms
+I[01:17:56.915] --> textDocument/clangd.fileStatus
+I[01:18:08.567] <-- textDocument/codeAction(7)
+I[01:18:08.568] <-- textDocument/codeAction(8)
+I[01:18:08.568] --> reply:textDocument/codeAction(7) 0 ms
+I[01:18:08.568] --> reply:textDocument/codeAction(8) 0 ms
+I[01:18:08.568] --> textDocument/clangd.fileStatus
+I[01:18:08.570] <-- $/cancelRequest
+I[01:18:08.773] <-- textDocument/documentLink(9)
+I[01:18:08.773] --> reply:textDocument/documentLink(9) 0 ms
+I[01:18:08.773] --> textDocument/clangd.fileStatus
+I[01:18:17.566] <-- textDocument/documentLink(10)
+I[01:18:17.567] --> reply:textDocument/documentLink(10) 0 ms
+I[01:18:17.567] --> textDocument/clangd.fileStatus
+I[01:18:17.832] <-- textDocument/documentSymbol(11)
+I[01:18:17.833] --> reply:textDocument/documentSymbol(11) 0 ms
+I[01:18:17.833] --> textDocument/clangd.fileStatus
+I[01:20:43.011] <-- textDocument/codeAction(12)
+I[01:20:43.011] --> reply:textDocument/codeAction(12) 0 ms
+I[01:20:43.011] --> textDocument/clangd.fileStatus

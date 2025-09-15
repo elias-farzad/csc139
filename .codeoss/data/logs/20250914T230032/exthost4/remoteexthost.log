@@ -1,0 +1,8 @@
+2025-09-15 00:24:19.981 [info] Extension host with pid 7994 started
+2025-09-15 00:24:19.981 [error] Error: EEXIST: file already exists, open '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock'
+2025-09-15 00:24:19.981 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-09-15 00:24:19.990 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3/vscode.lock': The lock does not look stale, elapsed: 943 ms, giving up.
+2025-09-15 00:24:20.002 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3-1/vscode.lock': Lock acquired.
+2025-09-15 00:29:30.076 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-09-15 00:29:30.078 [info] Lock '/home/efarzad22/.codeoss/data/User/workspaceStorage/6702a1c3-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-09-15 00:29:30.079 [info] Extension host with pid 7994 exiting with code 0
