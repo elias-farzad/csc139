@@ -1,3 +1,13 @@
-.codeoss/
-.npm/
+# Home dir junk — ignore from repo root
+/.bash_history
+/.viminfo
+/.cache/
+/.config/
+/.codeoss/
+/.npm/
+/npm-debug.log*
+/node_modules/
+/.DS_Store
 
+# common
+*.log
